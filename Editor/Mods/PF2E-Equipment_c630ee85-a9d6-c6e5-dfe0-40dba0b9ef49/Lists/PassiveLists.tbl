@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="943f6210-9e0c-4a11-9de0-29c1e12cd20c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elf Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ElementalWrath_Acid,ElementalWrath_Cold,ElementalWrath_Electric,ElementalWrath_Fire,ElvenLore,PF2_ElvenWeaponFamiliarity,NimbleElf,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze,AncestralLongevity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e873e72-82db-4159-ba2f-2f2f701cbc31" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elf Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ElementalWrath_Acid,ElementalWrath_Cold,ElementalWrath_Electric,ElementalWrath_Fire,ElvenLore,PF2_ElvenWeaponFamiliarity,NimbleElf,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze,AncestralLongevity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="769d64c8-c506-4d65-bebe-02855f1d1758" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elf Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ElementalWrath_Acid,ElementalWrath_Cold,ElementalWrath_Electric,ElementalWrath_Fire,ElvenLore,PF2_ElvenWeaponFamiliarity,NimbleElf,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze,AncestralLongevity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85c31354-ec4d-4f76-8241-2070eeba0bfd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dwarf Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_DwarvenWeaponFamiliarity,DwarvenLore,LightStep,UnburdenedIron" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="550ea942-1597-4512-8c8d-29cc7244de3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dwarf Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_DwarvenWeaponFamiliarity,DwarvenLore,LightStep,UnburdenedIron" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c378f1dc-dab2-4cdd-85e8-6fb2ae0e1848" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dwarf Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_DwarvenWeaponFamiliarity,DwarvenLore,LightStep,UnburdenedIron" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e749a4e2-aaa0-4dea-be8c-4b0629cc46a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Half Elf Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,BattleMedicine,FastMovement,FeatherStep,IncredibleInitiative,LightlyArmored,ModeratelyArmored,HeavilyArmored,MartialWeaponProficiency,Pet,ShieldBlock,Tough,QuickJump,Darkvision,NaturalSkill,ElementalWrath_Acid,ElementalWrath_Cold,ElementalWrath_Electric,ElementalWrath_Fire,ElvenLore,PF2_ElvenWeaponFamiliarity,NimbleElf,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="450a5825-47c5-4a7a-9d4a-d7292bd728de" />
+        <field name="Name" type="NameTableFieldDefinition" value="Half Elf Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,BattleMedicine,FastMovement,FeatherStep,IncredibleInitiative,LightlyArmored,ModeratelyArmored,HeavilyArmored,MartialWeaponProficiency,Pet,ShieldBlock,Tough,QuickJump,Darkvision,NaturalSkill,ElementalWrath_Acid,ElementalWrath_Cold,ElementalWrath_Electric,ElementalWrath_Fire,ElvenLore,PF2_ElvenWeaponFamiliarity,NimbleElf,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2c6982c-907e-4bbc-aa6c-97a652b1b6bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Half Elf Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,BattleMedicine,FastMovement,FeatherStep,IncredibleInitiative,LightlyArmored,ModeratelyArmored,HeavilyArmored,MartialWeaponProficiency,Pet,ShieldBlock,Tough,QuickJump,Darkvision,NaturalSkill,ElementalWrath_Acid,ElementalWrath_Cold,ElementalWrath_Electric,ElementalWrath_Fire,ElvenLore,PF2_ElvenWeaponFamiliarity,NimbleElf,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="652d4da9-f4eb-49b6-9001-d5e9f7ba9c12" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnome Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Familiar,PF2_GnomeWeaponFamiliarity,AnimalEmpathy,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5d26b77-99e3-4995-b0fb-8f4724ea3724" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnome Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Familiar,PF2_GnomeWeaponFamiliarity,AnimalEmpathy,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c7ce816-9e2f-4840-afdc-15087d1feb58" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gnome Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Familiar,PF2_GnomeWeaponFamiliarity,AnimalEmpathy,OtherworldlyMagic_Shield,OtherworldlyMagic_NeedleDarts,OtherworldlyMagic_AcidSplash,OtherworldlyMagic_ChillTouch,OtherworldlyMagic_DancingLights,OtherworldlyMagic_Firebolt,OtherworldlyMagic_Friends,OtherworldlyMagic_Light,OtherworldlyMagic_MageHand,OtherworldlyMagic_MinorIllusion,OtherworldlyMagic_PoisonSpray,OtherworldlyMagic_RayOfFrost,OtherworldlyMagic_ElectricArc,OtherworldlyMagic_EldritchBlast,OtherworldlyMagic_ThornWhip,OtherworldlyMagic_GougingClaw,OtherworldlyMagic_TelekineticProjectile,OtherworldlyMagic_ScatterScree,OtherworldlyMagic_Daze" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebf6a171-213a-4b20-b274-2c202abfa0a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Halfling Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HalflingLore,HalflingLuck,PF2_HalflingWeaponFamiliarity,DistractingShadows,TitanSlinger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="060ce8e6-089c-4336-9505-f72e9831ff9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Halfling Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HalflingLore,HalflingLuck,PF2_HalflingWeaponFamiliarity,DistractingShadows,TitanSlinger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fdc68ee-94fd-458a-80c0-0fd339f96b72" />
+        <field name="Name" type="NameTableFieldDefinition" value="Halfling Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HalflingLore,HalflingLuck,PF2_HalflingWeaponFamiliarity,DistractingShadows,TitanSlinger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7478f35-44f5-4cd3-9fed-afdf81a8407f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Orc Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RelentlessEndurance,BeastTrainer,OrcLore,OrcSuperstition,Tusks,DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,BattleMedicine,FastMovement,FeatherStep,IncredibleInitiative,LightlyArmored,ModeratelyArmored,HeavilyArmored,PF2_OrcWeaponFamiliarity,Pet,ShieldBlock,Tough,QuickJump,Darkvision,NaturalSkill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8409a3dd-c0f5-484d-b07d-6e560dd01d62" />
+        <field name="Name" type="NameTableFieldDefinition" value="Orc Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RelentlessEndurance,BeastTrainer,OrcLore,OrcSuperstition,Tusks,DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,BattleMedicine,FastMovement,FeatherStep,IncredibleInitiative,LightlyArmored,ModeratelyArmored,HeavilyArmored,PF2_OrcWeaponFamiliarity,Pet,ShieldBlock,Tough,QuickJump,Darkvision,NaturalSkill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3bf5a57-026c-4c52-877c-de2fdadae04a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Orc Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RelentlessEndurance,BeastTrainer,OrcLore,OrcSuperstition,Tusks,DragonSpit_Acid,DragonSpit_Electric,DragonSpit_Fire,DragonSpit_Frost,BattleMedicine,FastMovement,FeatherStep,IncredibleInitiative,LightlyArmored,ModeratelyArmored,HeavilyArmored,PF2_OrcWeaponFamiliarity,Pet,ShieldBlock,Tough,QuickJump,Darkvision,NaturalSkill" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd85585a-ca8c-4793-a81f-e4c50c6589ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goblin Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_GoblinWeaponFamiliarity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b736fc67-a535-491f-a8ec-2d3e6ae9e213" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goblin Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_GoblinWeaponFamiliarity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85915d96-174e-43f3-a4de-7f10e4e8a403" />
+        <field name="Name" type="NameTableFieldDefinition" value="Goblin Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_GoblinWeaponFamiliarity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0444be0-80a9-4fef-8ba3-a31c0267855d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold Level 1 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_KoboldWeaponFamiliarity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f48b4a8-a492-4642-9ebe-c8b267b246f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold Level 5 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_KoboldWeaponFamiliarity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="637025ec-3ad9-4a06-9281-2b43a6ffd8d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Kobold Level 9 Feats" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PF2_KoboldWeaponFamiliarity" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

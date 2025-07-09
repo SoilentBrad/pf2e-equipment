@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ea8bfac-7c31-496b-b753-32f15ee56d4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="VERSATILE_BLUDGEONING" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2632c09g2121gfb01g5dc6gdcfd3854a854" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Smash" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VERSATILE_BLUDGEONING" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Bludgeoning);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(VERSATILE_PIERCING);RemoveStatus(VERSATILE_SLASHING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="589c9986-1c30-46ee-bdfa-cfddc83104b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="VERSATILE_PIERCING" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49fc8238g70b4g1d7dg6317g996516469685" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Riposte" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VERSATILE_PIERCING" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Piercing);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(VERSATILE_BLUDGEONING);RemoveStatus(VERSATILE_SLASHING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9109394a-40c4-430c-947e-67510b757bbd" />
+        <field name="Name" type="NameTableFieldDefinition" value="VERSATILE_SLASHING" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h13e83e84gff89g30cbgbba8ge5d7c9fd737c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VERSATILE_SLASHING" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageTypeOverride(Slashing);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(VERSATILE_BLUDGEONING);RemoveStatus(VERSATILE_PIERCING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="496b7ae9-bedb-4818-9291-be8e865a80d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="VERSATILE_BLUDGEONINGREMOVER" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VERSATILE_BLUDGEONINGREMOVER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(VERSATILE_BLUDGEONING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70ca10d5-374d-4a4f-b7f2-3a2c1863263d" />
+        <field name="Name" type="NameTableFieldDefinition" value="VERSATILE_PIERCINGREMOVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="496b7ae9-bedb-4818-9291-be8e865a80d0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VERSATILE_PIERCINGREMOVER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(VERSATILE_PIERCING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d84fe79d-cfa1-4757-96dc-7ec95b8099f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="VERSATILE_SLASHINGREMOVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="496b7ae9-bedb-4818-9291-be8e865a80d0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VERSATILE_SLASHINGREMOVER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(VERSATILE_SLASHING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c78cacf-9285-4740-981a-5155dcab32fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="MODULAR_BLUDGEONING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ea8bfac-7c31-496b-b753-32f15ee56d4b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0991128fg6ef0gfed4g221cg94e94c66d6cc" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MODULAR_BLUDGEONING" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MODULAR_PIERCING);RemoveStatus(MODULAR_SLASHING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67d79d65-77a3-4599-aeba-0adda59ab7c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MODULAR_PIERCING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="589c9986-1c30-46ee-bdfa-cfddc83104b7" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc4b5ebd4g8324g6fc2g978fg728085c31de0" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MODULAR_PIERCING" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MODULAR_BLUDGEONING);RemoveStatus(MODULAR_SLASHING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0dbf8e31-3f35-4ada-9f47-54da416621f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MODULAR_SLASHING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9109394a-40c4-430c-947e-67510b757bbd" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6ebc8b1bgca14g31ccg6510g0c94d0e05e89" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MODULAR_SLASHING" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MODULAR_BLUDGEONING);RemoveStatus(MODULAR_PIERCING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55584628-e707-44f4-b17c-621574f0ef29" />
+        <field name="Name" type="NameTableFieldDefinition" value="MODULAR_BLUDGEONINGREMOVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="496b7ae9-bedb-4818-9291-be8e865a80d0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MODULAR_BLUDGEONINGREMOVER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MODULAR_BLUDGEONING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="057a2acf-5469-48bd-a565-45325ec2752c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MODULAR_PIERCINGREMOVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="70ca10d5-374d-4a4f-b7f2-3a2c1863263d" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MODULAR_PIERCINGREMOVER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MODULAR_PIERCING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0b7e733-f43e-4d85-b454-43394ee1ddf6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MODULAR_SLASHINGREMOVER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d84fe79d-cfa1-4757-96dc-7ec95b8099f7" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MODULAR_SLASHINGREMOVER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(MODULAR_SLASHING)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfad92fe-851b-4a5e-8818-3a2f17846c2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="d4Persistent_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b3cc69-c905-4ad3-a791-e05b09adba12" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9408a268g00f8gb36dg5c29g70f8834cf5f4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8aedd3f9g7077gcbccgee21g516bcbb46678" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Poison_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d37bda3a-71a9-41e5-bd57-9f0090c4f659" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d6Persistent_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dfad92fe-851b-4a5e-8818-3a2f17846c2d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5525a3b7-0567-4029-9deb-250e07b8dc12" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d6Persistent_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dfad92fe-851b-4a5e-8818-3a2f17846c2d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b3cc69-c905-4ad3-a791-e05b09adba12" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46abcdb0g71bag486bg3179gb9182478b087" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9cb1069bg5a92g18e8gf79dg11caae117c20" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Acid)" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Acid_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Acid)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f80fd225-1b52-4898-97a3-24a778163c0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persistent_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2d250f3g72d5g7c2dg5f4bgb39e1d8d4b04" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4a03b6ag4353gffd2g8506gaf81917e260f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Cold)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Cold_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Cold)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="813a3ef9-d505-4555-835a-208ce73ac1d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persistent_Elec" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc8eccdbdg4973g5654g0836g80dc2cea85b3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2e006be9g8374ga072g0565g8af5853a89f3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Lightning)" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Electric" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Electricity_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Lightning)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03527408-29cd-4ba4-8e24-e415d42257df" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persistent_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa5da03cg7281g8d3cg02dfg56758c902a72" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08b4a846g6110gb87dgac46g7131ab6ad894" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Fire)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Fire_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ae000da-7a99-4c91-a04f-fe2b40cb48c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Persistent_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8272ea80g6fbbgc4ddgc07fg70d5196f9b63" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9648f7abgcd0fg0064g1d48g12b78ae2cdcf" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Poison)" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Poison_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72045738-0f6d-485f-ae98-8a25d2a092f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="d4Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="784c59d9-8cc2-44e5-a1de-105b8bc951d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="826bf7f2-cb07-4a24-ab9a-a5ae4bad5676" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f80fd225-1b52-4898-97a3-24a778163c0f" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f69a5e7-6e54-4bd4-847f-cc45af5bba06" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Elec" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="813a3ef9-d505-4555-835a-208ce73ac1d6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a73a88a3-b2c6-4207-8caf-e02c303f5b1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="03527408-29cd-4ba4-8e24-e415d42257df" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29b91dfc-9d6e-454f-8afa-340ec57e0c41" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7ae000da-7a99-4c91-a04f-fe2b40cb48c9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c73b45ed-430a-4c52-ad14-bae027cb9be8" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="33b4a910-9f77-48d9-b353-ca3004b17d6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f80fd225-1b52-4898-97a3-24a778163c0f" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02806338-1699-4be2-b763-40fcde57810c" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Elec" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="813a3ef9-d505-4555-835a-208ce73ac1d6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cde651ea-83a1-4779-80e0-21674a7079ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="03527408-29cd-4ba4-8e24-e415d42257df" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2369a48-d044-4a37-8484-062697dcf9c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7ae000da-7a99-4c91-a04f-fe2b40cb48c9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c0f3563-a872-4dd4-b188-3f3a15f58b82" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d6Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c73b45ed-430a-4c52-ad14-bae027cb9be8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e4ad609-daac-47d0-8803-18f08e978384" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_MINOR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8a53981c-4720-4d92-af32-84e29e398a50" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hecd64ed0g320dg9f82gab2bg874c3694dc82" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_SHOT_MINOR" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d4);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus1FortSaves,100,1)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5d225e4c-50f6-4f7b-9621-64ae3ace8ddc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10ab50e3-b488-4b43-84cb-da8cb50d68fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_LESSER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1662c9af-5e3f-47c3-9987-33428e4c7f3d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb6f34fcg38a3gb309gd463g16f9552d37f9" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_SHOT_LESSER" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(3d4+3);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus1FortSaves,100,1)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5d225e4c-50f6-4f7b-9621-64ae3ace8ddc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fa625bf-1ccd-4d39-92d7-5891b71f7ca9" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_MODERATE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="438ed12e-0870-4112-9893-99e3069b9f29" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbea58ef8g455ega5ecgcbd2gbe94fa6c702a" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_SHOT_MODERATE" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(5d4+7);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus2FortSaves,100,1)" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5d225e4c-50f6-4f7b-9621-64ae3ace8ddc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b340206-d25d-41c1-a1e5-84670fc7789f" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircumstanceBonus2FortSaves" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f434ec9-180f-4798-b8b6-33e26ff295da" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30a1f5cag1e56g0efag7ce6gec1d4325b1b6" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not Tagged('CIRC_BON_2SAVES') ):RollBonus(SavingThrow,2,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7346b52c-9e58-45f3-ad41-98a15923186e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLEEDING_ExsanguinatingGtr" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7e7d3fe-9c90-4053-82a7-4f66454995dd" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3, Slashing);" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3, Slashing)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3,Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71bf5d11-5527-4abd-a700-6bc5b103c600" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLEEDING_ExsanguinatingMaj" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7e7d3fe-9c90-4053-82a7-4f66454995dd" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5, Slashing);" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5, Slashing)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5,Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a642df8f-987c-4d00-aecc-57bd40d821b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="02b3d7ab-7f82-4e18-9045-675a6963d287" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff5e7193gadb8g993fgd647g2c16e730cac5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-1.5,0);MovementSpeedLimit(Walk);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(16),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3317a05f-7fff-4861-be33-86631d7d68de" />
+        <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a642df8f-987c-4d00-aecc-57bd40d821b1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0); MovementSpeedLimit(Walk)" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(20),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd0e12c8-7de5-498c-b9db-82c7a8424427" />
+        <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3317a05f-7fff-4861-be33-86631d7d68de" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(29),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
+        <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_1_ENSNARED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f4078f78-c7be-4bea-b449-a173313bbb38" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(16),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8a888c3-0a22-4a3f-a81d-6aa5e943cd65" />
+        <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_2_ENSNARED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(20),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="857abfbe-8f18-4d37-8be2-909213d89f48" />
+        <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_3_ENSNARED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(29),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7054fe17-412e-496a-b863-be7e5fd7278e" />
+        <field name="Name" type="NameTableFieldDefinition" value="GLUEBULLET" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a642df8f-987c-4d00-aecc-57bd40d821b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61ef7e1fgfd78g7d7ege25eg8c2693da271a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0);MovementSpeedLimit(Walk);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(18),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7a40c3d-4b7f-48ce-8528-d700e8f1f7b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="GLUEBULLET_ENSNARED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(18),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a2ac014-6b59-4f5e-8fdc-49d33fb345b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FATALD8" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="WeaponDamageOverride(1d8);&#xD;&#xA;DealDamage(1d8,MainMeleeWeaponDamageType,,,0,,,,,true);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e8829d3g0087g5df4ge0cegb46b7c869781" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f848bae-6425-4585-baf1-da27f9fa0004" />
+        <field name="Name" type="NameTableFieldDefinition" value="FATALD10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2ac014-6b59-4f5e-8fdc-49d33fb345b0" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d10,MainMeleeWeaponDamageType,,,0,,,,,true)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h899f57b7gf375gf5aag201eg600d32588a4a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageDieOverride(1d10);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25711f60-6636-4397-a2d1-3e7fee13949e" />
+        <field name="Name" type="NameTableFieldDefinition" value="FATALD12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a2ac014-6b59-4f5e-8fdc-49d33fb345b0" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d12,MainMeleeWeaponDamageType,,,0,,,,,true)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9525b4e7g08e4g3d74gdef5g47f725d83b1e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="WeaponDamageDieOverride(1d12);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9c81eaa-c425-4431-840d-6ae110359370" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FORCEFUL_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc02a7ce0g423fgf36bga632gb4b04cb123ce" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FORCEFUL" />
+        <field name="AuraFX" type="GuidObjectTableFieldDefinition" value="a4786ee9-eb7c-4d0d-aaa9-9a637d9eaeaf" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded;OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1,MainMeleeWeaponDamageType);" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27bfd2d3-beee-4a5a-8822-0977f31e0992" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FORCEFUL_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9c81eaa-c425-4431-840d-6ae110359370" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2,MainMeleeWeaponDamageType);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a9a44e0-e589-4900-aeac-7702a3df92c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FORCEFUL_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9c81eaa-c425-4431-840d-6ae110359370" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3,MainMeleeWeaponDamageType);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e63774d-779f-42e2-8b9f-beec7ec74872" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FORCEFUL_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9c81eaa-c425-4431-840d-6ae110359370" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4,MainMeleeWeaponDamageType);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90ea86bf-8206-42c6-81f8-e2b458f6ab68" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FORCEFUL_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9c81eaa-c425-4431-840d-6ae110359370" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(6,MainMeleeWeaponDamageType);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c03362c-9083-4c8b-a523-74aae8f760cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEADLYD10_Bludgeoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2f504d0-eea2-4f0b-b484-2d465b83c5ea" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d10,Bludgeoning,,,0,,,,,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efbbd08b-40cb-4261-87de-5de7cd96dde2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEADLYD10_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2f504d0-eea2-4f0b-b484-2d465b83c5ea" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d10,Slashing,,,0,,,,,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8159af3-5753-4f02-a573-a01f132fd9ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_Tethered" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6377c6fa-fbf2-4fae-b2a8-e70dc33b212f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3c3b32dg8854g1355g6d23gcdb55f0730fa" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1482935ag9187g1f28g0320gd202efa750a9" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TETHERED" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PF2_RetrieveTether);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3b2a640-edf5-4aba-856a-04c5489652b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_Hampered" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e8f0e9bga85bg4b5fg9c5cg413fc3658aa7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2065db32g5d19gadebg9708gd79712f60094" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ManeuveringAttack_Melee" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="HAMPERED" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3.5,0);MovementSpeedLimit(Walk);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnMove" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a49a9a9e-262a-47dd-822d-1d3a6868a8da" />
+        <field name="Name" type="NameTableFieldDefinition" value="ENTRENCH_MELEE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h767cf4c0g0cccg8bb6g4cc0gfb389909030a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Block" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ARMOR" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CIRC_BON_1AC);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:ApplyStatus(CircumstanceBonus1AC,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c621ffa-d7d3-41a5-87dc-04b96b7452d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ENTRENCH_RANGED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a49a9a9e-262a-47dd-822d-1d3a6868a8da" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8eec372-65ae-4e9b-ba8c-b1a1bcfc4140" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEADLYD8_Bludgeoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1b84a69f-26ff-4fcd-b0e5-d88587ac7f2f" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Bludgeoning,,,0,,,,,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="845c5a5a-10b6-4541-917b-ec57f0847ce6" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEADLYD12_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3ffd7bda-bbfd-4014-ab58-f9e527f3e708" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9fb9aafgef2dgc46aga13dg0b44294b8692" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d12,Slashing,,,0,,,,,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5ec5d86g837eg26edgabb3gc58f814d416d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0853b485g0da8g9c40g15b8g8bba0008ccc2" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1,Acid);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="81b8bb6b-4c07-4e24-a56c-428a94f6ccdc" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9170e99g237ag3a14g70bcg8671aab086be" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1,Cold);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78d796ee-9d30-414a-a65e-e02b493d6077" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Elec" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d0f9025g4f3fg3000g259fg6964879c3ce9" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1,Lightning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="007ac8aa-e3c3-45b1-b8af-57319b44146a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e83285cg3351g249dg4e5ag39a9f683723e" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1,Fire);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82c28639-5387-4e11-8bc6-e9433c514219" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Sonic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc40eefag56d5g4bc3gd842gd7d1f4b7d296" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1,Thunder);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84978bd7-4213-47a2-8e8b-ae5e474cbaa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Acid_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2,Acid,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f682f8d-d7f5-4902-88b9-c8fec21fa595" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Cold_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b8bb6b-4c07-4e24-a56c-428a94f6ccdc" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2,Cold,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56a2a718-a497-47f2-a287-230ee8165579" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Elec_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78d796ee-9d30-414a-a65e-e02b493d6077" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2,Lightning,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5494cd13-a8d3-423a-9d94-09052abf200c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Fire_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="007ac8aa-e3c3-45b1-b8af-57319b44146a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2,Fire,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b737c77-f3c4-4294-a690-57979462a91d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Sonic_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82c28639-5387-4e11-8bc6-e9433c514219" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2,Thunder,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c6148f4-0872-449c-b4dc-de3a9d592979" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Acid_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef6b7ea1-8ee1-482a-8ff5-31a494cd05c9" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(3,Acid,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5153c413-da55-465d-a771-bf81f3c9c12a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Cold_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b8bb6b-4c07-4e24-a56c-428a94f6ccdc" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(3,Cold,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb453a41-8b5b-40c2-966b-d10182d665e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Elec_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78d796ee-9d30-414a-a65e-e02b493d6077" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(3,Lightning,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1495ce0f-1b0c-48ae-afcc-ee4ba3f813d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Fire_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="007ac8aa-e3c3-45b1-b8af-57319b44146a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(3,Fire,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90d32943-1b6d-42fc-b8ce-52425b8e8b9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RESONANT_Sonic_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="82c28639-5387-4e11-8bc6-e9433c514219" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(3,Thunder,,,0,,,,,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3cae1e60-d371-4886-8848-b5997a4731de" />
+        <field name="Name" type="NameTableFieldDefinition" value="SWEEPHIT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46d39198g27f2g1334g8a22g998cf3ee154c" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="IsUnique" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61776873-0e00-4c9f-9c86-55a14934f3ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="RAISE_BUCKLER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="556bbe40-4d70-44c9-9fa2-96df353b1753" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(CIRC_BON_1AC);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f62a586-48d3-4517-8c38-1308a292f139" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircumstanceBonus4AC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ae4800be-dbbf-40f4-9ad4-1d871bbd896a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(4);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Tagged('CIRC_BON_4AC')" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

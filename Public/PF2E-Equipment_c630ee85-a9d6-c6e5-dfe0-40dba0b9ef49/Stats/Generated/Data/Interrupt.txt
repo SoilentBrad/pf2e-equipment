@@ -1,0 +1,9 @@
+new entry "PF2_DruidSecretsInterrupt"
+type "InterruptData"
+using "SurgingFocusIntterupt"
+data "DisplayName" "h73d4a433g04a8g4920g4301g2fe87e69a538;1"
+data "Description" "hb2e3b830g4cdfge2d8g0b81ga836d76c5665;1"
+data "InterruptContext" "None"
+data "InterruptContextScope" "Self"
+data "Conditions" "IsAbleToReact(context.Observer);"
+

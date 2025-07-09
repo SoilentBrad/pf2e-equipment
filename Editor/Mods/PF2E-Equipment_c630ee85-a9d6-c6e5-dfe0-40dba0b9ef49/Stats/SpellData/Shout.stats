@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5c0be0b-aecb-4c93-80ea-740bea83fb02" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RetrieveTether" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SetStatusDuration(SELF, PF2_Tethered,-1,Add);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_PearlOfPower_SpellSlotRestoration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a9cab1cgb721g8273g6513g1a438e6e16d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4cc6322ege5bdg8cdfg200cg3ae44dbd8f09" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Steady" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Steady" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;972109d9-0470-41b1-aa82-8b01cecfc556,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7809106f-f8e4-42bb-ae7c-4ea69c71fd12" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0ed6eeea-fb80-45e5-a190-d72579f7e3d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="795b9887-987a-441d-8a3c-dfeeac527384" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_EntrenchMelee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="33f516a2-5385-46f0-aecf-11c8450e0d05" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ENTRENCH_MELEE,100,1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33d75694g9e7fgde80gbf4bg01831449cb75" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7711e446g0151gcbd3g23fbgd24a49bfde9f" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ENTRENCH_MELEE,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49bd35d0-7e95-498a-9902-d1a8b343f9c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_EntrenchRanged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="795b9887-987a-441d-8a3c-dfeeac527384" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ENTRENCH_RANGED,100,1);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8856b864gcd7egcf08g2106gd248c30fb8a2" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ENTRENCH_RANGED,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92dfa4fe-3384-4606-b91a-7fa600ea7a0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RaiseBuckler" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="33f516a2-5385-46f0-aecf-11c8450e0d05" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAISE_BUCKLER,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAISE_BUCKLER,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46c26e3a-3184-448c-b1e8-0d86ada13109" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_TakeCover" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="33f516a2-5385-46f0-aecf-11c8450e0d05" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(RAISE_TOWERSHIELD,100,1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(RAISE_TOWERSHIELD,100,1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

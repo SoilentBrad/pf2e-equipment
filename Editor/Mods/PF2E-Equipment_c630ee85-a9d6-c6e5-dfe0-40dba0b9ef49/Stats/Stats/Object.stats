@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Grenade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c236514d-90cb-4064-b741-3dcd12d17c0e" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="InventoryTab" type="EnumerationTableFieldDefinition" value="Magical" enumeration_type_name="InventoryTabs" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ItemUseType" type="EnumerationTableFieldDefinition" value="Grenade" enumeration_type_name="ItemUseTypes" version="1" />
+        <field name="FallingLandEffect" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="1f40e7a6-fb87-41ab-9da9-282a359b7e89" />
+        <field name="ValueRounding" type="BoolTableFieldDefinition" value="True" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3202e551-9913-436d-87fb-f8952cd2db54" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_AcidBottle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3850ec1a-d951-45b7-9363-dc82e20bd28a" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Throwable" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3e5448e2-dd32-40cf-80fb-59a260d2bff0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Bag_BlackPowder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="08c75e58-6e70-469a-a22e-44c184995e6c" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="4" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ForceResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d6378d27-882e-4b51-aee6-31e999ea1d81" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c45ef6f-f892-4471-93b7-ac50e8e46e84" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_BallBearings" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="77292f7d-ff64-4a04-9a6f-c37b0cb10a62" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5511fd50-45f3-4b05-ad57-4107a3a95750" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Bomb" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="278271f9-3fbc-4cf7-a5dc-b36527f521b2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Throwable" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6bcf96d6-6ac3-45e2-a537-f882c2481275" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Caltrops" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="45eb32fb-47c3-445a-858a-57179bfa15df" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a7f73cd-1a0e-4446-9c92-70d51a676072" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_FireBottle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0b1aa718-fe45-4e4c-8811-ced51c581075" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Throwable" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9df2608a-d653-4d49-a010-11b9a244e0b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_GreaseBottle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e2968a2e-bc83-4d50-99ef-39ce78d2d630" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Throwable" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96cb4620-c44d-4e81-9b01-9de97acaf9c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_OilBottle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9df2608a-d653-4d49-a010-11b9a244e0b2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="91947f48-4368-4794-8429-2f57172dc53d" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Throwable" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdabfdc1-0a4f-4180-9875-f4473ac82664" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_HolyWaterFlask" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b878380f-7248-4b06-83f8-2d26055497c8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Throwable" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db52a414-bbce-41ee-9132-ee21964dfd00" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_MindflayerBulb_Caustic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1fd5d25c-806e-44ea-9f52-20df63a44e98" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5bad79e4-6f30-466a-97f8-d56978d6c3fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_MindflayerBulb_Spiked" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="249ff64e-818b-4dc8-919b-7f297f64a2a3" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d674fe8-5dea-40a8-93ac-e7789792b706" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_MindflayerBulb_Vacuum" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="10b6acda-aa4e-46b1-aa9a-e45ab914a28d" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16ada5b4-4f13-41b5-b35a-4f34ce63304d" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Net" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1be83721-5f37-418b-bca5-7dc45c144fa5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71f74b55-75a5-4a3f-ad60-75bf520dd872" />
+        <field name="Name" type="NameTableFieldDefinition" value="GRN_Spore_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b09296f1-2bc3-422e-8735-c13e83ac8801" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5003e5d0-a3e7-4a23-9ace-ce7fcfb63d1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Fireworks_Rocket_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ed2bfb80-bf1f-45e8-a515-9f5f7c3c0d4b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="db1675d9-5147-4201-b243-a9ee9540cbb8" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56a715cb-8bdb-4c7a-a2c0-5ba54ef88c2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Fireworks_Rocket_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5003e5d0-a3e7-4a23-9ace-ce7fcfb63d1d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8cc1c07f-398c-42fb-9cdf-76ef052bdaa6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b6f6b02-c3b8-443b-a409-2b5269ca5108" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Fireworks_Rocket_C" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5003e5d0-a3e7-4a23-9ace-ce7fcfb63d1d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2f900203-cbe9-4b6c-8d63-1a9a873a13ff" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Arrow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c236514d-90cb-4064-b741-3dcd12d17c0e" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="InventoryTab" type="EnumerationTableFieldDefinition" value="Magical" enumeration_type_name="InventoryTabs" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseConditions" type="StringTableFieldDefinition" value="WieldingWeapon('Ammunition',false,true, context.Source)" />
+        <field name="ItemUseType" type="EnumerationTableFieldDefinition" value="Arrow" enumeration_type_name="ItemUseTypes" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="00f95a45-6f2c-4786-8c17-e4d65517166a" />
+        <field name="ValueRounding" type="BoolTableFieldDefinition" value="True" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4ce007a-082c-45ad-b8fd-d6d98a983a3f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfFire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9a142fae-bcea-4e88-a407-16d3b27468b9" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowCommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9f603ef-9ee6-4894-b5d2-495d778a3228" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfDetonation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a0985797-4ec7-475c-8e11-0361e387f39a" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowUncommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e87649e3-3227-4981-85d6-357b297e5939" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfSmokepowder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b9f603ef-9ee6-4894-b5d2-495d778a3228" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0788a2bb-c732-4ebb-abf9-2ef150f509be" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowRare" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8ab9729-95a2-4b9c-af2c-551c6764074b" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfIce" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e297d80-823b-4200-926e-6ca23f488090" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowCommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b858526b-ec05-4a67-adb9-02f00afd413a" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfAcid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0bfb72d2-0e8e-4d16-aeae-3159b0d4b195" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowCommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="952304f1-e200-45eb-a834-207ab71748e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfLightning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1b0f095b-cb22-4bf9-aecf-4e5a26504ec8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowCommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c503259-fa3c-4142-9fad-76e55fd175e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfDarkness" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="844c19ce-9e8f-4119-8856-8fa2029461b1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowUncommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac59d463-9996-4c16-ae99-dbf924f63aab" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfPiercing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="eee2f284-1a42-462a-8b38-50bd2e3885c5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f08cb5d-3431-426d-9d9e-1ebade56a15f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_BarbedArrow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="682364ab-2849-4625-be84-5ca1900834ff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89f68e4a-8216-4a6f-bd98-91182ed61d88" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfRicochet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b11b3f7f-d8ec-41db-93b9-24474aea31e3" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowRare" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9be50d0e-4074-4835-b6ec-c71d1b461bb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfAntimagic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c9871e4a-633e-4b81-9115-8ffd0f69ee6a" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowRare" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a871f35c-a692-4228-834f-36906efeb8b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfDispelling" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ac23602b-ceee-4ef3-a6b8-601e40a5aa6f" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowRare" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2581e840-de0c-40c8-bd7e-472075dba1e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfTeleportation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4cf7bbbb-1d1b-4bec-b82a-cdc3cce33f7a" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowRare" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17d69976-ff87-4b0e-a5aa-f4b01182bd84" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfWraithsEmbrace" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a61c8248-1595-450f-bcc9-2ed1d9853739" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowUncommon" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2bdaf213-cccf-47c0-b8fa-62a25288c6f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfAberrationSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1545f451-3fc5-4c1b-970e-572f9ace630c" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c763d683-6eaf-4909-9c1d-ab31bd7e9d67" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfBeastSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="86e46f4a-6789-47ef-ab85-449ca36b1b20" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be963dae-efd4-4498-9957-4e0bf848176f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfCelestialSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f516862d-5a05-426a-a8a1-1486b35b68f8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e40c4989-d94d-4e7d-984e-3b1ed3622e24" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfConstructSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="86a4dd98-80b1-4778-b498-e3a49b1dec37" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f50896d-de50-4129-ac9b-809555a4c23a" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfDragonSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="437835b4-0d13-47b7-8aca-5da4f948783b" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4588555-10ff-4359-93e5-fe0a3c3c1ee4" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfElementalSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0d81014f-cc7f-4c79-9477-b8cda9738c72" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb144181-ae04-4db5-b550-4ab73deebeb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfFiendSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="04ba10a0-ca33-47e6-9810-0b7234700c4a" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="816380be-f704-4320-976b-2303ab467612" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfGiantSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a86bf6b2-2e75-4464-ad65-2bafa89e73aa" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b98d3662-4ae6-4108-83a9-4240e22a8708" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfFeySlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="21a2ef96-97ac-4372-95d7-676174610abc" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8c23ff1-68f4-4dd0-8d5c-3a5fb6c3c9fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfHumanoidSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3c2c6a61-e348-4222-9ba3-58a4d49d558c" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd4a03fa-1143-49dc-8b9c-a5cf6651cf84" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfMonstrositySlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d7645507-6c0c-48ff-aa1b-57092d139f22" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe2f0e8e-3f32-4282-b713-3c49cdb506ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfOozeSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5931f0c7-ddd7-4e3b-aeef-64b0e7eefb70" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b57457f8-4cfd-46fe-8c07-b85a725492d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfPlantSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ab4ed528-cf26-417d-a751-981f7c83066f" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05acd913-694b-48c3-adb0-ee8acf04ae4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_ArrowOfUndeadSlaying" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="97b44e22-8e8b-4c19-8329-b9f4f0ed29bd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ae58df6b-0fc9-48ff-9d36-52bf9bc22204" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="ArrowOfSlaying" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67eb01f1-b428-4651-95e5-26678b9f7c31" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Kit" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="344be0a0-5df1-452f-af24-cd33bf1e40e3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cbb5348-2445-4ebd-847e-83de6f33c58b" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Tool_Hammer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1cafeb4c-fa58-4dad-a46f-7a1c1752a7e4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ab1a91d0-183e-4617-a7fe-dcea04876020" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="aba2b73e-a68a-4c0a-a76b-f7d56aecdde6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a8cb219-184a-46b6-9daf-7ea16872cc70" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_OBJ_Tool_HealersToolkit" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1cafeb4c-fa58-4dad-a46f-7a1c1752a7e4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="68621363-4d85-4c74-a7c5-cefe7ae36d15" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="aba2b73e-a68a-4c0a-a76b-f7d56aecdde6" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="CriticalHit(AttackTarget,Failure,Never);CriticalHit(AttackTarget,Success,Never);Skill(Medicine,+1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="036b9eb6-31cd-408f-b255-ed3efbf9c7e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_OBJ_Tool_MarvelousMedicines" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1cafeb4c-fa58-4dad-a46f-7a1c1752a7e4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e3781c5c-b674-4c9b-aec8-885e8c54698b" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="aba2b73e-a68a-4c0a-a76b-f7d56aecdde6" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="CriticalHit(AttackTarget,Failure,Never);CriticalHit(AttackTarget,Success,Never);Skill(Medicine,+2);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0f8f80f-f75c-4ad7-ad3d-4d12bb0f00b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_OBJ_Tool_InfiltratorThievesToolkit" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fa13bea-4142-4502-8f10-ca2a213bac8f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="08851ac0-3bfa-44f3-80c6-6ab0536f0e10" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="CriticalHit(AttackTarget,Failure,Never);CriticalHit(AttackTarget,Success,Never);Skill(SleightOfHand,+1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="518f6c04-050f-41b4-8039-59cb779a726e" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Grimoires" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9292770-c851-4aec-9094-df3cf0caa2a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_SorcerousSundries_RareTome" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4fca29-94de-4404-b23e-be9775941fba" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="2000" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da752f17-e777-49b2-ba4f-9f4a02f5c943" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOK_GLO_SorcerousSundries_KarsusStory" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4fca29-94de-4404-b23e-be9775941fba" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ea61964d-fd13-40c9-8b75-9b00e0ee5812" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a917a24-1c90-44af-915e-2b0fb6061ce9" />
+        <field name="Name" type="NameTableFieldDefinition" value="The Red Knight's Final Strategem" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4fca29-94de-4404-b23e-be9775941fba" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c2ddbd05-71dd-4bc9-8934-1297c8e32cf6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da24d853-1c37-4131-80d9-5d1f00b60789" />
+        <field name="Name" type="NameTableFieldDefinition" value="The Tharchiate Codex" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4fca29-94de-4404-b23e-be9775941fba" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="486a1a14-2d67-4b9c-a2dc-7858c2a6a473" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4a4f6b5-4077-4054-871a-03fc6b133d57" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNI_PUZ_MithralOre" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4bf9ae0b-90b5-4716-b2b2-1ed6d88230ea" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f65292f7-a930-48a3-a803-914da4781056" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa2ab598-98fd-4593-a3bc-30765b3ac5bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Metalbar_Mithral" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8fb4ef1b-ffe8-4251-9e90-f76014adbf4c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d746d7c3-ed35-4cd4-becc-6ebb3e0a7b46" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="40" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fdfd07b7-d492-41fc-a753-9ec4b07928e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_BrokenCane" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="91b3e19f-35e7-48e0-8cd9-8d727482d725" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="91696f37-5a03-4f10-b636-2e5e2096a594" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59b5e484-ee01-42f1-bca7-fc6079029c40" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Dagger_A_1_Broken_Handle_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7562984a-7680-4538-ab83-93c78e5b96c8" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90c1cb83-29d1-4fa6-8c66-56a47093f49f" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Dagger_A_1_Broken_Tip_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="71195299-578a-4a38-b039-1046355c3181" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

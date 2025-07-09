@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_ElvenWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="b0a30300-6056-4b32-b9ae-d0b6bb8343d7"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_ElvenWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="98b3c952-7c3a-4868-8d58-4d3ba8248d57"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_DwarvenWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="557b0130-5dd0-4fa6-94fd-08fb14732dc5"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_ElvenWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="e031d928-e2c7-46ce-96e2-3b2cb606c8ef"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_GnomeWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="0238360c-3091-4801-b9fe-b5215757d0be"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_HalflingWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="ba16ab49-a241-43c3-971c-6c3f4aa2cc19"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_OrcWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="99016b4f-3261-47a6-ad70-2c76ca394166"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_GoblinWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="481219b2-c66b-457f-8eeb-6fa47c14d026"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="PF2_KoboldWeaponFamiliarity"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="UUID" type="guid" value="da13f40b-bbe2-42e6-81de-68df53a3753d"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

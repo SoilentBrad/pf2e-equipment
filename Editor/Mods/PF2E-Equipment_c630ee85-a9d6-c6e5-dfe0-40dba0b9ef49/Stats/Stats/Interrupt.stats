@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3db90bb-80ad-48b9-9c02-eee14ab34b72" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DruidSecretsInterrupt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4001cf8b-dd13-41fc-bc95-808d670c1d7e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73d4a433g04a8g4920g4301g2fe87e69a538" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb2e3b830g4cdfge2d8g0b81ga836d76c5665" version="1" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

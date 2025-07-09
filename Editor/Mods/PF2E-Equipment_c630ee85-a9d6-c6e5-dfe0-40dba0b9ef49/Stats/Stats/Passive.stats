@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55dbdf9d-bc74-4c90-ba0d-8e6b9c267c83" />
+        <field name="Name" type="NameTableFieldDefinition" value="OTHER PASSIVES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4faf3469-abc7-4214-b982-ecc693cc4a81" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DruidSecrets" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8f4558b-7c50-4937-bedc-e46259fd80d0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6bb20a24g1ef0g519cgf8b9g375376fb40e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc0894d85gf708g4c65ge1b7g25c844f82f54" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(PF2_DruidSecretsInterrupt);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Acid" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2f6a0a3gc2fcg0f1agbff0g4dfca8bdf467" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6725fe72gd92fgc14fg065dg80e273d01ea5" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Acid,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Acid,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Acid,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6d9c25b-fc01-44ad-96fe-f114047ffa3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Cold" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h451bbd89g07c4g51dcg4e94gef3fbf48c298" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49062adbg5419gf932gccdfgcecb49d7b255" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Cold,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Cold,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Cold,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f364a762-8f80-44ef-875f-1d6bd9c49a64" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Elec" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6aadc8a8g8feeg39f4g1c1bge7fbbe448c19" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a56a6ceg97c3g43b5g2a92ga689cc927088" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Elec,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Elec,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Elec,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="126b5971-ad4e-4e67-8418-7f51e19477a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbafbef74g78adgdea8g0f40g28f98e346750" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2e4eb51g7742g89cbg023cg48bf3a8eed9e" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Fire,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Fire,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Fire,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09635f6c-99ac-415d-ac6c-66d38aca3744" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c6cabe6g1629g5335g701bg3d527acf6b9a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06102f1dg0cdega8cag38c6g1b15f357d5fe" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Poison,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Poison,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Poison,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f294a919-c76f-409d-be4c-d0a2df2b64ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="ANCESTRY_FEATS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DwarvenWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4f8446b3-0961-4eff-ab92-c35255ea1473" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac56875bgb637g26c8g107dga89d5d364d6a" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58ce6315g225eg37b5g2d49gb6ee85917683" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Dwarf_DwarvenCombatTraining" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Battleaxes);Proficiency(Daggers);Proficiency(Warpicks);Proficiency(Warhammers);Proficiency(Flails);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="154bebc5-19cf-4b2b-8ac0-2c82c6a7219c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ElvenWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86f5eba1g2d04g84e7g6c36g51832f055130" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8aea8f46g26d5g1a6fgb427g66ad991d58d9" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Elf_WeaponTraining" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Longbows);Proficiency(Rapiers);Proficiency(Shortbows);Proficiency(Spears);Proficiency(Longswords);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="65da652d-032c-4204-9e25-cbd5c02082f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_GnomeWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0850043eg99b1gf619gd6f5g519c8a356859" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h487af88bg460fg4fe1gdf2bg05c57992e0f8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Glaives);Proficiency(Daggers);Proficiency(Flails);Proficiency(Warhammers);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e30f32dd-677d-4ef3-a839-e03eab601ba0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_GoblinWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha708eae3g95d8gf864g1f99gd39d6c09541f" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48864b07g43bag4cbegcac2gde8d50a9d513" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Shortswords);Proficiency(Glaives);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5f5d5e8-bca0-446a-bd3c-ccc6057bd03f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_HalflingWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he15dedb0g48ccgc7e8gb6ebg98180503a7d1" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32545f4ege956gc948gf324g72ed8657c828" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Clubs);Proficiency(Slings);Proficiency(Shortswords);Proficiency(Tridents);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a1cdbb6-46c0-4820-9770-5735bd45b1f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_KoboldWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hededba64gdd23g0aeeg4bfag519f29885044" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb76ebf5fg7873gdffdga4cdg5bc24b30ec78" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Warpicks);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ffb74a5-bacf-4a4d-95e4-178fe0c4dec1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_OrcWeaponFamiliarity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b043f24-a1f4-43b5-8058-99687512e5eb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h35f697ffg4293g1e8bgc540g98c0f1a9a483" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0cefd702gf1a7ga4f9g569fg628ae3ced149" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Battleaxes);Proficiency(Greataxes);Proficiency(Scimitars);Proficiency(Warhammers);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34751c41-fc00-46f4-905a-e4c35c4f7c9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DwarvenWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5a68030g7fcag132fg66e4ga8ca51db724b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h511480d7gf7dfg73a1gdcafgb6843292599e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Dwarf_DwarvenCombatTraining" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Battleaxes);Proficiency(Daggers);Proficiency(Warpicks);Proficiency(Warhammers);Proficiency(Flails);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e2c4488-1280-4748-a104-0d8fa3088fef" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ElvenWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f3a125eg0a1cg0d37ge7deg869cb6db138b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb130c521g9bb9gd10dgb118g7e46408a6a64" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Elf_WeaponTraining" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Longbows);Proficiency(Rapiers);Proficiency(Shortbows);Proficiency(Spears);Proficiency(Longswords);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4070b220-663a-48af-8bd4-ef0d60a001a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_GnomeWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33f58f3ag2474g4d86g3d5agacbb8a9680e8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h958ee319g41ccg8a9cg9caeg5a18102099a3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Glaives);Proficiency(Daggers);Proficiency(Flails);Proficiency(Warhammers);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2662f4d9-5edb-40ee-8f56-ca964ace2e00" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_GoblinWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h609ccceega9dbg94e3gdea7g9b173141128a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h16e6759bg2d49g3591g4923g9c791d6f65c8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Shortswords);Proficiency(Glaives);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bc9474f-7f15-408a-81b0-b729db025359" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_HalflingWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h226f646cgb561g237eg87fag1a02d1728ea7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8dc8b971g60c8gc675g32abgb1e071f7aed5" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Clubs);Proficiency(Slings);Proficiency(Shortswords);Proficiency(Tridents);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0086c5a-d128-4ff4-abdf-4a3c5d101f53" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_KoboldWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6362e470g7a57g0bfbg5369gf2e6b42326c9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf3699dd8g9488g4f9egea95g0dd699aa2313" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Warpicks);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="094e8a27-2014-428f-89e6-e8d32806cc20" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_OrcWeaponFamiliarity_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1edf700fg5f99g0c0eg51f1g86635fe87622" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d64a0f7g8b1ag2564g7a23g345c3424de0f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Proficiency(Battleaxes);Proficiency(Greataxes);Proficiency(Scimitars);Proficiency(Warhammers);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF800080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc15e9aa-105f-42d7-8148-9315c99d1ccf" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQUIPMENT_TRAITS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f67d1c9c-a1f3-4125-8e9b-c2f5dba6b967" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_BackstabberTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0918b02cg5058g6270g97ddgb6dc8820cd62" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h325913b1gd992g0cb5g0e26gd3dd4e531d17" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsPhysicalDamage() and OffGuard() and CanPrecisionDamage() ):DamageBonus(1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1733e658-ff00-4cc9-a0fb-41a947e89656" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_BackswingTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10a2d936gfa8cga1a6g908bg5e57da70ca6c" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he985f203g52d7g7421gdd83gd6a957fdcb29" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and IsWeaponAttack() and IsMiss() and not Tagged('CIRC_BON_1ATTACK',context.Source));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(SELF,CircumstanceBonus1Attack,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusRemoved)):ApplyStatus(CircumstanceBonus1Attack,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ed2a236-b844-4ae8-a8b4-1013013020b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DeadlyD4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="45d38fa6-9451-4a54-bd21-c418b274add8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5fa16e18g41b7gc257g88ddgbe84515e54dc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DEADLYD4,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha36aa5cag1d0agf693gc91cgec755a196166" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0608ce70-afdc-4a2d-a22d-f3d7760aea64" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DeadlyD8_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="adbb4c09-f02a-4784-8da3-39901107a2e1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DEADLYD8_Bludgeoning,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99f578eb-2f96-4d3c-9e7c-0661af32514b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DeadlyD10_Bludgeoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad0bde85-3e4d-4741-9dbb-9d8a07168ff3" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DEADLYD10_Bludgeoning,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad0bde85-3e4d-4741-9dbb-9d8a07168ff3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DeadlyD10_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8210396c-6c8d-49eb-8500-4a01e965f98e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3400cd59ge40bgc3e4g53bfgf26fe3f53e40" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ab967dfgb5e7g4d3dg356dg8edfe0791635" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DEADLYD10_Slashing,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1255215b-30c6-4975-a501-a121f123c000" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DeadlyD12_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad0bde85-3e4d-4741-9dbb-9d8a07168ff3" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DEADLYD12_Slashing,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8cf27ea5-fd83-4403-8f74-a76ea5c97973" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FatalD8_Trait" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="adbb4c09-f02a-4784-8da3-39901107a2e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90ad806agda9cgb108g2899gbcd6f5d25ee3" version="3" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(FATALD8,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96c30d48gd2b7gc77egf22eg04c6a6fdb0d0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d8" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98346341-71e2-4de1-846e-a62b318b5b19" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FatalD10_Trait" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f778fb2-9241-4cfa-bd86-1317689ed521" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c47127agb682gd90ag4c28g18733647e160" version="3" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FATALD10,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h495c2d16g1fa3gcdd9g25d4g59b7dacfc049" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94acff9c-994d-49ce-9e10-2a6886a1c89a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FatalD12_Trait" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0dc74ecc-946e-436f-9db7-9e9c9ad200f6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77094a71g896ag0ab0gcadfg35dbde2ca48b" version="3" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(FATALD12,100,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd5099e2g05aeg3093g4dafg6b7726353b1e" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="519cc677-152c-4037-bb0f-420599480f5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ForcefulTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h45faa9aag8314g64d1g83acg43b5ecedea64" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbed7ec46g17ffg10e4gb742gbfef034a8e6f" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and AttackedWithPassiveSourceWeapon();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PF2_FORCEFUL_1,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf7e7bfc-4d11-4e32-95c7-40567a8a491f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ForcefulTrait_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="519cc677-152c-4037-bb0f-420599480f5a" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('MAP_PENALTY_2ND')):ApplyStatus(PF2_FORCEFUL_2,100,1);IF(HasStatus('MAP_PENALTY_3RD')):ApplyStatus(SELF,PF2_FORCEFUL_4,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6785c085-08d0-4cf7-b3f7-d910b63c82b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ForcefulTrait_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="519cc677-152c-4037-bb0f-420599480f5a" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('MAP_PENALTY_2ND')):ApplyStatus(PF2_FORCEFUL_3,100,1);IF(HasStatus('MAP_PENALTY_3RD')):ApplyStatus(SELF,PF2_FORCEFUL_6,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2beafebb-2145-430f-a548-83c884958566" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_NonLethalTrait" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cf93b891-9189-431b-8f81-4983b1548af1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01835fe2g57e7gcca3gff0egcb316baa6c95" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b9c8b63g722bg034fg3180g3dbb1bf63394" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4c5e11ac-4a28-411e-86c9-19b797c271fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RazingTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed9004a6gdcfdg911ag0284ge093686651a6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2cc17216gc8a9gf1c5g566bg11b6c96de3d9" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(Item() or Tagged('CONSTRUCT',context.Target)):DamageBonus(2,Bludgeoning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e67b1f59-af1b-466b-ab44-2f6394013ebd" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RazingTrait_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c5e11ac-4a28-411e-86c9-19b797c271fb" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(Item() or Tagged('CONSTRUCT',context.Target)):DamageBonus(4,Bludgeoning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71da595e-25f4-4486-bf8a-70bf74002c13" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_RazingTrait_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4c5e11ac-4a28-411e-86c9-19b797c271fb" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(Item() or Tagged('CONSTRUCT',context.Target)):DamageBonus(6,Bludgeoning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30ba9499-106f-4a8f-96e4-eea415e4dbc6" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ResonantTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4ef2063g4f50g02a0gcc1dg44b22a371980" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6842bbbg17e3g47b3g8a36gdc3603ec9384" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PF2_ConductEnergy);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellDamageTypeIs(DamageType.Lightning):ApplyStatus(PF2_RESONANT_Elec,100,1);IF(SpellDamageTypeIs(DamageType.Cold):ApplyStatus(PF2_RESONANT_Cold,100,1);IF(SpellDamageTypeIs(DamageType.Acid):ApplyStatus(PF2_RESONANT_Acid,100,1);IF(SpellDamageTypeIs(DamageType.Fire):ApplyStatus(PF2_RESONANT_Fire,100,1);IF(SpellDamageTypeIs(DamageType.Thunder)):ApplyStatus(PF2_RESONANT_Sonic,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db570a65-f12e-4259-a368-d1743e561ce8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ResonantTrait_Striking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="30ba9499-106f-4a8f-96e4-eea415e4dbc6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PF2_ConductEnergy_Striking);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellDamageTypeIs(DamageType.Lightning):ApplyStatus(PF2_RESONANT_Elec_Striking,100,1);IF(SpellDamageTypeIs(DamageType.Cold):ApplyStatus(PF2_RESONANT_Cold_Striking,100,1);IF(SpellDamageTypeIs(DamageType.Acid):ApplyStatus(PF2_RESONANT_Acid_Striking,100,1);IF(SpellDamageTypeIs(DamageType.Fire):ApplyStatus(PF2_RESONANT_Fire_Striking,100,1);IF(SpellDamageTypeIs(DamageType.Thunder)):ApplyStatus(PF2_RESONANT_Sonic_Striking,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0b38a41-ddbd-4636-b651-f6f0fc54e26a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ResonantTrait_GTRStriking" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="30ba9499-106f-4a8f-96e4-eea415e4dbc6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PF2_ConductEnergy_GTRStriking);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellDamageTypeIs(DamageType.Lightning):ApplyStatus(PF2_RESONANT_Elec_GTRStriking,100,1);IF(SpellDamageTypeIs(DamageType.Cold):ApplyStatus(PF2_RESONANT_Cold_GTRStriking,100,1);IF(SpellDamageTypeIs(DamageType.Acid):ApplyStatus(PF2_RESONANT_Acid_GTRStriking,100,1);IF(SpellDamageTypeIs(DamageType.Fire):ApplyStatus(PF2_RESONANT_Fire_GTRStriking,100,1);IF(SpellDamageTypeIs(DamageType.Thunder)):ApplyStatus(PF2_RESONANT_Sonic_GTRStriking,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85badddd-9b9a-4da5-9459-01ca0a540d43" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_SweepTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfb6c1575g1a5cg8892g0a1cg557ecd89b8f9" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcbd6723bgfd4cg4a05g6bc3gee484cd90f94" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="If(Press() and not HasStatus('SWEEPHIT',context.Target,context.Source)):RollBonus(Attack,1);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SWEEPHIT,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19f535d0-7576-4217-ba96-0f9c3f21a046" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_TearingTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d27810agc89fg5eb5gbd3ag36625594d61d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53e2258cg4932g75b9g24a3g0d8a5480e74c" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(BLEEDING,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07effce0-40b8-4f69-ab7b-2f6bc58834d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_TetheredTraitB" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c2e32bcg7487g3f93gf467gcec903f286dd" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7861cd10g9d7dgd72bg50c1ge2a24e0ffcea" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_PF2_ThrowTether_Bludgeoning);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43083aa6-ca14-4ec8-abbb-1f3074889a50" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_TetheredTraitP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07effce0-40b8-4f69-ab7b-2f6bc58834d9" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_PF2_ThrowTether_Piercing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0808806b-bff8-4e11-800c-4da404eb2927" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_TetheredTraitS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07effce0-40b8-4f69-ab7b-2f6bc58834d9" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_PF2_ThrowTether_Slashing);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47181519-8dcb-4c7e-a64b-8f3369e067a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_Volley30_Trait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf33ebb8dg909dg4b67gc72eg6805c4577f64" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d0e2849g211ag65a5gdb1eg50ded2ee8ee6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_CrossbowExpert_PointBlank" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(DistanceToTargetLessThan(9)):RollBonus(RangedWeaponAttack,-2);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c84de0d-c37b-4f30-9cc9-5d852400b55c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_VersatileBludgeoning" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Smash" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,VERSATILE_BLUDGEONING,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('VERSATILE_BLUDGEONING',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,VERSATILE_BLUDGEONINGREMOVER,100,0)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="VersatileBludgeoning" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h421df2dfga380g9bbcgec8cg244b224af4f1" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ff4b841-ed57-464f-a2d3-9697d4ab6b6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_VersatilePiercing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c84de0d-c37b-4f30-9cc9-5d852400b55c" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Riposte" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,VERSATILE_PIERCING,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('VERSATILE_PIERCING',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,VERSATILE_PIERCINGREMOVER,100,0)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="VersatilePiercing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d72ece1g4ec3gc86dgd6f9gc309f8981e62" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b58d9423-949f-4895-a82b-60d0bc0a3284" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_VersatileSlashing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76b4705cg18c4gdd5agdf13gff380d95c0a9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Slash" />
+        <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyEquipmentStatus(MeleeMainHand,VERSATILE_SLASHING,100,-1)" />
+        <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('VERSATILE_SLASHING',GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source))):ApplyEquipmentStatus(MeleeMainHand,VERSATILE_SLASHINGREMOVER,100,0)" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="VersatileSlashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c84de0d-c37b-4f30-9cc9-5d852400b55c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="077cfeae-d740-4e3e-bb4a-222d3b7b5e94" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_HinderingTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb441d6fcga7dbg87b9gfe8cg164a98351743" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haefa2419g0311g0b5ag4696gd1420b54161a" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3b8bfb3-9dcf-4fec-a3d0-d28ca6bf94b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_PonderousTrait" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he59142e3g7235gd30fg073eg2dafdef0d804" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc2c38d78g2450g6e9agcbe0g88637a765000" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(ArmorCheck(18)):Initiative(-3);IF(not ArmorCheck(18)):Initiative(-1);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

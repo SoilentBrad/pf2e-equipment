@@ -1,0 +1,16 @@
+new equipment "SCL_Drow_Longsword_Lantern"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "PF2_ARM_TowerShield"
+
+new equipment "UND_Elder_Brithvar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "UND_KC_Elder_Warpick"
+add equipmentgroup
+add equipment entry "ARM_RingMail_Body"
+add equipmentgroup
+add equipment entry "PF2_ARM_TowerShield_Duergar"
+

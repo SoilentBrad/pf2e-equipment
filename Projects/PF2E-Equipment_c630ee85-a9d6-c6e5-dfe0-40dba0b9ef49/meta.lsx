@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="c630ee85-a9d6-c6e5-dfe0-40dba0b9ef49"/>
+            <attribute id="Name" type="LSString" value="PF2E-Equipment"/>
+            <attribute id="UUID" type="LSString" value="c5023d00-a52e-9faa-2eda-67eebf5062f3"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

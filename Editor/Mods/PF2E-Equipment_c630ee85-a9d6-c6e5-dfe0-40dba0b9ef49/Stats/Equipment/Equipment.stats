@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13893a98-1956-4559-93f6-58e82df66e6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SCL_Drow_Longsword_Lantern" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="WPN_Longsword" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="PF2_ARM_TowerShield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="972189e5-d6db-4804-b846-3fcd422c9e44" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_Elder_Brithvar" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="UND_KC_Elder_Warpick" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_RingMail_Body" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="PF2_ARM_TowerShield_Duergar" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
