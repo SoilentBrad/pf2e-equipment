@@ -27,6 +27,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fe0d043-2711-4692-a5e6-697aa6fcc658" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, 19);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -142,6 +143,31 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0b1e0e8a-fa78-4125-b027-e132a8d7b2d8" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15e5e822-cdcf-4c76-80dd-2ca6e3ef7833" />
+        <field name="Name" type="NameTableFieldDefinition" value="CharmPerson_Maestro" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6cb2d23-b5e3-493a-b69c-24ef59c1983c" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, 17,AdvantageOnCharmPerson())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e1501d1-bffd-49ba-a071-703cc693bcf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="CharmPerson_Maestro_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="658042eb-3811-4b02-9c72-f48ff262136c" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRestPerItem" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Wisdom, 27,AdvantageOnCharmPerson())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(CHARMED,100,-1);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CHARMED,100,-1)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a7a248cc-f584-431c-9e7d-57ceb0887720" />
@@ -251,6 +277,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ModularBPS_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd40eb60gc899gf152g84bdg26e4b659cf47" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h551b9f15g0269ge56bg1044gebaeff17f773" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -308,6 +335,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6ff92134-bdf9-4246-b2ec-72e3238c8c05" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ModularBPS_Ranged" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b38eb23gf4ecg3757g305cg103e09602b14" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

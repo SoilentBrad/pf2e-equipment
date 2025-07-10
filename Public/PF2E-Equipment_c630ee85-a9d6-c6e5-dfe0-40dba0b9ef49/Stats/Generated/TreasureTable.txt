@@ -196,37 +196,27 @@ object category "I_PF2_WPN_Spraysling",1,0,0,0,0,0,0,0
 new treasuretable "ST_AllSimpleRangedWeapons"
 new subtable "1,1"
 object category "I_WPN_LightCrossbow",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_WPN_HandCrossbow",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "3"
 object category "I_WPN_HeavyCrossbow",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_WPN_Dart",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_WPN_Sling",1,0,0,0,0,0,0,0
 new treasuretable "ST_AllMartialRangedWeapons"
 new subtable "1,1"
 object category "I_WPN_Shortbow",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_WPN_Longbow",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_PF2_WPN_Aklys",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "3"
 object category "I_PF2_WPN_Arbalest",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_PF2_WPN_CompositeLongbow",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_PF2_WPN_CompositeShortbow",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "3"
 object category "I_PF2_WPN_PhalanxPiercer",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_PF2_WPN_TawLauncher",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_PF2_WPN_Kestros",1,0,0,0,0,0,0,0
-new subtable "1,1"
 object category "I_PF2_WPN_Spraysling",1,0,0,0,0,0,0,0
 new treasuretable "ST_Finesse_MeleeWeapons"
 new subtable "1,1"
@@ -247,10 +237,6 @@ object category "I_PF2_WPN_AldoriDuelingSword",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_LightMace",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_Wakizashi",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_WishKnife",1,0,0,0,0,0,0,0
-new treasuretable "_Clothing"
-new treasuretable "Clothes_Mages_Hat_Supply"
-new subtable "2,1;3,2;4,1"
-object category "T_Clothes_Mages_Hat",1,0,0,0,0,0,0,0
 new treasuretable "_Equipment_Armor"
 new treasuretable "ST_LightArmor"
 CanMerge 1
@@ -303,20 +289,14 @@ object category "I_ARM_ChainMail_Body",1,0,0,0,0,0,0,0
 object category "I_ARM_Splint_Body",1,0,0,0,0,0,0,0
 object category "I_ARM_Plate_Body",3,0,0,0,0,0,0,0
 new treasuretable "Shields"
+CanMerge 1
 new subtable "1,1"
-object category "I_ARM_DeathKnight_Shield",1,0,0,0,0,0,0,0
 object category "I_PF2_ARM_TowerShield",1,0,0,0,0,0,0,0
 object category "I_PF2_ARM_Buckler_Duergar",1,0,0,0,0,0,0,0
-object category "I_ARM_Shield",1,0,0,0,0,0,0,0
-object category "I_ARM_Shield_C",1,0,0,0,0,0,0,0
-object category "I_ARM_Shield_D",1,0,0,0,0,0,0,0
-object category "I_ARM_Shield_E",1,0,0,0,0,0,0,0
-object category "I_ARM_Shield_FlamingFist",1,0,0,0,0,0,0,0
-object category "I_ARM_Shield_Rusty",1,0,0,0,0,0,0,0
-object category "I_PF2_ARM_Buckler_A",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_MeteorShield",1,0,0,0,0,0,0,0
-object category "I_PF2_ARM_Shield_B",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_RazorDisc",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_TowerShield_Duergar",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Buckler_A",1,0,0,0,0,0,0,0
 new treasuretable "_Junk"
 new treasuretable "ST_FishingRods"
 new subtable "1,1"
@@ -324,6 +304,7 @@ object category "I_PF2_WPN_CombatFishingPole",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_CombatFishingPole_B",1,0,0,0,0,0,0,0
 object category "I_PF2_WPN_CombatFishingPole_C",1,0,0,0,0,0,0,0
 new treasuretable "ST_Kits"
+CanMerge 1
 new subtable "1,1"
 object category "I_OBJ_Tool_Hammer",1,0,0,0,0,0,0,0
 object category "I_PF2_OBJ_Tool_HealersToolkit",1,0,0,0,0,0,0,0
@@ -331,6 +312,7 @@ object category "I_PF2_OBJ_Tool_MarvelousMedicines",1,0,0,0,0,0,0,0
 object category "I_PF2_OBJ_Tool_InfiltratorThievesToolkit",1,0,0,0,0,0,0,0
 new treasuretable "_MagicItems"
 new treasuretable "MagicItems_Common"
+CanMerge 1
 new subtable "1,1; 2,1; 3,1"
 object category "T_ST_Amulets_Common",1,0,0,0,0,0,0,0
 object category "T_ST_Cloaks_Common",1,0,0,0,0,0,0,0
@@ -339,6 +321,7 @@ object category "T_ST_Headwear_Common",1,0,0,0,0,0,0,0
 object category "T_ST_Instruments_Common",1,0,0,0,0,0,0,0
 object category "T_ST_Rings_Common",1,0,0,0,0,0,0,0
 new treasuretable "MagicItems_Uncommon"
+CanMerge 1
 new subtable "1,1; 2,1; 3,1"
 object category "T_ST_Amulets_Uncommon",1,0,0,0,0,0,0,0
 object category "T_ST_Cloaks_Uncommon",1,0,0,0,0,0,0,0
@@ -347,6 +330,7 @@ object category "T_ST_Headwear_Uncommon",1,0,0,0,0,0,0,0
 object category "T_ST_Instruments_Uncommon",1,0,0,0,0,0,0,0
 object category "T_ST_Rings_Uncommon",1,0,0,0,0,0,0,0
 new treasuretable "MagicItems_Rare"
+CanMerge 1
 new subtable "1,1; 2,1; 3,1"
 object category "T_ST_Amulets_Rare",1,0,0,0,0,0,0,0
 object category "T_ST_Cloaks_Rare",1,0,0,0,0,0,0,0
@@ -355,6 +339,7 @@ object category "T_ST_Headwear_Rare",1,0,0,0,0,0,0,0
 object category "T_ST_Instruments_Rare",1,0,0,0,0,0,0,0
 object category "T_ST_Rings_Rare",1,0,0,0,0,0,0,0
 new treasuretable "MagicItems_VeryRare"
+CanMerge 1
 new subtable "1,1; 2,1; 3,1"
 object category "T_ST_Amulets_VeryRare",1,0,0,0,0,0,0,0
 object category "T_ST_Cloaks_VeryRare",1,0,0,0,0,0,0,0
@@ -363,6 +348,7 @@ object category "T_ST_Headwear_VeryRare",1,0,0,0,0,0,0,0
 object category "T_ST_Instruments_VeryRare",1,0,0,0,0,0,0,0
 object category "T_ST_Rings_VeryRare",1,0,0,0,0,0,0,0
 new treasuretable "ST_Amulets_Common"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_CharmResistance_Acid",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_CharmResistance_Cold",1,0,0,0,0,0,0,0
@@ -371,7 +357,9 @@ object category "I_PF2_MAG_CharmResistance_Fire",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_CharmResistance_Sonic",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Primeval_Mistletoe",1,0,0,0,0,0,0,0
 new treasuretable "ST_Amulets_Uncommon"
+CanMerge 1
 new treasuretable "ST_Amulets_Rare"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_CharmResistance_GTR_Acid",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_CharmResistance_GTR_Cold",1,0,0,0,0,0,0,0
@@ -380,29 +368,40 @@ object category "I_PF2_MAG_CharmResistance_GTR_Fire",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_CharmResistance_GTR_Sonic",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Frightful_Hag_Eye",1,0,0,0,0,0,0,0
 new treasuretable "ST_Amulets_VeryRare"
+CanMerge 1
 new treasuretable "ST_Cloaks_Common"
+CanMerge 1
 new treasuretable "ST_Cloaks_Uncommon"
+CanMerge 1
 new treasuretable "ST_Cloaks_Rare"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Living_Mantle",1,0,0,0,0,0,0,0
 new treasuretable "ST_Cloaks_VeryRare"
+CanMerge 1
 new treasuretable "ST_Handwear_Common"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Charlatans_Gloves",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Healers_Gloves",1,0,0,0,0,0,0,0
 new treasuretable "ST_Handwear_Uncommon"
+CanMerge 1
 new treasuretable "ST_Handwear_Rare"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Charlatans_Gloves_GTR",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Healers_Gloves_GTR",1,0,0,0,0,0,0,0
 new treasuretable "ST_Handwear_VeryRare"
+CanMerge 1
 new treasuretable "ST_Headwear_Common"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Crown_Companion",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Druids_Crown_Antler",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Druids_Crown_Flower",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Druids_Crown_Leave",1,0,0,0,0,0,0,0
 new treasuretable "ST_Headwear_Uncommon"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Mages_Hat_A",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Mages_Hat_B",1,0,0,0,0,0,0,0
@@ -413,6 +412,7 @@ object category "I_PF2_MAG_Mages_Hat_F",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Mages_Hat_G",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Mages_Hat_H",1,0,0,0,0,0,0,0
 new treasuretable "ST_Headwear_Rare"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Mages_Hat_GTR_A1",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Mages_Hat_GTR_B1",1,0,0,0,0,0,0,0
@@ -423,18 +423,50 @@ object category "I_PF2_MAG_Mages_Hat_GTR_F1",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Mages_Hat_GTR_G1",1,0,0,0,0,0,0,0
 object category "I_PF2_MAG_Mages_Hat_GTR_H1",1,0,0,0,0,0,0,0
 new treasuretable "ST_Headwear_VeryRare"
+CanMerge 1
 new treasuretable "ST_Instruments_Common"
+CanMerge 1
+new subtable "1,1"
+object category "I_PF2_ARM_Instrument_VirtuosoDrum",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_VirtuosoFlute",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_VirtuosoLute",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_VirtuosoLute_B",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_VirtuosoLyre",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_VirtuosoViolin",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroDrum",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroFlute",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroLute",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroLute_B",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroLyre",1,0,0,0,0,0,0,0
+new subtable "1,1"
+EndLevel "7"
+object category "I_PF2_ARM_Instrument_MaestroViolin",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "8"
+object category "I_PF2_ARM_Instrument_MaestroDrum_Gtr",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroFlute_Gtr",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroLute_Gtr",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroLute_B_Gtr",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroLyre_Gtr",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Instrument_MaestroViolin_Gtr",1,0,0,0,0,0,0,0
 new treasuretable "ST_Instruments_Uncommon"
+CanMerge 1
 new treasuretable "ST_Instruments_Rare"
+CanMerge 1
 new treasuretable "ST_Instruments_VeryRare"
+CanMerge 1
 new treasuretable "ST_Rings_Common"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Ring_Ram",1,0,0,0,0,0,0,0
 new treasuretable "ST_Rings_Uncommon"
+CanMerge 1
 new treasuretable "ST_Rings_Rare"
+CanMerge 1
 new subtable "1,1"
 object category "I_PF2_MAG_Ring_Ram_GTR",1,0,0,0,0,0,0,0
 new treasuretable "ST_Rings_VeryRare"
+CanMerge 1
 new treasuretable "_Junk_Loot"
 new treasuretable "GEN_Skeleton_Generic"
 CanMerge 1
@@ -454,3 +486,139 @@ object category "I_OBJ_Tool_Hammer",3,0,0,0,0,0,0,0
 object category "I_PF2_OBJ_Tool_HealersToolkit",1,0,0,0,0,0,0,0
 object category "I_PF2_OBJ_Tool_MarvelousMedicines",1,0,0,0,0,0,0,0
 object category "I_PF2_OBJ_Tool_InfiltratorThievesToolkit",1,0,0,0,0,0,0,0
+new treasuretable "_Groups_Clothing"
+new treasuretable "Clothes_Poor_Body"
+CanMerge 1
+new subtable "1,1"
+object category "I_PF2_ARM_Camp_Body_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Prison_Poor_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Refugee_Gray_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Refugee_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+new treasuretable "Clothes_Vanity_Body_Common"
+CanMerge 1
+new subtable "1,1"
+object category "I_PF2_ARM_Vanity_Body_Leather_Black_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Leather_Rich_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Leather_Bright_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Shirt_Black_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Shirt_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Shirt_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Shirt_Purple_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Shirt_Red_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Leather_Rich_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Leather_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Refugee_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Pants_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_C_Red_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_C_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_C_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_C_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_B_Teal_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_B_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_Purple_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_Black_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Citizen_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Cultist_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Drow_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Astarion_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Gale_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Halsin_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Jaheira_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Karlach_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Laezel_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Minsc_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Minthara_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Shadowheart_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_Body_Wyll_ExplorersClothing",1,0,0,0,0,0,0,0
+new treasuretable "Clothes_Vanity_Body_Rich"
+CanMerge 1
+new subtable "1,1"
+object category "I_PF2_ARM_Vanity_Body_Deva_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Circus_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Circus_B_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_ElegantRobe_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_UNI_DaisyPlaysuit_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_UNI_DaisyDress_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Leather_Rich_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G2_White_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G2_Purple_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G2_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G2_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G2_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G_Red_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G_Brown_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G_Bright_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G_Black_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_G_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_F_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_F_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_E_Teal_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_E_GreenPink_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_E_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_D_White_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_D_Puple_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_D_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_D_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_D_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_C_Red_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_C_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_C_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_B1_Beige_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_B1_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_B_Purple_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_B_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_Teal_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_Gold_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Rich_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Patriars_Red_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Patriars_Green_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Patriars_Blue_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Patriars_Black_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Patriars_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Aristocrat_White_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Vanity_Body_Aristocrat_Brown_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_AstarionAscendant_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_AstarionAscendant_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_AstarionSpawn_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Gale_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_GaleGodling_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Halsin_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Jaheira_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_JaheiraHarper_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_KarlachAvernus_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_LaezelFaerun_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_LaezelGith_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Minsc_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Minthara_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_MintharaDrow_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_ShadowheartSelune_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_ShadowheartShar_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_WyllBlade_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_WyllDuke_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Tav1_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Tav2_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Tav3_ExplorersClothing",1,0,0,0,0,0,0,0
+object category "I_PF2_ARM_Camp_EPI_Tav4_ExplorersClothing",1,0,0,0,0,0,0,0
+new treasuretable "Clothes_Wizard_Hat"
+new subtable "1,1"
+object category "I_PF2_MAG_Mages_Hat_A",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_B",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_C",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_D",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_E",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_F",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_G",1,0,0,0,0,0,0,0
+new subtable "1,1"
+EndLevel "7"
+object category "I_PF2_MAG_Mages_Hat_H",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "8"
+object category "I_PF2_MAG_Mages_Hat_GTR_A1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_B1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_C1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_D1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_E1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_F1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_G1",1,0,0,0,0,0,0,0
+object category "I_PF2_MAG_Mages_Hat_GTR_H1",1,0,0,0,0,0,0,0

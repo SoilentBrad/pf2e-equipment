@@ -17,55 +17,6 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(PF2_DruidSecretsInterrupt);" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Acid" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2f6a0a3gc2fcg0f1agbff0g4dfca8bdf467" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6725fe72gd92fgc14fg065dg80e273d01ea5" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Acid,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Acid,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Acid,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d6d9c25b-fc01-44ad-96fe-f114047ffa3d" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Cold" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h451bbd89g07c4g51dcg4e94gef3fbf48c298" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49062adbg5419gf932gccdfgcecb49d7b255" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Cold,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Cold,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Cold,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f364a762-8f80-44ef-875f-1d6bd9c49a64" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Elec" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6aadc8a8g8feeg39f4g1c1bge7fbbe448c19" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a56a6ceg97c3g43b5g2a92ga689cc927088" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Elec,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Elec,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Elec,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="126b5971-ad4e-4e67-8418-7f51e19477a2" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Fire" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbafbef74g78adgdea8g0f40g28f98e346750" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2e4eb51g7742g89cbg023cg48bf3a8eed9e" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Fire,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Fire,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Fire,100,1)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="09635f6c-99ac-415d-ac6c-66d38aca3744" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_PersistentDamage_Poison" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6cd24f0a-5915-43d7-8c1e-b51bce3810c3" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c6cabe6g1629g5335g701bg3d527acf6b9a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06102f1dg0cdega8cag38c6g1b15f357d5fe" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(1)):ApplyStatus(Persistent_Poison,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(2d4Persistent_Poison,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(3d4Persistent_Poison,100,1)" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f294a919-c76f-409d-be4c-d0a2df2b64ab" />

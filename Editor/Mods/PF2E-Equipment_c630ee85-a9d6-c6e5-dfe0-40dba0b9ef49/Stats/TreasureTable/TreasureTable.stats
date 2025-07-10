@@ -1533,7 +1533,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="75cd6b20-3bf7-472c-bd0a-9473c81b44d3" />
         <field name="UUID" type="IdTableFieldDefinition" value="a8179ab0-f89a-4a7c-a527-4b931a066664" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_AllSimpleRangedWeapons_substat" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_HandCrossbow" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1554,7 +1553,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="75cd6b20-3bf7-472c-bd0a-9473c81b44d3" />
         <field name="UUID" type="IdTableFieldDefinition" value="5dbda51d-cec0-40f0-991d-897aafb68905" />
         <field name="Name" type="NameTableFieldDefinition" value="75cd6b20-3bf7-472c-bd0a-9473c81b44d3_substat_1" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Dart" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1564,7 +1562,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="75cd6b20-3bf7-472c-bd0a-9473c81b44d3" />
         <field name="UUID" type="IdTableFieldDefinition" value="967e1271-e870-40f5-9414-9b3350d8c233" />
         <field name="Name" type="NameTableFieldDefinition" value="75cd6b20-3bf7-472c-bd0a-9473c81b44d3_substat_2" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Sling" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1584,7 +1581,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="a2e88b79-f128-4118-9e74-ec18b3da9fe7" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_AllMartialRangedWeapons_substat" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Longbow" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1594,7 +1590,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="c7286f79-a1f3-42e8-8e36-ac8fa099f542" />
         <field name="Name" type="NameTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a_substat_0" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_Aklys" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1615,7 +1610,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="ab46ecc3-eb11-4a3c-9242-44a0c5878a33" />
         <field name="Name" type="NameTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a_substat_2" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_CompositeLongbow" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1625,7 +1619,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="dbb458de-f3cd-4f75-a7ed-fffdd74607af" />
         <field name="Name" type="NameTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a_substat_3" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_CompositeShortbow" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1646,7 +1639,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="35794803-f68f-4a17-b221-2099f1a2c8e2" />
         <field name="Name" type="NameTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a_substat_5" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_TawLauncher" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1656,7 +1648,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="76c90f32-8a1d-4e9f-8ba2-2157f42fb935" />
         <field name="Name" type="NameTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a_substat_6" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_Kestros" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1666,7 +1657,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a" />
         <field name="UUID" type="IdTableFieldDefinition" value="21dd6f1d-6d1e-4314-b90d-f216347eb4fd" />
         <field name="Name" type="NameTableFieldDefinition" value="210e2ca1-d72d-4fb7-837d-5a6fa1a34a5a_substat_7" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_Spraysling" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
@@ -1822,21 +1812,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0c4fd20a-233e-4203-a83a-7ad1a7eca99f" />
         <field name="Name" type="NameTableFieldDefinition" value="6aa527b1-6309-4e8f-bc11-e922c7af3b03_substat_14" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_WishKnife" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object color="#FF008000" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d7628769-6e4c-414f-bace-ac2b6cfda431" />
-        <field name="Name" type="NameTableFieldDefinition" value="_Clothing" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0faac630-594e-4ce7-932a-8d52db338db8" />
-        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Mages_Hat_Supply" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="2,1;3,2;4,1" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_Clothes_Mages_Hat" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -2033,6 +2008,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_BastionPlate_Body" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2128,17 +2104,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
         <field name="Name" type="NameTableFieldDefinition" value="Shields" />
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_DeathKnight_Shield" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="3bb731ba-0ab5-4bd0-93a7-94584247cf47" />
-        <field name="Name" type="NameTableFieldDefinition" value="Shields_substat" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_TowerShield" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2147,69 +2115,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1cf50bcf-a826-4d0c-a942-11e7186e697b" />
         <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_0" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Buckler_Duergar" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="f9515a53-64d9-42ca-8bda-4f69bb315910" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_1" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_Shield" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="5fa52b8f-320d-4551-a9c6-16153ec2fb41" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_2" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_Shield_C" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="f686c882-b032-48be-81e4-6c06bef4a288" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_3" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_Shield_D" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="a72348f3-5058-4af3-84e9-6ca58b8bf873" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_4" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_Shield_E" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="41408378-a21c-4188-b6bd-8a83b1430ce5" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_5" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_Shield_FlamingFist" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="503a5d64-8cc1-4e26-b8e1-e75f9901c3a4" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_6" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ARM_Shield_Rusty" />
-        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="true">
-      <fields>
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="93aa6f0d-9c8d-49c2-9112-0aa9b8272a3d" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_7" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Buckler_A" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -2225,18 +2130,27 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="7cd24b19-a459-4c94-b86c-a0880f7b40b2" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_9" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Shield_B" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eb0027b7-b96f-4b46-b57d-cfef9715cbf1" />
+        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_RazorDisc" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
       <fields>
         <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
-        <field name="UUID" type="IdTableFieldDefinition" value="eb0027b7-b96f-4b46-b57d-cfef9715cbf1" />
-        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_10" />
-        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_RazorDisc" />
+        <field name="UUID" type="IdTableFieldDefinition" value="48464cc0-4f14-4a88-9af6-f437fe2116c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shields_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_TowerShield_Duergar" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c625aa9f-075e-4d94-bcf7-03a3a0fca590" />
+        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Buckler_A" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -2281,7 +2195,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Tool_Hammer" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
-        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2324,6 +2238,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1; 2,1; 3,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_ST_Amulets_Common" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2378,6 +2293,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1; 2,1; 3,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_ST_Amulets_Uncommon" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2432,6 +2348,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1; 2,1; 3,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_ST_Amulets_Rare" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2486,6 +2403,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1; 2,1; 3,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_ST_Amulets_VeryRare" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2540,6 +2458,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_CharmResistance_Acid" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2591,6 +2510,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c41358bb-e884-4c77-8437-8c28d4d54293" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Amulets_Uncommon" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2600,6 +2520,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_CharmResistance_GTR_Acid" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2651,18 +2572,21 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b2a1f491-f438-41dc-8ef8-112945a61643" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Amulets_VeryRare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1ce0f9dd-1b4c-4430-9aa9-a1004bc76394" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Cloaks_Common" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a779a163-e296-4db9-bcb9-cdf816b00dc3" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Cloaks_Uncommon" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2672,12 +2596,14 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Living_Mantle" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3dc5c0cb-7d0b-4afe-b4a2-39aa8580592a" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Cloaks_VeryRare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2687,6 +2613,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Charlatans_Gloves" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2702,6 +2629,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b214df4e-e8a6-4823-918a-bdea2fd41847" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Handwear_Uncommon" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2711,6 +2639,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Charlatans_Gloves_GTR" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2726,6 +2655,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="933e1a73-bf1c-4277-9a20-4246d68092b4" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Handwear_VeryRare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2735,6 +2665,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Crown_Companion" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2768,7 +2699,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5f722e4f-350b-4e17-99f6-debbb4918aa5" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Headwear_Uncommon" />
-        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_A" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
@@ -2844,6 +2775,7 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_A1" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -2913,30 +2845,195 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0dac9c87-3128-4dab-b5c3-cdefd18541ab" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Headwear_VeryRare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Instruments_Common" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_VirtuosoDrum" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b666ab1a-9ddd-4680-826e-f891978c5a75" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_Instruments_Common_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_VirtuosoFlute" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65a6e443-e5ee-401b-9aae-0b462a5def2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_VirtuosoLute" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5a78ed6f-e8b6-42fd-91e5-6e99f95da4a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_VirtuosoLute_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5cc7e272-88cc-4ff6-9020-81fdca958e02" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_VirtuosoLyre" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a74e52b6-734d-4173-a0aa-9859e3112740" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_VirtuosoViolin" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2817150c-1e21-4d85-9690-e02869b1efdf" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroDrum" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="169d6ca1-d55b-4868-85c3-e83b0743778b" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_5" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroFlute" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd617483-7f06-4cee-9bc9-35907bfe4bd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroLute" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cb312b7b-669b-4c74-a833-1f8f3fe3c4ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroLute_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c69103f9-782b-4fd4-b871-7c87bb7fe81c" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroLyre" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a63b67eb-e271-41c3-89ff-f9375f52f129" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_9" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroViolin" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="14a8d495-ade3-4126-bc6a-52d5d20620be" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_10" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroDrum_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c57f7f19-c585-478b-acfc-4e1f79ee1c4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_11" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroFlute_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dc3565d6-2bb2-4e1e-ae24-35c61ef4e962" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_12" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroLute_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3f11cb3f-0e3b-4430-9076-7f8eb5174c00" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_13" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroLute_B_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c5b5a747-643e-47d1-a4c5-ae8b820a5a52" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_14" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroLyre_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a238aac4-6b84-46ee-865c-8de9b450b592" />
+        <field name="Name" type="NameTableFieldDefinition" value="43d83af8-1ccc-4f83-8c2e-87e61f74df60_substat_15" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Instrument_MaestroViolin_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c91ba859-84eb-4c6f-9a7a-f3fcbf5e325c" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Instruments_Uncommon" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f155a393-a4a3-4eeb-9acc-6c9168e10444" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Instruments_Rare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2a44f58c-7eaa-419f-9f73-9c723edbd51d" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Instruments_VeryRare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2946,12 +3043,14 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Ring_Ram" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="23612aee-a632-422f-a2e1-055a9ed753f1" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Rings_Uncommon" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2961,12 +3060,14 @@
         <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Ring_Ram_GTR" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6ac4908e-a6d9-4d9b-b40f-a22d23b16c3b" />
         <field name="Name" type="NameTableFieldDefinition" value="ST_Rings_VeryRare" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFDEB887" is_substat="false">
@@ -3079,6 +3180,1100 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1009dc4f-0c7c-472a-99e8-ce85c69cbdad" />
         <field name="Name" type="NameTableFieldDefinition" value="87c7fbf5-3e6d-4411-94cf-00638df3ccc7_substat_1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_Tool_InfiltratorThievesToolkit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF808080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="330e094a-fbc6-472c-9b1c-f50eca64b561" />
+        <field name="Name" type="NameTableFieldDefinition" value="_Groups_Clothing" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7f11ea1-5c73-4153-9aa6-5fefb977f729" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Poor_Body" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7f11ea1-5c73-4153-9aa6-5fefb977f729" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cbb095d5-16a2-4f0f-9eb3-fd510e592cb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Poor_Body_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Prison_Poor_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7f11ea1-5c73-4153-9aa6-5fefb977f729" />
+        <field name="UUID" type="IdTableFieldDefinition" value="49309326-fe2f-4b06-a596-5a4a65be8b29" />
+        <field name="Name" type="NameTableFieldDefinition" value="e7f11ea1-5c73-4153-9aa6-5fefb977f729_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Refugee_Gray_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7f11ea1-5c73-4153-9aa6-5fefb977f729" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2500eb31-9610-4fbc-8937-54c989a5541b" />
+        <field name="Name" type="NameTableFieldDefinition" value="e7f11ea1-5c73-4153-9aa6-5fefb977f729_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Refugee_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Vanity_Body_Common" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Leather_Black_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="224bc759-3d12-4e88-a4d6-e75b686556cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Vanity_Body_Common_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Leather_Rich_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a0355628-5d93-4725-aa91-84f21f0f03c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Leather_Bright_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b6088035-dc94-4107-970a-fdf16dd880fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Shirt_Black_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d3c0b15a-57fe-484d-a6c8-6f3ba3783187" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Shirt_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="520ad072-0054-47dd-943a-8ae0710f9e3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Shirt_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4f386741-e580-4d7c-9dda-b00cb55fa4a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Shirt_Purple_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8bdbd2b4-f699-4dbf-88dd-b3f5e6454c6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_5" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Shirt_Red_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8196512d-9689-4370-bb22-df956e220ed3" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Leather_Rich_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="47810331-fa59-4b3b-8333-a83a14d6c5cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Leather_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="379fff69-eedf-46d2-847e-245ce2208932" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Refugee_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a826d2ab-65df-4336-b0f3-2ed7d418aea0" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_9" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Pants_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4303e9bb-a717-4c40-9144-d4849a78db04" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_C_Red_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4e6f85d3-38fa-4069-86b0-f3777476c931" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_11" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_C_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d5d4eba6-d35c-4cbe-ba28-1e421a15c058" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_12" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_C_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3ff6e122-57de-42e6-891e-9a534013e5f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_13" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_C_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="681e2372-4979-45ad-b88a-39f367594d65" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_14" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_B_Teal_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5fc098b6-888e-4363-8916-c9af29b36b2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_15" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_B_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b0b4fadf-c97b-477c-ad08-51c86f1e6dc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_16" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_Purple_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="efda5a35-ae2c-49f1-8e24-2a8c20a9ef61" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_17" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_Black_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b2e5167f-c72b-4aff-adb5-72946a3c899f" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_18" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Citizen_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1aff2c24-61c7-43ed-b638-6207b94f9d92" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_19" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Cultist_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="383b69dd-5b3f-4083-8b6d-a976f1c389b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_20" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Drow_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ba9bf125-bbef-4fc2-be5e-d6e41449812e" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_21" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Astarion_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="529ff4e8-9bff-4b28-919d-d169a1a2d72c" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_22" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Gale_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0696662e-6878-4b93-90c6-9ea03db5dad2" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_23" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Halsin_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a1572ffc-f346-4268-b736-e64aaf5c8f36" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_24" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Jaheira_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fe688913-6423-4c23-8de1-36d8d60dbf20" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_25" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Karlach_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="80511e1f-c8bd-4b23-a2f7-1b7fb3a4f5ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_26" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Laezel_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="265c4fe5-58ca-48d8-8808-45f6969b724d" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_27" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Minsc_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="13fc4c33-87b4-4587-8b80-6a69cead135b" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_28" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Minthara_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5f9a214e-dd02-45a7-be60-a44d76ebced2" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_29" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Shadowheart_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c477c936-a984-46a4-b9df-331ec4ec5e7f" />
+        <field name="Name" type="NameTableFieldDefinition" value="79c84908-1ef7-4531-9e3f-e300049c0381_substat_30" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_Body_Wyll_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Vanity_Body_Rich" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Deva_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d9e5a6c-0b7e-4a34-979f-2c8ac307d59c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Vanity_Body_Rich_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Circus_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67b6e2c4-9b7a-4273-94da-3dc94e1ed5bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Circus_B_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3d2bf72c-d46c-47c2-a2b0-fb298c8c074f" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_ElegantRobe_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3de11c72-9b86-421b-94cd-4cca798632bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_UNI_DaisyPlaysuit_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="92108a16-215c-4921-a5c0-76b6abb05a9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_UNI_DaisyDress_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0f24f896-bf18-40c9-b9c6-12bae7cb9aae" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Leather_Rich_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f7b1ae75-7460-42c8-add2-86fd848136a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_5" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G2_White_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d10c3e48-6a04-4ef7-8290-b88e4a93c9d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G2_Purple_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e995da18-2e10-428a-95db-f358ea0b9d71" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G2_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="53f8e746-03aa-414e-90ed-cf1aff58d372" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G2_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="91e6f216-1338-4754-9c57-15961f31f33f" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_9" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G2_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f483de02-734e-48dd-8b89-b1702ec910ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G_Red_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="60f35c28-fda6-43f8-8e37-6a5f11ce6f54" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_11" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G_Brown_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="84ebb00a-85df-4b3c-98f6-0e25a2b8c460" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_12" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G_Bright_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ff59f95c-36e8-4382-8388-a25d84b92d10" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_13" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G_Black_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a44b61b1-76b8-4b8e-984e-187dba8df15e" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_14" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_G_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9751966f-d61c-40a9-9dd2-221bf45129b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_15" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_F_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9c0c9211-929d-46a8-9e53-5fce054d4755" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_16" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_F_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="10c8fdab-512f-4bf2-9668-b64ec6ad781c" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_17" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_E_Teal_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d64ed9cd-2274-4853-8a3d-a0c57a54b624" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_18" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_E_GreenPink_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a50b22d9-447d-4aa2-ae85-c91cf122529c" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_19" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_E_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2a3e1f80-746a-4952-b6c8-8778fb08b65b" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_20" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_D_White_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="191a64c1-ace2-48e1-a8b4-e8c632ff2a96" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_21" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_D_Puple_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="18e9cc95-75af-4f5d-b2ae-37a687359437" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_22" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_D_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b9da6a6f-5a89-4324-adba-d96c60172c4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_23" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_D_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="81cf40f1-7ee8-4b55-b43b-56f24ed58e36" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_24" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_D_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cb6daae7-7ab4-4e6b-a8fc-81c63f03ff74" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_25" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_C_Red_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c7fec1ae-e6e2-45ac-828d-f9d42eb3f4e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_26" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_C_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4e43a49b-8ad9-4361-a19e-214575c4e9dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_27" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_C_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3d0bcf21-7f19-4629-9072-c0f32059d1e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_28" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_B1_Beige_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ab71dea6-718e-4862-9e0b-d99ccb59df28" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_29" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_B1_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="63260fc9-e7c3-4558-be4d-ee7bcdeb91dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_30" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_B_Purple_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fefc6cf3-464b-45ae-be5c-bee272800e13" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_31" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_B_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="37fb5bd7-4de4-4242-802f-ddcb785c54d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_32" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_Teal_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c44e95f0-925b-43d5-9f15-d05f0e6c1ef5" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_33" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3e37b22e-1881-4d9f-b21a-c50fb29f8c53" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_34" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_Gold_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7e47f75a-3c5f-4b7d-9f6f-576414a3774f" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_35" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Rich_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65eb8ee5-af60-4a36-a7a7-3374a5543a2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_36" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Patriars_Red_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="879026cc-86d5-41e0-85d7-76fc1c1c5ac5" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_37" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Patriars_Green_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="af7133c0-87bd-4139-8a94-f2a1e313558a" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_38" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Patriars_Blue_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="389fd999-064b-4d21-bea0-6edb6c85b931" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_39" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Patriars_Black_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="74788517-7e5e-468c-8665-d20f3bd6cfba" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_40" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Patriars_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f226ea58-375e-415a-a923-c8427a98408a" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_41" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Aristocrat_White_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3b1dfd0a-d478-4885-b980-56210761beb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_42" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Vanity_Body_Aristocrat_Brown_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a926b78-e740-4892-a747-88d14cdf1d86" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_43" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_AstarionAscendant_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="89cb3a5f-ac0b-4a33-81d4-5a7bc38aab32" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_44" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_AstarionAscendant_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7b1865d5-8834-4539-b53c-cbfeb026f604" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_45" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_AstarionSpawn_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3c8f1e3c-a694-4255-83dc-ca36fcf7e3c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_46" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Gale_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="78475b85-6465-4a7a-9f89-f5380aab5470" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_47" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_GaleGodling_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="39de66df-d285-4874-8ad3-e0285147aaae" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_48" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Halsin_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b9f9279b-1c36-47ea-9b3a-99a5baed8cb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_49" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Jaheira_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f9897b7-b8ef-4504-957f-c9146b8b0fc7" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_50" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_JaheiraHarper_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="db1763fb-a04c-49be-9643-cd5b71c7df49" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_51" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_KarlachAvernus_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="739855db-891f-4031-bc9a-5d1f787cac8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_52" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_LaezelFaerun_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="29d9e909-0ac6-49e6-9685-cee58c368190" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_53" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_LaezelGith_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c8808245-4989-47ae-8faa-2232be8cab40" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_54" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Minsc_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="079a557f-ffbe-41a5-b2a8-a5791e8738fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_55" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Minthara_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9852c2ef-483a-452f-99cc-2d3e510ec718" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_56" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_MintharaDrow_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5fa09921-2b6e-4ea6-a037-6e61e91c00a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_57" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_ShadowheartSelune_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d5ba2e63-da18-4bc7-b942-58b6038c4f2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_58" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_ShadowheartShar_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a249e3ca-b0d5-4876-b064-add60a570f3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_59" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_WyllBlade_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ef72b129-1f18-4cc1-b716-6f5da7495a0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_60" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_WyllDuke_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7b989d90-6c2e-4339-9f4b-746dcb5df625" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_61" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Tav1_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b4237c65-8c62-444e-ac8e-ab2d613d8890" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_62" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Tav2_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59bc70c2-8f63-4591-b9b5-cc407f3070c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_63" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Tav3_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149" />
+        <field name="UUID" type="IdTableFieldDefinition" value="564b780b-0dd8-4a13-b5fc-e072344ce1dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="172ac15d-105d-4d7a-8620-1bdcbf05d149_substat_64" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_Camp_EPI_Tav4_ExplorersClothing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Wizard_Hat" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_A" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="701645a9-6f34-4136-9d79-77c411b528d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Clothes_Wizard_Hat_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c2828206-4ea1-4db4-a412-bc53ea7e158d" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_C" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="28989dfd-02fd-4e90-9f59-24a109389459" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_D" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="721fc0aa-b5e4-4d4d-bb7e-546e720e1e4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_E" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="661162ce-c21d-4be9-92a2-e91f5cd4e310" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_F" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="beabbe40-fd51-4885-8a01-2a244a647358" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_G" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0fabcc2f-671c-460d-941a-0d72dc199a35" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_5" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_H" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="68f25576-b9d4-4ab4-b935-5a570a183e88" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_6" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_A1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1944dbc3-59c4-4d4b-89f6-271d3ab87a8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_B1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ec47cd47-1e9d-40b4-9366-bea92857bb6e" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_C1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dbcd2d6d-6b79-47b6-904f-bfad58f4b0db" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_9" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_D1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0e9fc35e-892d-4b80-a3de-c1685b564536" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_E1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6b5d0a82-f151-46ad-a0e0-ae36e946966f" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_11" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_F1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ba277300-3810-4e20-a00b-a180e733cb82" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_12" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_G1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="af7582d0-07aa-4343-8f66-b5c6e5184d9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_13" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_H1" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>

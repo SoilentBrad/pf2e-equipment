@@ -282,7 +282,7 @@
   <content contentuid="he3e6c3e6g6819g9763ga5e9g59ed77d89543" version="4">This heavy iron ring is shaped to look like the head of a ram, with curling horns.&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [1 to 3 Actions] (Interact); &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; A ram-shaped blast of force slams into one foe that you can see within 60 feet. The number of actions you spend to Activate this Item (from 1 to 3) determines the intensity of the force. The blow deals 2d6 force damage per action spent and pushes the target 5 feet per action spent. The target must attempt a DC 22 Fortitude save.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage and is pushed half the distance.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes full damage and is pushed the full distance.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes double damage and is pushed twice the distance.</content>
   <content contentuid="h6cb614d3ge1cfg1f47g4c89g84cbd3b78ab3" version="4">Greater Ring of the Ram</content>
   <content contentuid="hbe5aa5a9g25e6g6311g234dg3f0ac83235b8" version="4">This heavy iron ring is shaped to look like the head of a ram, with curling horns.&lt;br&gt;&lt;b&gt;Activate&lt;/b&gt; [1 to 3 Actions] (Interact); &lt;b&gt;Frequency&lt;/b&gt; once per minute; &lt;b&gt;Effect&lt;/b&gt; A ram-shaped blast of force slams into one foe that you can see within 60 feet. The number of actions you spend to Activate this Item (from 1 to 3) determines the intensity of the force. The blow deals 3d6 force damage per action spent and pushes the target 5 feet per action spent. The target must attempt a DC 32 Fortitude save. When you activate the ring using 3 actions, you can disperse the force into multiple magical rams, targeting all creatures in a 30-foot cone instead of one target within 60 feet.&lt;br&gt;&lt;b&gt;Critical Success&lt;/b&gt; The target is unaffected.&lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The target takes half damage and is pushed half the distance.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The target takes full damage and is pushed the full distance.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The target takes double damage and is pushed twice the distance.</content>
-  <content contentuid="hf0561e83g4ecag5a6fg6486gc9fb0fd4233d" version="5">Primeval Mistletoe</content>
+  <content contentuid="hf0561e83g4ecag5a6fg6486gc9fb0fd4233d" version="6">Primeval Mistletoe</content>
   <content contentuid="h233d899fg2f40g1670gc3a4gb868141cb064" version="1">Shadow Runes</content>
   <content contentuid="he60e5b29g0f6dg2757g68e3g5e89c5f3acf0" version="6">Charm of Acid Resistance</content>
   <content contentuid="h73debd5dg3025g11cbg2ad1ga898ca2869ce" version="6">This charm, normally hung from the belt or worn around the neck, grants you resistance 5 acid. Each charm is crafted to protect against a particular type of energy damage, and its design usually embodies the type of energy it protects the wearer from in some way. For instance, a charm of cold resistance could be carved in the shape of a yeti, whereas a charm of fire resistance would be made from volcanic glass.</content>
@@ -306,7 +306,7 @@
   <content contentuid="h34b17af6g95c6g2ef6gc63fg3aff50647a8b" version="6">This charm, normally hung from the belt or worn around the neck, grants you resistance 10 sonic. Each charm is crafted to protect against a particular type of energy damage, and its design usually embodies the type of energy it protects the wearer from in some way. For instance, a charm of cold resistance could be carved in the shape of a yeti, whereas a charm of fire resistance would be made from volcanic glass.</content>
   <content contentuid="hd69507bcg1b49g20abgd86fg70ca985fcfad" version="3">These clean, white gloves never show signs of blood, even after they're used to stitch up wounds or treat other ailments. They give you a +1 item bonus to Medicine checks.&lt;br&gt;&lt;b&gt;Activate—Healer's Touch&lt;/b&gt; [1 Action] (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You soothe the wounds of a willing, living, adjacent creature, restoring 2d6+7 Hit Points to that creature. This is a healing vitality effect. You can't harm undead with this healing.</content>
   <content contentuid="hdb877200g9cfag1853gf1d8ge21467aa1257" version="3">These clean, white gloves never show signs of blood, even after they're used to stitch up wounds or treat other ailments. They give you a +2 item bonus to Medicine checks.&lt;br&gt;&lt;b&gt;Activate—Healer's Touch&lt;/b&gt; [1 Action] (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You soothe the wounds of a willing, living, adjacent creature, restoring 4d6+15 Hit Points to that creature. This is a healing vitality effect. You can't harm undead with this healing.</content>
-  <content contentuid="h1dbfc086gaa5bg6fc3gd267gdf881304a75a" version="4">This sprig of berry-festooned holly and mistletoe doesn't wilt or rot. It can be used as a primal locus, and it grants a +1 item bonus to Nature checks while you wear it.&lt;br&gt;&lt;b&gt;Activate—Anoint&lt;/b&gt; [2 Actions] (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per 10 minutes; &lt;b&gt;Effect&lt;/b&gt; You squeeze juice from one of the berries and smear it onto a weapon made primarily of wood to cast &lt;i&gt;runic weapon&lt;/i&gt; on it.&lt;br&gt;&lt;b&gt;Activate—Bind&lt;/b&gt; [2 Actions] (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You touch the sprig to cast &lt;i&gt;plant growth&lt;/i&gt;.</content>
+  <content contentuid="h1dbfc086gaa5bg6fc3gd267gdf881304a75a" version="5">This sprig of berry-festooned holly and mistletoe doesn't wilt or rot. It can be used as a primal locus, and it grants a +1 item bonus to Nature checks while you wear it.&lt;br&gt;&lt;b&gt;Activate—Anoint&lt;/b&gt; [2 Actions] (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per 10 minutes; &lt;b&gt;Effect&lt;/b&gt; You squeeze juice from one of the berries and smear it onto a weapon made primarily of wood to cast &lt;i&gt;runic weapon&lt;/i&gt; on it.&lt;br&gt;&lt;b&gt;Activate—Bind&lt;/b&gt; [2 Actions] (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per day; &lt;b&gt;Effect&lt;/b&gt; You touch the sprig to cast &lt;i&gt;plant growth&lt;/i&gt;.</content>
   <content contentuid="h6bb20a24g1ef0g519cgf8b9g375376fb40e4" version="1">Druid Secrets</content>
   <content contentuid="hc0894d85gf708g4c65ge1b7g25c844f82f54" version="1">Free Action&lt;br&gt;Frequency Once per day&lt;br&gt;&lt;b&gt;Effect&lt;/b&gt; You gain 1 Focus Point, which you can spend only to cast an order spell. If you don't spend this Focus Point by the end of this turn, it is lost.</content>
   <content contentuid="h73d4a433g04a8g4920g4301g2fe87e69a538" version="1">Druid Secrets</content>
@@ -1134,7 +1134,7 @@
   <content contentuid="h154238e9ge631g5ee0g729ag4c059ad44cfd" version="1">Exsanguinating Ammunition (Major)</content>
   <content contentuid="h4dc2dccege572g8b9cg7520gcb26dbdc03d7" version="1">Exsanguinating Ammunition (Greater)</content>
   <content contentuid="h7c9882bbgddf2g9b4bga149g460e4d8eb862" version="1">Freeze Ammunition</content>
-  <content contentuid="h920c82f9gfa9fgc387ga6f3g05dbac47550f" version="1">Deals [1] and shatters to deal an additional [2] to all caught in the frosty explosion.</content>
+  <content contentuid="h920c82f9gfa9fgc387ga6f3g05dbac47550f" version="2">Deals an additional [1] to all caught in the frosty explosion.</content>
   <content contentuid="h59417e95g7aa9g333bg57c5gc16e43244529" version="1">Freeze Ammunition</content>
   <content contentuid="hd4548af1g9034gcb31g806cg7129748d0cc2" version="1">Deals [1] and shatters to deal an additional [2] to all caught in the frosty explosion.</content>
   <content contentuid="hff5e7193gadb8g993fgd647g2c16e730cac5" version="1">Oozed</content>
@@ -1471,4 +1471,113 @@
   <content contentuid="h7648443eg69dagfbcbgb593g91ee87b9cbb6" version="1">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
   <content contentuid="h97ea0e00g69f4gbdc0g08cag079efe7d7eff" version="1">Tower Shield</content>
   <content contentuid="hf1ce476ag180dgf1b7g0520gef05881c18d3" version="1">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.&lt;br&gt;The side of this shield has a slightly lighter colour - as if part of it was cut away and replaced.</content>
+  <content contentuid="h7188262dg08dcg2e52g3077g6531258f60b9" version="1">Ram Horns (1 Action)</content>
+  <content contentuid="h2307011cge95dgaa93gdf8bg8578d431f7c7" version="1">Web Chord</content>
+  <content contentuid="ha42a8e78gf769g2d7agfb6fg900d0365d82d" version="1">&lt;b&gt;Activate&lt;/b&gt; (manipulate); &lt;b&gt;Frequency&lt;/b&gt; once per hour; &lt;b&gt;Effect&lt;/b&gt; Sticky, flammable webbing sprays in a 30-foot cone as you strum the lute’s strings. It slows creatures within and possibly &lt;LSTag Type="Status" Tooltip="WEB"&gt;Enwebs&lt;/LSTag&gt; them.</content>
+  <content contentuid="h0c5e4feeg5265gbf10gef7fg2f63632f5b55" version="1">Charges</content>
+  <content contentuid="h9023c5ffgbfa0ga5f1g902cge1623c677533" version="1">Out of Charges</content>
+  <content contentuid="h0d32b6ddg1c33g2fc5g59a9g97df5da04ab1" version="1">Life Shot (Minor)</content>
+  <content contentuid="hb99a82cbg9018g99e3gdd38g2805ae907a17" version="1">Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving [1] healing and gaining a [2] item bonus to Fortitude saving throws for 1 minute.</content>
+  <content contentuid="h8980afe4gecb4g68e6g368fg7eb5c676806e" version="1">Life Shot (Lesser)</content>
+  <content contentuid="h513658dbg98e6g7793g50fbg72c1d7348513" version="1">Life Shot (Moderate)</content>
+  <content contentuid="h073e982fgd3a0gc5a7g8b96g5e1b393794b4" version="1">Life Shot (Greater)</content>
+  <content contentuid="hea977e3cg426agbba9g0f73g13d00ecc3d13" version="1">Elixir of Life (Minor)</content>
+  <content contentuid="h7aeac7fbg5739g1db8g2735g36122db9acbc" version="1">You gain a [1] item bonus to Fortitude saving throws for 10 minutes.</content>
+  <content contentuid="h300713d5g105dge226gdb97g9e2daf1b7918" version="1">Elixir of Life (Lesser)</content>
+  <content contentuid="h721762d2g9845g933fg81ecgc824c84f9ba0" version="1">Elixir of Life (Moderate)</content>
+  <content contentuid="h1aae46b3g8159g81b6gbd5agbd287d2453f3" version="1">Elixir of Life (Greater)</content>
+  <content contentuid="hd293e7f4gfd26gcc7dg0131g88e3fdb33ae1" version="1">Life Shot (Greater)</content>
+  <content contentuid="h336af2cdg6156g5818g0535gce4578d3c1b3" version="1">Glue Bullet</content>
+  <content contentuid="h434cdd67g3983gfb68ga1abg5f971cd3ea6c" version="1">These cartridges are filled with sticky clear glue. When a glue bullet hits, a syrupy webbing coats the target and sticks to the ground or a nearby surface, hindering their movement. The target takes a [1] circumstance penalty to its Speeds, or until it Escape against a DC of 18. On a critical hit, the target is also immobilized until it Escapes.</content>
+  <content contentuid="h118d27b4g918fg2874gbf1ag203b159946f9" version="1">Eroding Bullet</content>
+  <content contentuid="h8147442cg9273g08b8g91bcg99ee18ff5afe" version="1">Deals [1] and [2] persistent.</content>
+  <content contentuid="hcd23d529g316eg33d7g7bffg64b5366b0200" version="1">Firework Rocket</content>
+  <content contentuid="hfdf73c01g492fg071ag4af6gadec54e634c2" version="1">Firework Rocket</content>
+  <content contentuid="hf0af230bg353eg028dg2a6eg3848e1706652" version="1">Send a small rocket at a foe, blasting the target and inflicting &lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Colour Spray&lt;/LSTag&gt;.</content>
+  <content contentuid="h3304df03gb124g987bg9cf6gb5b8606c0ee4" version="1">Glorious Fireworks</content>
+  <content contentuid="h88dee9a2gc2f4gf2feg1b5bge6f58fdc3e00" version="1">Send a rocket of firework-flame at a foe, blasting the target, nearby creatures, and inflicting &lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Colour Spray&lt;/LSTag&gt; on the target.</content>
+  <content contentuid="ha964cb12g92a2g3df6ge1e8ge11465062255" version="1">Water Barrel</content>
+  <content contentuid="ha1a4b407gc142gc886gb8fbg6e9261c88e1e" version="1">Water Splash</content>
+  <content contentuid="hff0bb019g4370g9ddeg7d75gcbef55726d2c" version="1">Throw this alien bulb at a target and possibly pull in nearby objects and creatures.</content>
+  <content contentuid="h2b3dc526g9ebegf577g5fb5gd5b3351a8a36" version="1">Void Bulb</content>
+  <content contentuid="hc2799176gcfafg92afgceefg46de9364f04d" version="1">The barbs inside this bulb explode on impact, making all nearby creatures &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+  <content contentuid="h4654f9b4gf6b8g6099g50c6g3a0470ddf28f" version="1">Spiked Bulb</content>
+  <content contentuid="h2f3a61eeg683ag151ag54c9g6e225a20b893" version="1">Throw this slime-covered bulb at a target to coat it, the ground, and anything nearby in caustic brine.</content>
+  <content contentuid="h1dd9338dgd553ge502g502cg24b715121e9c" version="1">Caustic Bulb</content>
+  <content contentuid="h38bcae3eg6b3ag0346g03e9gaa06c6217685" version="1">Phase Spider Egg Sac</content>
+  <content contentuid="h25e5f740g37d3gda34g6f14gd293cde1bf0a" version="1">Each creature in 20ft radius must make a Dexterity Saving Throw. On a failed save, they take [1]. On a successful save, only half as much.</content>
+  <content contentuid="hd4e4b877g6716g52c9gaa84g572ef00130f9" version="1">Explosion</content>
+  <content contentuid="h0896a355gc337g7ce5g2bc4g336042af8abc" version="1">Throw Net</content>
+  <content contentuid="hec91d01aga32dge6a9g310ege3282e66d4da" version="1">Throw a net to &lt;LSTag Type="Status" Tooltip="NET"&gt;Ensnare&lt;/LSTag&gt; your target.</content>
+  <content contentuid="h230d9a07g8665gf7fcg620eg4c80ae330572" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helping&lt;/LSTag&gt; the target frees them from the net.</content>
+  <content contentuid="h951132d1gef77g910bg9f28g5526dcd1167c" version="1">Shattered Stalactite</content>
+  <content contentuid="h0bfd3f78gcd7fg0e79gc538gc0efe26bbaff" version="1">Shards of stone shatter in all directions.</content>
+  <content contentuid="h697d0f00g8a7cg9585g0963ga43cca73b507" version="1">Small Brazier Fall</content>
+  <content contentuid="hf464eabeg86a6g958eg4f43g6e36ad5248cd" version="1">A small brazier falls, dealing [1] to all targets in a [2] radius.</content>
+  <content contentuid="hbe103277g11a1gbd12gf118ged582a165134" version="1">Brazier Fall</content>
+  <content contentuid="h1979a9ffga93dg13e2g39aeg3411aaba969f" version="1">A brazier falls, dealing [1] to all targets in a [2] radius.</content>
+  <content contentuid="h4e8cfe1aga82agd10dg1a74g003574e948fb" version="1">Ignite when struck with Fire damage.</content>
+  <content contentuid="hf887cfbcgfd2fg7cd1g3b58gd28062fbb097" version="1">Explode</content>
+  <content contentuid="h3f9e18bcg1e27gcf18gf968g1a4a83722899" version="1">The smokepowder inside explodes when ignited, damaging everything in the vicinity.</content>
+  <content contentuid="h566757dfgfd99g1b49ge54dg8a2a9acb85c7" version="1">The smokepowder inside explodes when ignited, damaging everything in the vicinity.</content>
+  <content contentuid="h53350e68gaa5eg4d09g82e8gffa3d0f29803" version="1">Automatically &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hits&lt;/LSTag&gt; objects and environments. </content>
+  <content contentuid="h142ea050g1ea0g3414g589fg032578f83e35" version="1">Explosion</content>
+  <content contentuid="hd2fcb100gf2b2g20d6g8e7dg6cdbc9758d14" version="1">The oil inside explodes when ignited, damaging everything in the vicinity.</content>
+  <content contentuid="h197d068cg792egbcedgcadeg8c3a11e4a45d" version="2">Holy water deals 1d6 spirit damage and 1 spirit splash damage. Holy water can damage only creatures with the unholy trait.</content>
+  <content contentuid="h9bb23564g8f8dg9e61gf383gac0329ea2e01" version="1">Holy Water</content>
+  <content contentuid="h1f7dadfbg877ag6ac4g56e1gbe66767e5f62" version="1">Firework Rocket</content>
+  <content contentuid="h50dca421g0616g48a9g98a1g4a7095cdfd53" version="1">Flashblinder</content>
+  <content contentuid="h6249902bgad3dg9b3dg432bg4887ca871db3" version="1">Fling a Flashblinder bomb that &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; foes.</content>
+  <content contentuid="h7386cdfbg3b44ga1f9gda65g3bcf87ed1be3" version="2">This flask filled with corrosive acid deals 1 acid damage, [1], and [2] splash damage.</content>
+  <content contentuid="h9f7b2568g780cg8942gf985gbb3a1307758b" version="2">Acid Flask (Lesser)</content>
+  <content contentuid="ha624d348g5bbdgbc56g9d0dgc05fea3d9bf1" version="2">Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
+  <content contentuid="h4376970ag34e1g2409g21eegafd96b84ee83" version="2">Alchemist's Fire (Lesser)</content>
+  <content contentuid="h8768d80cg56f7g92c5g5adcgf28ed2a671b9" version="1">Unholy Water</content>
+  <content contentuid="h2f17f2bcgaeefgee1cg2755gd369e844b258" version="1">Unholy water deals 1d6 spirit damage and 1 spirit splash damage. Unholy water can damage only creatures with the holy trait.</content>
+  <content contentuid="ha8769f22g7039ga72cg705bg127dd1182220" version="1">Holy Water</content>
+  <content contentuid="h66d61d36g1db7gfa6cg4b66g149ea71290ce" version="1">Holy water deals 1d6 spirit damage and 1 spirit splash damage. Holy water can damage only creatures with the unholy trait.</content>
+  <content contentuid="hefd8036bg197fga59cge87agb3ed524a87c5" version="1">Unholy Water</content>
+  <content contentuid="h0e5ece74g0535g81e3g9a50gf068ab79f15d" version="1">Unholy water deals 1d6 spirit damage and 1 spirit splash damage. Unholy water can damage only creatures with the holy trait.</content>
+  <content contentuid="h99737ddcge271g5a12g20c2g02295cba099a" version="1">Alchemist's Fire (Greater)</content>
+  <content contentuid="hd3f5fcc2gf1d9g975agb5d0g9328da1b34ac" version="1">Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
+  <content contentuid="hb3264021ga9c1g1273ga470g9cc030f394df" version="1">Alchemist's Fire (Moderate)</content>
+  <content contentuid="h7fb4e201gcf2ag36fagef50g3ccf92b1111b" version="1">Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
+  <content contentuid="h05a138f4g2f61ge006gbbedgf5dcdc9fd062" version="1">Acid Flask (Greater)</content>
+  <content contentuid="h4650a2b3g9ca0g5d52gf6e2g8bdf36554c94" version="1">Acid Flask (Moderate)</content>
+  <content contentuid="h31ed16efg14e3g5be3g5eb0g631f142b8b99" version="1">Persistent Fire Damage</content>
+  <content contentuid="h42493c4fgb67ag1836gc941g6f7dc39eb253" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="he9d5ea4ag0fdeg720cge395gae03522def10" version="1">Persistent Fire Damage</content>
+  <content contentuid="h21919cc5gfd43g9becg3079geeabe527394f" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h687fdffag47b7ga52cg792bg5df12edfbc1c" version="1">Persistent Fire Damage</content>
+  <content contentuid="hc3bd41aag828bg64a1g0373g570598485351" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h9f6fcb17g7098g106fgeb53gb7f428cecc12" version="1">Bottled Lightning (Greater)</content>
+  <content contentuid="h0f5c1b95g95e2gd764g37aega93b25aec2bc" version="1">Bottled lightning is packed with volatile reagents that create a blast of electricity when they're exposed to air. Bottled lightning deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h8f66acfag90d6g9f9bgef46g7f55b726fbbb" version="1">Bottled Lightning (Moderate)</content>
+  <content contentuid="h0f6c1fe0g7344gbe74gbdbegf619e552b89d" version="1">Bottled lightning is packed with volatile reagents that create a blast of electricity when they're exposed to air. Bottled lightning deals [1] damage and [2] splash damage.</content>
+  <content contentuid="hd7752cb9g4c82ged30g1f14gdfa83c672914" version="1">Bottled Lightning (Lesser)</content>
+  <content contentuid="he6f77fd9g816eg2043ga6b6gc3981de98ad7" version="1">Bottled lightning is packed with volatile reagents that create a blast of electricity when they're exposed to air. Bottled lightning deals [1] damage and [2] splash damage.</content>
+  <content contentuid="hf3d0197cgc6b4g4e7cg5c30gbc6b80cf71bf" version="1">Blasting Stone (Lesser)</content>
+  <content contentuid="h6eda7f1cge73ag6bb7gd513g844f0a6e9a0c" version="1">When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h7802dac9gee58gd7e8ge87eg2e10cac38d4d" version="1">Blasting Stone (Moderate)</content>
+  <content contentuid="h44be2becgfed3gf45ag7a31g612bb636b3f7" version="1">When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h129715e8g10a6gea5cg4538gea953c006786" version="1">Blasting Stone (Greater)</content>
+  <content contentuid="h60b7edd5g3950g738ag2edbg2dc5674c39a2" version="1">When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h15e56facg209bge9d2g5071g99e2c3145ac0" version="1">Blasting Stone</content>
+  <content contentuid="h88034aa3g13a8ge6b6g0834g8c79ad2570c5" version="1">When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h6a16984bg6c06gf41agc5aag6ad94e8e87e4" version="1">Blasting Stone</content>
+  <content contentuid="h1805f516g2469g7c05g8b3egb1066ec37124" version="1">When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h4cd6994fg6556g7203gde7fga5875e84df29" version="1">Blasting Stone</content>
+  <content contentuid="hf8445cc5g36cdg630dg08e1g2621033875fb" version="1">When this pebble hits a creature or a hard surface, it explodes with a deafening bang. A blasting stone deals [1] damage and [2] splash damage.</content>
+  <content contentuid="h8f4f9cadg2e83g3034g27abg3fa3f6e0ea3f" version="1">Blight Bomb (Lesser)</content>
+  <content contentuid="h3efdf5d9g8de2g16fcg909dg1781348e8fed" version="1">Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
+  <content contentuid="he84c43d2g1c61g04a2gf19agbaf0cd1d4e14" version="1">Blight Bomb (Moderate)</content>
+  <content contentuid="h28e0ed0ag1898g3db6g0c7dg1afd12507cb3" version="1">Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
+  <content contentuid="h3a667a5bgd763g23cbgb3deg76e74a4c3775" version="1">Blight Bomb (Greater)</content>
+  <content contentuid="h07852ceag5e52gaa06gdd67g7cd0950730e5" version="1">Blight bombs contain volatile toxic chemicals that rot flesh. A blight bomb deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
+  <content contentuid="h2d9c2f7bgd9b9g11ffgd1b8g5e7a57f4d8f5" version="1">Dread Ampoule (Lesser)</content>
+  <content contentuid="h50b2ddf9g7901g7bacgaf9bga8a56fc98a10" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
+  <content contentuid="h9524f4f5gbb94gae3eg4fa8gf96191d202f8" version="1">Dread Ampoule (Moderate)</content>
+  <content contentuid="h31c40171g77aeg7e1dg335dg19a81f10c491" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
+  <content contentuid="h535b7984g685age1a3g4009gd07c2103c51c" version="1">Dread Ampoule (Greater)</content>
+  <content contentuid="h2477de90g015fgc58egb246gb6123f4829fa" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
 </contentList>

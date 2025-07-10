@@ -130,8 +130,9 @@
         <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="Poison_Persistent" />
-        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -140,6 +141,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d6Persistent_Poison" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dfad92fe-851b-4a5e-8818-3a2f17846c2d" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -148,6 +150,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="3d6Persistent_Poison" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dfad92fe-851b-4a5e-8818-3a2f17846c2d" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Poison)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -160,8 +163,10 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Acid)" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="Acid_Persistent" />
-        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Acid)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1,Acid)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -173,8 +178,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4a03b6ag4353gffd2g8506gaf81917e260f" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Cold)" />
         <field name="StackId" type="StringTableFieldDefinition" value="Cold_Persistent" />
-        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Cold)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Cold)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -187,8 +192,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Lightning)" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Electric" enumeration_type_name="HitAnimationType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="Electricity_Persistent" />
-        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Lightning)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Lightning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1,Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -200,8 +205,8 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08b4a846g6110gb87dgac46g7131ab6ad894" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Fire)" />
         <field name="StackId" type="StringTableFieldDefinition" value="Fire_Persistent" />
-        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Fire)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Fire)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -214,8 +219,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Poison)" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_Internal" enumeration_type_name="HitAnimationType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="Poison_Persistent" />
-        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.LevelMapValue(D4Bonus),Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1,Poison)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -224,6 +229,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="d4Persistent_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -232,6 +238,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -240,6 +247,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Cold" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f80fd225-1b52-4898-97a3-24a778163c0f" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Cold)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d4,Cold)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -248,6 +256,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Elec" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="813a3ef9-d505-4555-835a-208ce73ac1d6" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Lightning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d4,Lightning)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -256,6 +265,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="03527408-29cd-4ba4-8e24-e415d42257df" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -264,6 +274,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d4Persistent_Poison" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7ae000da-7a99-4c91-a04f-fe2b40cb48c9" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -272,6 +283,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -280,6 +292,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Cold" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f80fd225-1b52-4898-97a3-24a778163c0f" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Cold)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d4,Cold)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -288,6 +301,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Elec" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="813a3ef9-d505-4555-835a-208ce73ac1d6" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Lightning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d4,Lightning)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -296,6 +310,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="03527408-29cd-4ba4-8e24-e415d42257df" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Fire)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d4,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -304,6 +319,16 @@
         <field name="Name" type="NameTableFieldDefinition" value="3d4Persistent_Poison" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7ae000da-7a99-4c91-a04f-fe2b40cb48c9" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Poison)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d4,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="882e3848-86bf-4a1d-be66-a1d915e92a47" />
+        <field name="Name" type="NameTableFieldDefinition" value="d6Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da35159b-e64d-410d-b618-565563bda3e0" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1d6,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -312,6 +337,52 @@
         <field name="Name" type="NameTableFieldDefinition" value="2d6Persistent_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c73b45ed-430a-4c52-ad14-bae027cb9be8" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="103b4d00-acb0-41bd-ad61-9f0b8ce83589" />
+        <field name="Name" type="NameTableFieldDefinition" value="3d6Persistent_Acid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c0f3563-a872-4dd4-b188-3f3a15f58b82" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Acid)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Acid)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c689a22a-f45c-4e0c-846c-94972c481eb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="1Persistent_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="882e3848-86bf-4a1d-be66-a1d915e92a47" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h31ed16efg14e3g5be3g5eb0g631f142b8b99" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h42493c4fgb67ag1836gc941g6f7dc39eb253" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Fire)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Fire_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(1,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7dbf7b29-edb9-41bc-a026-873171860ee3" />
+        <field name="Name" type="NameTableFieldDefinition" value="2Persistent_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3c0f3563-a872-4dd4-b188-3f3a15f58b82" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9d5ea4ag0fdeg720cge395gae03522def10" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21919cc5gfd43g9becg3079geeabe527394f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2,Fire)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Fire_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eef4f960-1ca8-4642-b9eb-5fad0c0ca794" />
+        <field name="Name" type="NameTableFieldDefinition" value="3Persistent_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="103b4d00-acb0-41bd-ad61-9f0b8ce83589" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h687fdffag47b7ga52cg792bg5df12edfbc1c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3bd41aag828bg64a1g0373g570598485351" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3,Fire)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="Fire_Persistent" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -320,9 +391,11 @@
         <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_MINOR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8a53981c-4720-4d92-af32-84e29e398a50" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hecd64ed0g320dg9f82gab2bg874c3694dc82" version="1" />
-        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_SHOT_MINOR" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELIXIROFLIFE" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d4);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus1FortSaves,100,1)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5d225e4c-50f6-4f7b-9621-64ae3ace8ddc" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="ResetCooldowns" type="StringTableFieldDefinition" value="Short Rest" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -331,9 +404,11 @@
         <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_LESSER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1662c9af-5e3f-47c3-9987-33428e4c7f3d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb6f34fcg38a3gb309gd463g16f9552d37f9" version="1" />
-        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_SHOT_LESSER" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELIXIROFLIFE" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(3d4+3);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus1FortSaves,100,1)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5d225e4c-50f6-4f7b-9621-64ae3ace8ddc" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="ResetCooldowns" type="StringTableFieldDefinition" value="Short Rest" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -342,9 +417,20 @@
         <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_MODERATE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="438ed12e-0870-4112-9893-99e3069b9f29" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbea58ef8g455ega5ecgcbd2gbe94fa6c702a" version="1" />
-        <field name="StackId" type="StringTableFieldDefinition" value="LIFE_SHOT_MODERATE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELIXIROFLIFE" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(5d4+7);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus2FortSaves,100,1)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5d225e4c-50f6-4f7b-9621-64ae3ace8ddc" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="ResetCooldowns" type="StringTableFieldDefinition" value="Short Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="924f0494-f37e-429c-be50-2db811cea4e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="LIFE_SHOT_GREATER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0fa625bf-1ccd-4d39-92d7-5891b71f7ca9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd293e7f4gfd26gcc7dg0131g88e3fdb33ae1" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(7d4+10);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus2FortSaves,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -384,7 +470,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff5e7193gadb8g993fgd647g2c16e730cac5" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-1.5,0);MovementSpeedLimit(Walk);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(16),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 16,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -394,7 +480,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a642df8f-987c-4d00-aecc-57bd40d821b1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0); MovementSpeedLimit(Walk)" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(20),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 20,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -402,7 +488,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cd0e12c8-7de5-498c-b9db-82c7a8424427" />
         <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3317a05f-7fff-4861-be33-86631d7d68de" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(29),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 29,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -410,7 +496,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
         <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_1_ENSNARED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f4078f78-c7be-4bea-b449-a173313bbb38" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(16),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 16,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -418,7 +504,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a8a888c3-0a22-4a3f-a81d-6aa5e943cd65" />
         <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_2_ENSNARED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(20),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 20,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -426,7 +512,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="857abfbe-8f18-4d37-8be2-909213d89f48" />
         <field name="Name" type="NameTableFieldDefinition" value="OOZEAMMUNITION_3_ENSNARED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(29),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 29,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -437,7 +523,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61ef7e1fgfd78g7d7ege25eg8c2693da271a" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-3,0);MovementSpeedLimit(Walk);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(18),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 18,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -445,7 +531,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e7a40c3d-4b7f-48ce-8528-d700e8f1f7b1" />
         <field name="Name" type="NameTableFieldDefinition" value="GLUEBULLET_ENSNARED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="748897f1-44a1-4376-8202-890b6eecec61" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Strength, SourceSpellDC(18),AdvantageOnRestrained(),DisadvantageOnRestrained())" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SkillCheck(Skill.Athletics, 18,AdvantageOnRestrained(),DisadvantageOnRestrained())" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -753,6 +839,48 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ae4800be-dbbf-40f4-9ad4-1d871bbd896a" />
         <field name="Boosts" type="StringTableFieldDefinition" value="AC(4);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not Tagged('CIRC_BON_4AC')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3082c0e8-f04e-4855-86c9-e7717ff108e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElixirofLife_Minor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e4ad609-daac-47d0-8803-18f08e978384" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea977e3cg426agbba9g0f73g13d00ecc3d13" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7aeac7fbg5739g1db8g2735g36122db9acbc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ELIXIROFLIFE" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="ResetCooldowns" type="StringTableFieldDefinition" value="Short Rest" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d6);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus1FortSaves,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcfc02b1-889b-4a72-9315-6580b9239733" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElixirofLife_Lesser" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3082c0e8-f04e-4855-86c9-e7717ff108e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h300713d5g105dge226gdb97g9e2daf1b7918" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(3d6+6);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus1FortSaves,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9af758d-af9a-4774-b376-54b372966bed" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElixirofLife_Moderate" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3082c0e8-f04e-4855-86c9-e7717ff108e1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h721762d2g9845g933fg81ecgc824c84f9ba0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 2, Constitution)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(5d6+12);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus2FortSaves,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f97833cf-080c-4f31-ae8f-904252580298" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElixirofLife_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e9af758d-af9a-4774-b376-54b372966bed" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1aae46b3g8159g81b6gbd5agbd287d2453f3" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(7d6+18);RemoveStatus(BURNING);ApplyStatus(CircumstanceBonus2FortSaves,100,1)" />
       </fields>
     </stat_object>
   </stat_objects>
