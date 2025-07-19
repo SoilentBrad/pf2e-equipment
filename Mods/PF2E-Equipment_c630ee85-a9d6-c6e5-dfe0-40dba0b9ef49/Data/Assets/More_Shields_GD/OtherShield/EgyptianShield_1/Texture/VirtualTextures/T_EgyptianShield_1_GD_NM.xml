@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings source="($SOURCE)\Assets\More_Shields_GD\OtherShield\EgyptianShield_1\Texture\T_EgyptianShield_1_GD_NM.png">
+  <TextureLayerSettings>
+    <Scale>Full</Scale>
+    <QualityProfile>Default</QualityProfile>
+    <PreserveCoverage>false</PreserveCoverage>
+    <alphaCoverage>0.75</alphaCoverage>
+    <IsTiled>false</IsTiled>
+    <XPatches>0</XPatches>
+    <YPatches>0</YPatches>
+    <AllowNonPowerOfTwo>false</AllowNonPowerOfTwo>
+  </TextureLayerSettings>
+</Settings>

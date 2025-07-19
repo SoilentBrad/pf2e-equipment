@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StackedTexture>
+  <Layers>
+    <Layer type="Albedo" source="($DATA)\Public\($MOD)\Assets\More_Weapons_GD\OneHanded_Swords\VirtualTextures\T_Khopesh_2_GD_BMA" />
+    <Layer type="Normal" source="($DATA)\Public\($MOD)\Assets\More_Weapons_GD\OneHanded_Swords\VirtualTextures\T_Khopesh_2_GD_NM" />
+    <Layer type="Physical" source="($DATA)\Public\($MOD)\Assets\More_Weapons_GD\OneHanded_Swords\VirtualTextures\T_Khopesh_2_GD_PM" />
+  </Layers>
+</StackedTexture>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="600aa67e-2c00-49d0-a747-333046e803c5" />
+					<attribute id="Name" type="LSString" value="WPN_OneHanded_WarHammer_2_GD" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/More_Weapons_by_Guigodead_41837649-5d7e-6dc6-39d5-ac30012450e8/Assets/More_Weapons_GD/OneHanded_WarHammers/OneHanded_WarHammer_2/WPN_OneHanded_WarHammer_2_GD.GR2" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/More_Weapons_by_Guigodead_41837649-5d7e-6dc6-39d5-ac30012450e8/Assets/More_Weapons_GD/OneHanded_WarHammers/OneHanded_WarHammer_2/WPN_OneHanded_WarHammer_2_GD.Dummy_WPN_HUM_Warhammer_A_0.0" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.118982226 -0.05052869 -0.6975095" />
+					<attribute id="BoundsMax" type="fvec3" value="0.22807632 0.050528772 0.1433691" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<children>
+						<node id="Objects">
+							<attribute id="ObjectID" type="FixedString" value="WPN_OneHanded_WarHammer_2_GD.WPN_OneHanded_WarHammer_2_GD.0" />
+							<attribute id="MaterialID" type="FixedString" value="894ead89-864e-411a-7a61-b1a254539c69" />
+							<attribute id="LOD" type="uint8" value="0" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="ClothProxyMapping" />
+						<node id="Base" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

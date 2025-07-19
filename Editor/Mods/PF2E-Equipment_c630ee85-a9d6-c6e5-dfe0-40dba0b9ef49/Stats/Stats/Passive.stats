@@ -1,22 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
   <stat_objects>
-    <stat_object color="#FFFF0000" is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="55dbdf9d-bc74-4c90-ba0d-8e6b9c267c83" />
-        <field name="Name" type="NameTableFieldDefinition" value="OTHER PASSIVES" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4faf3469-abc7-4214-b982-ecc693cc4a81" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_DruidSecrets" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="a8f4558b-7c50-4937-bedc-e46259fd80d0" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6bb20a24g1ef0g519cgf8b9g375376fb40e4" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc0894d85gf708g4c65ge1b7g25c844f82f54" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(PF2_DruidSecretsInterrupt);" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f294a919-c76f-409d-be4c-d0a2df2b64ab" />
@@ -473,6 +457,120 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he59142e3g7235gd30fg073eg2dafdef0d804" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc2c38d78g2450g6e9agcbe0g88637a765000" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(ArmorCheck(18)):Initiative(-3);IF(not ArmorCheck(18)):Initiative(-1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55dbdf9d-bc74-4c90-ba0d-8e6b9c267c83" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM PASSIVES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4faf3469-abc7-4214-b982-ecc693cc4a81" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_DruidSecrets" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8f4558b-7c50-4937-bedc-e46259fd80d0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6bb20a24g1ef0g519cgf8b9g375376fb40e4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc0894d85gf708g4c65ge1b7g25c844f82f54" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(PF2_DruidSecretsInterrupt);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dec552a9-dabe-45a6-9588-2f6515dcc7b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Spider_Infestation_Fascination" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e50caa0-aa80-4f06-ac5a-61f8840d8bbf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33fc53fbg148fgdeb2gf2acgf3efc7d8b6d6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h042b7396g5d45gd0b3gd025gedb0e934d4d9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ApplyStatus(Dazzled,100,1);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcad03cf-9d46-465e-9507-862fb3c23120" />
+        <field name="Name" type="NameTableFieldDefinition" value="ColdIron" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d335be70-2935-4504-a1d5-89805eb7808d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5824ed52g05e3g2a8dg218dg9e3785b14a66" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haeb91833gc748gfe00g7deaga212cd27ff5a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6716b9f9-753a-4183-a477-8f49a208f04c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonedBonus_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he09a854fg0212gda11g533ag249fd6de5867" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a070ee2g72a3g9de9g09e4g0cd37ff3960d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,1,Constitution)" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(HasStatus(SG_Poisoned));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50f82051-f93e-4dcf-b695-116e1fa4d917" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonedBonus_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6716b9f9-753a-4183-a477-8f49a208f04c" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Constitution);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2eb7c177-6f10-4a17-915f-1dbcf4eb9135" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonedBonus_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6716b9f9-753a-4183-a477-8f49a208f04c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,3,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2a4714b-508f-44c9-bd7d-e8e18cbcea63" />
+        <field name="Name" type="NameTableFieldDefinition" value="PoisonedBonus_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6716b9f9-753a-4183-a477-8f49a208f04c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,4,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5dd4672a-a570-4288-944c-df48be38dd66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DiseaseBonus_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6716b9f9-753a-4183-a477-8f49a208f04c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41636dc9gcac3g3deeg659eg24147542c838" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50b6616fge5a3g4e65g9130ga9992b919137" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="IF(HasStatus(SG_Disease));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5c2012c-4d72-472d-930e-2858636ccdc7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DiseaseBonus_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5dd4672a-a570-4288-944c-df48be38dd66" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Constitution);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25ca611a-c2e6-4a16-b139-c0d7b6c9f782" />
+        <field name="Name" type="NameTableFieldDefinition" value="DiseaseBonus_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5dd4672a-a570-4288-944c-df48be38dd66" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,3,Constitution);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,3,Constitution);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ff31b81-defd-4411-b4cd-46896a0030d6" />
+        <field name="Name" type="NameTableFieldDefinition" value="DiseaseBonus_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5dd4672a-a570-4288-944c-df48be38dd66" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,4,Constitution);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,4,Constitution);" />
       </fields>
     </stat_object>
   </stat_objects>

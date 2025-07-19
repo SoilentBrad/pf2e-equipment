@@ -1027,17 +1027,17 @@
   <content contentuid="h508a72f3g4b1fgc9e9g30e6g0c681fcd6970" version="3">Repair Toolkit</content>
   <content contentuid="h82c5fc8agb536g5810g30dag4dbd2fb88e7b" version="3">A repair toolkit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</content>
   <content contentuid="h9408a268g00f8gb36dg5c29g70f8834cf5f4" version="1">Persistent Poison Damage</content>
-  <content contentuid="h8aedd3f9g7077gcbccgee21g516bcbb46678" version="1">You are taking persistent poison damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h8aedd3f9g7077gcbccgee21g516bcbb46678" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="h46abcdb0g71bag486bg3179gb9182478b087" version="1">Persistent Acid Damage</content>
-  <content contentuid="h9cb1069bg5a92g18e8gf79dg11caae117c20" version="1">You are taking persistent acid damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h9cb1069bg5a92g18e8gf79dg11caae117c20" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="hb2d250f3g72d5g7c2dg5f4bgb39e1d8d4b04" version="1">Persistent Cold Damage</content>
-  <content contentuid="hf4a03b6ag4353gffd2g8506gaf81917e260f" version="1">You are taking persistent cold damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="hf4a03b6ag4353gffd2g8506gaf81917e260f" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="hc8eccdbdg4973g5654g0836g80dc2cea85b3" version="1">Persistent Electricity Damage</content>
-  <content contentuid="h2e006be9g8374ga072g0565g8af5853a89f3" version="1">You are taking persistent electricity damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h2e006be9g8374ga072g0565g8af5853a89f3" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="hfa5da03cg7281g8d3cg02dfg56758c902a72" version="1">Persistent Fire Damage</content>
-  <content contentuid="h08b4a846g6110gb87dgac46g7131ab6ad894" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h08b4a846g6110gb87dgac46g7131ab6ad894" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="h8272ea80g6fbbgc4ddgc07fg70d5196f9b63" version="1">Persistent Poison Damage</content>
-  <content contentuid="h9648f7abgcd0fg0064g1d48g12b78ae2cdcf" version="1">You are taking persistent poison damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h9648f7abgcd0fg0064g1d48g12b78ae2cdcf" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="he2f6a0a3gc2fcg0f1agbff0g4dfca8bdf467" version="1">Persistent Acid Damage</content>
   <content contentuid="h6725fe72gd92fgc14fg065dg80e273d01ea5" version="1">You are taking persistent acid damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="h8c6cabe6g1629g5335g701bg3d527acf6b9a" version="1">Persistent Poison Damage</content>
@@ -1351,7 +1351,7 @@
   <content contentuid="h3af93e01gfacfgf5f7gb2c0g5beffa0231fe" version="2">Specialized grooves lined with unique, alchemically treated metals capable of retaining energy score the length of this sword. The first wish blades originated from genie smiths, and the knowledge of these weapons has been passed on to generations of geniekin, earning them the name wish blades.</content>
   <content contentuid="h313f3585ga4bdgcfecg46f9g02d9aa24b93a" version="2">Jiu Huan Dao</content>
   <content contentuid="h81538566g7498g1137g65b5g3825554fe411" version="2">This sword has a broad blade, along which are threaded nine heavy metal rings, leading some to call it the nine-ring sword. The rings add weight to the weapon for broad swings and clash together to make noise.</content>
-  <content contentuid="h558872d3g7a0dgf456g94f7gdf2512d44c65" version="2">Khopesh</content>
+  <content contentuid="h558872d3g7a0dgf456g94f7gdf2512d44c65" version="3">Khopesh</content>
   <content contentuid="hfd1d8dd9g7296g8badg07ceg56905bae528b" version="2">Flyssa</content>
   <content contentuid="h48408392g9ba4gd0d6g1c83g83938cd2a735" version="2">Gladius</content>
   <content contentuid="h265d9cfdga803gaa41g84f7g72c86668794b" version="2">Similar to a shortsword, a gladius is designed to inflict deadly stabbing wounds while still being useful as a slashing weapon.</content>
@@ -1449,7 +1449,7 @@
   <content contentuid="h66b44b73g4ce7ga6a6g4174g0c5a25de1d8f" version="1">Druidic Secrets</content>
   <content contentuid="hdb384f07g6736g2af8gc3bdga4c51cb916c3" version="1">This single-edged blade has a guardless hilt. Often decorated with elaborate etchings, a flyssa is longer than most daggers but shorter than average for most swords, making it useful in close and pitched combat.</content>
   <content contentuid="h6988dd7fgfe86g4f44g51adgc6b946f7eedd" version="1">A large spherical head with a spike on top sits mounted to a long shaft.</content>
-  <content contentuid="h4b0677d1g659ag27c2g811egb8635fbfada9" version="1">This curved sickle sword has a pointed tip, allowing it to be swung in wide arcs or thrust vertically around enemy defenses. The tip of a khopesh is hooked and can be used to trip an opponent.</content>
+  <content contentuid="h4b0677d1g659ag27c2g811egb8635fbfada9" version="2">This curved sickle sword has a pointed tip, allowing it to be swung in wide arcs or thrust vertically around enemy defenses. The tip of a khopesh is hooked and can be used to trip an opponent.</content>
   <content contentuid="h4989c992gd5c7g781eg1cceg7848660726d0" version="1">The blade of this foot-long knife curves inward and lacks a cross guard at the hilt.</content>
   <content contentuid="hb28141d9g92c2gdfb9g81bdgd9d1c4b807df" version="1">This medium-length sword has a wide blade and long grip. Though it is typically used to hack through heavy foliage, the machete can also be used as a deadly weapon.</content>
   <content contentuid="h21cb4eb8gf7dcg61eag3198gdfe8e862669a" version="1">This parrying dagger features a robust guard to protect the wielder's hand.</content>
@@ -1461,8 +1461,8 @@
   <content contentuid="h43aca6f9g329dg5cd5g76c1gc0ebb7de6116" version="1">Meteor shields are specifically designed with throwing in mind. A meteor shield is made from thin steel and has quick-release straps, allowing for easy, long-distance throws.</content>
   <content contentuid="h6575697agbd14g6029g8041gf10e3ea3b959" version="2">Buckler</content>
   <content contentuid="h8afd33e1ga16bgf083g3022g024e485ef152" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
-  <content contentuid="h0801b12egb395g4700gb999g7e58ceeba1d8" version="1">Razor Disc</content>
-  <content contentuid="hdc633488gef3bgdce7g8aaeg1779a1abd466" version="1">Several small blades line the outside edge of this steel shield. This specialized throwing shield is common among warriors in the Mwangi Expanse, where its blades can cut down foliage as it flies.</content>
+  <content contentuid="h0801b12egb395g4700gb999g7e58ceeba1d8" version="2">Razor Disc</content>
+  <content contentuid="hdc633488gef3bgdce7g8aaeg1779a1abd466" version="2">Several small blades line the outside edge of this steel shield. This specialized throwing shield is common among warriors in the Mwangi Expanse, where its blades can cut down foliage as it flies.</content>
   <content contentuid="h08165696g98ceg97b4g859cg4873eef04753" version="2">Duergar Buckler</content>
   <content contentuid="hb39c3ba5g795bg5de0g5f97ga1ee1c4bb3d3" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand. Blood splatters this shield - both inside and out.</content>
   <content contentuid="hb5e08f41g15f8g5d95gb358g6c122fe86cf5" version="2">Tower Shield</content>
@@ -1492,16 +1492,16 @@
   <content contentuid="h118d27b4g918fg2874gbf1ag203b159946f9" version="1">Eroding Bullet</content>
   <content contentuid="h8147442cg9273g08b8g91bcg99ee18ff5afe" version="1">Deals [1] and [2] persistent.</content>
   <content contentuid="hcd23d529g316eg33d7g7bffg64b5366b0200" version="1">Firework Rocket</content>
-  <content contentuid="hfdf73c01g492fg071ag4af6gadec54e634c2" version="1">Firework Rocket</content>
-  <content contentuid="hf0af230bg353eg028dg2a6eg3848e1706652" version="1">Send a small rocket at a foe, blasting the target and inflicting &lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Colour Spray&lt;/LSTag&gt;.</content>
+  <content contentuid="hfdf73c01g492fg071ag4af6gadec54e634c2" version="2">Dwarven Daisy (Moderate)</content>
+  <content contentuid="hf0af230bg353eg028dg2a6eg3848e1706652" version="2">A dwarven daisy deals [1] and [2] splash.</content>
   <content contentuid="h3304df03gb124g987bg9cf6gb5b8606c0ee4" version="1">Glorious Fireworks</content>
   <content contentuid="h88dee9a2gc2f4gf2feg1b5bge6f58fdc3e00" version="1">Send a rocket of firework-flame at a foe, blasting the target, nearby creatures, and inflicting &lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;Colour Spray&lt;/LSTag&gt; on the target.</content>
   <content contentuid="ha964cb12g92a2g3df6ge1e8ge11465062255" version="1">Water Barrel</content>
   <content contentuid="ha1a4b407gc142gc886gb8fbg6e9261c88e1e" version="1">Water Splash</content>
   <content contentuid="hff0bb019g4370g9ddeg7d75gcbef55726d2c" version="1">Throw this alien bulb at a target and possibly pull in nearby objects and creatures.</content>
   <content contentuid="h2b3dc526g9ebegf577g5fb5gd5b3351a8a36" version="1">Void Bulb</content>
-  <content contentuid="hc2799176gcfafg92afgceefg46de9364f04d" version="1">The barbs inside this bulb explode on impact, making all nearby creatures &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
-  <content contentuid="h4654f9b4gf6b8g6099g50c6g3a0470ddf28f" version="1">Spiked Bulb</content>
+  <content contentuid="hc2799176gcfafg92afgceefg46de9364f04d" version="2">When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h4654f9b4gf6b8g6099g50c6g3a0470ddf28f" version="2">Twigjack Sack (Lesser)</content>
   <content contentuid="h2f3a61eeg683ag151ag54c9g6e225a20b893" version="1">Throw this slime-covered bulb at a target to coat it, the ground, and anything nearby in caustic brine.</content>
   <content contentuid="h1dd9338dgd553ge502g502cg24b715121e9c" version="1">Caustic Bulb</content>
   <content contentuid="h38bcae3eg6b3ag0346g03e9gaa06c6217685" version="1">Phase Spider Egg Sac</content>
@@ -1523,7 +1523,7 @@
   <content contentuid="h53350e68gaa5eg4d09g82e8gffa3d0f29803" version="1">Automatically &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hits&lt;/LSTag&gt; objects and environments. </content>
   <content contentuid="h142ea050g1ea0g3414g589fg032578f83e35" version="1">Explosion</content>
   <content contentuid="hd2fcb100gf2b2g20d6g8e7dg6cdbc9758d14" version="1">The oil inside explodes when ignited, damaging everything in the vicinity.</content>
-  <content contentuid="h197d068cg792egbcedgcadeg8c3a11e4a45d" version="2">Holy water deals 1d6 spirit damage and 1 spirit splash damage. Holy water can damage only creatures with the unholy trait.</content>
+  <content contentuid="h197d068cg792egbcedgcadeg8c3a11e4a45d" version="3">Holy water deals [1] damage and [2] splash. Holy water can damage only creatures with the unholy trait.</content>
   <content contentuid="h9bb23564g8f8dg9e61gf383gac0329ea2e01" version="1">Holy Water</content>
   <content contentuid="h1f7dadfbg877ag6ac4g56e1gbe66767e5f62" version="1">Firework Rocket</content>
   <content contentuid="h50dca421g0616g48a9g98a1g4a7095cdfd53" version="1">Flashblinder</content>
@@ -1533,11 +1533,11 @@
   <content contentuid="ha624d348g5bbdgbc56g9d0dgc05fea3d9bf1" version="2">Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
   <content contentuid="h4376970ag34e1g2409g21eegafd96b84ee83" version="2">Alchemist's Fire (Lesser)</content>
   <content contentuid="h8768d80cg56f7g92c5g5adcgf28ed2a671b9" version="1">Unholy Water</content>
-  <content contentuid="h2f17f2bcgaeefgee1cg2755gd369e844b258" version="1">Unholy water deals 1d6 spirit damage and 1 spirit splash damage. Unholy water can damage only creatures with the holy trait.</content>
+  <content contentuid="h2f17f2bcgaeefgee1cg2755gd369e844b258" version="2">Unholy water deals [1] damage and [2] splash. Unholy water can damage only creatures with the holy trait.</content>
   <content contentuid="ha8769f22g7039ga72cg705bg127dd1182220" version="1">Holy Water</content>
-  <content contentuid="h66d61d36g1db7gfa6cg4b66g149ea71290ce" version="1">Holy water deals 1d6 spirit damage and 1 spirit splash damage. Holy water can damage only creatures with the unholy trait.</content>
+  <content contentuid="h66d61d36g1db7gfa6cg4b66g149ea71290ce" version="2">Holy water deals [1] damage and [2] splash. Holy water can damage only creatures with the unholy trait.</content>
   <content contentuid="hefd8036bg197fga59cge87agb3ed524a87c5" version="1">Unholy Water</content>
-  <content contentuid="h0e5ece74g0535g81e3g9a50gf068ab79f15d" version="1">Unholy water deals 1d6 spirit damage and 1 spirit splash damage. Unholy water can damage only creatures with the holy trait.</content>
+  <content contentuid="h0e5ece74g0535g81e3g9a50gf068ab79f15d" version="2">Unholy water deals [1] damage and [2] splash. Unholy water can damage only creatures with the holy trait.</content>
   <content contentuid="h99737ddcge271g5a12g20c2g02295cba099a" version="1">Alchemist's Fire (Greater)</content>
   <content contentuid="hd3f5fcc2gf1d9g975agb5d0g9328da1b34ac" version="1">Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals [1] damage, [2] persistent damage, and [3] splash damage.</content>
   <content contentuid="hb3264021ga9c1g1273ga470g9cc030f394df" version="1">Alchemist's Fire (Moderate)</content>
@@ -1545,11 +1545,11 @@
   <content contentuid="h05a138f4g2f61ge006gbbedgf5dcdc9fd062" version="1">Acid Flask (Greater)</content>
   <content contentuid="h4650a2b3g9ca0g5d52gf6e2g8bdf36554c94" version="1">Acid Flask (Moderate)</content>
   <content contentuid="h31ed16efg14e3g5be3g5eb0g631f142b8b99" version="1">Persistent Fire Damage</content>
-  <content contentuid="h42493c4fgb67ag1836gc941g6f7dc39eb253" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h42493c4fgb67ag1836gc941g6f7dc39eb253" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="he9d5ea4ag0fdeg720cge395gae03522def10" version="1">Persistent Fire Damage</content>
-  <content contentuid="h21919cc5gfd43g9becg3079geeabe527394f" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h21919cc5gfd43g9becg3079geeabe527394f" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="h687fdffag47b7ga52cg792bg5df12edfbc1c" version="1">Persistent Fire Damage</content>
-  <content contentuid="hc3bd41aag828bg64a1g0373g570598485351" version="1">You are taking persistent fire damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="hc3bd41aag828bg64a1g0373g570598485351" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
   <content contentuid="h9f6fcb17g7098g106fgeb53gb7f428cecc12" version="1">Bottled Lightning (Greater)</content>
   <content contentuid="h0f5c1b95g95e2gd764g37aega93b25aec2bc" version="1">Bottled lightning is packed with volatile reagents that create a blast of electricity when they're exposed to air. Bottled lightning deals [1] damage and [2] splash damage.</content>
   <content contentuid="h8f66acfag90d6g9f9bgef46g7f55b726fbbb" version="1">Bottled Lightning (Moderate)</content>
@@ -1580,4 +1580,429 @@
   <content contentuid="h31c40171g77aeg7e1dg335dg19a81f10c491" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
   <content contentuid="h535b7984g685age1a3g4009gd07c2103c51c" version="1">Dread Ampoule (Greater)</content>
   <content contentuid="h2477de90g015fgc58egb246gb6123f4829fa" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
+  <content contentuid="ha74d57d4gb0dbg114cg2658ga7695fbf26bf" version="1">Dread Ampoule</content>
+  <content contentuid="h728181ebg0f56ged55g5e0fg61bf39000b49" version="1">Dread Ampoule</content>
+  <content contentuid="h9261d23fg4d3age4abg6c3eg9f7130c6d38a" version="1">Dread Ampoule</content>
+  <content contentuid="h277fdb1fgca6fg2a32ge0cbg5b931e035b28" version="1">Frost Vial (Lesser)</content>
+  <content contentuid="hf0ab72bbg8878g0e9dgae55g3c258cf36681" version="1">The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals [1] damage, [2] status pentalty to speeds, and [3] splash damage.</content>
+  <content contentuid="hed8bca55g55fag4244gc1a2g79f6f9a9f6bd" version="1">Frost Vial (Moderate)</content>
+  <content contentuid="h1eeec920gb255g10cfg42b2g9a65b92fe028" version="1">The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals [1] damage, [2] status pentalty to speeds, and [3] splash damage.</content>
+  <content contentuid="hb440269bgf7f5gf774g1f4fg5e83e463fc0d" version="1">Frost Vial (Greater)</content>
+  <content contentuid="hcaa802d6gc261gd27ag3d94gf376d6a2b865" version="1">The bright blue liquid reagents in this vial rapidly absorb heat when exposed to air. A frost vial deals [1] damage, [2] status pentalty to speeds, and [3] splash damage.</content>
+  <content contentuid="h5a20be97g53c7g6304g4b08gcda2ffbe8b61" version="1">Ghost Charge (Lesser)</content>
+  <content contentuid="he0a87d44g7e29gbaa8g58aege28d3b20e752" version="1">These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals [1] damage and [2] splash damage only to undead. A primary target that takes damage from a ghost charge becomes [1] until the start of your next turn.</content>
+  <content contentuid="h28852aabg5d75g9cb8gf016gec412c9f2ed3" version="1">Ghost Charge (Moderate)</content>
+  <content contentuid="h77f6586egaaa9g4a57gfb0eg2029cf6c8da5" version="1">These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals [1] damage and [2] splash damage only to undead. A primary target that takes damage from a ghost charge becomes [1] until the start of your next turn.</content>
+  <content contentuid="h3695521bgd4d6gca4dg2cd3g7c7bfc76d1fd" version="1">Ghost Charge (Greater)</content>
+  <content contentuid="h181b07dbgac5agd552gb74cg65c74753d029" version="1">These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals [1] damage and [2] splash damage only to undead. A primary target that takes damage from a ghost charge becomes [1] until the start of your next turn.</content>
+  <content contentuid="hef981bd3gb5cbg53c6ge6cfg92fc1f1cad4e" version="1">Ghost Charge</content>
+  <content contentuid="he0dee86fg6bf6g7606g2f47gae7f792c2144" version="1">These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals [1] damage and [2] splash damage only to undead. A primary target that takes damage from a ghost charge becomes [1] until the start of your next turn.</content>
+  <content contentuid="hf3d8872dg2591gaa88gbe8dgb5bf3f86f832" version="1">Ghost Charge</content>
+  <content contentuid="h5e71b86bg31fdg756fg7a58g616c164d911a" version="1">These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals [1] damage and [2] splash damage only to undead. A primary target that takes damage from a ghost charge becomes [1] until the start of your next turn.</content>
+  <content contentuid="h877b71adg1befg6d66g6e62gb0e298e21fb0" version="1">Ghost Charge</content>
+  <content contentuid="hf796fa3dg45b4g210fg7644ga0ea38e612e1" version="1">These spring-loaded metal canisters contain a mixture of chemicals and salts that drain and disintegrate nearby undead creatures. A ghost charge deals [1] damage and [2] splash damage only to undead. A primary target that takes damage from a ghost charge becomes [1] until the start of your next turn.</content>
+  <content contentuid="h673e1950g9c65g177fgfe91g13be53b9396e" version="1">Glued</content>
+  <content contentuid="haf0a267cgff66g95bcg52f6ge073e6484d54" version="1">Glue Bomb (Lesser)</content>
+  <content contentuid="he289cdc0g1519gdb0eg4af0g2ec53704c897" version="1">A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a [1] status penalty to its Speeds for 1 minute. On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs aren't effective when used on a creature that's in water.</content>
+  <content contentuid="hf1051f9bg67bdg61e5g6392ga97a60a7a9f9" version="1">Glue Bomb (Moderate)</content>
+  <content contentuid="h5f0677afge5c0g3ae7g9a16g164169f69c44" version="1">A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a [1] status penalty to its Speeds for 1 minute. On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs aren't effective when used on a creature that's in water.</content>
+  <content contentuid="hbf165beeg18c2gb32bgf5fcgc2ef795fb3db" version="1">Glue Bomb (Greater)</content>
+  <content contentuid="h314f4fa7g7df0gc33cgbd44g0e443dd837a6" version="1">A glue bomb is a harmless explosive mechanism bursting with sticky substances. When you hit a creature with a glue bomb, that creature takes a [1] status penalty to its Speeds for 1 minute. On a critical hit, a creature in contact with a solid surface becomes stuck to the surface and immobilized for 1 round, and a creature flying via wings has its wings tangled, causing it to fall safely to the ground and become unable to Fly again for 1 round. Glue bombs aren't effective when used on a creature that's in water.</content>
+  <content contentuid="hcdfdd8a6g322cg002ag0ca4g6be0247050bf" version="1">A goo grenade is a flask filled with a fast-growing, short-lived alchemical ooze. When you hit a creature with a goo grenade, the target takes [1] damage, [2] persistent acid damage, and [3] acid splash damage. They take a [4] circumstance penalty to their Speeds.</content>
+  <content contentuid="hcfaba6d1ge225ge693g24f3gd894222f56cc" version="1">A goo grenade is a flask filled with a fast-growing, short-lived alchemical ooze. When you hit a creature with a goo grenade, the target takes [1] damage, [2] persistent acid damage, and [3] acid splash damage. They take a [4] circumstance penalty to their Speeds.</content>
+  <content contentuid="hdc6079a3gffacgfa35g1f3ag3a37cc013a6e" version="1">A goo grenade is a flask filled with a fast-growing, short-lived alchemical ooze. When you hit a creature with a goo grenade, the target takes [1] damage, [2] persistent acid damage, and [3] acid splash damage. They take a [4] circumstance penalty to their Speeds.</content>
+  <content contentuid="h444ced7dgaed7g23f0g51cegc0d7b7ffa8fb" version="1">This clay vessel launches gobs of clinging mud and grit. A mud bomb deals [1] damage, [2] splash damage, and on a critical hit, the target is [3] until the start of your next turn.</content>
+  <content contentuid="h5c841999ga02ega00fg8f86g3587b9427bbd" version="1">This clay vessel launches gobs of clinging mud and grit. A mud bomb deals [1] damage, [2] splash damage, and on a critical hit, the target is [3] until the start of your next turn.</content>
+  <content contentuid="h613d2995g1017gd485gf64fg3329cca7c6d1" version="1">This clay vessel launches gobs of clinging mud and grit. A mud bomb deals [1] damage, [2] splash damage, and on a critical hit, the target is [3] until the start of your next turn.</content>
+  <content contentuid="h86f2d1ecg34eag871cge538ga7316610a44e" version="1">This clay vessel launches gobs of clinging mud and grit. A mud bomb deals [1] damage, [2] splash damage, and on a critical hit, the target is [3] until the start of your next turn.</content>
+  <content contentuid="h6ac08042gb913gf07bg2009g7c1874e64312" version="1">This clay vessel launches gobs of clinging mud and grit. A mud bomb deals [1] damage, [2] splash damage, and on a critical hit, the target is [3] until the start of your next turn.</content>
+  <content contentuid="h01465883g0bcfg8045g4b1fgb03662230c8f" version="1">This clay vessel launches gobs of clinging mud and grit. A mud bomb deals [1] damage, [2] splash damage, and on a critical hit, the target is [3] until the start of your next turn.</content>
+  <content contentuid="h446aab2eg760cg1360gb02dg2fd65a8d3e23" version="1">Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals [1] damage, [2] splash damage, and on a critical hit, and it [3] the primary target on a critical hit. This damage harms only living creatures.</content>
+  <content contentuid="h2fdeff9agd725gcc4fge062gfc085bae7e6d" version="1">Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals [1] damage, [2] splash damage, and on a critical hit, and it [3] the primary target on a critical hit. This damage harms only living creatures.</content>
+  <content contentuid="h844d1f46gb193g7b1fgce04g08e4daa21cb0" version="1">Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals [1] damage, [2] splash damage, and on a critical hit, and it [3] the primary target on a critical hit. This damage harms only living creatures.</content>
+  <content contentuid="h2b5df486g905bg49a6g5a47geffce27b09be" version="1">Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals [1] damage, [2] splash damage, and on a critical hit, and it [3] the primary target on a critical hit. This damage harms only living creatures.</content>
+  <content contentuid="h162fa2e7gf443g41bbgb95cgcc50e8210a10" version="1">Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals [1] damage, [2] splash damage, and on a critical hit, and it [3] the primary target on a critical hit. This damage harms only living creatures.</content>
+  <content contentuid="h252e3b47g3e9agba4cg9f58g6fe7bf610615" version="1">Necrotic bombs combine reagents most people consider disgusting at best and unholy at worst, creating a life-sucking miasma upon contact with air. A necrotic bomb deals [1] damage, [2] splash damage, and on a critical hit, and it [3] the primary target on a critical hit. This damage harms only living creatures.</content>
+  <content contentuid="h3abc364agceedg091bgdc4agc79e43aae218" version="1">Persistent Acid Damage</content>
+  <content contentuid="h1ac2cecegb1cfg0fe7g33dfg7163617e25a8" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="hb55441a1gb218g0a57gbf29gc65cfe9c374a" version="1">Persistent Acid Damage</content>
+  <content contentuid="hbe2bffb8ga985g7d94g4d7ag06249c994dde" version="2">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="hf6900691g9bb7g4f89g10d0g759566e86398" version="1">-3 status penalty to attack rolls</content>
+  <content contentuid="h89d6f96eg1e12g934fg065egb4b2134c0a31" version="1">-3 status penalty to save DCs</content>
+  <content contentuid="h3c8c1d93g9412g8a46gf455gf0d6b94e9842" version="1">-3 status penalty to saving throws</content>
+  <content contentuid="hf716a58ag598cg5abegb13fg3989bf3ae94c" version="1">-3 status penalty to AC</content>
+  <content contentuid="h8d5a9ebagc095g65d3g336fga5c9c855521f" version="1">Mud Bomb (Lesser)</content>
+  <content contentuid="h38fa58a2g4bd5g9d46g2d7egabe78309ce1b" version="1">Mud Bomb (Moderate)</content>
+  <content contentuid="h1613e076g2677g92c4g673ag7e02117e637d" version="1">Mud Bomb (Greater)</content>
+  <content contentuid="h93a2f41eg86c3g5aa3g8d2eg2cf418f9bc71" version="1">Necrotic Bomb (Lesser)</content>
+  <content contentuid="h6640f1ccgac39g78c8gea9eg4d509eb59d6a" version="1">Necrotic Bomb (Moderate)</content>
+  <content contentuid="h6aaf9a80g8014gaa6dg8d9eg661905556cfe" version="1">Necrotic Bomb (Greater)</content>
+  <content contentuid="h8c79a7b5g0164gac75g406ege61fc1496944" version="1">Necrotic Bomb</content>
+  <content contentuid="hdef82634g4ae5g6064g90f4geb7a526ed5f7" version="1">Necrotic Bomb</content>
+  <content contentuid="h5af948bag9214g9fb1ge61ag8a4fa6d43b84" version="1">Necrotic Bomb</content>
+  <content contentuid="h2b506008g6552g66cagbf50g67d0f783c9ae" version="1">Pernicious Spore Bomb (Lesser)</content>
+  <content contentuid="h7e12e496g17e2g6232g1cbag272d439490db" version="1">This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. A pernicious spore bomb deals [1], [2] persistent, and [3] splash.</content>
+  <content contentuid="h52c3c929g4c6bg9092gc97agda445fa0b679" version="1">Pernicious Spore Bomb (Moderate)</content>
+  <content contentuid="h323e8cc6gbfb0g2b5dgfad9g2d024f54fc55" version="1">Pernicious Spore Bomb (Greater)</content>
+  <content contentuid="h1176658eg7676g59bfg6675gad8c72c12b2f" version="1">Peshspine Grenade (Lesser)</content>
+  <content contentuid="h54db23f0gd249gaa12gd5e9g17312069ffe4" version="1">Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals [1] damage and [2] splash. On a hit, the target gains [3] until the end of its next turn.</content>
+  <content contentuid="h06e05190gf6f3g9d6cg8c0dgf73379627efd" version="1">Peshspine Grenade (Moderate)</content>
+  <content contentuid="h1f6ef965g8793g9d0dg83d1g99107ed59792" version="1">Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals [1] damage and [2] splash. On a hit, the target gains [3] until the end of its next turn.</content>
+  <content contentuid="h543c7edcgdfefg63degbeffgc64daed0b217" version="1">Peshspine Grenade (Greater)</content>
+  <content contentuid="hdc64e3a3g733agc148g19ddge455cbdd530f" version="1">Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals [1] damage and [2] splash. On a hit, the target gains [3] until the end of its next turn.</content>
+  <content contentuid="h4f1c670bg4a97gd6a5ge59cg8024a2b95420" version="1">Peshspine Grenade</content>
+  <content contentuid="hb3361626g02e2g80f9ga812g81f664cc41cc" version="1">Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals [1] damage and [2] splash. On a hit, the target gains [3] until the end of its next turn.</content>
+  <content contentuid="hf0babf2eg6b67g866fge56dg7fd4ca529925" version="1">Peshspine Grenade</content>
+  <content contentuid="h67e1b5fbg377ag84f6g838eg3417681289f4" version="1">Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals [1] damage and [2] splash. On a hit, the target gains [3] until the end of its next turn.</content>
+  <content contentuid="h1a6c1ef0gefffgc108gfadagbf5885d28a09" version="1">Peshspine Grenade</content>
+  <content contentuid="hcc107bf1g99aeg8ec9g6b2cg588f04adfdb6" version="1">Peshspine grenades are explosive bombs packed with alchemically treated needles from the pesh cactus. A peshspine grenade deals [1] damage and [2] splash. On a hit, the target gains [3] until the end of its next turn.</content>
+  <content contentuid="h31fdda7dg617bg7649g6ebfg7542c1543a44" version="1">Redpitch Bomb (Lesser)</content>
+  <content contentuid="h3e14ece9g873dgea9egf984g19433e9457f7" version="1">Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals [1], [2] persistent, and [3] splash. On a critical hit, the target is [4] until the start of your next turn.</content>
+  <content contentuid="h274575e1gf0f8g90acg6d85g5e97fe19fe85" version="1">Redpitch Bomb (Moderate)</content>
+  <content contentuid="h87fef101g29dbg7a84ga1c7gbc545334af40" version="1">Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals [1], [2] persistent, and [3] splash. On a critical hit, the target is [4] until the start of your next turn.</content>
+  <content contentuid="h6860bbe9gabbagfe06gced6g4f2229dbb92f" version="1">Redpitch Bomb (Greater)</content>
+  <content contentuid="hf678afcbg2c1fg3fa9gdbb4g3071bea3f875" version="1">Sap from redpitch pines, if properly distilled into a gummy, incendiary mass, ignites when exposed to the air. A redpitch bomb deals [1], [2] persistent, and [3] splash. On a critical hit, the target is [4] until the start of your next turn.</content>
+  <content contentuid="h74cfc103g29aeg7e80g7436g225715862377" version="1">Steelscour (lesser)</content>
+  <content contentuid="hac912089ga803ge9b3g558egaee0a52ce16e" version="1">A viscous acidic goo fills this glass vial, specially designed to eat through metallic objects. It deals [1] persistent. Steelscour has no effect on living or undead flesh, and deals half damage to objects constructed of non-metal materials.</content>
+  <content contentuid="hda33c38ag97d7g9c14g3acfge42ff8cdbbf2" version="1">Steelscour (moderate)</content>
+  <content contentuid="h628ff0e7gf4dcg2e7cg2d61gb3c1bd963f64" version="1">A viscous acidic goo fills this glass vial, specially designed to eat through metallic objects. It deals [1] persistent. Steelscour has no effect on living or undead flesh, and deals half damage to objects constructed of non-metal materials.</content>
+  <content contentuid="he6a1d279ga881g777bg900ag99b94fb77657" version="1">Steelscour (greater)</content>
+  <content contentuid="h16f48306gfbb9g56d8g8489gac0235367a43" version="1">A viscous acidic goo fills this glass vial, specially designed to eat through metallic objects. It deals [1] persistent. Steelscour has no effect on living or undead flesh, and deals half damage to objects constructed of non-metal materials.</content>
+  <content contentuid="h51c16c4bg42abgd4d2g93e3g3588d5031da3" version="1">Persistent Piercing Damage</content>
+  <content contentuid="h759b3c03g13a0gea40g2768g6f25d524c288" version="1">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h8f0fb971gf3b0g0609gc80eg2500077d36bc" version="1">Persistent Piercing Damage</content>
+  <content contentuid="h24751864gc05fgf83cgb1a8g4cc2eb31c012" version="1">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h911287acg06f6g1669gdb11g492e61718abe" version="1">Persistent Piercing Damage</content>
+  <content contentuid="h546afe29g5c5bg780bgd89dgb163d296abc1" version="1">You are taking [1] persistent damage until you make a DC 15 flat check at the end of your turn.</content>
+  <content contentuid="h50842d88gdf55g939eg7cafgf4b58d8bfcd0" version="1">Tallow Bomb (Lesser)</content>
+  <content contentuid="ha405eaf1g9685gb059ge593ga9f242852888" version="1">A mixture of rendered animal fat and acids designed to ignite the fat when exposed to air, a tallow bomb creates a splash of burning oil that adheres to skin, clothes, and hair. A tallow bomb deals [1], [2] persistent, and [3] splash damage. On a critical hit, a living creature sickened 1.</content>
+  <content contentuid="h9d50b8efge443ga3a3gacd3gf5daf8f259de" version="1">Tallow Bomb (Moderate)</content>
+  <content contentuid="hd023ba8bg6431g79acg16e7ge1c9e91c1629" version="1">Tallow Bomb (Greater)</content>
+  <content contentuid="h52130eaag01fag03c7g7f96g9c7d2e2c35c8" version="1">When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h86da3bbag4a24gbf71gf5ffgda5cca7da858" version="1">When thrown, a twigjack sack bursts open, spraying brambles in all directions that gouge and slash nearby creatures. A twigjack sack deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="hc996fe29ga4fag5efdg22a9g4d0aad13d400" version="1">Twigjack Sack (Moderate)</content>
+  <content contentuid="hde31b43egb5e8g0359ge8e3gaca5386513cc" version="1">Twigjack Sack (Greater)</content>
+  <content contentuid="h8e0355cegf029gf44fg3668g5eb840efada3" version="1">Water Bomb (Lesser)</content>
+  <content contentuid="h99843a24g5a3egcc17gda57g38c2ce391339" version="1">This bladder of water explodes when put under pressure or upon being punctured, dealing minimal damage, neutralizing acids, and dousing flames. A water bomb deals [1] and [2] splash.</content>
+  <content contentuid="hfb34e739g5873g43fbg41ecg2b7a71121fe2" version="1">Water Bomb (Moderate)</content>
+  <content contentuid="h34a30855gbf0agc8dagc5d7ge04ca14b6d67" version="1">This bladder of water explodes when put under pressure or upon being punctured, dealing minimal damage, neutralizing acids, and dousing flames. A water bomb deals [1] and [2] splash.</content>
+  <content contentuid="ha45fe711g2dc2g76c2g13e1g11c92df0dbf7" version="1">Water Bomb (Greater)</content>
+  <content contentuid="hd8f26eebg829fg7993g6204gf2f5e0268704" version="1">This bladder of water explodes when put under pressure or upon being punctured, dealing minimal damage, neutralizing acids, and dousing flames. A water bomb deals [1] and [2] splash.</content>
+  <content contentuid="hee27df6fg39c5gaeb6gb9caga752474d1059" version="1">Blood Bomb (Lesser)</content>
+  <content contentuid="hae84d76agbbc8gad98gad32g69d41aad7c28" version="1">This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="hbba20626g71aeg8885g9f30g3bfdc2034e44" version="1">Blood Bomb (Moderate)</content>
+  <content contentuid="h5d7bf16egd945ge1c4g0de7g492c5c8e2ec3" version="1">This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h3aab5c13gfa20g54e0gf223gca01f3730742" version="1">Blood Bomb (Greater)</content>
+  <content contentuid="ha01d5cf0geb80gae98gc604g077b05ae3b1e" version="1">This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h6463299dg04a1g506cge609g4c829c2969f3" version="1">Blood Bomb</content>
+  <content contentuid="hc0ddc0afgdad5g5e5ag30e1g4336d56ea101" version="1">This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="hcd250b83g2686g1532g786eg829b5cc3c68d" version="1">Blood Bomb</content>
+  <content contentuid="hc8136ef2gc51ag51cage16eg85fe34bb035b" version="1">This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h5be1c164gb563g6e06gcd65g5ead69f56517" version="1">Blood Bomb</content>
+  <content contentuid="ha0e7c606g2f53gb36fg8233ga6c5977b0a71" version="1">This flask is full of shrapnel and anti-coagulants designed to make targets bleed out. It deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="ha0262338gf4bdg7c1cgfea4gf51b7a24c972" version="1">Junk Bomb (Lesser)</content>
+  <content contentuid="h0a680c93g405dgf78eg2245gb8a89d98485a" version="1">This volatile-looking bomb is cobbled together from jagged metal scrap, broken glass, and other bits of razor-sharp fragments, lashed around a core of explosive alchemical slag. A junk bomb deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h632af1cbgd8b2gc0bdgb222g03ce6e556370" version="1">Junk Bomb (Moderate)</content>
+  <content contentuid="h0b52f7c7gb4a4g5b6eg51cfgb8b82e551bb2" version="1">This volatile-looking bomb is cobbled together from jagged metal scrap, broken glass, and other bits of razor-sharp fragments, lashed around a core of explosive alchemical slag. A junk bomb deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h536a9c18g5d96g9c33g1885gb63a4db31c86" version="1">Junk Bomb (Greater)</content>
+  <content contentuid="he8059c5eg0e3ag0f3bgf390gdf943b8789de" version="1">This volatile-looking bomb is cobbled together from jagged metal scrap, broken glass, and other bits of razor-sharp fragments, lashed around a core of explosive alchemical slag. A junk bomb deals [1], [2] persistent, and [3] splash damage.</content>
+  <content contentuid="h239025d4g71fagccefgde25gf9fd2a6764ed" version="1">Durian Bomb (Lesser)</content>
+  <content contentuid="h28e7da05g45a0g443ag5795g8cc8d7df0406" version="1">On a successful Strike, a durian bomb deals [1].</content>
+  <content contentuid="h4f051ca5g9cbeg65a4g17efg92945c0208c3" version="1">Durian Bomb (Moderate)</content>
+  <content contentuid="hbd2dae2dg6635gd736ga88bg4192d8510b1f" version="1">Durian Bomb (Greater)</content>
+  <content contentuid="h481fb9d5g4e35ga047gd45eg1f01c6ca0559" version="1">Durian Bomb</content>
+  <content contentuid="h8ac5bc27g25c2gdd73g7580gbb890d6ced9e" version="1">Any creature hit by the bomb or in its splash area must attempt a Fortitude saving throw. &lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is sickened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is dazzled for 1 round and sickened 1.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is dazzled for 1 round and sickened 2.</content>
+  <content contentuid="h2b513376gdc06gbcc8g6756g8deb46c9be2f" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
+  <content contentuid="hf6e91bd5g7cbbg1564gd356g149f6c205b1f" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
+  <content contentuid="h7f5dd284gdd13ge9aeg51deg8865899174d4" version="1">This flask is filled with a murky purple gas that briefly interferes with normal brain activity. A dread ampoule deals [1] damage and [2] splash damage. On a hit, the target becomes frightened 1, or frightened 2 on a critical hit.</content>
+  <content contentuid="h23f6c459gaddag3347g0807g09c58ab663af" version="1">This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. A pernicious spore bomb deals [1], [2] persistent, and [3] splash.</content>
+  <content contentuid="h3e488d2bg1ee6g9e7egfe0dgcf2f9de9cc8c" version="1">This flask contains fast-growing mold spores, which quickly take root but just as quickly rot away. A pernicious spore bomb deals [1], [2] persistent, and [3] splash.</content>
+  <content contentuid="h0f7f2361gf065g9c40gcfb4g9eec2f72e3e1" version="1">A mixture of rendered animal fat and acids designed to ignite the fat when exposed to air, a tallow bomb creates a splash of burning oil that adheres to skin, clothes, and hair. A tallow bomb deals [1], [2] persistent, and [3] splash damage. On a critical hit, a living creature sickened 1.</content>
+  <content contentuid="h30d3ba40g086ag69a0gf008gb571a0974d47" version="1">A mixture of rendered animal fat and acids designed to ignite the fat when exposed to air, a tallow bomb creates a splash of burning oil that adheres to skin, clothes, and hair. A tallow bomb deals [1], [2] persistent, and [3] splash damage. On a critical hit, a living creature sickened 1.</content>
+  <content contentuid="ha41e1966g8cd5gdb41gad5fg6671760530a6" version="1">Pressure Bomb (Lesser)</content>
+  <content contentuid="h805d9beeg296agaf8cgf5a2g37cd1c594f32" version="1">This tightly sealed metal container is filled with highly pressurized gas that can explode to release a powerful shockwave. A pressure bomb deals [1] and [2] splash. On a critical hit, the target is knocked prone.</content>
+  <content contentuid="hbe4dd9a9g33feg68c9ge317gb2d2fea853eb" version="1">Pressure Bomb (Moderate)</content>
+  <content contentuid="hc66de01cg2ea9g9d9fgf8cbga48a186c12b6" version="1">This tightly sealed metal container is filled with highly pressurized gas that can explode to release a powerful shockwave. A pressure bomb deals [1] and [2] splash. On a critical hit, the target is knocked prone.</content>
+  <content contentuid="hf98acb53ga929gcc92ga039g217f3f2a48d3" version="1">Pressure Bomb (Greater)</content>
+  <content contentuid="he4abf7fbg4ac3g8e7bg4af0ge051f42df680" version="1">This tightly sealed metal container is filled with highly pressurized gas that can explode to release a powerful shockwave. A pressure bomb deals [1] and [2] splash. On a critical hit, the target is knocked prone.</content>
+  <content contentuid="h7bd0a34dgb9d3gdb50gc8e9g38d52396549c" version="1">Skunk Bomb (Lesser)</content>
+  <content contentuid="h11ad609dge0a7ga292g5df2g8840addf8531" version="1">Skunk bombs are made from the concentrated odors of xulgaths, hezrous, and other creatures with natural or supernatural stench. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="ha2e193aag2f1egea22g6294g70dce94e73df" version="1">Skunk Bomb (Moderate)</content>
+  <content contentuid="h091e8b07g8538ga65eg04c0g764d96213f68" version="1">Skunk bombs are made from the concentrated odors of xulgaths, hezrous, and other creatures with natural or supernatural stench. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h642d9bfegde15g2b2cga956g65af80ea310f" version="1">Skunk Bomb (Greater)</content>
+  <content contentuid="hbb87b8b8gd11agfcf2g85ceg3124b6654594" version="1">Skunk bombs are made from the concentrated odors of xulgaths, hezrous, and other creatures with natural or supernatural stench. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h24a6f382gf799gca06g47efg4ba1a1c852a6" version="1">Skunk Bomb Splash</content>
+  <content contentuid="h0473afc0g2922g3718g5bfbg9f7ce111b42c" version="1">Skunk bombs are made from the concentrated odors of xulgaths, hezrous, and other creatures with natural or supernatural stench. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h70ad8194g844bgfa92g28dag47e689535876" version="1">Skunk Bomb Splash</content>
+  <content contentuid="h18fba19bga093gb8fbg2d3cgb7a2ea81da68" version="1">Skunk bombs are made from the concentrated odors of xulgaths, hezrous, and other creatures with natural or supernatural stench. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h703343efg2a27g1b1ag211dg486e690ce759" version="1">Skunk Bomb Splash</content>
+  <content contentuid="h5a1e44e7ge67bg77dbgb9d9gd8cc71f8936e" version="1">Skunk bombs are made from the concentrated odors of xulgaths, hezrous, and other creatures with natural or supernatural stench. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="hc539686egb8f8g42e7ge651gc1b6cc32e14d" version="1">Skunk Bomb</content>
+  <content contentuid="h083e6e77g5398g2b29g4e8bg019f250f6b03" version="1">Any creature hit by the bomb or in its splash area must attempt a Fortitude saving throw. &lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is sickened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is sickened 1 and slowed 1 while sickened.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is blinded for 1 round and sickened 2, and slowed 1 while sickened.</content>
+  <content contentuid="hb9bf08f6gd64fg3e0cg88ecgffa5db39ba53" version="1">Skunk Bomb</content>
+  <content contentuid="ha0ab1a37gc5fdg6859gfa46gb034d690d8e5" version="1">Any creature hit by the bomb or in its splash area must attempt a Fortitude saving throw. &lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is sickened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is sickened 1 and slowed 1 while sickened.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is blinded for 1 round and sickened 2, and slowed 1 while sickened.</content>
+  <content contentuid="h737ae87ag7277g4437gfa87gf229b32a2dcc" version="1">Skunk Bomb</content>
+  <content contentuid="h1ac7c049gc76cge49fg7aa6geca1cfd81516" version="1">Any creature hit by the bomb or in its splash area must attempt a Fortitude saving throw. &lt;br&gt;&lt;b&gt;Success&lt;/b&gt; The creature is sickened 1.&lt;br&gt;&lt;b&gt;Failure&lt;/b&gt; The creature is sickened 1 and slowed 1 while sickened.&lt;br&gt;&lt;b&gt;Critical Failure&lt;/b&gt; The creature is blinded for 1 round and sickened 2, and slowed 1 while sickened.</content>
+  <content contentuid="hd0093e3bgc558gc8ffgcddbg4129ff9fbecc" version="1">Sticky Algae Bomb (Lesser)</content>
+  <content contentuid="h69740f51gfe63ga7cfg6728gacfa2a6a9718" version="1">These bombs have been mixed with sticky algae that glow and emit poison. A sticky algae bomb deals [1] and [2] splash.</content>
+  <content contentuid="h9554d1afg7e2bg68f3g32c7gc17358248d4f" version="1">Sticky Algae Bomb (Moderate)</content>
+  <content contentuid="hc09fa57bg9dd4g4669g321ag3e6192dbb811" version="1">These bombs have been mixed with sticky algae that glow and emit poison. A sticky algae bomb deals [1] and [2] splash.</content>
+  <content contentuid="h63481f91g9d09ge051g6c69g24be2094b4f5" version="1">Sticky Algae Bomb (Greater)</content>
+  <content contentuid="h4df4b407g0c66g4ebfgefe1g60ab69275a7d" version="1">These bombs have been mixed with sticky algae that glow and emit poison. A sticky algae bomb deals [1] and [2] splash.</content>
+  <content contentuid="h16cefa8fg6d6bge890g14cbg7a48426867d3" version="1">Sulfur Bomb (Lesser)</content>
+  <content contentuid="h1a962e35gab08g6bc2gb7f5gad11cf80cee9" version="1">A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. The bomb deals [1] and [2] acid splash. On a hit, the target takes a [3] penalty and a [4] penalty .</content>
+  <content contentuid="h5060b7fdg251bg1e3cgc194g504d6fb12e47" version="1">Sulfur Bomb (Moderate)</content>
+  <content contentuid="h2b282cb9g8739gbdf7g807ag10863e56a97f" version="1">Sulfur Bomb (Greater)</content>
+  <content contentuid="h0700c469gbf1bg0ee7gd594gddee4e351c6a" version="1">A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. The bomb deals [1] and [2] acid splash. On a hit, the target takes a [3] penalty and a [4] penalty .</content>
+  <content contentuid="h76a6466bg01c8g991egeacfg87d9203d8614" version="1">A thick, sulfurous, irritating gas fills this golden-yellow flask. A sulfur bomb deals the listed damage. The bomb deals [1] and [2] acid splash. On a hit, the target takes a [3] penalty and a [4] penalty .</content>
+  <content contentuid="h5b2ba125g16cag44a7g50c4gd21bd3211f68" version="1">Dwarven Daisy (Lesser)</content>
+  <content contentuid="hff0886e4gd8d4g15dcgd0fcg92aeef94a63b" version="1">Dwarven Daisy (Lesser)</content>
+  <content contentuid="hfd862f09g40abg3bfcg4a2cga1ca774d2179" version="1">Dwarven Daisy (Lesser)</content>
+  <content contentuid="h9a83d31bgc23dg388fg0d71g330356d27e43" version="1">Dwarven Daisy</content>
+  <content contentuid="hc19069a4ga6a0gbe23g7ed8g6970c76e5f63" version="1">A creature struck by a dwarven daisy must succeed at a Fortitude save or become dazzled for 1 round.</content>
+  <content contentuid="h1176debdg9b6bg5097g63a4gc1a4834cf138" version="1">Crawling with tiny spiders that deal [1] each turn, you are fascinated while this persistent damage exists.&lt;br&gt;&lt;br&gt;When hit with a melee attack, the infestation spreads to the attacker. Upon death, the infestation spreads to all nearby creatures.&lt;br&gt;&lt;br&gt;Removed by fire or acid.&lt;br&gt;Doesn't harm ettercaps or spiders.</content>
+  <content contentuid="h6e0966f2g7f47g0ed6g19e9gfe6416ce598e" version="1">Spider Satchel (Lesser)</content>
+  <content contentuid="h8bacaeefg1865g7e5ag7ce3g1a810e82779a" version="1">The bomb deals [1] persistent, [2] splash, and fascinates the target while the persistent damage lasts.</content>
+  <content contentuid="h8e564c41g88fcg1c50g36bdga4030a6a5fde" version="1">Spider Satchel (Moderate)</content>
+  <content contentuid="h45c63ceeg1175g5dd8g430bga3cd03b336fe" version="1">The bomb deals [1] persistent, [2] splash, and fascinates the target while the persistent damage lasts.</content>
+  <content contentuid="h45ec8636g3f3cg87f7g1707g24371509cec5" version="1">Spider Satchel (Greater)</content>
+  <content contentuid="hd4b7bef9ga1d7gb5feg8db0ga6249c412bb3" version="1">The bomb deals [1] persistent, [2] splash, and fascinates the target while the persistent damage lasts.</content>
+  <content contentuid="h33fc53fbg148fgdeb2gf2acgf3efc7d8b6d6" version="1">Fascinated</content>
+  <content contentuid="h042b7396g5d45gd0b3gd025gedb0e934d4d9" version="1">Crawling with tiny spiders, you're fascinated while you're taking persistent damage.</content>
+  <content contentuid="ha6698bbfgc204g5232g04cag4211d02b559d" version="1">Bottled Sunlight (Lesser)</content>
+  <content contentuid="h5ac46844g2054g4241g7de8g3f47c42fb349" version="1">The bomb deals [1] and [2] splash, as well as an additional [3]. Undead with a particular vulnerability to sunlight (such as vampires or shadowcursed undead) take the maximum amount of radiant damage from bottled sunlight.</content>
+  <content contentuid="h44a76775g97e8g6606g3a31gdac2c615649d" version="1">Bottled Sunlight (Moderate)</content>
+  <content contentuid="h1af99ff2gfa3bge4f5ge45age5fc728ecdef" version="1">Bottled Sunlight (Greater)</content>
+  <content contentuid="ha55f59e7g48f8g498ag0967gc08c1d08bc27" version="1">Bottled Sunlight</content>
+  <content contentuid="h939e203ag5bffge831g525eg1ed6939402d6" version="1">The bomb deals [1] and [2] splash, as well as an additional [3]. Undead with a particular vulnerability to sunlight (such as vampires or shadowcursed undead) take the maximum amount of radiant damage from bottled sunlight.</content>
+  <content contentuid="h9cc4d1ceg0323gbfc8gc2e1g202b4ec5b6fd" version="1">Bottled Sunlight</content>
+  <content contentuid="h914b6b24gbc47g0ba9g2371g414bc5c53514" version="1">The bomb deals [1] and [2] splash, as well as an additional [3]. Undead with a particular vulnerability to sunlight (such as vampires or shadowcursed undead) take the maximum amount of radiant damage from bottled sunlight.</content>
+  <content contentuid="hbeb55b7bga682g8884g5f2fg32045ccf4bfc" version="1">Defoliation Bomb (Lesser)</content>
+  <content contentuid="h3e02662ag523bgcb7bg0becg3324b051ac21" version="1">A defoliation bomb deals [1], [2] persistent, and [3] splash. This damage harms only plants.</content>
+  <content contentuid="h41a881cfgc981g738bg9205gdd8444e7f8b8" version="1">Defoliation Bomb (Moderate)</content>
+  <content contentuid="h34dac2b1g24e8g9ec6g049fg7479993b265c" version="1">A defoliation bomb deals [1], [2] persistent, and [3] splash. This damage harms only plants.</content>
+  <content contentuid="h40b14ca1g7e8bg3c76g3179g52cafcc2dd0a" version="1">Defoliation Bomb (Greater)</content>
+  <content contentuid="he39e66a5g810agb2abg0d18gb42adc9ecd18" version="1">A defoliation bomb deals [1], [2] persistent, and [3] splash. This damage harms only plants.</content>
+  <content contentuid="h023bbe7fg3be3g7927gfcb6gc4b145bec082" version="1">Defoliation Bomb</content>
+  <content contentuid="h7fb7be92g3c35gd510ge740gfa939338f4e3" version="1">A defoliation bomb deals [1], [2] persistent, and [3] splash. This damage harms only plants.</content>
+  <content contentuid="h6dc49d93gea4fg368ag23e1g18e7726ff704" version="1">Defoliation Bomb</content>
+  <content contentuid="h007a9d1fg4454g223dg9ae5g3d7320193d80" version="1">A defoliation bomb deals [1], [2] persistent, and [3] splash. This damage harms only plants.</content>
+  <content contentuid="heefe5c58g9f69ge1f9g494cg963e5be41ef2" version="1">Defoliation Bomb</content>
+  <content contentuid="h23da207ag5c4dgc5ddgf2c7g212bf7fa67be" version="1">A defoliation bomb deals [1], [2] persistent, and [3] splash. This damage harms only plants.</content>
+  <content contentuid="hd08d3ed5g10dbg6f3ag05fdgcb12a145e98c" version="1">Persistent Necrotic Damage</content>
+  <content contentuid="h7ce0addbg2534g4838g11bfg6314f6c14493" version="1">Persistent Necrotic Damage</content>
+  <content contentuid="h16b4bd10gaba0g2868g9333gc88dc835d428" version="1">Persistent Necrotic Damage</content>
+  <content contentuid="h6f184eb6gf1d6g9c08gef18g3e91791c4694" version="1">Nail Bomb (Lesser)</content>
+  <content contentuid="hbc7bb482g2753g9175gca81gf3d7c646b1b5" version="1">This pressurized iron casing bursts open when struck, releasing cold iron shrapnel. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="haa6c382ega289g9d9cgb029g2e7efa86894e" version="1">Nail Bomb (Moderate)</content>
+  <content contentuid="ha2989068g3b09g5b97g299fg28951ba322ee" version="1">This pressurized iron casing bursts open when struck, releasing cold iron shrapnel. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="hb2a1136fgf37cg3ac1g262eg284043d9969a" version="1">Nail Bomb (Greater)</content>
+  <content contentuid="h08edca71g03ddg627ag4fb2g55c2b4baab1f" version="1">This pressurized iron casing bursts open when struck, releasing cold iron shrapnel. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h89829513gc29cg8894gb2a1ge5611d28f392" version="1">Nail Bomb</content>
+  <content contentuid="h8c5f139ag46e1g4fdagd179ge90a4118fe60" version="1">This pressurized iron casing bursts open when struck, releasing cold iron shrapnel. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h480abc99ga1b5g8e45g4810gec20a3db0be5" version="1">Nail Bomb</content>
+  <content contentuid="h50d4cad6g11b8g0895g557cga72431d1cbf9" version="1">This pressurized iron casing bursts open when struck, releasing cold iron shrapnel. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h41df50a1gcc8dg3365gc5d0g5a286f8f5069" version="1">Nail Bomb</content>
+  <content contentuid="h12fe4887g5269gbb04gea88g66552fc22a02" version="1">This pressurized iron casing bursts open when struck, releasing cold iron shrapnel. The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h4b6c10efg9b21g9f4ega1c7g82e58de03f3d" version="1">Shatterstone</content>
+  <content contentuid="heef949f8g4f2eg6f5fg3923g32773af22931" version="1">The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h3b3fa8fbg913bg5fe2g9b77gec7b638006ee" version="1">Shatterstone</content>
+  <content contentuid="ha51bc6bfg7596g402cg6acbg2dfd2e9df16f" version="1">The bomb deals [1] and [2] splash.</content>
+  <content contentuid="h8cdea85bg81c9gde5eg0c1bg515227d05a0a" version="1">Lodestone Bomb</content>
+  <content contentuid="h6b3056dcg5e47g3d25g78a8g9570126b54b0" version="1">The bomb deals [1] and [2] splash. A target made of metal, wearing metal armor, or using metal weapons take [3] persistent.</content>
+  <content contentuid="h919e8d4cg1bc6g474dg6f48ge0492597581a" version="1">Lodestone Bomb</content>
+  <content contentuid="h66540e19g00c3gc15egffe7gff58894f917b" version="1">The bomb deals [1] and [2] splash. A target made of metal, wearing metal armor, or using metal weapons take [3] persistent.</content>
+  <content contentuid="h5824ed52g05e3g2a8dg218dg9e3785b14a66" version="1">Cold Iron</content>
+  <content contentuid="haeb91833gc748gfe00g7deaga212cd27ff5a" version="1">Weapons made from cold iron are deadly to demons and fey alike. This weapon ignores &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to bludgeoning, piercing, and slashing damage.</content>
+  <content contentuid="hf2ba1456g76d9g83bcg2e94g796a593d0be4" version="1">Persistent Force Damage</content>
+  <content contentuid="hf210ea04g48eegf084g141cg0c0e7fec37ce" version="1">Antidote (Lesser)</content>
+  <content contentuid="h1bcba602gb224gc3eagfccdgde1c43f035b4" version="1">You gain a [1] item bonus to Fortitude saving throws against poisons for 6 hours.</content>
+  <content contentuid="hca8cf4d2g5765gb8bagb6e5gee6d2ce95b23" version="1">Antidote (Moderate)</content>
+  <content contentuid="hbd45f927ge63ag1051g9da8g0523a4e118a1" version="1">Antidote (Greater)</content>
+  <content contentuid="h9d1bb751g282fg53bfgcb9dg00280dc31302" version="1">Antiplague (Lesser)</content>
+  <content contentuid="he23b0532g34c0ga4b3gd1d3g142378242022" version="1">You gain a [1] item bonus to Fortitude saving throws against diseases for 6 hours.</content>
+  <content contentuid="h983096b5g1efdgf49ag9895gcf65c7a9dba0" version="1">Antiplague (Moderate)</content>
+  <content contentuid="h623a5876gf9f3g1a5cg6760g5dde5199617e" version="1">Antiplague (Greater)</content>
+  <content contentuid="he09a854fg0212gda11g533ag249fd6de5867" version="1">Item Bonus vs Poisoned</content>
+  <content contentuid="h2a070ee2g72a3g9de9g09e4g0cd37ff3960d" version="1">You gain a [1] item bonus against the poisoned condition.</content>
+  <content contentuid="h41636dc9gcac3g3deeg659eg24147542c838" version="1">Item Bonus vs Disease</content>
+  <content contentuid="h50b6616fge5a3g4e65g9130ga9992b919137" version="1">You gain a [1] item bonus against diseases.</content>
+  <content contentuid="ha45aacd8g2dadg4c6cged98g358dc7d1ef3d" version="1">Cheetah's Elixir (Moderate)</content>
+  <content contentuid="h024d1449gd06cgd43fg550eg3d7ac52d4210" version="1">Creature gains a [1] status bonus to their Speed for 10 minutes.</content>
+  <content contentuid="hc6e0567cg761agdaaegef06g816682f9b562" version="1">Cheetah's Elixir (Lesser)</content>
+  <content contentuid="h0f21488fgbbabg1eb0g9df4gb4af56809f32" version="1">Creature gains a [1] status bonus to their Speed for 1 minute.</content>
+  <content contentuid="h2cf3870cgb22bg4ac3g30e5ge564227547bd" version="1">Cheetah's Elixir (Greater)</content>
+  <content contentuid="hbd66dafeg833eg4729gf130ga2992238c34e" version="1">Creature gains a [1] status bonus to their Speed for 1 hour.</content>
+  <content contentuid="h54aabd46g7bfeg07cbg9854g5e09428a2480" version="1">Eagle-Eye Elixir (Lesser)</content>
+  <content contentuid="hd8938addg67c7g43d4gd048g309142b1725a" version="1">Creature gains a [1] item bonus to Perception checks for 1 hour.</content>
+  <content contentuid="hb55d0462ga76dg4092gef4cg2f2e77249678" version="1">Eagle-Eye Elixir (Moderate)</content>
+  <content contentuid="ha04e1093g5209g4f5dgc751g6ba9f8e114ff" version="1">Creature gains a [1] item bonus to Perception checks for 1 hour.</content>
+  <content contentuid="h9d409f44g9304gf14bg3aeagb51beea7eb3f" version="1">Eagle-Eye Elixir (Greater)</content>
+  <content contentuid="h9d8bcc0dg5204g9a35g07feg5abca800a58b" version="1">Creature gains a [1] item bonus to Perception checks for 1 hour.</content>
+  <content contentuid="h09b09ac5g34c4g2dd2gc663g713b5fe03142" version="1">Numbing Tonic (Minor)</content>
+  <content contentuid="h1f63676dg2d9fga670g6b81gdba00757474f" version="1">You gain a [1] temporary hit points.</content>
+  <content contentuid="habf7b82age076g3992gbfcfg01309a60f62d" version="1">Numbing Tonic (Lesser)</content>
+  <content contentuid="h6a82474dg3a1cg3ee7g4669g2483a80a56b9" version="1">Numbing Tonic (Moderate)</content>
+  <content contentuid="h16b7fe68g5449g69a7g6a92geaf01208e118" version="1">Numbing Tonic (Greater)</content>
+  <content contentuid="h6015e4d9g037ag5e11gb55eg26acc4472cea" version="1">Darkvision Elixir (Lesser)</content>
+  <content contentuid="h0bc7414bgee3bg1694g3761g8b6991264072" version="1">You gain darkvision for 10 minutes</content>
+  <content contentuid="h397fee6dg2eadg3761gff64g7e9b369706af" version="1">Darkvision Elixir (Moderate)</content>
+  <content contentuid="he7a57befg12bdg5e55g9048gffe160fef3c3" version="1">You gain darkvision for 1 hour</content>
+  <content contentuid="h9ef5e976geffbgdd84ge48ag2db64db3bfb0" version="1">Soothing Tonic (Moderate)</content>
+  <content contentuid="h0c8d7785gc5afg6261gb720g4a6560a5621e" version="1">Soothing tonic is a pleasantly savory concoction that speeds your natural healing, so your wounds recover faster over time. You gain fast healing 3 for 1 minute.</content>
+  <content contentuid="h5fb22553g77d3g7d80g7f75g8863342df7fe" version="1">Soothing Tonic (Lesser)</content>
+  <content contentuid="hb48478feg431fgcf2dgcb00gbe452f1eba43" version="1">Soothing tonic is a pleasantly savory concoction that speeds your natural healing, so your wounds recover faster over time. You gain fast healing 2 for 1 minute.</content>
+  <content contentuid="h4c93b364gf842g4809ge72dg185b7ed4f21f" version="1">Soothing Tonic (Greater)</content>
+  <content contentuid="h6a3a1a76gdccfg6ddagb223geb7e9d808b3c" version="1">Soothing tonic is a pleasantly savory concoction that speeds your natural healing, so your wounds recover faster over time. You gain fast healing 5 for 1 minute.</content>
+  <content contentuid="h1e80aa3egb699g87e1g0d71g9310f36b1ade" version="1">Stone Fist Elixir</content>
+  <content contentuid="h09c4f99dg32f3gb655g3254g855916fb0548" version="1">Your fists become hard as stone. For 1 hour, your fists deal 1d6 bludgeoning damage and lose the nonlethal trait.</content>
+  <content contentuid="h416e8af1gdd45gcf25g3d0fg51464ba77c3e" version="1">Stone Fist</content>
+  <content contentuid="h31fcdcebgbb7fg0a18gfdc8g70c44fb7b721" version="1">For 1 hour, your fists deal 1d6 bludgeoning damage and lose the nonlethal trait.</content>
+  <content contentuid="h53d864ccgeb27g8d3fg7f49ge77b953628c4" version="1">Black Adder Venom</content>
+  <content contentuid="h276f4ebcga97dg984dgf9edg7c7409768ae1" version="2">Affected entity is poisoned for 3 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h8a2b0e0cg5c90g181eg383bg332562c812aa" version="1">Viperous Elixir (Lesser)</content>
+  <content contentuid="h51da238dg1598g7267g6d03gc5cd2f0f4e67" version="1">You gain a fangs unarmed attack that deals [1] and inflict black adder venom.</content>
+  <content contentuid="ha45885beg8839ge0begbc90g7ef71e2f1e72" version="1">Viperous Elixir (Moderate)</content>
+  <content contentuid="hea9c83e4g81f6g3eacg03e5g1ae5507ec328" version="1">You gain a fangs unarmed attack that deals [1] and inflict giant scorpion venom.</content>
+  <content contentuid="hdbc804e0g6972g9950g79cbg3fbe4e50f81f" version="1">Viperous Elixir (Greater)</content>
+  <content contentuid="he394229egb5ddg5b24g46d7gc85181730cc0" version="1">You gain a fangs unarmed attack that deals [1] and inflict wyvern poison.</content>
+  <content contentuid="hb1117e1eg2ed2g9c07gbaafg2d4d662a8f98" version="1">You are taking [1] persistent damage for 3 rounds or until you make a DC 18 Fortitude save at the end of your turn.</content>
+  <content contentuid="h963e96b9gbed7gdd34g1c23gb0bc43b2923a" version="1">You are taking [1] persistent damage for 3 rounds or until you make a DC 18 Fortitude save at the end of your turn.</content>
+  <content contentuid="h613b351dgdd45gc5dag61f3g712d1a7e353a" version="1">Giant Scorpion Venom: Stage 2</content>
+  <content contentuid="h31e0d56fg6d5fge3bbg5c0eg1bd473ecc466" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 1: [1] and Enfeebled 1. Stage 2: [2] and Enfeebled 1. Stage 3: [3] and Enfeebled 2.</content>
+  <content contentuid="h661d2b5cg28c5gf54dgc501geb4f654cba65" version="1">Giant Scorpion Venom: Stage 1</content>
+  <content contentuid="h92068e67g1388gaabcg9712g501452bdb9b2" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 1: [1] and Enfeebled 1. Stage 2: [2] and Enfeebled 1. Stage 3: [3] and Enfeebled 2.</content>
+  <content contentuid="hfc47aad7g869bg906egdb8cg41d2afc37a92" version="1">Giant Scorpion Venom</content>
+  <content contentuid="h4cd2b1f0g4de9g632cg158bg59087caac14c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 1: [1] and Enfeebled 1. Stage 2: [2] and Enfeebled 1. Stage 3: [3] and Enfeebled 2.</content>
+  <content contentuid="h49d3eb33gb868g1e76g3e94gf0f79c737390" version="1">Black Adder Venom: Stage 1</content>
+  <content contentuid="hf8b95130g31d4g4d91g00beg0f742f0d8369" version="1">Affected entity is poisoned for 3 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="hfb36f7ffgbb68gb1a2g5b73g967d424431eb" version="1">Black Adder Venom: Stage 2</content>
+  <content contentuid="hc3ebaac1g6574gb983g2198g26440e17ac81" version="1">Affected entity is poisoned for 3 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h03fe3600gc43dg26a6g50b1ge7bd14ea504d" version="1">Black Adder Venom: Stage 3</content>
+  <content contentuid="h46c44731g3d71g8962g2818g66fb597e3ad1" version="1">Affected entity is poisoned for 3 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="hc80a7eabge138gf279g6867g58319a3ea66c" version="1">Giant Scorpion Venom: Stage 3</content>
+  <content contentuid="hf1441560g235ag774ag128dg8923c032e845" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 1: [1] and Enfeebled 1. Stage 2: [2] and Enfeebled 1. Stage 3: [3] and Enfeebled 2.</content>
+  <content contentuid="h88e3eb20g7b22g86bfg8baag65c6eb478b7c" version="1">Wyvern Poison</content>
+  <content contentuid="h03eee204g1929g5b66gc581g0b47a9c16e22" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="hcb5ede28gc969g1cf8ga73fg958e4ba3ee2a" version="1">Wyvern Poison: Stage 1</content>
+  <content contentuid="h3a60e8e9g6cb2g22efgf608g9f4b3e6b963a" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h4b7e320bg8450gea6cg47ceg066253e99acd" version="1">Wyvern Poison: Stage 2</content>
+  <content contentuid="h423bac25g613cgb7f6gcc25g6160e2164a3a" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h7ffeb72fgaa9fg83acgdccaga49150c8dcb6" version="1">Wyvern Poison: Stage 3</content>
+  <content contentuid="h84c97b43g2694gb4e4g4f0fgf7c8064fe3a9" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h9e2b7b07gbf69g7e10ge935g1a84f297d30d" version="1">Giant Scorpion Venom: Stage 4</content>
+  <content contentuid="ha6ae9edfgb7f8ged7agcd09g171d3075ef49" version="1">Giant Scorpion Venom: Stage 5</content>
+  <content contentuid="h5fc61e74gf04fgf4f2g2d15gbc1992262625" version="1">Giant Scorpion Venom: Stage 6</content>
+  <content contentuid="h002e1b95g626cg0744gd364ge2f19654ed17" version="1">Wyvern Poison: Stage 4</content>
+  <content contentuid="h50c5883bg466bg3b0cg5b93g0316bb198e8d" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="heb273364g4dcbg9d0cgf33cg7bdd9e16fcb0" version="1">Wyvern Poison: Stage 5</content>
+  <content contentuid="h90952c75gf340g5d46g76f8g4498d2700aed" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h9bc3705cgd333gb125gc845gcecf40fdfe33" version="1">Wyvern Poison: Stage 6</content>
+  <content contentuid="hd6e27702g3dd0g562cg6581ge1f5c16662a9" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="head466dbge489g4eb5g9d8dge7c86e6ee993" version="1">Black Adder Bite</content>
+  <content contentuid="hf6278588g2706g26e7gccb5ge7f528ff491c" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it with black adder venom.</content>
+  <content contentuid="hf7222a47gc2fbgc9f7g5350g47e38879f7d9" version="1">Giant Scorpion Venom</content>
+  <content contentuid="he51a5e54g126cg5971gf1d1g0a8c52dbec72" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it with giant scorpion venom.</content>
+  <content contentuid="hdb2ae9c3g6cc0gae1aga236gf7c3268e0df7" version="1">Wyvern Poison</content>
+  <content contentuid="h97e18122g3fceg9652ge819g9ad6a1c7a736" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it with wyvern poison.</content>
+  <content contentuid="h5ad498degb7dag1eb5gaf70g4162740181b5" version="1">Boulderhead Bock</content>
+  <content contentuid="h3633f87ag45a4gce4bg5f37g0d7bf4ef4283" version="1">For 1 hour, you gain a +1 item bonus to saving throws against effects that would make you stunned or stupefied. However, you also become less aware of your surroundings, taking a –2 item penalty to Perception for 1 hour.</content>
+  <content contentuid="hfa3d8facgf248g2736g3797ge6262880a903" version="2">Fighting Oar</content>
+  <content contentuid="h95c4c6d1gfb8dg24dbgc886gc9fdad2fe92a" version="1">A fighting oar is a sturdy boat oar, typically made of wood, whose haft and blades are reinforced for use in combat.</content>
+  <content contentuid="h93a9b357g1003g6507gb430g01107b6552b7" version="1">Fighting Oar</content>
+  <content contentuid="hc1935dfeg4bd8g810eg3a30g33ac42edd160" version="1">A fighting oar is a sturdy boat oar, typically made of wood, whose haft and blades are reinforced for use in combat.</content>
+  <content contentuid="hcd64f64fg6b95g9203gf77eg044b395e1cb8" version="1">Frying Pan</content>
+  <content contentuid="h0bf1e75cg31b0ga37ag9777gd1bc38bc8f5b" version="1">The cast-iron frying pan is an essential tool for adventuring halflings, gold panners, and remote tavern owners. Characters with the Halfling Weapon Familiarity ancestry feat are trained in the frying pan.</content>
+  <content contentuid="hfa2907e2g34d6gbc73g09fcgfb5985d1f7ac" version="1">Hook Sword</content>
+  <content contentuid="hb465ee22g4d6fg80b0gee94g2be27c13b127" version="1">This long sword has a hook near the tip, making it easy to snag an opponent or their weapons.</content>
+  <content contentuid="h40350523gc8deg2653g2498g466b0cb93296" version="1">Hook Sword</content>
+  <content contentuid="h7886cff8g5efbg1f21g48f5g0d5a56dc88e1" version="1">This long sword has a hook near the tip, making it easy to snag an opponent or their weapons.</content>
+  <content contentuid="hc43b14bfg367cgbf99g07fagd15e48b7ec01" version="1">Hook Sword</content>
+  <content contentuid="h05c1a7bcg18b4gf31fg9225g0761658b55f7" version="1">This long sword has a hook near the tip, making it easy to snag an opponent or their weapons.</content>
+  <content contentuid="h76ce62ccg39e1gc1b2gb297g63d59156e213" version="1">Hook Sword</content>
+  <content contentuid="ha6d4145dg2f92g5a33g687bg7411634d8703" version="1">This long sword has a hook near the tip, making it easy to snag an opponent or their weapons.</content>
+  <content contentuid="had4c4bd3g7c64g31acge11ag4eb483b485f8" version="2">Buckler</content>
+  <content contentuid="h9eb664f9gfcb4g3646g760fge7637254437a" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hae749475g246cga4edge314g8974301f6138" version="2">Buckler</content>
+  <content contentuid="hb50fd175ge53egd26aga57cgf29f46ba6e49" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="ha05b56eag2329g990fgdc80g805ea59c5c74" version="2">Buckler</content>
+  <content contentuid="h73e061a1g8edfgddefgd25fg475a4d5eb2eb" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h2e62cacagfdc0g0b41g0ed2ga696271d0c85" version="2">Buckler</content>
+  <content contentuid="h8e7d4340gc470gb41eg02dfgcef72f905877" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h21bf7b05g2fecg2239gacafgd3e6024ff374" version="2">Buckler</content>
+  <content contentuid="hd91a266bgbfb9g5793g79c8g893e4764d26a" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="he0731b6egc89ag9f45g1056g0dd2d8869e3b" version="2">Buckler</content>
+  <content contentuid="ha3ada788gded8gfa96gaae2g0389e620881a" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hff097cddg825cg7516g46degba3fa7dfae25" version="1">Khopesh</content>
+  <content contentuid="ha59d54b5g1834ge921gc62fg111751ac3532" version="1">This curved sickle sword has a pointed tip, allowing it to be swung in wide arcs or thrust vertically around enemy defenses. The tip of a khopesh is hooked and can be used to trip an opponent.</content>
+  <content contentuid="h54644595g6f73g5ffcgb7a6ge83ef61baad2" version="1">Khopesh</content>
+  <content contentuid="h0f0e314ag214bg8bb0g29cdg82b3ca3d8bb1" version="1">This curved sickle sword has a pointed tip, allowing it to be swung in wide arcs or thrust vertically around enemy defenses. The tip of a khopesh is hooked and can be used to trip an opponent.</content>
+  <content contentuid="h566321ceg90c5ga775g9e8cgc4d9edef548b" version="2">Tower Shield</content>
+  <content contentuid="h2875f82ag1e8eg9430g1d4fg5f2dfb609795" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="h1410ec71g1786g0b81g6aa0g2e100b279876" version="2">Tower Shield</content>
+  <content contentuid="h4ec34f4agd6eeg1225g9db4g710e2d107e01" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="h47b6d6cbgdb26g8459gcdefga8c6460212db" version="2">Tower Shield</content>
+  <content contentuid="hb2215bd8ge1d9g241fg6d63gcd9c972b5a50" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="h9a341c0eg3ca8gc06ag6843g123f44c020cb" version="2">Tower Shield</content>
+  <content contentuid="h0b72f319g96eegb448g6ef2gd80411d4f774" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="hd8801326g9863gd852gaec8gd21a4071394d" version="2">Tower Shield</content>
+  <content contentuid="h50621442gb446g4281gdfd4g0169479739cd" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="h4b94d472gcc33g6bc8g151agb24aa9aa0b81" version="2">Tower Shield</content>
+  <content contentuid="h9ceae20eg61b2g361fgec8dgaad06c85f800" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="h3adc5361gf8f3g93b2g55a2gee74f01b7ec4" version="2">Tower Shield</content>
+  <content contentuid="hdd2ee4e7g095eg4903g295fg201737cb1d22" version="2">These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.&lt;br&gt;Getting the higher AC bonus for a tower shield requires using the Take Cover action while the shield is raised.</content>
+  <content contentuid="h96a6a157g017eg7a15g803cg8a52271ddba8" version="2">Shield</content>
+  <content contentuid="hea9586f2g15a8gc2degcf44g307ddced0f9f" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h675048fag19acge9f7g7b8agcb899626aeb0" version="2">Shield</content>
+  <content contentuid="hb5731313gabc1g8e0fgb839gf9cec2bd6585" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hf7c3007eg8129g2331g3a81g248dcf029170" version="2">Heater Shield</content>
+  <content contentuid="hcff796edgcd9egb386ge235g997e5c553ce2" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h5b9519ceg3456gdaf3g3a1ag57e635e7b8ca" version="2">Heater Shield</content>
+  <content contentuid="h751f6a66g0ca1g1987gb57cga143643e8dc6" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hfcd63c14gee39ga838g0405g3f0850487d43" version="2">Heater Shield</content>
+  <content contentuid="h953ce66bg4c2eg22bfgcde3g2142393d9581" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h45b5c5a0g1465g02ebg0089g92ed2bba5c1c" version="2">Heater Shield</content>
+  <content contentuid="h876a6cbdg3ea0g6accgbbcag18255ad42198" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h667cdd70g0daeg733ag8f80gee3fcba70ec3" version="2">Heater Shield</content>
+  <content contentuid="h49e2249cgb11dgd6f5g45c5g8dc6eadf7a70" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hfa8fcf4agbb71g0ef9g8089g0eb6d2afde4a" version="2">Heater Shield</content>
+  <content contentuid="h8e6bc899g1defg44d4g0e1bg4d42bc895b47" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h2c75675dgbdafgb81ag1189ga456eca47fdd" version="2">Heater Shield</content>
+  <content contentuid="hdf9db935gf171g344ag268ag90d41d362bf0" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h0475209bgdd5cg2026g3e4cg9977f8af6819" version="2">Heater Shield</content>
+  <content contentuid="h3ddade5ag0504g4b5dgae60g9d68d00e2ad1" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h577fee4eg62cfg4811gdaf4g76d2d0b3d5df" version="2">Kite Shield</content>
+  <content contentuid="h43a5babfg9560g0e2fg1d88g0249a5a82551" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h0ab7be0bg3e00g16f0ge9dbg45a59ed808ba" version="2">Kite Shield</content>
+  <content contentuid="h88ac9a66g4b78g60eeg11e2gfd18c5f55d0d" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="haf9b69d5g172fg6444g959fg641af81827d6" version="2">Kite Shield</content>
+  <content contentuid="hd10b1a98ga5cdgdf52gf996g6fec3f4dabe7" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hff93c62eg5988g6bdbg250cg6070f31f706b" version="2">Kite Shield</content>
+  <content contentuid="hd0e68ad8g1dc0g5dbagc3b8g1af69b9cd896" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h97c4f4e2g6ed1gbbf6g9a35g40af2dc1a6ab" version="2">Kite Shield</content>
+  <content contentuid="h7ad2af7bg519bgda2dg316bg4642553dcba4" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h64ee912bg9efbg2f72gacf8g61f00e5164a0" version="1">Razor Disc</content>
+  <content contentuid="haef6f6bag2d24g33a0gea74gfacac3451eb4" version="1">Several small blades line the outside edge of this steel shield. This specialized throwing shield is common among warriors in the Mwangi Expanse, where its blades can cut down foliage as it flies.</content>
+  <content contentuid="hd3134935ga83dg744dg5b89g60d53b242a45" version="1">Razor Disc</content>
+  <content contentuid="hdad479d8g0754g96a0g81e0g41ced8ed8d92" version="1">Several small blades line the outside edge of this steel shield. This specialized throwing shield is common among warriors in the Mwangi Expanse, where its blades can cut down foliage as it flies.</content>
+  <content contentuid="h0f3ed0e3ga86ag2abegf6f5g99d50ed3bf8e" version="2">Round Shield</content>
+  <content contentuid="h7413f83dg6fa2ge596g098bg1e659c17d2ae" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h58958222g1a17gcfdcgb27eg0bbf8eff6878" version="2">Round Shield</content>
+  <content contentuid="h3fc89551gec3bgd8cfgc2c4gdbae32d605d6" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h95bc5a73g7832g1f9fgea0egfbe6815d7d35" version="2">Round Shield</content>
+  <content contentuid="ha952351dg55a2g24bagb6a6g584e18a62006" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hdefc408dg30a9g4c4dg3fc4g045c081366e8" version="2">Round Shield</content>
+  <content contentuid="h035595aag9606gfd76g04edga742d3c0b4a5" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h1b199f7fgdb6cga10cg7546gccd37d84c3b6" version="2">Round Shield</content>
+  <content contentuid="h5c7e5412g59fage24eg33c0gb35a9170f9fe" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h6c722d7eg64e5gb804g1ef3gb05ef32443ae" version="2">Round Shield</content>
+  <content contentuid="h762bb594gc898gc994g18ddge334538e5334" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h935314ecgc2adg5ab1g2eeeg55c28e9866b3" version="2">Round Shield</content>
+  <content contentuid="h108a867bg362eg2982g7dccg07145082c1c8" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h7502b437g9c7ag1b00g944dgd0f00cdbaab6" version="3">Round Shield</content>
+  <content contentuid="h04f955d8gf84cg566fg078eg219bf488765f" version="3">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="h47efd84agd473g7bcag5d75g9fa11e4ee241" version="3">Shield</content>
+  <content contentuid="hd43016afg6242g292ag9633g29c10d9b452c" version="3">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
+  <content contentuid="hf3bcbbc9gdb42gd3abg81f1g3366ff87ce12" version="2">Round Shield</content>
+  <content contentuid="h3f7973a0gbf08gcf56g0f7eg0e115b5b53b8" version="2">This very small shield is a favorite of duelists and quick, lightly armored warriors. It's typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that's not a weapon in that hand.</content>
 </contentList>

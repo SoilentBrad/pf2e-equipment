@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="187f5cf2-2084-45be-8e1d-271ee30e6eea" />
+					<attribute id="Name" type="LSString" value="WPN_KiteShield_3_GD" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/More_Shields_by_Guigodead_09ae2205-4f66-6848-ab32-bf8fa0c084f0/Assets/More_Shields_GD/KiteShield/KiteShield_3/WPN_KiteShield_3_GD.GR2" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/More_Shields_by_Guigodead_09ae2205-4f66-6848-ab32-bf8fa0c084f0/Assets/More_Shields_GD/KiteShield/KiteShield_3/WPN_KiteShield_3_GD.Dummy_Root.0" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.15024215 -0.1571276 -0.42352203" />
+					<attribute id="BoundsMax" type="fvec3" value="0.44053808 0.07240155 1.0504354" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<children>
+						<node id="Objects">
+							<attribute id="ObjectID" type="FixedString" value="WPN_KiteShield_3_GD.WPN_KiteShield_1_GD.0" />
+							<attribute id="MaterialID" type="FixedString" value="6f745ae3-4fc9-6a5d-7840-67f232c1f328" />
+							<attribute id="LOD" type="uint8" value="0" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="ClothProxyMapping" />
+						<node id="Base" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

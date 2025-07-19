@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VirtualTextureBank">
+		<node id="VirtualTextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="8113eef9-0299-467d-9732-ecae1600fe59" />
+					<attribute id="Name" type="LSString" value="T_EgyptianShield_2_GD" />
+					<attribute id="SourceFile" type="LSString" value="" />
+					<attribute id="VirtualTextureLayerConfig" type="uint32" value="3" />
+					<attribute id="GTexFileName" type="FixedString" value="0daea1029db96124821717fb19ce2845" />
+					<attribute id="Prefetch" type="bool" value="False" />
+					<attribute id="PrefetchMipLevel" type="int8" value="-1" />
+					<attribute id="TileSetFileName" type="FixedString" value="c9f38b12-a198-4683-942e-22e0dbb1a054" />
+					<attribute id="ReferencedColorSpaces" type="uint32" value="6" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

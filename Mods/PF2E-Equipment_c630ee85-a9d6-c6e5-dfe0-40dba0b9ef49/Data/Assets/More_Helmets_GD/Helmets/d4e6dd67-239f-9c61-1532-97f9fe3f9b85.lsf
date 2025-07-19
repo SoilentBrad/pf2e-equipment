@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="d4e6dd67-239f-9c61-1532-97f9fe3f9b85" />
+					<attribute id="Name" type="LSString" value="Helmets_ICONs_P2_GD" />
+					<attribute id="SourceFile" type="LSString" value="Public/More_Helmets_2_GD_0736b752-d84e-ddf3-3a3c-700b5f80f9d7/Assets/Textures/Icons/Helmets_ICONs_P2_GD.dds" />
+					<attribute id="Template" type="FixedString" value="Helmets_ICONs_P2_GD" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Width" type="int32" value="512" />
+					<attribute id="Height" type="int32" value="512" />
+					<attribute id="Depth" type="int32" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="b5642cd5-9c9e-3181-c2b5-5b6d86ddca08" />
+					<attribute id="Name" type="LSString" value="WPN_PaviseCover_1_GD_V4" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/More_Shields_by_Guigodead_09ae2205-4f66-6848-ab32-bf8fa0c084f0/Assets/More_Shields_GD/OtherShield/PaviseCover_1/WPN_PaviseCover_1_GD_V4.GR2" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/More_Shields_by_Guigodead_09ae2205-4f66-6848-ab32-bf8fa0c084f0/Assets/More_Shields_GD/OtherShield/PaviseCover_1/WPN_PaviseCover_1_GD_V4.Dummy_Root.0" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.55881995 0.9102689 -0.29205987" />
+					<attribute id="BoundsMax" type="fvec3" value="0.55881995 2.8748977 0.059049472" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<children>
+						<node id="Objects">
+							<attribute id="ObjectID" type="FixedString" value="WPN_PaviseCover_1_GD_V4.WPN_PaviseCover_1_GD.0" />
+							<attribute id="MaterialID" type="FixedString" value="e3d963a3-109b-1774-add0-092d22d18df8" />
+							<attribute id="LOD" type="uint8" value="0" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="ClothProxyMapping" />
+						<node id="Base" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

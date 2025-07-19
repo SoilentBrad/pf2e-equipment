@@ -168,6 +168,55 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f228d88-61d0-4b64-be4c-b3f7f42fcc85" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_StoneFist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f0737a2-8906-4b03-ad77-9b9cfe7225a9" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6, Bludgeoning, Magical);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h416e8af1gdd45gcf25g3d0fg51464ba77c3e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h31fcdcebgbb7fg0a18gfdc8g70c44fb7b721" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6, Bludgeoning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10067959-8bfd-4086-a413-bce307970a05" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ViperousBite_Adder" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00641ec2-ed6b-4c8b-a7d5-8daddd2e6c34" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack+1)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 18)):ApplyStatus(BlackAdderVenom_1,100,-1);DealDamage(max(1,1d6+Strength), Piercing);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="head466dbge489g4eb5g9d8dge7c86e6ee993" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6278588g2706g26e7gccb5ge7f528ff491c" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+Strength, Piercing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BlackAdderVenom_1,100,-1)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="234bcfae-6e69-4dca-abce-4ffb90491026" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ViperousBite_Scorpion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10067959-8bfd-4086-a413-bce307970a05" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack+2)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 22)):ApplyStatus(GiantScorpionVenom_1,100,-1);DealDamage(max(1,1d6+Strength), Piercing);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7222a47gc2fbgc9f7g5350g47e38879f7d9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he51a5e54g126cg5971gf1d1g0a8c52dbec72" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GiantScorpionVenom_1,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04442b49-ce50-4037-a53d-e90223545864" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ViperousBite_Wyvern" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10067959-8bfd-4086-a413-bce307970a05" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack+3)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 26)):ApplyStatus(WyvernPoison_1,100,-1);DealDamage(max(1,1d6+Strength), Piercing);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb2ae9c3g6cc0gae1aga236gf7c3268e0df7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97e18122g3fceg9652ge819g9ad6a1c7a736" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WyvernPoison_1,100,-1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a7a248cc-f584-431c-9e7d-57ceb0887720" />

@@ -103,6 +103,62 @@
                             <attribute id="UUID" type="guid" value="dda83752-5c01-30f9-6a09-824c7e182090"/>
                             <attribute id="Version64" type="int64" value="36591753414836225"/>
                         </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="ImpUI_26922ba9-6018-5252-075d-7ff2ba6ed879"/>
+                            <attribute id="MD5" type="LSString" value="37b96058984e75d6245aa0182223c669"/>
+                            <attribute id="Name" type="LSString" value="ImpUI (ImprovedUI)"/>
+                            <attribute id="PublishHandle" type="uint64" value="4138213"/>
+                            <attribute id="UUID" type="guid" value="26922ba9-6018-5252-075d-7ff2ba6ed879"/>
+                            <attribute id="Version64" type="int64" value="72198331526283346"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="Pathfinder2eRunes_dcfbbbc8-3055-550e-d8df-37129915490e"/>
+                            <attribute id="MD5" type="LSString" value="1a8da0d35bdb414ab4294f994e2ff927"/>
+                            <attribute id="Name" type="LSString" value="Pathfinder 2e Runes"/>
+                            <attribute id="PublishHandle" type="uint64" value="5093075"/>
+                            <attribute id="UUID" type="guid" value="dcfbbbc8-3055-550e-d8df-37129915490e"/>
+                            <attribute id="Version64" type="int64" value="36028797018963997"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="More_Weapons_by_Guigodead_41837649-5d7e-6dc6-39d5-ac30012450e8"/>
+                            <attribute id="MD5" type="LSString" value="3eb7c2522b4414795a6c02455230e836"/>
+                            <attribute id="Name" type="LSString" value="More_Weapons_by_Guigodead"/>
+                            <attribute id="PublishHandle" type="uint64" value="4837697"/>
+                            <attribute id="UUID" type="guid" value="41837649-5d7e-6dc6-39d5-ac30012450e8"/>
+                            <attribute id="Version64" type="int64" value="36169536654802951"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="Engine"/>
+                            <attribute id="MD5" type="LSString" value="d41d8cd98f00b204e9800998ecf8427e"/>
+                            <attribute id="Name" type="LSString" value="Engine"/>
+                            <attribute id="PublishHandle" type="uint64" value="0"/>
+                            <attribute id="UUID" type="guid" value="9dff4c3b-fda7-43de-a763-ce1383039999"/>
+                            <attribute id="Version64" type="int64" value="36028797018963968"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="More_Shields_by_Guigodead_09ae2205-4f66-6848-ab32-bf8fa0c084f0"/>
+                            <attribute id="MD5" type="LSString" value="0fdb9c315c65e0fde075be5fc269b291"/>
+                            <attribute id="Name" type="LSString" value="More_Shields_by_Guigodead"/>
+                            <attribute id="PublishHandle" type="uint64" value="4838374"/>
+                            <attribute id="UUID" type="guid" value="09ae2205-4f66-6848-ab32-bf8fa0c084f0"/>
+                            <attribute id="Version64" type="int64" value="36451011631513601"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="More_Helmet_by_Guigodead_638dfabf-73b6-ee61-c5e2-60b1fc813d15"/>
+                            <attribute id="MD5" type="LSString" value="806cc243eac0b24de374fc11f1db428b"/>
+                            <attribute id="Name" type="LSString" value="More Helmets by Guigodead Part 1"/>
+                            <attribute id="PublishHandle" type="uint64" value="0"/>
+                            <attribute id="UUID" type="guid" value="638dfabf-73b6-ee61-c5e2-60b1fc813d15"/>
+                            <attribute id="Version64" type="int64" value="36451015926480899"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="More_Helmets_2_GD_0736b752-d84e-ddf3-3a3c-700b5f80f9d7"/>
+                            <attribute id="MD5" type="LSString" value="a1f2abdf00f0db3c094efd24c68d4499"/>
+                            <attribute id="Name" type="LSString" value="More Helmets by Guigodead Part 2"/>
+                            <attribute id="PublishHandle" type="uint64" value="4987312"/>
+                            <attribute id="UUID" type="guid" value="0736b752-d84e-ddf3-3a3c-700b5f80f9d7"/>
+                            <attribute id="Version64" type="int64" value="36028797018963988"/>
+                        </node>
                     </children>
                 </node>
                 <node id="ModuleInfo">

@@ -14,3 +14,8 @@ add equipment entry "ARM_RingMail_Body"
 add equipmentgroup
 add equipment entry "PF2_ARM_TowerShield_Duergar"
 
+new equipment "EQP_Goblin_Spear"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "PF2_WPN_Horsechopper"
+

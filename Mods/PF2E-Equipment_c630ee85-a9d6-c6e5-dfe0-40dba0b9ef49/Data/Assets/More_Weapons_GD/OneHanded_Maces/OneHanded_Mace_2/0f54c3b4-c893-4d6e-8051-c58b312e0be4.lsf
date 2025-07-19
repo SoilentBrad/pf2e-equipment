@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VirtualTextureBank">
+		<node id="VirtualTextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="0f54c3b4-c893-4d6e-8051-c58b312e0be4" />
+					<attribute id="Name" type="LSString" value="T_OneHanded_Mace_2_GD" />
+					<attribute id="VirtualTextureLayerConfig" type="uint32" value="3" />
+					<attribute id="GTexFileName" type="FixedString" value="6432254659e59f4c0edf5a235096037a" />
+					<attribute id="Prefetch" type="bool" value="False" />
+					<attribute id="PrefetchMipLevel" type="int8" value="-1" />
+					<attribute id="TileSetFileName" type="FixedString" value="03284267-5687-4fb7-af82-8b859b2940f5" />
+					<attribute id="ReferencedColorSpaces" type="uint32" value="6" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

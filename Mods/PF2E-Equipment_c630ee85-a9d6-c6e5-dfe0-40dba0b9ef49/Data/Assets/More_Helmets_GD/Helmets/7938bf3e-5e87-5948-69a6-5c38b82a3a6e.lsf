@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="7938bf3e-5e87-5948-69a6-5c38b82a3a6e" />
+					<attribute id="Name" type="LSString" value="T_Solid_Cloth_1_GD" />
+					<attribute id="SourceFile" type="LSString" value="Public/More_Helmet_by_Guigodead_638dfabf-73b6-ee61-c5e2-60b1fc813d15/Assets/More_Helmets_GD/Helmets/_Aux/Mask_Colors/T_Solid_Cloth_1_GD.DDS" />
+					<attribute id="Template" type="FixedString" value="T_Solid_Cloth_1_GD" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Width" type="int32" value="128" />
+					<attribute id="Height" type="int32" value="128" />
+					<attribute id="Depth" type="int32" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

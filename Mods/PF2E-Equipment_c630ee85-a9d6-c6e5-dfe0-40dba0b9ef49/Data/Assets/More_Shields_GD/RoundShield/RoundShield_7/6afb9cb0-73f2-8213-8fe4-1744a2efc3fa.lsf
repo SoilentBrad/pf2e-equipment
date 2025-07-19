@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="6afb9cb0-73f2-8213-8fe4-1744a2efc3fa" />
+					<attribute id="Name" type="LSString" value="T_RoundShield_7_GD_MSK" />
+					<attribute id="SourceFile" type="LSString" value="Public/More_Shields_by_Guigodead_09ae2205-4f66-6848-ab32-bf8fa0c084f0/Assets/More_Shields_GD/RoundShield/RoundShield_7/Texture/T_RoundShield_7_GD_MSK.DDS" />
+					<attribute id="Template" type="FixedString" value="T_RoundShield_7_GD_MSK" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Width" type="int32" value="1024" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="Depth" type="int32" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

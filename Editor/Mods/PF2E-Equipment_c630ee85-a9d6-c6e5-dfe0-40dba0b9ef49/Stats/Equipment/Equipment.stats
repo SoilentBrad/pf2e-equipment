@@ -20,5 +20,13 @@
         <field name="3" type="StatReferenceTableFieldDefinition" value="PF2_ARM_TowerShield_Duergar" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="95792981-4b16-4fd9-a0b0-4250bd37d6ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Goblin_Spear" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="PF2_WPN_Horsechopper" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

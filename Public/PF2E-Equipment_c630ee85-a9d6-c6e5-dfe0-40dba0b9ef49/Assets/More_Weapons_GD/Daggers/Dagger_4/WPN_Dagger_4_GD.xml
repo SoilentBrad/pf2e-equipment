@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings source="($SOURCE)\Assets\More_Weapons_GD\Daggers\Dagger_4\WPN_Dagger_4_GD.fbx">
+  <SceneSettings>
+    <UseMikkTSpace>true</UseMikkTSpace>
+    <OptimizeMesh>true</OptimizeMesh>
+    <HighPrecisionUV>false</HighPrecisionUV>
+    <MeshOrderPreset>Default</MeshOrderPreset>
+    <UseBlendShapes>false</UseBlendShapes>
+    <GenerateLODMaterials>true</GenerateLODMaterials>
+    <LOD>
+      <CanFade>false</CanFade>
+      <FadeDistance>3.40282347E+38</FadeDistance>
+      <HasCustomLOD>false</HasCustomLOD>
+      <Levels />
+    </LOD>
+    <VertexColors>
+      <Node name="WPN_Dagger_4_GD">
+        <ColorSet name="Attribute">true</ColorSet>
+      </Node>
+    </VertexColors>
+    <UVMaps>
+      <Node name="WPN_Dagger_4_GD">
+        <UV name="UVMap">true</UV>
+      </Node>
+    </UVMaps>
+  </SceneSettings>
+</Settings>

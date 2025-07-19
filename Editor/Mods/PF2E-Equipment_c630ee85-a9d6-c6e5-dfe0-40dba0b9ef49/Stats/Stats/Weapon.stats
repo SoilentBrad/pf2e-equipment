@@ -18,7 +18,7 @@
         <field name="Weight" type="FloatTableFieldDefinition" value="1" />
         <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d8" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PF2_ShoveTrait);" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PF2_ShoveTrait);UnlockSpell(Shout_Bard_Perform_Lute);" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Clubs;SimpleWeapons;MusicalInstrument" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1c8f6eea-a2ce-4d08-930d-45fc5c94ce06" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
@@ -137,6 +137,14 @@
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_FryingPan_B" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7244c583-a657-4c46-b299-747078d214a7" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fb56e3cb-56dc-4b62-92d2-87a52734d355" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab107439-b084-4d5e-9d0c-3cd6010361b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_FryingPan_C" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7244c583-a657-4c46-b299-747078d214a7" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="67b66b50-b98c-468d-ba66-a775bb359027" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -579,6 +587,46 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_VersatilePiercing;IF(HasPassive('PF2_GnomeWeaponFamiliarity',context.Source)):PF2_GnomeWeaponFamiliarity_Passive;" />
         <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f49dcfac-7d3e-4e08-817c-7096b3c7c0fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee4e68a1-5abf-438c-9049-28a0be32612f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HookSword_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7caaf5b6-4384-4c18-9203-2673688579f6" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PF2_DisarmTrait);UnlockSpell(Target_PF2_TripTrait);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ParryTrait;" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Light" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MartialWeapons;Scimitars" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6389f342-d1da-43f3-8354-6470908fda1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HookSword_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee4e68a1-5abf-438c-9049-28a0be32612f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="17361d52-728d-45bf-9638-e82d193c5881" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47e397f2-88d2-448f-a0c9-c32276bad053" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HookSword_C" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee4e68a1-5abf-438c-9049-28a0be32612f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e36bbef8-2803-47e9-954f-7804a7b6d01f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74080026-41ae-4ee6-aaa9-77a700a81923" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HookSword_D" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee4e68a1-5abf-438c-9049-28a0be32612f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7f002267-3f86-491f-8af5-0a9807de9ca8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1257,9 +1305,27 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b8cb941f-441e-4075-bcc5-31e85009d767" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualFauchard" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8d1a5057-a11a-4e8b-b38e-599b06926c42" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a484fec2-be7f-4aa7-8d32-66659c046f2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_FightingOar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="eb665f2e-5218-4b87-9e24-9a17f07adee6" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="150" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_SweepTrait;PF2_VersatileSlashing;" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Reach;Twohanded;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Glaives;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b73ed6d-da6b-46b1-a598-7b15b07d6e09" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_FightingOar_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a484fec2-be7f-4aa7-8d32-66659c046f2a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="06434674-87f3-4c27-8507-8254430841fb" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1377,7 +1443,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a40668e1-1dc2-466d-be64-8ea2b6c5f1a8" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Khopesh" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Khopesh_A" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="49272b37-7e9a-47b1-8cab-4f6916e3d657" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
@@ -1398,6 +1464,20 @@
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Scimitars;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5576903-b1b1-4651-aad5-0ba68d6493a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Khopesh_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a40668e1-1dc2-466d-be64-8ea2b6c5f1a8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f639695-5a17-45d1-80d9-a7635fe007f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Khopesh_C" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a40668e1-1dc2-466d-be64-8ea2b6c5f1a8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1681,13 +1761,6 @@
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Twohanded" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Scimitars;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="74d61768-9ee0-4cc2-b319-352a87ed0b7c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualFalchion" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7a62c4f1-7319-4324-9b1c-1d8ae207169e" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1999,399 +2072,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c8bb373a-4904-4984-9352-0cf50fcb2db1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e01cdfc7-04c6-4974-9a5a-bed159da9eb4" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualBattleaxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9a032341-99e7-4003-b138-0d47c0096d06" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="11238c07-33ae-499f-a755-43540646155e" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDagger_Dwarf" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7d16c5fb-9d00-479a-8d56-ba2bccbba93f" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4e97dba3-bb8c-4f74-b1c1-4a7f849a5fdd" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualFlail" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0e8a0367-47b7-44b6-a387-a8af688cf81e" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGlaive" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fe933330-7d97-4aec-8930-b713213820e9" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGreataxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="12828fec-de45-4b49-a32c-f707ee184952" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8cc697b1-0b8f-407b-927d-0204a644f9b8" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGreatsword_GiantBarbarian" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="48fc6771-51cd-4e2b-bf4b-87ce882f01f0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6d9711c2-b2a4-426c-908a-3be734700e31" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualHalberd" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="58955b55-5f09-44b1-8981-33923b33548a" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualHandaxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b02e760e-cbeb-4d05-a758-94d0a6d2113c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualJavelin" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7a1582de-945e-4972-93c6-924d5006fbaa" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a454748d-6c79-4029-b2aa-8cd8a46e7760" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualLongsword" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="01234dca-f05c-4817-a40e-dc22b1f9f34a" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualMace" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="28c808bc-4d1b-434c-b63b-ce0352013d9f" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualMaul" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="23a0a8a2-5389-4bab-a4b0-d7855276f4e2" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="384b5acb-60c9-4c4d-bf82-5bb595cf3d9c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualMorningstar" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1ebbf974-6f7c-4d80-80da-526599712604" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualPike" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="be9eff0a-a4be-4cb7-8b8c-ccfb13c95d64" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualRapier" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="430dd5da-5da8-4be7-8879-c9cb1624b76d" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualScimitar" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="33f98ac5-5558-4df4-92ba-0e74668ca3c3" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualSpear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6efecf71-0529-4981-aeca-13580b228bb3" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualTrident" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Thrown;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f77bee34-2c73-4f9e-80e4-a9500d4808ea" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualWarhammer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa6cc81-27d3-473a-a7ee-f486f1d11edd" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c6038c58-796b-4296-978d-6b33c684f7ba" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualWarPick" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="abd7ca87-7b27-4dcf-91ba-5a679a141113" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualFryingPan_A" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7244c583-a657-4c46-b299-747078d214a7" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b334de81-7c84-47ad-9bce-27d5609595f1" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualFryingPan_B" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="233155d6-c966-4bb8-a4a2-b7067b61b0ce" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1f1ba6e0-bbc4-4218-aab8-a52a88fefd2e" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualKarambit" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ddc2c1f3-231c-4490-bf23-7c3d6ace1062" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e86352ff-6087-4d43-91fe-acf34d412aeb" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualKris" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7eb1fee7-7ad8-46db-9498-97f0e80b7fff" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0e4fd086-8c19-4f4d-a36d-a7325f06b2c3" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualLightPick" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="0b4f5ce8-57b0-4220-b3a4-268d6d233bcb" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="27b17f3f-b296-4cd8-9ee6-9a1014a44621" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualPick" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3125fbb0-240d-47cd-9ce5-097b9357ad5d" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2bc960da-3c65-4cbb-87e0-4cc4b3741445" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualBreachingPike" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="eee6720a-f1a9-4976-b770-98b692c39e02" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f4754ab6-a239-4cc4-9900-e6812fa7e2ae" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDancerSpear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d150c502-ceaa-4c5f-93d0-6563232531e4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f9f88f93-e8da-4919-9f5c-4238baf3d402" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDogslicer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="319ad34a-78e2-4b0a-b577-948f7b4ba5ac" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6bd7d604-ed6c-40d4-b867-3931bef8612f" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualEarthbreaker" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="514af6b9-be60-48a8-b0fc-d9ce80ceb973" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f45d32a2-39c1-428d-935d-35174f46eb0d" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGnomeFlickmace" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="db568fe2-70be-41e4-a44c-c96874c135d3" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8bc2ae59-df15-4fe0-a727-dc4787b9e36f" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGnomeHookedHammer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="cbd05a60-295b-435c-9396-3455f31756b8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="78613ae1-ab84-4b52-b419-4f44e48083b5" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualPalstave" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7c9e7ed1-43ad-48c4-bd48-081c30fcbb99" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8fefeba5-dfd0-4bc4-a052-fcdf190c45a7" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualSpiralRapier" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="cbd43951-cc5f-422c-8390-27285e82d43c" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4f6861f8-a847-4c9f-8a33-6bc4325c717f" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualWarGavel" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="49f875bf-fc1a-4ac1-95d7-2ff22d84c417" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="981d48a6-8f98-45e4-a9df-dad613a4eb2c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualWarJavelin" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="27448f1c-6ed0-43cb-a8ae-2b90aa2ec0b5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a61842ef-bd34-4069-8a40-9b2ec492a363" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDwarvenWaraxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="61cbae45-aacc-4aed-9e33-820462833b08" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a391080c-9b17-4a76-af86-41d18ec350d3" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualHorsechopper" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="893da37a-5a95-45cc-baf1-8ac93e0f9a5b" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5f24f1e2-0ab5-4050-8415-d87efc148dcb" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualLance" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="b08c4fd0-e91a-4c29-bd3f-dc068290d2f7" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8b95a2d7-e21b-481c-b138-e6c4d530f671" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualLongHammer" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5859cb7c-7d56-4972-a2c9-53c6c4a2ca65" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="70b7acb8-1dbe-4399-8d7c-1c920372dcda" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualLongspear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3c9aa6f5-8c47-4483-b08a-76f9ebfd79aa" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c406e05a-6897-427b-ad31-0340bda5d1f2" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualThundermace" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fb98a1e5-67c1-4460-a8b0-a1aef71efbf8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d6a17920-fa46-48cd-8390-6b178846bb9c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualWarLance" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fefa8649-052c-41c4-a81d-5f82f9f9ed32" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b01573fb-9966-4ba8-bb17-5cea6d073872" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualBoardingPike" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="406a8137-b891-470b-9c35-7ba44579c583" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e6ad7c33-00c4-49ab-9ce7-28e37d23c033" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDwarvenDornDergar" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="41cfa76e-c72d-48f8-8936-1462891111b7" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e4c3fe9e-c71c-44d7-b2b5-143455523b06" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualFalcata" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ccd8d07b-2f59-4a5a-b19a-634d66eeb563" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="9fe5fb42-2359-43ff-aa92-a65cf8f71e5e" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGreatpick" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dbd0ff20-6c4d-4efb-b5cb-227382c48558" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="32e516b4-59ed-4df5-b96c-db0634cfc263" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualRanseur" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="6e983d0b-8f99-45b3-83c7-9a01cd4aa150" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="53dd797f-f851-40ed-9332-90c0c244b270" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualScythe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d1f89ce4-fca8-4d39-bbb6-f9258b29e0a3" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fefe4f6d-659c-47c0-969e-5ca2c5d016d8" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualWarFlail" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c83e07ec-2b1d-4701-b4b4-32a8e3865d25" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="41d7ec50-4b00-4384-b736-22c3f397a4bd" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualElvenCurveBlade" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d884706d-db4f-4a43-8224-2c08fdf92f79" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="9426a21a-f3f4-4dc2-85fa-72abc2cde8d0" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualElvenBranchedSpear" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="16f119d6-eb02-4d44-849f-7dd5bf8e058d" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="effa954c-6586-4608-82b3-047c2b6f863c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualTrickyPick" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="70e85921-b840-4f0f-b751-013bc7b1db32" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2947bb95-a74a-434c-adfa-e6028e59ee8d" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualOrcSkewermaul" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="2049b8b3-0c83-4926-bea7-232ca93ba9e1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6f2232d8-eea6-49fc-9c56-0f796f0a346c" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualButcheringAxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="d90ee725-2435-4875-aeb4-b7d548f6a418" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3d3feaf8-3376-4089-8eb3-af90dd0501fe" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualOrcNecksplitter" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ae2487dc-fc49-4935-8791-3a6af6861980" />
-      </fields>
-    </stat_object>
     <stat_object color="#FF800080" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="50562bc9-8549-43da-beed-e7b8e76f9b30" />
@@ -2412,13 +2092,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="xPF2_WPN_VampiricDagger" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4a997f13-4fb8-4aca-b3f1-cf206b108805" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0050dedf-4497-4e46-b6d5-62a4a8451b65" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualShortsword" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

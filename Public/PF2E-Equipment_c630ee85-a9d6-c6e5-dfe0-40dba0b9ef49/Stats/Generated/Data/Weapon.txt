@@ -23,7 +23,7 @@ data "ValueLevel" "3"
 data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
 data "Rarity" "Uncommon"
 data "Weight" "1"
-data "BoostsOnEquipMainHand" "UnlockSpell(Target_PF2_ShoveTrait);"
+data "BoostsOnEquipMainHand" "UnlockSpell(Target_PF2_ShoveTrait);UnlockSpell(Shout_Bard_Perform_Lute);"
 data "VersatileDamage" "1d8"
 data "Weapon Properties" "Melee;Dippable;Versatile"
 data "Proficiency Group" "Clubs;SimpleWeapons;MusicalInstrument"
@@ -115,6 +115,11 @@ new entry "PF2_WPN_FryingPan_B"
 type "Weapon"
 using "PF2_WPN_FryingPan_A"
 data "RootTemplate" "fb56e3cb-56dc-4b62-92d2-87a52734d355"
+
+new entry "PF2_WPN_FryingPan_C"
+type "Weapon"
+using "PF2_WPN_FryingPan_A"
+data "RootTemplate" "67b66b50-b98c-468d-ba66-a775bb359027"
 
 new entry "PF2_WPN_Karambit"
 type "Weapon"
@@ -545,6 +550,34 @@ data "Rarity" "Uncommon"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_PF2_TripTrait);"
 data "PassivesOnEquip" "PF2_VersatilePiercing;IF(HasPassive('PF2_GnomeWeaponFamiliarity',context.Source)):PF2_GnomeWeaponFamiliarity_Passive;"
 data "VersatileDamage" "1d10"
+
+new entry "PF2_WPN_HookSword_A"
+type "Weapon"
+using "WPN_Shortsword"
+data "RootTemplate" "7caaf5b6-4384-4c18-9203-2673688579f6"
+data "Damage Type" "Slashing"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "Rarity" "Uncommon"
+data "DefaultBoosts" ""
+data "BoostsOnEquipMainHand" "UnlockSpell(Target_PF2_DisarmTrait);UnlockSpell(Target_PF2_TripTrait);"
+data "PassivesOnEquip" "ParryTrait;"
+data "Weapon Properties" "Melee;Dippable;Light"
+data "Proficiency Group" "MartialWeapons;Scimitars"
+
+new entry "PF2_WPN_HookSword_B"
+type "Weapon"
+using "PF2_WPN_HookSword_A"
+data "RootTemplate" "17361d52-728d-45bf-9638-e82d193c5881"
+
+new entry "PF2_WPN_HookSword_C"
+type "Weapon"
+using "PF2_WPN_HookSword_A"
+data "RootTemplate" "e36bbef8-2803-47e9-954f-7804a7b6d01f"
+
+new entry "PF2_WPN_HookSword_D"
+type "Weapon"
+using "PF2_WPN_HookSword_A"
+data "RootTemplate" "7f002267-3f86-491f-8af5-0a9807de9ca8"
 
 new entry "PF2_WPN_Kama"
 type "Weapon"
@@ -1135,9 +1168,24 @@ data "RootTemplate" "1d74af39-5ec0-407d-b8c2-ee83001f6a8b"
 data "BoostsOnEquipMainHand" "UnlockSpell(Target_PF2_TripTrait);"
 data "PassivesOnEquip" "DeadlyD8_Slashing;PF2_SweepTrait;"
 
-new entry "PF2_FOR_NoqualFauchard"
+new entry "PF2_WPN_FightingOar_A"
 type "Weapon"
-using "PF2_WPN_Fauchard"
+using "WPN_Glaive"
+data "RootTemplate" "eb665f2e-5218-4b87-9e24-9a17f07adee6"
+data "Damage Type" "Bludgeoning"
+data "WeaponRange" "150"
+data "ValueLevel" "1"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "ValueScale" "0.1"
+data "Rarity" "Uncommon"
+data "PassivesOnEquip" "PF2_SweepTrait;PF2_VersatileSlashing;"
+data "Weapon Properties" "Reach;Twohanded;Melee;Dippable"
+data "Proficiency Group" "Glaives;SimpleWeapons"
+
+new entry "PF2_WPN_FightingOar_B"
+type "Weapon"
+using "PF2_WPN_FightingOar_A"
+data "RootTemplate" "06434674-87f3-4c27-8507-8254430841fb"
 
 new entry "PF2_WPN_Gada"
 type "Weapon"
@@ -1218,7 +1266,7 @@ data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Melee;Dippable"
 data "Proficiency Group" "MartialWeapons;Longswords"
 
-new entry "PF2_WPN_Khopesh"
+new entry "PF2_WPN_Khopesh_A"
 type "Weapon"
 data "RootTemplate" "49272b37-7e9a-47b1-8cab-4f6916e3d657"
 data "Level" "1"
@@ -1240,6 +1288,14 @@ data "ItemColor" "DefaultGray"
 data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Melee;Dippable"
 data "Proficiency Group" "Scimitars;MartialWeapons"
+
+new entry "PF2_WPN_Khopesh_B"
+type "Weapon"
+using "PF2_WPN_Khopesh_A"
+
+new entry "PF2_WPN_Khopesh_C"
+type "Weapon"
+using "PF2_WPN_Khopesh_A"
 
 new entry "PF2_WPN_Lance"
 type "Weapon"
@@ -1457,10 +1513,6 @@ data "ItemColor" "DefaultGray"
 data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Melee;Dippable;Twohanded"
 data "Proficiency Group" "Scimitars;MartialWeapons"
-
-new entry "PF2_FOR_NoqualFalchion"
-type "Weapon"
-using "PF2_WPN_Falchion"
 
 new entry "WPN_Greatclub"
 type "Weapon"
@@ -1693,229 +1745,6 @@ new entry "PF2_FOR_NoqualSickle"
 type "Weapon"
 using "FOR_IncompleteMasterwork_SussurSickle"
 
-new entry "PF2_FOR_NoqualBattleaxe"
-type "Weapon"
-using "WPN_Battleaxe"
-
-new entry "PF2_FOR_NoqualDagger_Dwarf"
-type "Weapon"
-using "WPN_Dagger_Dwarf"
-
-new entry "PF2_FOR_NoqualFlail"
-type "Weapon"
-using "WPN_Flail"
-
-new entry "PF2_FOR_NoqualGlaive"
-type "Weapon"
-using "WPN_Glaive"
-
-new entry "PF2_FOR_NoqualGreataxe"
-type "Weapon"
-using "WPN_Greataxe"
-
-new entry "PF2_FOR_NoqualGreatsword_GiantBarbarian"
-type "Weapon"
-using "WPN_GiantBarbarian_Greatsword"
-
-new entry "PF2_FOR_NoqualHalberd"
-type "Weapon"
-using "WPN_Halberd"
-
-new entry "PF2_FOR_NoqualHandaxe"
-type "Weapon"
-using "WPN_Handaxe"
-
-new entry "PF2_FOR_NoqualJavelin"
-type "Weapon"
-using "WPN_Javelin"
-
-new entry "PF2_FOR_NoqualLongsword"
-type "Weapon"
-using "WPN_Longsword"
-
-new entry "PF2_FOR_NoqualMace"
-type "Weapon"
-using "WPN_Mace"
-
-new entry "PF2_FOR_NoqualMaul"
-type "Weapon"
-using "WPN_Maul"
-
-new entry "PF2_FOR_NoqualMorningstar"
-type "Weapon"
-using "WPN_Morningstar"
-
-new entry "PF2_FOR_NoqualPike"
-type "Weapon"
-using "WPN_Pike"
-
-new entry "PF2_FOR_NoqualRapier"
-type "Weapon"
-using "WPN_Rapier"
-
-new entry "PF2_FOR_NoqualScimitar"
-type "Weapon"
-using "WPN_Scimitar"
-
-new entry "PF2_FOR_NoqualSpear"
-type "Weapon"
-using "WPN_Spear"
-
-new entry "PF2_FOR_NoqualTrident"
-type "Weapon"
-using "WPN_Trident"
-data "Weapon Properties" "Thrown;Melee;Dippable"
-
-new entry "PF2_FOR_NoqualWarhammer"
-type "Weapon"
-using "WPN_Warhammer"
-
-new entry "PF2_FOR_NoqualWarPick"
-type "Weapon"
-using "WPN_WarPick"
-
-new entry "PF2_FOR_NoqualFryingPan_A"
-type "Weapon"
-using "PF2_WPN_FryingPan_A"
-
-new entry "PF2_FOR_NoqualFryingPan_B"
-type "Weapon"
-using "PF2_WPN_FryingPan_B"
-
-new entry "PF2_FOR_NoqualKarambit"
-type "Weapon"
-using "PF2_WPN_Karambit"
-
-new entry "PF2_FOR_NoqualKris"
-type "Weapon"
-using "PF2_WPN_Kris"
-
-new entry "PF2_FOR_NoqualLightPick"
-type "Weapon"
-using "PF2_WPN_LightPick"
-
-new entry "PF2_FOR_NoqualPick"
-type "Weapon"
-using "PF2_WPN_Pick"
-
-new entry "PF2_FOR_NoqualBreachingPike"
-type "Weapon"
-using "PF2_WPN_BreachingPike"
-
-new entry "PF2_FOR_NoqualDancerSpear"
-type "Weapon"
-using "PF2_WPN_DancerSpear"
-
-new entry "PF2_FOR_NoqualDogslicer"
-type "Weapon"
-
-new entry "PF2_FOR_NoqualEarthbreaker"
-type "Weapon"
-using "PF2_WPN_Earthbreaker"
-
-new entry "PF2_FOR_NoqualGnomeFlickmace"
-type "Weapon"
-using "PF2_WPN_GnomeFlickmace"
-
-new entry "PF2_FOR_NoqualGnomeHookedHammer"
-type "Weapon"
-using "PF2_WPN_GnomeHookedHammer"
-
-new entry "PF2_FOR_NoqualPalstave"
-type "Weapon"
-using "PF2_WPN_Palstave"
-
-new entry "PF2_FOR_NoqualSpiralRapier"
-type "Weapon"
-using "PF2_WPN_SpiralRapier"
-
-new entry "PF2_FOR_NoqualWarGavel"
-type "Weapon"
-using "PF2_WPN_WarGavel"
-
-new entry "PF2_FOR_NoqualWarJavelin"
-type "Weapon"
-using "PF2_WPN_WarJavelin"
-
-new entry "PF2_FOR_NoqualDwarvenWaraxe"
-type "Weapon"
-using "PF2_WPN_Dwarven_Waraxe"
-
-new entry "PF2_FOR_NoqualHorsechopper"
-type "Weapon"
-using "PF2_WPN_Horsechopper"
-
-new entry "PF2_FOR_NoqualLance"
-type "Weapon"
-using "PF2_WPN_Lance"
-
-new entry "PF2_FOR_NoqualLongHammer"
-type "Weapon"
-using "PF2_WPN_LongHammer"
-
-new entry "PF2_FOR_NoqualLongspear"
-type "Weapon"
-using "PF2_WPN_Longspear"
-
-new entry "PF2_FOR_NoqualThundermace"
-type "Weapon"
-using "PF2_WPN_Thundermace"
-
-new entry "PF2_FOR_NoqualWarLance"
-type "Weapon"
-using "PF2_WPN_WarLance"
-
-new entry "PF2_FOR_NoqualBoardingPike"
-type "Weapon"
-
-new entry "PF2_FOR_NoqualDwarvenDornDergar"
-type "Weapon"
-using "PF2_WPN_DwarvenDornDergar"
-
-new entry "PF2_FOR_NoqualFalcata"
-type "Weapon"
-using "PF2_WPN_Falcata"
-
-new entry "PF2_FOR_NoqualGreatpick"
-type "Weapon"
-using "PF2_WPN_Greatpick"
-
-new entry "PF2_FOR_NoqualRanseur"
-type "Weapon"
-using "PF2_WPN_Ranseur"
-
-new entry "PF2_FOR_NoqualScythe"
-type "Weapon"
-using "PF2_WPN_Scythe"
-
-new entry "PF2_FOR_NoqualWarFlail"
-type "Weapon"
-using "PF2_WPN_WarFlail"
-
-new entry "PF2_FOR_NoqualElvenCurveBlade"
-type "Weapon"
-using "PF2_WPN_ElvenCurveBlade"
-
-new entry "PF2_FOR_NoqualElvenBranchedSpear"
-type "Weapon"
-using "PF2_WPN_ElvenBranchedSpear"
-
-new entry "PF2_FOR_NoqualTrickyPick"
-type "Weapon"
-using "PF2_WPN_TrickyPick"
-
-new entry "PF2_FOR_NoqualOrcSkewermaul"
-type "Weapon"
-using "PF2_WPN_OrcSkewermaul"
-
-new entry "PF2_FOR_NoqualButcheringAxe"
-type "Weapon"
-using "PF2_WPN_ButcheringAxe"
-
-new entry "PF2_FOR_NoqualOrcNecksplitter"
-type "Weapon"
-using "PF2_WPN_OrcNecksplitter"
-
 new entry "_CommonWeapons"
 type "Weapon"
 
@@ -1928,10 +1757,6 @@ new entry "xPF2_WPN_VampiricDagger"
 type "Weapon"
 using "WPN_Dagger"
 data "RootTemplate" "4a997f13-4fb8-4aca-b3f1-cf206b108805"
-
-new entry "PF2_FOR_NoqualShortsword"
-type "Weapon"
-using "WPN_Shortsword"
 
 new entry "WPN_Goblin_Scimitar"
 type "Weapon"

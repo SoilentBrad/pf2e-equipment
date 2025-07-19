@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings source="($SOURCE)\Assets\More_Weapons_GD\OneHanded_Maces\T_OneHanded_Mace_1_GD_NM.tif">
+  <TextureLayerSettings>
+    <Scale>Full</Scale>
+    <QualityProfile>Default</QualityProfile>
+    <PreserveCoverage>false</PreserveCoverage>
+    <alphaCoverage>0.75</alphaCoverage>
+    <IsTiled>false</IsTiled>
+    <XPatches>0</XPatches>
+    <YPatches>0</YPatches>
+    <AllowNonPowerOfTwo>false</AllowNonPowerOfTwo>
+  </TextureLayerSettings>
+</Settings>
