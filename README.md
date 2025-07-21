@@ -1,6 +1,6 @@
 A mod to add Pathfinder 2E equipment to instantmirage and DPhKraken's Pathfinder 2e total conversion mod for Baldur's Gate 3.
 
-Download: none yet...
+Download: https://mod.io/g/baldursgate3/m/pf2e-equipment#description
 
 Legal
 
