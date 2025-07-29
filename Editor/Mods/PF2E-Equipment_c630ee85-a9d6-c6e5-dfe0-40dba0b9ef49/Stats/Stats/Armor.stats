@@ -1050,6 +1050,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c07ac03-b451-4e3f-927e-a09d2da797ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_RazorDisc_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="764871de-2e49-4662-a262-0c77107d7b9d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="54ae2bed-cec5-4179-a536-a156c372fb25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="283abbc7-b9f5-4bb2-8460-effe68c35902" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_RazorDisc_C" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="764871de-2e49-4662-a262-0c77107d7b9d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e750b286-a4bd-4262-bdf8-d1b1bae6a14e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
         <field name="Name" type="NameTableFieldDefinition" value="ARM_Shield" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c81be4e1-947a-4a86-b8ff-ba8c4b45b8cf" />
@@ -1201,6 +1217,14 @@
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3e8c1d7a-2796-4062-9a9a-fbe2b6d09ec8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f66a553a-4e75-4530-9ebc-166522aeaa77" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="260f415f-bf7e-4bf9-9335-262c2dc22205" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

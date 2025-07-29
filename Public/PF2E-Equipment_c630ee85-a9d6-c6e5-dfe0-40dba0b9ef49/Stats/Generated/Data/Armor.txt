@@ -729,6 +729,16 @@ using "PF2_WPN_MeteorShield"
 data "RootTemplate" "6d2bdbff-6dce-40e5-b5a5-28da17462fed"
 data "Boosts" "UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash);UnlockSpell(Projectile_PF2_ThrowShield_Razor);"
 
+new entry "PF2_WPN_RazorDisc_B"
+type "Armor"
+using "PF2_WPN_RazorDisc"
+data "RootTemplate" "54ae2bed-cec5-4179-a536-a156c372fb25"
+
+new entry "PF2_WPN_RazorDisc_C"
+type "Armor"
+using "PF2_WPN_RazorDisc"
+data "RootTemplate" "e750b286-a4bd-4262-bdf8-d1b1bae6a14e"
+
 new entry "ARM_Shield_D"
 type "Armor"
 using "ARM_Shield"
@@ -824,6 +834,11 @@ new entry "PF2_ARM_Shield_H_4"
 type "Armor"
 using "ARM_Shield"
 data "RootTemplate" "3e8c1d7a-2796-4062-9a9a-fbe2b6d09ec8"
+
+new entry "PF2_ARM_Shield_H_5"
+type "Armor"
+using "ARM_Shield"
+data "RootTemplate" "260f415f-bf7e-4bf9-9335-262c2dc22205"
 
 new entry "PF2_ARM_Shield_I_0"
 type "Armor"

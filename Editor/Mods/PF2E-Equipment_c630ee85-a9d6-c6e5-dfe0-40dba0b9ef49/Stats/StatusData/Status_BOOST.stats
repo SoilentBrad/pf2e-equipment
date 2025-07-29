@@ -1804,6 +1804,33 @@
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(WyvernPoison,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbf6cff1-ac77-4927-87ef-4dbf7a10a24f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BottledSunlight_Glow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="67ba24aa-36c5-45b4-b974-314f7b89246a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f44f81agaf2fg5da0g14e1g4831f187a43c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7550a277gdc63g5deagbda6ge9df00c850d9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ALCHEMICALGLOW" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(6,false,0.1);" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3c6e06c-5ebd-480c-99b7-c4322c767c17" />
+        <field name="Name" type="NameTableFieldDefinition" value="StickyAlgae_Glow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dbf6cff1-ac77-4927-87ef-4dbf7a10a24f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc97a5ab6g0320ga0f3g7e7dgfcbb4c46129b" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(3,false,0.1);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d4b225db-5209-4b29-914a-a3c2c898ef7e" />

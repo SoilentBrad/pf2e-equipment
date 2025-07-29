@@ -2229,6 +2229,24 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="60695b26-2df2-4ff5-a63b-d3e32c6e3b70" />
+        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_43" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_RazorDisc_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d9cb6df-060c-4c77-8039-262dd5deea1a" />
+        <field name="Name" type="NameTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c_substat_42" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_WPN_RazorDisc_C" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f3c25edc-9068-4bc2-b214-4236fe1a665c" />
         <field name="UUID" type="IdTableFieldDefinition" value="48464cc0-4f14-4a88-9af6-f437fe2116c9" />
         <field name="Name" type="NameTableFieldDefinition" value="Shields_substat" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_ARM_TowerShield_Duergar" />
@@ -4707,6 +4725,917 @@
         <field name="Name" type="NameTableFieldDefinition" value="39e2e1af-ccfa-456f-bd22-69bea8a8c8f1_substat_13" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_MAG_Mages_Hat_GTR_H1" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF800080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7676c4eb-95cd-4557-9b67-88428b659978" />
+        <field name="Name" type="NameTableFieldDefinition" value="_AlchemicalItems" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_Throwable" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_AcidBottle" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a9702b6d-9275-458a-be30-72558c7c804a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_Throwable_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_FireBottle" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f7cb8c0f-251d-4bc3-8ed7-47003bf6f9f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BlastingStone_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c9ce8fd8-6bc6-4b76-994d-660634096310" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BlightBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cb76716e-58d7-4049-9792-527219c57f15" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BottledLightning_Less" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6de70f3d-2208-4a95-a1f3-7213ceb327b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DreadAmpoule_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="201d4ce1-6926-4f54-ac65-0458f7948cfd" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_FrostVial_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8508a284-f642-4cec-b246-3df0bb17414d" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_5" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GhostCharge_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="62c0fdc8-9b1b-49e0-b3f4-b9f162a04f50" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GlueBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="700e3bbe-bc00-4cac-b78a-13798808ce83" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GooGrenade_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="73871787-4104-4bb4-9012-92ab2a8dcaf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_MudBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="10200cf3-46d3-48bb-817a-78b7a408aa43" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_9" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_NecroticBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="75aebcf7-23ba-4c6b-859a-924d988e87e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PerniciousSporeBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="975765d8-fd63-4f46-b8b3-dd8ea09ec88d" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_11" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PeshspineGrenade_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="653d27a1-6275-4228-aa08-2c31e89a5a75" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_12" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_RedpitchBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a8062296-63ae-4ed5-8498-5c352ca8e048" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_13" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_Steelscour_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="be3b3145-1b50-4345-8d02-6532813ccde2" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_14" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_TallowBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da764e3c-e134-4e77-ba28-914feb04fb87" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_15" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_MindflayerBulb_Spiked" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="461889a3-add6-4e51-8b59-fac126b78626" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_16" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_WaterBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="83c6616e-042b-4a3b-a344-f64a734a1c23" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_17" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BloodBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="430a0bd0-111c-43b0-9b70-c840f404f554" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_18" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_JunkBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e9203ae0-89b7-435c-bbf9-ed48388caf5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_19" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DurianBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f42012e5-dc36-4afa-9f7b-5638dc3af2d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_20" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PressureBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6f0e86b4-b5ba-426c-81ed-7446c6ee2ee8" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_21" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SkunkBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="356646a9-6f3f-40c4-adec-78d1ba2f6204" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_22" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_StickyAlgaeBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d7bde746-973a-49b1-9c7f-5c05bdfcdc84" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_23" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SulfurBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="55d78558-4bbd-4717-a2af-384e28b53ea9" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_24" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SpiderSatchel_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1896f8b1-cafa-47d0-bf03-323822b1af87" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_25" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BottledSunlight_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="92b81148-0868-4bd1-9732-f3822b4c741f" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_26" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_NailBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2755942e-b873-4947-b4f0-4c624c2763ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_27" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DefoliationBomb_Lesser" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26b0e322-33bb-4ea7-ab35-504718a2c68c" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_28" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Fireworks_Rocket_A" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0f1fd5f9-b45a-4807-8731-b7bf153c74b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_29" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Fireworks_Rocket_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8a49dc87-f21f-4b12-acb0-3053ac80bf78" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_30" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Fireworks_Rocket_C" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3648c53c-a189-4adf-9209-eef08533b0e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_31" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_AcidBottle_Mod" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="19015e78-e555-4241-a016-2fd13827a405" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_32" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_FireBottle_Mod" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5ceaf225-28bb-4127-9ddd-8c7597edee2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_33" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BlastingStone_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6af7047-93b4-4c19-aeac-5c796294fb4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_34" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BlightBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1893d3fc-d43d-459f-a54f-4762699a24b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_35" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BottledLightning_Mod" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd203d32-22cf-4e64-9913-b92869c0f3eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_36" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DreadAmpoule_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="07f7990f-0fba-483f-b0b1-8747dc7511a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_37" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_FrostVial_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="57934e5c-5ec9-417b-8630-c95fa2aa529c" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_38" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GhostCharge_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26c218b9-4184-4c9f-885f-3354280133dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_39" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GlueBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cdbcd1b7-0cfb-45ac-8e2e-37c0b4fbe49b" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_40" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GooGrenade_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="142031f1-81b3-43f7-8443-45425c0aa7e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_41" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_MudBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e8f10a4c-0d92-474f-9f40-3f812d2f8aa5" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_42" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_NecroticBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e12e696e-d448-4678-9dc3-ca913f209775" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_43" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PerniciousSporeBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc9a8f33-380d-4f14-9b9d-4822e5bd9644" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_44" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PeshspineGrenade_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e1aa0b86-c469-4d30-b428-f8e8950c76a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_45" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_RedpitchBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2bb299b0-1792-41ba-b2dc-b77e043c3b40" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_46" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_Steelscour_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8dedca12-a051-4ca2-8665-5f9f19148150" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_47" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_TallowBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1f09c533-d22d-4fd2-bc1b-be60d98c118d" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_48" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_TwigjackSack_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="11da6c31-aed1-4613-be48-c104202664a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_49" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_WaterBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="55a935a1-4d36-4fbf-8008-2efa5e7d1563" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_50" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BloodBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2e5c3525-3290-4eb8-bb5a-d72b3956a027" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_51" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_JunkBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="505c5ab5-dc63-4991-a8d4-7b478e2d05b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_52" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DurianBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="45ba2c41-ceb7-4559-b200-9e2e1111acbe" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_53" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PressureBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="746e3f0d-c5d5-44ec-bb97-63e5020a49cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_54" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SkunkBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="866b1a1b-6cf4-4ea3-8c6a-756706b82438" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_55" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_StickyAlgaeBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f8351a8a-08c8-4488-9f3d-af4757da17db" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_56" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SulfurBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fe4fb20f-e320-4b8f-b37e-5c0d925c310e" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_57" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SpiderSatchel_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="75e021c9-2079-46fe-92de-6ded1518625c" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_58" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BottledSunlight_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eee9f970-3c8a-4abc-a094-96a93e363aa1" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_59" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_NailBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="73f54d2d-78a3-45b3-a333-91a1d976dabf" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_60" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DefoliationBomb_Moderate" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3781dc97-5bc0-4d93-b785-5ee6d4277789" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_61" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_HolyWaterFlask" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="37d4092f-2d40-433a-b1fa-0ff37759227d" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_62" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_UnholyWaterFlask" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8ad0ccba-5ff3-4360-81db-03f3df07b4c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_63" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DwarvenDaisy_A_Mod" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9b9ceab6-0468-47b5-8b3b-7659c38738a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_64" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DwarvenDaisy_B_Mod" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="16880ac9-be50-45d4-a5ee-f32e6789505c" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_65" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DwarvenDaisy_C_Mod" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1036dfc3-5a10-4e78-8730-97176d1d7547" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_66" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="11" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_AcidBottle_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="03457933-257e-4d24-93fd-ee6456bcee1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_67" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_FireBottle_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8a30c3f3-cb13-4ad8-8261-68d81c4401dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_68" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BlastingStone_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="05091768-836f-42e8-84e3-324f582e0ebd" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_69" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BlightBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="28ffcf6a-bf12-40b2-8228-ee17c6e2f0fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_70" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BottledLightning_Gtr" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="99c6ff45-52ca-4b58-8510-2d9faf7f4711" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_71" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DreadAmpoule_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b294231b-91a4-4239-925e-0ad2803b0a7f" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_72" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_FrostVial_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ca8ed10f-5b43-444e-b2ad-c8db49d4acc6" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_73" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GhostCharge_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="416df067-9051-4a7d-a323-81dc84bcd1a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_74" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GlueBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4665b95a-f7ea-4255-984c-0fbc748066e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_75" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_GooGrenade_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b9b170fd-3668-4689-9350-99658b2e9346" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_76" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_MudBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="12d73abe-99fc-41e7-849d-c089d5dac349" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_77" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_NecroticBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="60ad0e1f-7dbd-4e7e-83bc-7fd1a4f0e31f" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_78" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PerniciousSporeBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5a9853cf-242e-46a5-810f-1372f3780654" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_79" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PeshspineGrenade_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c799cfb8-151b-4758-832a-87514a3f6123" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_80" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_RedpitchBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="de066681-9b5a-4e9d-a2a1-4fdc3b8dd02e" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_81" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_Steelscour_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="029476af-a13b-4d2a-8f94-a9d9f218ab46" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_82" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_TallowBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="17a0bd40-b350-49bc-bd93-e97ddf99e41e" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_83" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_TwigjackSack_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3585fc19-5015-4901-8628-99d981e024e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_84" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_WaterBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cafb9731-d870-4f05-bf66-7caff2242fa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_85" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BloodBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67da3e32-3ff1-41b3-a9e0-eb3054eddd45" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_86" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_JunkBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="981ae75b-bc00-4b51-bc91-d56a28094f91" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_87" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DurianBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b4fb7a8e-1ce4-4618-b4fe-c090afbe99f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_88" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_PressureBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2bf4886f-0f68-4575-8677-e1405762dcba" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_89" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SkunkBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="935955a2-969a-425c-a419-75bd177328c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_90" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_StickyAlgaeBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="659f6070-c1ce-4215-b01a-0f96240a2ce5" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_91" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SulfurBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ccb25777-ef90-47c2-b45f-d101ff1d44c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_92" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_SpiderSatchel_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="39d728de-0627-4d20-9fe2-90bc5d302a7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_93" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_BottledSunlight_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c33415e9-ff45-4359-8940-f19c7de6e821" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_94" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_NailBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c45ff052-eab3-4c84-8073-04acd54d13ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_95" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_DefoliationBomb_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3d6f1427-9b88-4b0c-b0a7-0ca3c528480b" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_96" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_Shatterstone" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e04ff6b1-ce4d-4961-9515-92a4f8d8520a" />
+        <field name="Name" type="NameTableFieldDefinition" value="00fdc476-b7ff-46a6-9ed4-438757fdae51_substat_97" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_PF2_OBJ_LodestoneBomb" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
   </stat_objects>

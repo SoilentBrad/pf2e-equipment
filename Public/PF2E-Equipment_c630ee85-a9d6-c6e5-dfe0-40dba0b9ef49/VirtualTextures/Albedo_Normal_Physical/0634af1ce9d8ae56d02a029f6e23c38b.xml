@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<StackedTexture>
-  <Layers>
-    <Layer type="Albedo" source="($DATA)\Public\($MOD)\Assets\More_Weapons_GD\OneHanded_WarHammers\VirtualTextures\T_OneHanded_WarHammer_3_GD_BMA" />
-    <Layer type="Normal" source="($DATA)\Public\($MOD)\Assets\More_Weapons_GD\OneHanded_WarHammers\VirtualTextures\T_OneHanded_WarHammer_3_GD_NM" />
-    <Layer type="Physical" source="($DATA)\Public\($MOD)\Assets\More_Weapons_GD\OneHanded_WarHammers\VirtualTextures\T_OneHanded_WarHammer_3_GD_PM" />
-  </Layers>
-</StackedTexture>

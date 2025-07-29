@@ -1458,7 +1458,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1,Acid);" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="0838c94c-12fb-4ca5-b4e3-a61f10e8ecd3,a9a7bc05-fc02-47fe-be53-324b7302deb5,1a41a0d7-888e-cf1f-afb3-454a023b57df" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack);" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
@@ -1522,7 +1522,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire);" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;CanAreaDamageEvade;DisplayInItemTooltip" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4376970ag34e1g2409g21eegafd96b84ee83" version="2" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire);DealDamage(1,Fire);DealDamage(1,Fire)" />
@@ -1618,7 +1618,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="fd47479f-c769-4f86-81e4-12e97d964f86" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1, Thunder);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() or Item()" />
@@ -1641,7 +1641,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b582a7a9-3469-4795-988f-484739760918" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2, Thunder);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() or Item()" />
@@ -1664,7 +1664,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="32a77837-0fd9-443b-bd88-c646779c0903" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3, Thunder);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() or Item()" />
@@ -2791,7 +2791,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,StinkingCloud);CreateExplosion(Projectile_DurianBomb_Lesser_Splash);" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
-        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Physical" enumeration_type_name="Death Type" version="1" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack);" />
@@ -3036,7 +3036,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9b5fa027-ceb2-49b0-9d06-306abc8e3d23" />
         <field name="Name" type="NameTableFieldDefinition" value="StickyAlgaeBomb_Lesser" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d03415b-fd7b-490b-8c0d-e570c1387731" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Mud);CreateExplosion(Projectile_StickyAlgaeBomb_Lesser_Splash);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Mud);ApplyStatus(StickyAlgae_Glow,100,10);CreateExplosion(Projectile_StickyAlgaeBomb_Lesser_Splash);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8, Poison);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0093e3bgc558gc8ffgcddbg4129ff9fbecc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69740f51gfe63ga7cfg6728gacfa2a6a9718" version="1" />
@@ -3049,7 +3049,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7a8029b6-4e86-4102-ad16-a84c25e54b10" />
         <field name="Name" type="NameTableFieldDefinition" value="StickyAlgaeBomb_Moderate" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="091d613f-8454-4dad-8be2-f056f7f9b0c4" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Mud);CreateExplosion(Projectile_StickyAlgaeBomb_Moderate_Splash);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Mud);ApplyStatus(StickyAlgae_Glow,100,10);CreateExplosion(Projectile_StickyAlgaeBomb_Moderate_Splash);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8, Poison);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9554d1afg7e2bg68f3g32c7gc17358248d4f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc09fa57bg9dd4g4669g321ag3e6192dbb811" version="1" />
@@ -3062,7 +3062,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ec4e8365-ea4e-4842-92c0-54d5e5c9d6d0" />
         <field name="Name" type="NameTableFieldDefinition" value="StickyAlgaeBomb_Greater" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b6c425f6-1d37-4d7d-8e07-71e488e28a8d" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Mud);CreateExplosion(Projectile_StickyAlgaeBomb_Greater_Splash);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Mud);ApplyStatus(StickyAlgae_Glow,100,10);CreateExplosion(Projectile_StickyAlgaeBomb_Greater_Splash);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8, Poison);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63481f91g9d09ge051g6c69g24be2094b4f5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4df4b407g0c66g4ebfgefe1g60ab69275a7d" version="1" />
@@ -3164,6 +3164,7 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Incinerate" enumeration_type_name="Death Type" version="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3250,7 +3251,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="974a607c-75e8-4281-b537-316662dcf6c2" />
         <field name="Name" type="NameTableFieldDefinition" value="BottledSunlight_Lesser" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="565b6379-0f17-4fa6-b796-724503905776" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Fire);ApplyStatus(BURNING,100,3);CreateExplosion(Projectile_HolyWater_Splash);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Fire);ApplyStatus(BURNING,100,3);ApplyStatus(BottledSunlight_Glow,100,10);CreateExplosion(Projectile_HolyWater_Splash);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);IF(Tagged('ALIGN_EVIL') or Tagged('APOSTLE_OF_MYRKUL') or Tagged('BANE') or Tagged('BANITE') or Tagged('BANITE_BANEGHOST') or Tagged('BANITE_BANEGAUNTLET') or Tagged('CHOSENOFBOOOAL') or Tagged('CLERIC_BANE') or Tagged('CLERIC_BHAAL') or Tagged('CLERIC_EVIL') or Tagged('FIEND') or Tagged('MYRKUL') or Tagged('NECROMITE') or Tagged('NIGHTMARE') or Tagged('PALADIN_EVIL') or Tagged('PALADIN_BANE') or Tagged('PALADIN_BHAAL') or Tagged('GHOST') or Tagged('SKELETON') or Tagged('UNDEAD_BEAST') or Tagged('ZOMBIE')):DealDamage(1d4,Radiant,Magical);IF(HasStatus('VAMPIRE') or Tagged('MEAZEL')):DealDamage(4,Radiant,Magical);IF(HasStatus('SCL_SHADOW_CURSE_UNDEAD') or HasStatus('SCL_SHADOW_CURSE_UNDEAD_HALSINLAKESIDE')):DealDamage(4,Radiant,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() or Item();" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6698bbfgc204g5232g04cag4211d02b559d" version="1" />
@@ -3264,7 +3265,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="125a5279-b06b-4038-9fe6-4f5bd825105b" />
         <field name="Name" type="NameTableFieldDefinition" value="BottledSunlight_Moderate" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="974a607c-75e8-4281-b537-316662dcf6c2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Fire);ApplyStatus(BURNING,100,3);CreateExplosion(Projectile_BottledSunlight_Moderate_Splash);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Fire);ApplyStatus(BURNING,100,3);ApplyStatus(BottledSunlight_Glow,100,10);CreateExplosion(Projectile_BottledSunlight_Moderate_Splash);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire);IF(Tagged('ALIGN_EVIL') or Tagged('APOSTLE_OF_MYRKUL') or Tagged('BANE') or Tagged('BANITE') or Tagged('BANITE_BANEGHOST') or Tagged('BANITE_BANEGAUNTLET') or Tagged('CHOSENOFBOOOAL') or Tagged('CLERIC_BANE') or Tagged('CLERIC_BHAAL') or Tagged('CLERIC_EVIL') or Tagged('FIEND') or Tagged('MYRKUL') or Tagged('NECROMITE') or Tagged('NIGHTMARE') or Tagged('PALADIN_EVIL') or Tagged('PALADIN_BANE') or Tagged('PALADIN_BHAAL') or Tagged('GHOST') or Tagged('SKELETON') or Tagged('UNDEAD_BEAST') or Tagged('ZOMBIE')):DealDamage(2d4,Radiant,Magical);IF(HasStatus('VAMPIRE') or Tagged('MEAZEL')):DealDamage(8,Radiant,Magical);IF(HasStatus('SCL_SHADOW_CURSE_UNDEAD') or HasStatus('SCL_SHADOW_CURSE_UNDEAD_HALSINLAKESIDE')):DealDamage(8,Radiant,Magical);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44a76775g97e8g6606g3a31gdac2c615649d" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Radiant);DealDamage(1,Radiant);DealDamage(2d4,Fire);" />
@@ -3276,7 +3277,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f53c1506-b9d1-41c4-a5be-154d0feb4968" />
         <field name="Name" type="NameTableFieldDefinition" value="BottledSunlight_Greater" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="125a5279-b06b-4038-9fe6-4f5bd825105b" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Fire);ApplyStatus(BURNING,100,3);CreateExplosion(Projectile_BottledSunlight_Greater_Splash);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,3,Fire);ApplyStatus(BURNING,100,3);ApplyStatus(BottledSunlight_Glow,100,10);CreateExplosion(Projectile_BottledSunlight_Greater_Splash);" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d4,Fire);IF(Tagged('ALIGN_EVIL') or Tagged('APOSTLE_OF_MYRKUL') or Tagged('BANE') or Tagged('BANITE') or Tagged('BANITE_BANEGHOST') or Tagged('BANITE_BANEGAUNTLET') or Tagged('CHOSENOFBOOOAL') or Tagged('CLERIC_BANE') or Tagged('CLERIC_BHAAL') or Tagged('CLERIC_EVIL') or Tagged('FIEND') or Tagged('MYRKUL') or Tagged('NECROMITE') or Tagged('NIGHTMARE') or Tagged('PALADIN_EVIL') or Tagged('PALADIN_BANE') or Tagged('PALADIN_BHAAL') or Tagged('GHOST') or Tagged('SKELETON') or Tagged('UNDEAD_BEAST') or Tagged('ZOMBIE')):DealDamage(3d4,Radiant,Magical);IF(HasStatus('VAMPIRE') or Tagged('MEAZEL')):DealDamage(12,Radiant,Magical);IF(HasStatus('SCL_SHADOW_CURSE_UNDEAD') or HasStatus('SCL_SHADOW_CURSE_UNDEAD_HALSINLAKESIDE')):DealDamage(12,Radiant,Magical);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1af99ff2gfa3bge4f5ge45age5fc728ecdef" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4,Radiant);DealDamage(1,Radiant);DealDamage(3d4,Fire);" />

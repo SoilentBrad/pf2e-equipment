@@ -64,7 +64,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7d16c5fb-9d00-479a-8d56-ba2bccbba93f" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Dagger_Dwarf" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="66ad5dfa-7813-48f4-8229-b8a3cc845655" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1d932bf4-ae73-4a00-963e-8afb105f60ff" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="0" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
@@ -79,7 +79,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0009faf2-c69b-4225-8fc8-1a39165610a8" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Dagger_Shar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="258ce9f3-3f32-4546-ae6e-196b3e8e91b5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d044a75b-b483-4bae-91e5-feb94743f5d0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -157,7 +157,7 @@
         <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Daggers;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9ea8b84d-a736-4abd-8bfa-fb0b2cbbe4c3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5b7b7560-08a8-46c3-992e-7bb711e43b83" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -330,7 +330,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="54a58791-f461-497e-9f24-11c38ccf4b01" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Aklys" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Aklys_A" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
         <field name="Damage Range" type="IntegerTableFieldDefinition" value="610" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
@@ -343,6 +343,13 @@
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Clubs;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_TetheredTraitB;" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f57bc2b1-f119-41d5-a761-7e41ce993f23" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a927e324-23f4-4a78-8e72-b2de9388cdda" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Aklys_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54a58791-f461-497e-9f24-11c38ccf4b01" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -534,6 +541,32 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed845365-8135-4bae-9dd0-8b31e466b47c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Gakgung" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df1cc8fc-7a23-4d8a-808c-65f047e4caeb" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f352c48c-07ce-400d-ae30-1d0d7956ef39" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD8;IF(HasPassive('PF2_ElvenWeaponFamiliarity',context.Source)):PF2_ElvenWeaponFamiliarity_Passive;" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa825cca-aaa8-4d60-bf98-71dd17b9adae" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Goblin_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c6fdb5a3-0511-4d4b-b4c5-646a38b24ea9" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus();IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Slashing);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_BackstabberTrait;IF(HasPassive('PF2_GoblinWeaponFamiliarity',context.Source)):PF2_GoblinWeaponFamiliarity_Passive;" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MartialWeapons;Shortswords" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b451ce51-6bb6-4ba9-8f78-837f98776b34" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Gladius" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e3d12aca-8cd5-4471-b6d6-48aca22b3364" />
@@ -587,6 +620,45 @@
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_VersatilePiercing;IF(HasPassive('PF2_GnomeWeaponFamiliarity',context.Source)):PF2_GnomeWeaponFamiliarity_Passive;" />
         <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f49dcfac-7d3e-4e08-817c-7096b3c7c0fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Handaxe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Thrown;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Handaxes;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="46b64a36-8446-45bd-98e8-ee81e3136baa" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_SweepTrait;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HandCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="3600" />
+        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Light;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Damage Range" type="IntegerTableFieldDefinition" value="7200" />
+        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HandCrossbows;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5d843ab-c3af-4e60-a925-bb2e15828938" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -875,6 +947,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Rapier" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Rapiers;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7061f489-4b13-4982-aa09-cf0ad961e75f" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus(); IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Piercing)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD8;IF(HasPassive('PF2_ElvenWeaponFamiliarity',context.Source)):PF2_ElvenWeaponFamiliarity_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9ae5ba55-5f06-436f-a0d8-52585c2f7ee0" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Sap" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
@@ -900,6 +990,28 @@
         <field name="Weight" type="FloatTableFieldDefinition" value="1.35" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword)" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_ForcefulTrait;PF2_SweepTrait;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="798bcedd-7c77-475f-bc54-99b23d53b5f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
+        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="3600" />
+        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Damage Range" type="IntegerTableFieldDefinition" value="7200" />
+        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Shortbows;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c5403c1d-f372-43e1-927a-9189e9e3545d" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Bow)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD10;IF(HasPassive('PF2_ElvenWeaponFamiliarity',context.Source)):PF2_ElvenWeaponFamiliarity_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1059,7 +1171,30 @@
         <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_DisarmTrait);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_ResonantTrait;" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fb317c06-0274-4bf0-9b6e-21b41b2c39f9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8649aca6-0453-4fab-b73a-19163b5b37a8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5207ad38-9a17-470a-bc8c-d4b510384e42" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Lantern" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="266ac42c-d85d-495a-899d-ce44397e8123" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="81705db9-5b32-4ccd-91be-f8bad863ec48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="266ac42c-d85d-495a-899d-ce44397e8123" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Torch" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" value="Torch" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club)" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Torch;InvulnerableAndInteractive" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Light;AddToHotbar;Torch" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="GROUND:IF(HasStatus('BURNING',context.Source)):SurfaceChange(Ignite)" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SILENCED;SG_Condition;BLEEDING" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="50c43f27-a12e-412c-88f0-56e15eba692a" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="HiddenDuringCinematic()" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
@@ -1588,6 +1723,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f800b5a-ab19-4331-9bc5-390a1153eb48" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Macuahuitl_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8da6def-8339-4d15-a07d-faaffc85f263" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e96f11f9-540c-4fec-8889-b8b3d8ca2a8a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cdb1ab9-3237-44cc-b353-5e1de8df442e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Macuahuitl_C" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8da6def-8339-4d15-a07d-faaffc85f263" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="bf1b6837-43c1-4b9c-9fe0-4467e5f10f5d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="638fdf10-1ee1-44a0-a358-142cf5eb7c58" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Macuahuitl_D" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d8da6def-8339-4d15-a07d-faaffc85f263" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dec976f2-de09-47db-9dc7-29394f846c8b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a39e1987-182b-42dd-8e80-052e01fd5af4" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Nodachi" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
@@ -1840,6 +1999,28 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="7200" />
+        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Heavy;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Damage Range" type="IntegerTableFieldDefinition" value="14400" />
+        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyCrossbows;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="04622e3d-5b3f-4f2c-a0db-513a717d911f" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="8.1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="638ae7a7-cd41-4745-a282-df4c42a19848" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_OgreHook" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
@@ -1864,6 +2045,26 @@
         <field name="WeaponRange" type="IntegerTableFieldDefinition" value="5000" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_RazingTrait;PF2_Volley30_Trait;" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="784b9aef-3c67-4871-a90d-3832cc59781f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
+        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="250" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Reach;Melee;Twohanded;Heavy;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Pikes;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="baa5b139-42ad-40fd-b6c3-6b52b092c48e" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PF2_ShoveTrait);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2053,29 +2254,47 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f6fa2afc-bc01-4fdb-b222-334171905d82" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDagger" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ec9cbe73-2e32-4765-bb11-19e16d23d898" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8537bf26-897a-4e5a-adbc-88479dff409d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Quarterstaff_Broken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68c84962-5d09-4c36-b1a6-baf61bf97e01" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="45c9d3a2-8ea5-4bbf-b1cf-e0acaa0f23b2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7d85e155-af0e-44f5-a295-614edfc0d8af" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGreatsword" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="cd46b2ba-8f3c-4c33-9e8a-bcdb068275b2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ace06940-5633-4ff9-8f51-54a89b59c4ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Harpy_Club" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4fa70ff7-68f0-4c13-812c-2838effd09be" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5821eadd-416c-4b68-8209-cc93a2505278" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualSickle" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c8bb373a-4904-4984-9352-0cf50fcb2db1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dd57ea75-b82e-4409-8611-272f5447f487" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Longbow_Broken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bb7ba98-1d0f-44ed-acde-9ff961b8d9de" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9160904e-0c71-49df-8f9e-b1e232a2421d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Bow);RollBonus(Damage,-1);" />
       </fields>
     </stat_object>
-    <stat_object color="#FF800080" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="50562bc9-8549-43da-beed-e7b8e76f9b30" />
-        <field name="Name" type="NameTableFieldDefinition" value="_CommonWeapons" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c19fb58a-4cb8-48c6-92e4-362acf380d24" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Longsword_Broken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2af7255d-bae1-4d4c-a8ba-4a2b5909a794" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a30b847-007a-4554-a5e4-b3342ded397e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Pike_Broken" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8454a13e-291f-47ec-a600-d41c32391064" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2084,82 +2303,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_DadsAxe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="64000dd2-aae4-41c4-a16f-dca738d9743a" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2974e519-4b58-4909-aa8d-5e7383ea2662" />
-        <field name="Name" type="NameTableFieldDefinition" value="xPF2_WPN_VampiricDagger" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4a997f13-4fb8-4aca-b3f1-cf206b108805" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
-        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="7200" />
-        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
-        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Heavy;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Damage Range" type="IntegerTableFieldDefinition" value="14400" />
-        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HeavyCrossbows;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="04622e3d-5b3f-4f2c-a0db-513a717d911f" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="8.1" />
-        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus()" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fa825cca-aaa8-4d60-bf98-71dd17b9adae" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Goblin_Scimitar" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
-        <field name="ItemGroup" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c6fdb5a3-0511-4d4b-b4c5-646a38b24ea9" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus();IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Slashing);" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_BackstabberTrait;IF(HasPassive('PF2_GoblinWeaponFamiliarity',context.Source)):PF2_GoblinWeaponFamiliarity_Passive;" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Light;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MartialWeapons;Shortswords" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d10" />
-        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="250" />
-        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Reach;Melee;Twohanded;Heavy;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Pikes;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="baa5b139-42ad-40fd-b6c3-6b52b092c48e" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.3" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm)" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PF2_ShoveTrait);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="b029966b-3fc4-424c-a62e-753466504196" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Gnoll_Flind_Flail" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
-        <field name="ItemGroup" type="StringTableFieldDefinition" value="Flail_Flind" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="608e265d-f81b-4c13-a786-e5602852fcf4" />
-        <field name="UseConditions" type="StringTableFieldDefinition" value="Tagged('GNOLL', context.Source)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2180,107 +2323,21 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b029966b-3fc4-424c-a62e-753466504196" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Gnoll_Flind_Flail" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
+        <field name="ItemGroup" type="StringTableFieldDefinition" value="Flail_Flind" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="608e265d-f81b-4c13-a786-e5602852fcf4" />
+        <field name="UseConditions" type="StringTableFieldDefinition" value="Tagged('GNOLL', context.Source)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8175681a-4d6f-4d1b-a4a6-eb034957ff48" />
         <field name="Name" type="NameTableFieldDefinition" value="WPN_Goblin_BrandingTool" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
         <field name="ItemGroup" type="StringTableFieldDefinition" value="BrandingTool" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="28373d60-893f-411c-a029-35c31665c821" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="acd3aa0c-490f-483d-af4b-7b3c89d4375c" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_ToySword" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5e651778-cc78-425e-b27d-483b1c8afa82" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="0.6" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_OpeningAttack);" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="IF(HasPassive('PF2_HalflingWeaponFamiliarity',context.Source)):PF2_HalflingWeaponFamiliarity_Passive;" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Handaxe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
-        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Light;Thrown;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Handaxes;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="46b64a36-8446-45bd-98e8-ee81e3136baa" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.5" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_SweepTrait;" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="29fbce0d-3df9-455c-904e-4c855415d42e" />
-        <field name="Name" type="NameTableFieldDefinition" value="xWPN_Mace_Deva" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c0fb0a11-1f29-470c-a95b-102377ef2356" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(4d8, Radiant)" />
-        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_ConcussiveSmash_Deva)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="66b22f1c-a802-4cdf-a6aa-0ee736bdd638" />
-        <field name="Name" type="NameTableFieldDefinition" value="xWPN_Djinni_Scimitar" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="96f7647b-7485-4c0c-aaad-73a332d8e626" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7d46615c-b533-4da5-920f-451d994119e3" />
-        <field name="Name" type="NameTableFieldDefinition" value="xWPN_Flail_Air_Myrmidon" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_LightningStrike_Myrmidon_Air)" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8f8ad4f1-ee45-45f5-9368-3da979ada65a" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="798bcedd-7c77-475f-bc54-99b23d53b5f1" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortbow" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
-        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="3600" />
-        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
-        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Twohanded;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Damage Range" type="IntegerTableFieldDefinition" value="7200" />
-        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Shortbows;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c5403c1d-f372-43e1-927a-9189e9e3545d" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.5" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus()" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Bow)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD10;IF(HasPassive('PF2_ElvenWeaponFamiliarity',context.Source)):PF2_ElvenWeaponFamiliarity_Passive;" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3d689818-95f5-49d1-828a-a820e525a827" />
-        <field name="Name" type="NameTableFieldDefinition" value="xGOB_Pens_Dagger" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fa9327dc-7661-40e6-a032-81ad13552840" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="529fe100-de0b-4a34-a669-4861ee4538a2" />
-        <field name="Value" type="IntegerTableFieldDefinition" value="260" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="GOB_Pens_Dagger_Passive" />
-        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2317,47 +2374,371 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_HandCrossbow" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="23e5e8af-e3e2-4d7b-bd22-85095039cae7" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Dagger_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6a321455-d00f-4164-ab12-3601fef2ae6e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e96b47af-975f-4f4e-ab31-03590492918d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Sickle_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1d75dc84-b276-47b0-a0be-a5b25dfcb086" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.03" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="edf7c1b9-ac59-488c-9b0e-5e1a5bc97e32" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Club_WoodWoad_Conjure" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d6089e2-c2a5-480e-b935-732b53ca5103" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WoodWoad_MagicClub" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f91506d-bf29-43ba-95a7-6364ec3dae09" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Flail_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="04ae8618-3f49-453a-91f2-e5ac68cf366f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Flail);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb797893-39b9-4e04-b24b-18f5f80fb1d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Handaxe_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2c362536-7ffa-43f4-926c-70dc682ffbff" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea667862-a40f-40d6-abec-955151bf456a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HandCrossbow_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="794f58a7-4bc5-4c98-8e66-7a8e242fb7ef" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbe21aa8-918f-45c2-b1d9-4ed74cb51b75" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightHammer_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce73b8f5-314e-43e0-bf05-12e411ebe12f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0c8a9530-273d-4f64-81b9-0d169d890483" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Hammer);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d88b1fbb-bb56-4791-a19f-ac77a534a935" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Mace_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ce1c45a5-5606-4604-9afa-beca19fd03e1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c13a539-a431-4665-bd23-4e27c9607b00" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Morningstar_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f8856d2d-ffda-417c-b7a8-c7aa757903b7" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e4e0acd-7665-4599-8772-d24b146dc84c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Rapier_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1958c259-3772-46ac-9de3-741806f18703" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="Damage" type="DiceTableFieldDefinition" value="1d6" />
-        <field name="WeaponRange" type="IntegerTableFieldDefinition" value="3600" />
-        <field name="Projectile" type="StringTableFieldDefinition" value="ff93ba9c-124c-454e-ac8c-436c136bcef2" />
-        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="SimpleRangedWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Ammunition;Loading;Light;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Damage Range" type="IntegerTableFieldDefinition" value="7200" />
-        <field name="Slot" type="EnumerationTableFieldDefinition" value="Ranged Main Weapon" enumeration_type_name="Itemslot" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="HandCrossbows;SimpleWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5d843ab-c3af-4e60-a925-bb2e15828938" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
-        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockAbilityModifierDamageBonus()" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="266ac42c-d85d-495a-899d-ce44397e8123" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Torch" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
-        <field name="ItemGroup" type="StringTableFieldDefinition" value="Torch" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club)" />
-        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Torch;InvulnerableAndInteractive" enumeration_type_name="AttributeFlags" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Light;AddToHotbar;Torch" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="GROUND:IF(HasStatus('BURNING',context.Source)):SurfaceChange(Ignite)" />
-        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SILENCED;SG_Condition;BLEEDING" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="50c43f27-a12e-412c-88f0-56e15eba692a" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="HiddenDuringCinematic()" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ff3056dc-bbac-4edc-b1e4-d8bb5350206b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="134cca90-23ea-497d-8698-b7a66bab59d3" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="5207ad38-9a17-470a-bc8c-d4b510384e42" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Lantern" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="266ac42c-d85d-495a-899d-ce44397e8123" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="81705db9-5b32-4ccd-91be-f8bad863ec48" />
+        <field name="UUID" type="IdTableFieldDefinition" value="835201f9-3a82-455e-b6a1-65b7a7a90f6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortsword_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9d66df2d-8e8f-4798-8684-77b738d26704" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcbe6fc9-a4a8-41bd-bbde-968066abb61a" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="86450ec8-d876-457f-92c0-7bb11e8f38f8" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Spear);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1266cf25-1105-48b5-915f-051ba091cf30" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warpick_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1d6d5983-4546-4eba-b9e6-d23021d08805" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15e78242-d872-4c0d-b437-6889127e77db" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Battleaxe_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a032341-99e7-4003-b138-0d47c0096d06" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3030f1f1-74fc-4008-9317-80c71075c8e3" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60a1ecda-64a6-4eea-8437-7dfb5d029192" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Glaive_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be861724-206e-483e-a42d-9dd131030ad6" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="769b6fa2-326d-4a65-b467-d0011c4664c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightCrossbow_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="58324914-94a4-49e3-a00b-4c914d5f52d8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6f0568b1-86ac-4039-8d3a-5db844b55fe8" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6d840ff-480e-466a-a7c9-e2ef28e70b6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dddd2204-0ee3-47b0-a7ea-6b5216a65e89" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56b76d88-e5ae-48de-9507-146ca7cb85a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="27ef84b1-ea40-4f06-a013-f6281511f0e9" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Spear);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="214755c5-cb7a-432d-972c-891143b21fcd" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warhammer_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa6cc81-27d3-473a-a7ee-f486f1d11edd" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ed53c828-d185-408e-8381-9b042849de8e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="734f52df-0bdc-47a8-9505-d6a46a39f139" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Halberd_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7addb7c0-f428-4033-9065-f4ad6e4c7e81" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28a97d3e-3f14-487b-9c39-67f946a548d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="181104f6-6423-42de-b624-e225e5fb8a4d" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fef79f24-a957-4d0f-8f41-a154617c8ad0" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0eddcd68-36fb-4c9f-8cbb-66513d8d718e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.03" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2515edaf-361e-49ed-8e0d-283351fbcc19" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greataxe_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="12828fec-de45-4b49-a32c-f707ee184952" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a8f37e10-8590-4a65-85d1-29bf8ef5bd64" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a77204d4-8bd5-4235-9551-50cdec8acb91" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatsword_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="af8cc5ee-ef4e-48ca-83e3-f74972f9f5f5" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="82311843-dae9-4bda-86fb-40b722daf82e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08bb8c8c-0341-41a7-a5ef-e0346832b39b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Maul_Rusty" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23a0a8a2-5389-4bab-a4b0-d7855276f4e2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="67e97333-2225-4797-9c06-0a0e08e6edd7" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Hammer);RollBonus(Damage,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7aca4a3-a11a-4b08-886c-1ce04779aa50" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Syringe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="75cea463-4395-4600-ad93-7017415b16e3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):UnlockSpell(Target_SurgeryEnabler_Syringe_Nurse);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):CharacterWeaponDamage(1d6,Necrotic);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acd3aa0c-490f-483d-af4b-7b3c89d4375c" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_ToySword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5e651778-cc78-425e-b27d-483b1c8afa82" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d4" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.6" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_OpeningAttack);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="IF(HasPassive('PF2_HalflingWeaponFamiliarity',context.Source)):PF2_HalflingWeaponFamiliarity_Passive;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f08ec929-6ebe-49ae-ba81-4ac28622043d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trepan" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="764dcd70-9206-457c-9366-7aa9e3370514" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):UnlockSpell(Target_SurgeryEnabler_Trepan_Nurse);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):CharacterWeaponDamage(1d6,Necrotic);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF800080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50562bc9-8549-43da-beed-e7b8e76f9b30" />
+        <field name="Name" type="NameTableFieldDefinition" value="_InProgress" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6fa2afc-bc01-4fdb-b222-334171905d82" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ec9cbe73-2e32-4765-bb11-19e16d23d898" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d85e155-af0e-44f5-a295-614edfc0d8af" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualGreatsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd46b2ba-8f3c-4c33-9e8a-bcdb068275b2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5821eadd-416c-4b68-8209-cc93a2505278" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_FOR_NoqualSickle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8bb373a-4904-4984-9352-0cf50fcb2db1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2974e519-4b58-4909-aa8d-5e7383ea2662" />
+        <field name="Name" type="NameTableFieldDefinition" value="xPF2_WPN_VampiricDagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4a997f13-4fb8-4aca-b3f1-cf206b108805" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="29fbce0d-3df9-455c-904e-4c855415d42e" />
+        <field name="Name" type="NameTableFieldDefinition" value="xWPN_Mace_Deva" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c0fb0a11-1f29-470c-a95b-102377ef2356" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponDamage(4d8, Radiant)" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_ConcussiveSmash_Deva)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66b22f1c-a802-4cdf-a6aa-0ee736bdd638" />
+        <field name="Name" type="NameTableFieldDefinition" value="xWPN_Djinni_Scimitar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="96f7647b-7485-4c0c-aaad-73a332d8e626" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d46615c-b533-4da5-920f-451d994119e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="xWPN_Flail_Air_Myrmidon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_LightningStrike_Myrmidon_Air)" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8f8ad4f1-ee45-45f5-9368-3da979ada65a" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d689818-95f5-49d1-828a-a820e525a827" />
+        <field name="Name" type="NameTableFieldDefinition" value="xGOB_Pens_Dagger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa9327dc-7661-40e6-a032-81ad13552840" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="529fe100-de0b-4a34-a669-4861ee4538a2" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="260" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="GOB_Pens_Dagger_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponProperty(Magical)" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2454,254 +2835,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="15e78242-d872-4c0d-b437-6889127e77db" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Battleaxe_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9a032341-99e7-4003-b138-0d47c0096d06" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3030f1f1-74fc-4008-9317-80c71075c8e3" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="23e5e8af-e3e2-4d7b-bd22-85095039cae7" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Dagger_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6a321455-d00f-4164-ab12-3601fef2ae6e" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="3f91506d-bf29-43ba-95a7-6364ec3dae09" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Flail_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="247c99f7-30b2-4e49-b421-ac3e77e7880e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="04ae8618-3f49-453a-91f2-e5ac68cf366f" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Flail);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="60a1ecda-64a6-4eea-8437-7dfb5d029192" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Glaive_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="06bb3875-3807-48ad-a95e-4b897379f9e5" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be861724-206e-483e-a42d-9dd131030ad6" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2515edaf-361e-49ed-8e0d-283351fbcc19" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greataxe_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="12828fec-de45-4b49-a32c-f707ee184952" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a8f37e10-8590-4a65-85d1-29bf8ef5bd64" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a77204d4-8bd5-4235-9551-50cdec8acb91" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Greatsword_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="af8cc5ee-ef4e-48ca-83e3-f74972f9f5f5" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="82311843-dae9-4bda-86fb-40b722daf82e" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="734f52df-0bdc-47a8-9505-d6a46a39f139" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Halberd_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="78094ea1-a35e-429b-bb49-af003528595d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7addb7c0-f428-4033-9065-f4ad6e4c7e81" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="bb797893-39b9-4e04-b24b-18f5f80fb1d4" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Handaxe_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8d752f70-9e76-497c-a5d6-f0c68e01f269" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2c362536-7ffa-43f4-926c-70dc682ffbff" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Axe);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ea667862-a40f-40d6-abec-955151bf456a" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_HandCrossbow_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="672207ec-6ded-4a5a-9057-2d010118c267" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="794f58a7-4bc5-4c98-8e66-7a8e242fb7ef" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="28a97d3e-3f14-487b-9c39-67f946a548d9" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_HeavyCrossbow_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="181104f6-6423-42de-b624-e225e5fb8a4d" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="769b6fa2-326d-4a65-b467-d0011c4664c9" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightCrossbow_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="58324914-94a4-49e3-a00b-4c914d5f52d8" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6f0568b1-86ac-4039-8d3a-5db844b55fe8" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Crossbow);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dbe21aa8-918f-45c2-b1d9-4ed74cb51b75" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_LightHammer_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ce73b8f5-314e-43e0-bf05-12e411ebe12f" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0c8a9530-273d-4f64-81b9-0d169d890483" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Hammer);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f6d840ff-480e-466a-a7c9-e2ef28e70b6b" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dddd2204-0ee3-47b0-a7ea-6b5216a65e89" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="d88b1fbb-bb56-4791-a19f-ac77a534a935" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Mace_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="290e7dde-377d-4800-a940-13793c89f656" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ce1c45a5-5606-4604-9afa-beca19fd03e1" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="08bb8c8c-0341-41a7-a5ef-e0346832b39b" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Maul_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="23a0a8a2-5389-4bab-a4b0-d7855276f4e2" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="67e97333-2225-4797-9c06-0a0e08e6edd7" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Hammer);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8c13a539-a431-4665-bd23-4e27c9607b00" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Morningstar_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7863804b-3979-4f18-917d-a8e10c273fd8" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f8856d2d-ffda-417c-b7a8-c7aa757903b7" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fef79f24-a957-4d0f-8f41-a154617c8ad0" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Pike_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0eddcd68-36fb-4c9f-8cbb-66513d8d718e" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.03" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7e4e0acd-7665-4599-8772-d24b146dc84c" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Rapier_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1958c259-3772-46ac-9de3-741806f18703" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ff3056dc-bbac-4edc-b1e4-d8bb5350206b" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Scimitar_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="04d79ec4-4fd9-4105-b43c-7391ea6fbfa9" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="134cca90-23ea-497d-8698-b7a66bab59d3" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="835201f9-3a82-455e-b6a1-65b7a7a90f6a" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Shortsword_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9d66df2d-8e8f-4798-8684-77b738d26704" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="e96b47af-975f-4f4e-ab31-03590492918d" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Sickle_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7b854117-660e-4f29-8677-2032221bb41e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1d75dc84-b276-47b0-a0be-a5b25dfcb086" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.03" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dcbe6fc9-a4a8-41bd-bbde-968066abb61a" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Spear_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="3f8d18c2-d5ed-46dc-9097-05669db73cec" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="86450ec8-d876-457f-92c0-7bb11e8f38f8" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.05" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Spear);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="56b76d88-e5ae-48de-9507-146ca7cb85a5" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trident_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="27ef84b1-ea40-4f06-a013-f6281511f0e9" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Spear);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="214755c5-cb7a-432d-972c-891143b21fcd" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warhammer_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa6cc81-27d3-473a-a7ee-f486f1d11edd" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ed53c828-d185-408e-8381-9b042849de8e" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="1266cf25-1105-48b5-915f-051ba091cf30" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Warpick_Rusty" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c0040c9a-de25-4182-a8e0-f5f4801d0124" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1d6d5983-4546-4eba-b9e6-d23021d08805" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8314f97e-e98c-4216-8768-7f73ecaa98a5" />
         <field name="Name" type="NameTableFieldDefinition" value="xMAG_Zhentarim_BloodfeederBlade_Rapier" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ef1690a2-2b6d-44f5-8aa5-640b89ca91f1" />
@@ -2774,15 +2907,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c7aca4a3-a11a-4b08-886c-1ce04779aa50" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Syringe" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="81b0df91-640e-4dbf-893b-cf27f1b9256b" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="75cea463-4395-4600-ad93-7017415b16e3" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Knife);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):UnlockSpell(Target_SurgeryEnabler_Syringe_Nurse);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):CharacterWeaponDamage(1d6,Necrotic);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b0980246-8d6f-46fd-a061-52dd7ec35779" />
         <field name="Name" type="NameTableFieldDefinition" value="xMAG_TheClover_Scimitar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4a78c03d-559b-40bb-9cec-fd54ff0727ff" />
@@ -2824,29 +2948,11 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f08ec929-6ebe-49ae-ba81-4ac28622043d" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Trepan" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="5bfcf7ef-39ba-441b-b4c7-807771d740d1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="764dcd70-9206-457c-9366-7aa9e3370514" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):UnlockSpell(Target_SurgeryEnabler_Trepan_Nurse);IF (Tagged('ACT2_TWN_HOSPITAL_NURSE',context.Source)):CharacterWeaponDamage(1d6,Necrotic);" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d3a0422f-5881-4046-9159-8597b342012a" />
         <field name="Name" type="NameTableFieldDefinition" value="xWPN_Trident_Water_Myrmidon" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ab58fd38-c004-40b7-9d2f-53158648ed68" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ba86b029-9232-4ad2-9e2d-9edcdd1d728b" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FreezingStrike_Myrmidon_Water)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="edf7c1b9-ac59-488c-9b0e-5e1a5bc97e32" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Club_WoodWoad_Conjure" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="2d6089e2-c2a5-480e-b935-732b53ca5103" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WoodWoad_MagicClub" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2859,69 +2965,6 @@
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_TheClover_Rearrangement_Passive;ShadowBlade_Passive" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="32e4f129-ea9c-45e3-a511-b67ebab65d21" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Rapier" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
-        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
-        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
-        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
-        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Finesse;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Rapiers;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7061f489-4b13-4982-aa09-cf0ad961e75f" />
-        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
-        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="4" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IF( not HasPassive('Thief_Finesse') ):BlockAbilityModifierDamageBonus(); IF( not HasPassive('Thief_Finesse') ):WeaponDamage(StrengthModifier,Piercing)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DeadlyD8;IF(HasPassive('PF2_ElvenWeaponFamiliarity',context.Source)):PF2_ElvenWeaponFamiliarity_Passive;" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dd57ea75-b82e-4409-8611-272f5447f487" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Longbow_Broken" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8bb7ba98-1d0f-44ed-acde-9ff961b8d9de" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9160904e-0c71-49df-8f9e-b1e232a2421d" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Bow);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c19fb58a-4cb8-48c6-92e4-362acf380d24" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Longsword_Broken" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2af7255d-bae1-4d4c-a8ba-4a2b5909a794" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Sword);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8a30b847-007a-4554-a5e4-b3342ded397e" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Pike_Broken" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="49715a99-3567-43a7-833d-a9b88f6d43c0" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8454a13e-291f-47ec-a600-d41c32391064" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Polearm);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8537bf26-897a-4e5a-adbc-88479dff409d" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_HUM_Quarterstaff_Broken" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="68c84962-5d09-4c36-b1a6-baf61bf97e01" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="45c9d3a2-8ea5-4bbf-b1cf-e0acaa0f23b2" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ace06940-5633-4ff9-8f51-54a89b59c4ae" />
-        <field name="Name" type="NameTableFieldDefinition" value="WPN_Harpy_Club" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="825386eb-4060-4bda-b074-e7a518e3ec8e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4fa70ff7-68f0-4c13-812c-2838effd09be" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);RollBonus(Damage,-1);" />
       </fields>
     </stat_object>
   </stat_objects>
