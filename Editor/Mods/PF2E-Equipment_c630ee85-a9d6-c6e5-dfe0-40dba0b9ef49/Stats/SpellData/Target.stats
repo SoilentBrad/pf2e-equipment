@@ -453,6 +453,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h09f1104dg45eag6d98g9426g2b09db4c9a0a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf434c6d5gcbe3g212ag3509gb752506d080a" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4275337ag5f27g8fdcg224eg21c20d4dfd09" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_TripAttack_Ranged" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -517,18 +518,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f048dce2-6d7f-404d-a615-fdd67c183e5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_Aklys_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2bcfdef6-6b42-4627-91da-f21e6cf0878f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23e6cdb9gc44cg0f41g6191gde92332cf27d" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2d40a734gdf2eg5d7bg465cg12e9c2ce22f9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2bcfdef6-6b42-4627-91da-f21e6cf0878f" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_CombatFishingPole_RangedB" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6707901c-81b4-4e77-8b0c-4eb486b44976" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Bludgeoning);" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72d75855gbc68g509ag7ce4g35d3ad2e3818" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h978175feg9845g28d6gb973g02571a5b407f" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72d75855gbc68g509ag7ce4g35d3ad2e3818" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h978175feg9845g28d6gb973g02571a5b407f" version="2" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Bludgeoning);" />
         <field name="DualWieldingUseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
         <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="bb97ac24-8aae-463b-a080-072c2957db0e" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ThrowWeapon" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -538,6 +550,28 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2bcfdef6-6b42-4627-91da-f21e6cf0878f" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Piercing);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Piercing);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Throw" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd74eb668g6c5dge114g9f50ge5ce27e91c0a" version="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8edd7269-cc62-491f-bae3-db93baf364fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_Harpoon_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdc46e5e-aef8-4c45-ae70-bdb7052906d0" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_ThrowWeapon" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf949e791g3168g982fg1626g67e9b063ac46" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd44002f6g7099gde1eg631bg0fe4a2dec998" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d21a6da6-e392-406a-8f76-601bd635a72c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WarJavelin_Ranged" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8edd7269-cc62-491f-bae3-db93baf364fc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h923ace6cge9dfg13dbg2c04g1fca34a3a906" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32c3ddd1g3341g770egdb53gd6f24b445c1a" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

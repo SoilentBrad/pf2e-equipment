@@ -12,7 +12,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="be857585-a8ad-4dbe-8b13-c16e7339db82" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="facbdd28-af65-4de5-ad18-95b390e48f84" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="68329ffb-191f-41ea-a924-22871b9b248c" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="AciResist_5" />
       </fields>
     </stat_object>
@@ -21,7 +21,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="86235540-a0a9-4692-901b-321ce99f423e" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_Cold" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="23b92a44-70d9-4e42-b3f1-060583b73e3a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="74f2b9cb-7779-4669-bac2-860fb0dc9fbe" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="CldResist_5" />
       </fields>
     </stat_object>
@@ -30,7 +30,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="95fc921c-6723-47ec-a468-2c3d7547e14a" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_Elec" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7e73b29d-30d5-419d-8b61-9f8058ed2f90" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8976d567-0cf3-441e-81b5-159d02075b03" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="LgtResist_5" />
       </fields>
     </stat_object>
@@ -39,7 +39,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="050f5d8c-ad29-4bf2-8515-5039a4cfea44" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="acbc3435-9b5c-489f-bd29-23dd82601712" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c121f4be-d55e-43f3-9df6-27bcc5cbc48b" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FirResist_5;" />
       </fields>
     </stat_object>
@@ -48,7 +48,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9ef5a89d-e0f3-4663-a619-d473763fc2fb" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_Sonic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0363cb00-f00d-4e4f-9930-42e36b67be47" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="73f56153-183c-488c-9c5e-835ca0a65c8b" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ThnResist_5" />
       </fields>
     </stat_object>
@@ -57,7 +57,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e96ccd3c-f6e5-49fc-932a-624366d21d52" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_GTR_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4562c37c-ccb8-4e86-b5f8-b303bf096888" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="72ae1ddc-26fa-48f8-b7a3-0919339d6d12" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="7da97bda-6776-4796-8b0b-d3b96ff3c9fb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="AciResist_10" />
@@ -68,7 +68,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90a68fc1-d5f2-456a-9629-85a96bad365e" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_GTR_Cold" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e7ef1169-1274-4416-b09c-c37bfddac556" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="517a97c0-c8d8-433b-891c-5fb06f74441b" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="7da97bda-6776-4796-8b0b-d3b96ff3c9fb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="CldResist_10" />
@@ -79,7 +79,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1db3f158-71a1-4c8e-ab67-10da47afea8c" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_GTR_Elec" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="197b8605-95a8-4dd3-85ee-63ca1e2acd30" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="76523cb9-c68e-41b7-a6f9-b65e119d3dda" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="7da97bda-6776-4796-8b0b-d3b96ff3c9fb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="LgtResist_10" />
@@ -90,7 +90,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="86c4dfe1-13bb-45dd-aba5-5d2c3479ae84" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_GTR_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="02d8e7c4-a27a-4ed6-b01b-cbe688306b02" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="80989486-1fc9-4176-b8fb-a500a23ae018" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="7da97bda-6776-4796-8b0b-d3b96ff3c9fb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FirResist_10" />
@@ -101,7 +101,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="99fef3d2-b981-4f90-8596-5b46217c2673" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_CharmResistance_GTR_Sonic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6a2755b5-b5c7-4bb5-b92a-6dac6ac9b258" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5a80d0ff-d73e-4aff-b7aa-f22e28b3722a" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="7da97bda-6776-4796-8b0b-d3b96ff3c9fb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ThnResist_10" />
@@ -112,7 +112,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5f67e925-e329-4eeb-b0eb-008f246df9ab" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Frightful_Hag_Eye" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="bc0e29bb-400d-4521-9f76-5a66bc70899a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="03730382-d5b6-478e-bb9f-d392368b5414" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="7da97bda-6776-4796-8b0b-d3b96ff3c9fb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Fear_Rank2_Hag_Eye)" />
@@ -124,7 +124,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b0e2bfe2-deb2-4985-8825-f3efdbe2dc30" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Primeval_Mistletoe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="914426ba-8e3e-42c2-afa6-db46bb343d8c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c3aa7d9a-698a-4558-9408-698491a61fcb" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MistletoeAnoint);UnlockSpell(Target_MistletoeBind);" />
       </fields>
     </stat_object>
@@ -139,7 +139,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0cebd417-3af0-4bff-b0c2-e3bfcaef6d58" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Charlatans_Gloves" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f65a58f5-d764-4ff3-8bae-87d8e8b5c3e8" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7c3dd367-2e1b-4e65-9fdc-5ededda0655f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ee39efeb-35f0-4f1f-bc36-a8f64f5aa006" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(SleightOfHand,1);UnlockSpell(Target_MageHand)" />
       </fields>
     </stat_object>
@@ -148,7 +148,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e60608ea-c411-4c05-bf3f-78235bc0e027" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Charlatans_Gloves_GTR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0cebd417-3af0-4bff-b0c2-e3bfcaef6d58" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="53de4100-cbbd-4927-889b-d0ba18606543" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f7139170-6d6c-4003-b835-2da737fcbc81" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(SleightOfHand,2);UnlockSpell(Target_MageHand)" />
@@ -159,7 +159,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dad9b5a4-0fb4-4184-a9b5-93ada81e93ee" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Healers_Gloves" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0cebd417-3af0-4bff-b0c2-e3bfcaef6d58" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b4a06b68-b1f5-4707-a1d5-341f3abf6d57" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="abfa705d-10a9-4422-b64f-351801fbad32" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Medicine,1);UnlockSpell(Target_Healers_Touch)" />
       </fields>
     </stat_object>
@@ -168,7 +168,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="aec0b528-7448-4331-8ea1-b0e17538d88a" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Healers_Gloves_GTR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dad9b5a4-0fb4-4184-a9b5-93ada81e93ee" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="df6d1e3e-3cf7-437a-b75e-b6a94957ce2c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="937eed90-9b2c-4b7f-b2bc-efb494123b59" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Medicine,2);UnlockSpell(Target_Healers_Touch_Greater)" />
@@ -185,7 +185,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="97c6481c-cc66-45b5-9730-e259daa705a0" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Crown_Companion" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="534a27a5-d7e8-47c5-a436-ea4a3ab82bb1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1af1f68b-8130-4aab-875e-3fb03ec1fac0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5fd02f04-7d46-412a-ad90-d0133b12b021" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Persuasion, 1);UnlockSpell(Target_CrownCompanionShareLife)" />
       </fields>
     </stat_object>
@@ -194,7 +194,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d113d97c-61c0-402d-b54b-90c628d1963e" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Druids_Crown_Antler" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c06ee7de-670d-4c22-8b99-d9f4b1aeaf7a" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="52cd8335-c56b-492e-803e-1229dad1e3aa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a6b9e62e-2f14-4522-9b94-0854ec012074" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Intimidation, 1);UnlockSpell(Target_Druids_Crown_Enlarge)" />
       </fields>
     </stat_object>
@@ -203,7 +203,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d5f34add-0b83-4f8d-8f18-67dfadc5c6be" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Druids_Crown_Flower" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d113d97c-61c0-402d-b54b-90c628d1963e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="07bc9291-60d1-4c08-8646-e0aa1140de25" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0e209273-53f8-47f7-a8c4-d279630b0e4b" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Persuasion, 1);UnlockSpell(Target_Druids_Crown_Enlarge)" />
       </fields>
     </stat_object>
@@ -212,7 +212,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9bafc1b8-40d8-49cb-859c-3aab12857c89" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Druids_Crown_Leave" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d113d97c-61c0-402d-b54b-90c628d1963e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b428ab93-d3ef-47d2-a416-e94845cf0ab0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5e002e2d-3f59-4826-bdf1-c0d4aa483cef" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Stealth, 1);UnlockSpell(Target_Druids_Crown_Enlarge)" />
       </fields>
     </stat_object>
@@ -221,7 +221,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_A" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eeb0b62e-6822-4203-bcc5-29dcbeb748c6" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="865c14bc-c0dc-48b0-9214-90daf4d265ba" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="91c5134e-b8f9-46cb-98d7-af2dbd97c4a2" />
         <field name="Slot" type="EnumerationTableFieldDefinition" value="Helmet" enumeration_type_name="Itemslot" version="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
@@ -233,7 +233,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3e28d8ce-ce2c-434b-8f20-e2443ada2866" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_B" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="40ffa3d1-27fd-4ade-8fa3-e70731b6ee40" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ff9c075e-b5d8-4372-b3e2-42e7cd316a5f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -241,7 +241,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e8b2909c-38d3-43f5-9816-d42b440157d1" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_C" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="75a7e2d3-b544-4124-aa38-d95088ef7d06" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ef5e9a38-8af0-446d-bbbd-b8c09d2e95d4" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -249,7 +249,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d0ed18b5-b7e5-4e8c-bf2a-704dcb8b478e" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_D" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b87bd3e8-e568-4c4e-9717-0d00189c4955" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a87d9dc5-a2f0-4362-aec3-1cdaf0219fca" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -257,7 +257,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cff9a951-5bc7-4800-a214-2cd3a30aacc3" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_E" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6869f8cf-dc7e-45f8-a64c-a3c65d647a36" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9e6e47c9-72b6-4023-9e1b-13add27a3bc9" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -265,7 +265,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8b536fc5-8f49-4cf0-be28-452b58b9305f" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_F" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="07b6b415-ee8e-44df-b0bc-524c3a76cf1e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0f867c07-4c3d-47ef-8003-bd9a398000b8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -273,7 +273,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c5c15505-1def-457c-9331-23c418d6f29f" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_G" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="09f7cc52-7c9c-48f5-be92-e545377e6903" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="49590802-e742-462f-a342-f8be31d629e0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -281,7 +281,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1852dbf0-79c3-42d9-9dfa-0d88574cdb22" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_H" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dbd1115a-e9a4-4e91-8486-b4d893929076" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="54e90366-0067-4cb2-8d74-761e10270bec" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -289,7 +289,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fd850b50-c3e6-4b6f-9bef-c89ff3aab8bf" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_A1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6d4deb00-7665-4b4d-90f1-abc0b590cff3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9e393801-3219-4387-8b6d-c489b57be65e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c45b8914-5fe3-416d-820c-2a784491e72a" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -300,7 +300,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="44e89c7d-4bc9-4f70-99a9-c66d5e215e17" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_B1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3e28d8ce-ce2c-434b-8f20-e2443ada2866" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5544abf8-a4e0-4c7b-8079-e280cdeec606" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="db000ef8-3675-4629-af59-872b7856a45c" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -311,7 +311,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e8f3c812-bd5c-45de-982c-9368b4abd538" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_C1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e8b2909c-38d3-43f5-9816-d42b440157d1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ca52b7b1-9638-4f03-8961-ad132fe38d67" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2a4bcb3b-3b6f-47f9-8d47-bee1fd90e5e0" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -322,7 +322,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="deaf3346-6f25-4cc1-97cf-fb8433654a43" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_D1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d0ed18b5-b7e5-4e8c-bf2a-704dcb8b478e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="829f8df6-277c-414d-bdfa-197bf46b832e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6028eab8-1662-47b0-8386-22e60464eca6" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -333,7 +333,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e07a65a9-9b1f-4a0a-8969-95eee5dc28b1" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_E1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cff9a951-5bc7-4800-a214-2cd3a30aacc3" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ff2ef4fa-ca1d-4d9c-bb7b-47a1236023cc" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5bcad055-1d61-43f3-a36c-ae0305b96e8b" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -344,7 +344,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1fb961a6-7767-407d-803c-9fb99b0bd6e0" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_F1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8b536fc5-8f49-4cf0-be28-452b58b9305f" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f1690d4f-1988-4b26-9c10-2e0e43fb4c58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2ca6931f-776e-4ff5-987f-f50621958f93" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -355,7 +355,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="39f9c8c9-346f-4fde-971b-262bbfe0c888" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_G1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c5c15505-1def-457c-9331-23c418d6f29f" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fef25246-c2f1-432e-af54-a8f51c3584f1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7dfca11c-7478-4494-9b6f-f2ff5d1e48b6" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
@@ -366,7 +366,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0652d1ba-9662-4f79-8b03-961853a7fd9f" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Mages_Hat_GTR_H1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1852dbf0-79c3-42d9-9dfa-0d88574cdb22" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7f8e5bfe-7a43-4374-932d-03398361a541" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0b677304-4c62-4443-a9a1-4266f853bccd" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,2);UnlockSpell(Target_Hat_Spell)" />
@@ -383,7 +383,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fcaf4a91-2a29-4cc6-8a3d-33d2ce8704a1" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Ring_Ram" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="360b5789-c9c8-45de-8242-e71de4375e36" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e7ccfaf6-1415-48f4-9da1-ddfd6694fee3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cf413b1e-4208-49fd-a8f1-758f39cd0462" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RamHorns_Container)" />
       </fields>
     </stat_object>
@@ -392,7 +392,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="36159a4b-2ed5-490c-830c-720130dbff75" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Ring_Ram_GTR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fcaf4a91-2a29-4cc6-8a3d-33d2ce8704a1" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="08797fda-0bf0-42ec-8a6e-55ae6e5d4227" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5136aae8-59da-4d84-a50b-c18969de17bb" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="94356ef2-bb14-4595-88cf-86f544ef12eb" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RamHorns_Greater_Container)" />
@@ -409,7 +409,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b19c3030-b585-4107-8a0a-97663f289229" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_MAG_Living_Mantle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="17e7655a-a980-434e-b4cb-a29540f27c6d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e22e638-c781-4dfa-ad84-529e7f205853" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6b654034-4205-4427-abc6-49da73cc2733" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="a229f048-70b0-4b0c-88cb-29b5c6bdb2d0" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="If(IsWearingArmor(MAG_Primeval_Mistletoe):Skill(Nature,3);If(IsNotWearingArmor(MAG_Primeval_Mistletoe):Skill(Nature,2);" />
@@ -449,17 +449,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="217740e5-7717-45f8-881a-04efbc9b2237" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Instrument_MaestroLute" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="699ebc3b-5e45-4823-baaf-e00292067df7" />
-        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Bard_Perform_Lute);Skill(Performance,1);UnlockSpell(Target_CharmPerson_Maestro);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="aff3211d-2b94-4335-a7d2-196ea489b81e" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Instrument_MaestroLute_B" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8cf6f033-0749-4c10-aa53-f600131ef670" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
@@ -523,17 +512,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dd2cfd02-43e9-4564-ba52-fdf90fd8f07d" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Instrument_MaestroLute_B_Gtr" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8cf6f033-0749-4c10-aa53-f600131ef670" />
-        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="3" />
-        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
-        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Bard_Perform_Lute);Skill(Performance,2);UnlockSpell(Target_CharmPerson_Maestro_4);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="139f230a-4b5f-4300-9cec-c2de7a2e95fa" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Instrument_MaestroLyre_Gtr" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dcb9d854-d80f-4ddd-b19d-8a6c84ed22f0" />
@@ -577,15 +555,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="699ebc3b-5e45-4823-baaf-e00292067df7" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Instrument_VirtuosoLute" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f9710e1b-87ce-4336-9eab-05be9544fe03" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Bard_Perform_Lute);Skill(Performance,1);" />
-        <field name="ValueScale" type="FloatTableFieldDefinition" value="5.5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8cf6f033-0749-4c10-aa53-f600131ef670" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Instrument_VirtuosoLute_B" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9f9c081e-3896-47f3-ba62-53203866de66" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Bard_Perform_Lute);Skill(Performance,1);" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="5.5" />
       </fields>
@@ -688,6 +657,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="7.5" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="98282bec-aeaa-4490-ae43-0c27bed58c74" />
       </fields>
     </stat_object>
     <stat_object color="#FFBA55D3" is_substat="false">
@@ -706,7 +676,7 @@
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="be545ee9-311c-4ab8-ab14-fefcc552cace" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(ArmorCheck(12)):Skill(Stealth,-1);IF(ArmorCheck(12)):Skill(SleightOfHand,-1)" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2f63906e-259e-49af-a8a8-7d3f7c7587a8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="559ceb8a-26ab-41a7-84a5-95bd9d2323d3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -816,7 +786,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5a66c5af-621a-4bbd-86cb-775477536313" />
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 3-DexterityModifier, Dexterity);IF(ArmorSpeed(18)):ActionResource(Movement,-3,0);IF(HeavyArmorSpeed(18)):ActionResource(Movement,-1.5,0);IF(ArmorCheck(18)):RollBonus(RawAbility,-3,Strength);IF(ArmorCheck(18)):RollBonus(RawAbility,-3,Dexterity);IF(ArmorCheck(18)):Skill(Acrobatics,-3);IF(ArmorCheck(18)):Skill(Stealth,-3);IF(ArmorCheck(18)):Skill(SleightOfHand,-3);UnlockSpell(Shout_PF2_EntrenchMelee);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PF2_HinderingTrait;" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d76dd47b-e1bf-4e30-b366-6069d9eb9e22" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="5f73a9c1-2239-4486-8daf-853019be1bf0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -885,7 +855,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="24e96c02-2dab-4fe0-b0e5-78cb3e2d1a7b" />
         <field name="Name" type="NameTableFieldDefinition" value="ARM_ChainShirt_Destroyed" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="14115cab-06b4-45f9-b47e-601fbb1b1137" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d48f81df-91f1-4969-b04f-ec209909fdf7" />
         <field name="ArmorClass" type="IntegerTableFieldDefinition" value="10" />
       </fields>
     </stat_object>
@@ -949,7 +918,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_A" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="60d25671-6f40-4af7-9f8c-bb30f76a4593" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="daadffd6-eed7-4178-8b0d-d5055beb8ef4" />
         <field name="Value" type="IntegerTableFieldDefinition" value="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseBuckler);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash)" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.5" />
@@ -960,7 +929,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="16d3c9d7-8f03-4119-9fda-a8f35a817743" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_B" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="21cc415d-8cda-4f63-902d-cf4fb06e3c7a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c95488b2-76bd-463b-bdfd-8c30f6e4816f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -968,7 +937,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c275bf6f-feef-40d2-b737-85721ec290c9" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_C" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="429d3c2b-8946-40b2-ae16-9a8e5a4d7f27" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="73e13ef4-7c64-4b28-ba7b-274845268273" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -976,7 +945,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c6d0f929-a972-4562-bf9e-604acbe1fab5" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_D" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="df23298a-4558-480f-a660-817bc8c029b7" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6058abef-32ac-4098-8eae-7159dc4136ea" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -984,7 +953,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="102e98d8-5ec0-47f0-ad3e-50fc94bfc806" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_Duergar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="bf92a92e-6c84-4011-9a85-fb873d345062" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2df5ae7f-9e52-4c19-9b3f-126c08c558ec" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -992,7 +961,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b7015eae-1561-4400-88e9-40e26dadbb38" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_E" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c29b7332-b616-4256-b9d2-3d1e3ae3f8fc" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="25cbd7d8-456b-4882-ad95-554be3302c05" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseBuckler);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss)" />
       </fields>
@@ -1002,7 +971,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="04a9749b-aa31-4b69-b94c-b1adc890104b" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_F" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f9f8c8ef-8e9a-48da-a01a-e1e090c41116" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="93cfdceb-2d47-4231-a47b-e9d47f5ba044" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseBuckler);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Spiked)" />
       </fields>
@@ -1012,7 +981,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ee4ae7fe-8b79-4929-830e-e0d02056da6c" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Buckler_G" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aed4b55f-1a71-4502-9303-8bdfc23eaf24" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="479b74af-aebf-4276-a605-ba772e7d60a8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="14f6dc6a-a792-4036-8e01-3451fedfdd1e" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1031,7 +1000,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="acffee9d-01e6-4a27-a5c5-f397977a0885" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_MeteorShield" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2b6b8d3-d8b8-47fe-896b-1227ec67040e" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="78d08a95-5580-404b-b1ee-646c25f1be95" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="897ddf6a-4607-4305-a143-02c0eabcb914" />
         <field name="ArmorClass" type="IntegerTableFieldDefinition" value="0" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="53cd3b64-3988-4e5d-a4f5-d4b4ec7ba0e9" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
@@ -1044,7 +1013,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="764871de-2e49-4662-a262-0c77107d7b9d" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_RazorDisc" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="acffee9d-01e6-4a27-a5c5-f397977a0885" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6d2bdbff-6dce-40e5-b5a5-28da17462fed" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e6e786ff-a50b-43a3-bc6b-48b9306b71e9" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash);UnlockSpell(Projectile_PF2_ThrowShield_Razor);" />
       </fields>
     </stat_object>
@@ -1053,7 +1022,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7c07ac03-b451-4e3f-927e-a09d2da797ee" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_RazorDisc_B" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="764871de-2e49-4662-a262-0c77107d7b9d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="54ae2bed-cec5-4179-a536-a156c372fb25" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="10bd0ecc-0a27-4f57-b5c3-d7b94b46940e" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1061,7 +1030,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="283abbc7-b9f5-4bb2-8460-effe68c35902" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_RazorDisc_C" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="764871de-2e49-4662-a262-0c77107d7b9d" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e750b286-a4bd-4262-bdf8-d1b1bae6a14e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ed358d32-7d05-478a-8dc1-55f46b3f1bc3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1090,7 +1059,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d92671ba-620c-4d16-b0b7-bc4db1ad77b8" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_F_0" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d2bd3c19-b2dd-4f20-a77a-b2d397b24a11" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="23af6480-9fb6-4ce1-8dc0-d55239922f0f" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1098,7 +1067,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9bc50f73-bbfd-4ddd-b184-8808c92330c9" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_F_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4d87bca9-fdc2-4721-b6ce-c8bf1f0f03b0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dd6e4434-7f67-4038-99f6-2b3827d4f3b7" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1108,7 +1077,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ae59ca79-07b2-4375-8509-c1f7111d6e13" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_0" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6620f854-75d8-4890-ac4d-c539d8ad31d2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7f7f9661-7c4c-4de4-a5fb-780b27a159b3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1116,7 +1085,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="65be1bfd-f62d-4602-9a0b-b98486b43b3c" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c21dfcba-de52-450a-b907-1d149b739e18" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7b7ec604-af2f-4764-bb5d-6ace63e9a8ef" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1126,7 +1095,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2c24c3c5-f6dc-4fb8-a186-5db33ecbbad9" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9460545d-2250-406f-b967-9643bf526d3c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e477ea7e-2bf8-4d74-8a0c-cf75d4b3a083" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Spiked);" />
       </fields>
@@ -1136,7 +1105,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="37c7bd5c-77a1-4b7f-8a3e-d89692b8ce74" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="56393035-95fe-4a46-b55b-564635bebf8d" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8fd7ad15-67d7-4b9b-924a-bf2de93e750e" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1146,7 +1115,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4786cfad-5de4-4e9f-a47d-8b69743fd989" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="00535161-f563-4293-b1ea-15009d705bd8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="378b96c3-19b4-4b29-9de9-615a2efd580d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1154,7 +1123,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fe1ccc44-1d1c-4870-a49c-7c8756522293" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b38b082f-4f21-4b75-8c0b-07beb8519b52" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="20adf451-39bd-41f7-8553-8d8399eea101" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1162,7 +1131,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1baeac31-31c3-4e65-9def-c8f194c2c001" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6b891583-ba02-497a-a1b8-a334f6ce8209" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3b081b0a-a0b7-4f51-bc58-532a3a8cdf14" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1170,7 +1139,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3f2b52f0-a146-401c-a7fa-fa7fa7300659" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_G_7" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4dd80514-1132-4db1-b8bf-99d666ccccbf" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="26c2e9d9-ba56-4971-90a8-84688ca6f80b" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1178,7 +1147,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f95eca8b-2e9f-4403-bd52-cc98b5177817" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_0" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4eacc017-a554-4741-9581-cf3ad7c9f894" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="784b8523-5cab-44d4-a85c-1acf15783c35" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.5" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);UnlockSpell(Target_PF2_ShieldBash_Spiked);" />
       </fields>
@@ -1188,7 +1157,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3724171a-c914-40da-b0a4-aac9ebc5be77" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="882367de-7480-4d9f-99de-ff5c6b5c1d6f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8585c4a0-091c-43f1-9006-b430ddc32af3" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1198,7 +1167,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5c8010e8-3ce2-451b-974f-1773ba1edf12" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="51e5f4bd-615f-4664-8ef5-c56ee914b3c2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="27f28551-2429-4181-bd14-b014a7eb24db" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1208,7 +1177,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="63b53f0c-3366-431b-b434-1b8a28053070" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="89aa8874-b20b-4e76-af1c-2c975bbaa3f2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7d656782-ea0a-4d5c-9384-3e5f2b4d3cb1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1216,7 +1185,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11bced2b-77c6-4155-b67f-995fed0b75d3" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3e8c1d7a-2796-4062-9a9a-fbe2b6d09ec8" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cfaa0d58-cf09-40fc-981e-878d2a1431d4" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1224,7 +1193,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f66a553a-4e75-4530-9ebc-166522aeaa77" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_H_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="260f415f-bf7e-4bf9-9335-262c2dc22205" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e54b2eee-e1d4-4760-b5bd-139ab55a9a92" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1232,7 +1201,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d6e23cdf-f2a2-4544-966b-bc773da38b3d" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_0" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fdd79956-87d8-4d39-80d4-6b1f6cd2ffc4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="da2f6003-609d-4626-bb04-8a0a9bbd2a8c" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1242,7 +1211,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fe08ad95-4147-48f5-9bbc-ca2259b71adb" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="383ba1e9-0358-499e-b6ef-e47e65ec6954" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ce3b24da-f251-4dab-8b57-7d399dee414e" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1252,7 +1221,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6de6e3c9-fb48-4342-acf0-e5890bb0e38e" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="015fd580-05b4-4c8e-9933-0c8c77be692f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e254d3a-3b7b-42ee-99a3-ca58d44f94e3" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1262,7 +1231,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="54233f8b-fa9f-42e1-9d91-66a8a8eac150" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="840de23b-8b08-425e-b838-e571ddcc0f73" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="780fc8bd-0c82-464f-85ce-d99ffe5b4508" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
       </fields>
@@ -1272,7 +1241,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fbc7242b-a343-4ae9-bfa0-2cce3a0228c0" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7317012e-95b4-4d26-883e-7fd05392d2ca" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dcc76e33-25f9-47e6-b904-800010b1a703" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1280,7 +1249,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="78fce49d-1c0f-4ffa-8910-d7937ec5425b" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="660189fd-03c7-4095-bd29-2e187c061ed3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2a05613e-7c64-42b8-b636-e63ca2471f7a" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1288,7 +1257,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2a9e07cd-76f6-4d86-9758-8d81179579f3" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f1ed6700-1424-4e29-871e-e09b68a723fc" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6e279278-8d9f-4d38-9f5c-29b2e9a8ee3d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1296,7 +1265,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cdd0dd2c-e4cd-44b8-bd46-6fbe88c1f14e" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_7" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="35d577d1-ae0d-45ad-8932-0c00df9d176e" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3ada9109-3d31-488e-9e66-cc7627a848f9" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1304,17 +1273,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8fcabdea-df9d-4ed3-83de-469bbc9add65" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_I_8" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="733f1293-bb6b-4283-bd09-5504a9bdffdb" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="eccb7f6e-7d44-4397-9af5-c6b8c6649c20" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0348183b-b321-4a20-8515-12ed8074961a" />
-        <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Shield_J" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d6377bb5-32be-489d-a1a9-300bf70dc201" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1322,7 +1283,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6cd009aa-89f5-454c-9824-b3771a047762" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6ce1816a-e3c9-40b3-8c45-762e137cda55" />
         <field name="Weight" type="FloatTableFieldDefinition" value="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash);ActionResource(Movement,-3,0)" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
@@ -1334,7 +1295,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3bfdf5e0-6fe6-4a2b-928c-d7a92cccd3bd" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_B" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9d1016d8-f970-44ef-a0ee-cb1dbc9097d4" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ac498c1b-bc67-4207-af3e-4697faf20d48" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);ActionResource(Movement,-3,0)" />
       </fields>
@@ -1344,7 +1305,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="28190a80-c213-4db8-98b7-3daf08f8c82a" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_C" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ec00bcfb-669e-4704-877a-e2a163ce7aa0" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fa535a31-cd32-4062-844a-ea8449f16083" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1352,7 +1313,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="23a44546-5279-4bc1-983f-5bdbf52fafd8" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_D" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="19f15ec7-b830-4a22-8b10-a875e59ad620" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="40306184-6b37-4e7f-8130-f725c012826e" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);ActionResource(Movement,-3,0)" />
       </fields>
@@ -1362,7 +1323,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1bfbaec9-985a-4126-a80e-d55539f8ff2d" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_Duergar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cc6e4d89-7739-4916-95a4-4cbd5086a21c" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d91fcf45-b26f-4f3b-a7f6-79520ce90793" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1370,7 +1331,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2806f053-871b-41e0-afaa-b7a5273cec11" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_E" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6290bb4b-0890-450b-b000-0dfc8889a1ef" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9441eedf-bce9-4013-87a2-22c7d449d52c" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Boss);ActionResource(Movement,-3,0)" />
       </fields>
@@ -1380,7 +1341,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="57cb8e26-be39-4385-9b8e-def4578dd5d5" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_F" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c8dacbb9-9b1f-45be-a411-d276ec3aa361" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8b7b55df-062e-4fad-aff3-4fdf59dd8a5e" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Spiked);ActionResource(Movement,-3,0)" />
       </fields>
@@ -1390,7 +1351,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2eaa9dda-1b2d-46ff-a6bb-74a06e8b5b21" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_G" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="783fbb83-a60f-4e83-b12f-82c9667005a6" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0bc3b8b8-c22d-4dc3-881a-f3f3edab6975" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Spiked);ActionResource(Movement,-3,0)" />
       </fields>
@@ -1400,7 +1361,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5a891416-0181-4ffb-80b4-c6fb29d739ba" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_TowerShield_H" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36919c02-1fb1-41b2-9da9-9ad51d6089a7" />
-        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="659de616-4293-42ff-b84c-2bad0bca37c6" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="14c2b168-9abe-4e28-ba8a-6c2a35338243" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1.25" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Shout_PF2_TakeCover);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_PF2_ShieldBash_Spiked);ActionResource(Movement,-3,0)" />
       </fields>
@@ -1478,6 +1439,15 @@
         <field name="ArmorClass" type="IntegerTableFieldDefinition" value="10" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingPoor" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e2b943be-1e64-47be-8db0-f481f4c0743b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8d0381b-c0f2-447f-b661-67631dd41ed2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_ARM_Camp_Body_ExplorersClothing_B" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e54af8c0-fd11-4cf7-8569-f3025c76afd6" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="524f2b27-5ed2-47b2-a2c4-ae881477daa7" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1767,6 +1737,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a63e507b-1ccb-4de4-ad06-0305525ff8b5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1779,6 +1750,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1dca4a5a-5855-4e7d-8bba-28b127795cbd" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1791,6 +1763,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="74d9ec21-37fd-4b30-afbe-b80371547f96" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1803,6 +1776,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6d207ecc-ebf9-4d1c-b63c-02254668e116" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1815,6 +1789,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a57b84f3-a4f0-477a-97cd-03298b1e47ff" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1827,6 +1802,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7c1307ec-08f3-436a-b8b7-4da8d023a1c8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1839,6 +1815,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="73957c5c-a062-4855-bcb0-f759f77e8200" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1851,6 +1828,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cf61b840-bffb-4c65-ac58-c5d7cd028c9c" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1863,6 +1841,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="81df9707-c677-4ec0-8d2b-eb9a29d3495d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1875,6 +1854,7 @@
         <field name="Value" type="IntegerTableFieldDefinition" value="0" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="Cloth" enumeration_type_name="ArmorType" version="1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="ClothingCommon" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cb488af6-1c44-44ed-a1bc-ff89e547fbe7" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
