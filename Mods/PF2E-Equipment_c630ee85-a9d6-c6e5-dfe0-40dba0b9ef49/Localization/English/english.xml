@@ -2486,18 +2486,18 @@
   <content contentuid="h6dbce75cg6a28ga656gbc6eg52f237ca1734" version="1">Spear Frog Poison: Stage 6</content>
   <content contentuid="h4654650bg8e01g9f7dg39e6g99b519d53a8f" version="1">Giant Centipede Venom</content>
   <content contentuid="h5dcc327dgdd7fg8141g7ae7gac5213ed0993" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 1: [1]. Stage 2: [2] and Fatigued. Stage 3: [3], Clumsy 1, and Fatigued.</content>
-  <content contentuid="hff3d79a4g6dc5g3ef2g9148gc651b31b9298" version="1">Giant Centipede Venom</content>
+  <content contentuid="hff3d79a4g6dc5g3ef2g9148gc651b31b9298" version="2">Giant Centipede Venom: Stage 1</content>
   <content contentuid="h0e75c3f9gf21eg1e35gcf92ge86e1a7ceebc" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 1: [1].</content>
-  <content contentuid="h784fb339g984ag3d29gc69dg6ef383fcfd62" version="1">Giant Centipede Venom</content>
-  <content contentuid="hd3016216gbe7agd67eg2089g5f45e61b54cb" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 2: [2] and Fatigued.</content>
-  <content contentuid="h256ee534g8072g49daga9a4g00afb2a6affa" version="1">Giant Centipede Venom</content>
-  <content contentuid="h7b04a867g6b5ag8752gf2f5g7178f67ef1a6" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [3], Clumsy 1, and Fatigued.</content>
-  <content contentuid="h8af20164gee0fga57ag5312gb73176615f0b" version="1">Giant Centipede Venom</content>
-  <content contentuid="h5c708be5g04begf3b3g00ecg7b711266cac8" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [3], Clumsy 1, and Fatigued.</content>
-  <content contentuid="h476c0c12g03aagc691g9683g705324b4d779" version="1">Giant Centipede Venom</content>
-  <content contentuid="h30daf0c6gabc7g14e0g6b5dgd3258dbd9b69" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [3], Clumsy 1, and Fatigued.</content>
-  <content contentuid="hc1b650f3gc2degf1afgcb27gd23a2b91cecf" version="1">Giant Centipede Venom</content>
-  <content contentuid="h002ff9b2gfda7g668eg410dg2b2e8a5ecdd2" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [3], Clumsy 1, and Fatigued.</content>
+  <content contentuid="h784fb339g984ag3d29gc69dg6ef383fcfd62" version="2">Giant Centipede Venom: Stage 2</content>
+  <content contentuid="hd3016216gbe7agd67eg2089g5f45e61b54cb" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 2: [1] and Fatigued.</content>
+  <content contentuid="h256ee534g8072g49daga9a4g00afb2a6affa" version="2">Giant Centipede Venom: Stage 3</content>
+  <content contentuid="h7b04a867g6b5ag8752gf2f5g7178f67ef1a6" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
+  <content contentuid="h8af20164gee0fga57ag5312gb73176615f0b" version="2">Giant Centipede Venom: Stage 4</content>
+  <content contentuid="h5c708be5g04begf3b3g00ecg7b711266cac8" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
+  <content contentuid="h476c0c12g03aagc691g9683g705324b4d779" version="2">Giant Centipede Venom: Stage 5</content>
+  <content contentuid="h30daf0c6gabc7g14e0g6b5dgd3258dbd9b69" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
+  <content contentuid="hc1b650f3gc2degf1afgcb27gd23a2b91cecf" version="2">Giant Centipede Venom: Stage 6</content>
+  <content contentuid="h002ff9b2gfda7g668eg410dg2b2e8a5ecdd2" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
   <content contentuid="h2a45e3dagc9dbg043cg4121gc408885d02ba" version="1">Spirit Thresher</content>
   <content contentuid="hd74eb668g6c5dge114g9f50ge5ce27e91c0a" version="2">Throw Tethered Piercing Lure</content>
   <content contentuid="h23e6cdb9gc44cg0f41g6191gde92332cf27d" version="2">Throw Tethered Aklys</content>
@@ -2556,8 +2556,8 @@
   <content contentuid="h70459a7dg753dg861fgeb21gacdbd1625122" version="1">A rogue's favourite toy.</content>
   <content contentuid="h145f4f7dgc820g51e8g6304gd7ff055170ef" version="1">Dancer's Spear</content>
   <content contentuid="hd0abef86g213eg4091ga7f3g8478fc8a493a" version="1">Traditionally a favored weapon in Molthune for settling disputes between military leaders, the dancer's spear has seen a recent resurgence in popularity in the neighboring kingdom of Nirmathas, largely due to its effectiveness at striking down attacking skeletons and other undead from a relatively safe distance. A dancer's spear has a 7-foot-long wooden haft capped with a triangular metal blade at one end, counterbalanced on the other end with a reinforced metal sleeve that, in a pinch, can be used as an effective striking surface.</content>
-  <content contentuid="hc5318564gd4a6ge473gd8bdg2dfbc038c0d8" version="1">Dogslicer</content>
-  <content contentuid="he9e5cf18ge90bga5ccga9ddge6873443eb6a" version="1">This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It's a favored weapon of goblins.</content>
+  <content contentuid="hc5318564gd4a6ge473gd8bdg2dfbc038c0d8" version="2">Dogslicer</content>
+  <content contentuid="he9e5cf18ge90bga5ccga9ddge6873443eb6a" version="2">This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It's a favored weapon of goblins.</content>
   <content contentuid="h8a80fabbgab9bg830bg8bdbg493f93bc10f3" version="1">Dwarven Waraxe</content>
   <content contentuid="h66a81444g0ee4gb2a3geb9bg51dd7ad01a02" version="1">This favored weapon of the dwarves has a large, ornate head mounted on a thick handle. This powerful axe can be wielded with one hand or two.</content>
   <content contentuid="h79a8d0f3g98cfg728cg22cdgb0b833092b35" version="1">Dwarven Dorn-Dergar</content>
@@ -2643,8 +2643,8 @@
   <content contentuid="h58d22d6egfa15g7cf8g5468g82f736adbadf" version="2">This small, curved blade resembles a tiger's claw and is capable of delivering deep wounds.</content>
   <content contentuid="hdb5e9136g3f27ga095ga49fg4e7ca3ef5f59" version="1">Kestros</content>
   <content contentuid="h78c14068g3339g6e37g0a9ag58f7bc6c1b01" version="1">The kestros is a type of sling that fires special ammunition with wing-shaped fins and a pointed end. The thongs of the sling are of uneven length, one shorter and one several inches longer, around an open loop to cradle the ammunition as the sling is spun.</content>
-  <content contentuid="haf6b0eceg8bbcg6e87g401aga0c838def354" version="1">Kukri</content>
-  <content contentuid="h1a42f3eagab49g46aagc3f7gf09075c3a6d5" version="1">The blade of this foot-long knife curves inward and lacks a cross guard at the hilt.</content>
+  <content contentuid="haf6b0eceg8bbcg6e87g401aga0c838def354" version="6">Kukri</content>
+  <content contentuid="h1a42f3eagab49g46aagc3f7gf09075c3a6d5" version="6">The blade of this foot-long knife curves inward and lacks a cross guard at the hilt.</content>
   <content contentuid="hb6289048ge3d2gd1afg752dg35656ceb40ba" version="1">Leiomano</content>
   <content contentuid="h96364d36g1987gd9c6g10b6g79005b0b7c05" version="1">This thick club is inset with sharp teeth, typically from a shark, that easily tear flesh. It's the preferred weapon of many Minatan warriors.</content>
   <content contentuid="h4d7aeeb6g3672g48d4gd437g39883ebc5fe7" version="1">Lion Scythe</content>
@@ -3397,4 +3397,36 @@
   <content contentuid="h35242671g6f83g7a8egbdd8g41be767ca2ca" version="1">Repair Toolkit</content>
   <content contentuid="h5e92308bg1a24g5ea0gddeeg029ea09934e4" version="1">Repair Item</content>
   <content contentuid="hb08c8e4eg3713g6ca8gc46fg3d0007dca6bb" version="1">A repair toolkit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</content>
+  <content contentuid="he64a5e74g65dbg9e87gca05g48a530dde183" version="3">Dogslicer</content>
+  <content contentuid="h20600a7dgc56fg0d5dg6d25gd42434de4834" version="3">This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It's a favored weapon of goblins.</content>
+  <content contentuid="hf67689afg2b0dg92a9g5e2dga57859ef8ef2" version="1">Black Smear Poison</content>
+  <content contentuid="h47693edag8757g5fe9g8086gb6273c801f3e" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 1: [1] and Enfeebled 1. Stage 2: [1] and Enfeebled 1. Stage 3: [1] and Enfeebled 2.</content>
+  <content contentuid="h28ab2e57g0f3eg621dgbabcg6c982b477455" version="1">Black Smear Poison: Stage 1</content>
+  <content contentuid="he06266f5g12c2gb881g8589g71a816c3e8b0" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 1: [1] and Enfeebled 1.</content>
+  <content contentuid="heb868c12g9c0bgadeeg0d36gdb5ab8a4b1fd" version="1">Black Smear Poison: Stage 2</content>
+  <content contentuid="h07d15466ga741gfed7ga0e8g621e65a79333" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 2: [1] and Enfeebled 1.</content>
+  <content contentuid="h90ec37cega7feg766dge78fg7243faec595e" version="1">Black Smear Poison: Stage 3</content>
+  <content contentuid="h5adfc67agdaddg42b6g7101g866986b8656c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 3: [1] and Enfeebled 2.</content>
+  <content contentuid="hcc56ff48gca2fg5620g95a4g9e7d6506a6c0" version="1">Black Smear Poison: Stage 4</content>
+  <content contentuid="hb82cd79dg6615g173bg552eg8f97a0b03753" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 4: [1] and Enfeebled 2.</content>
+  <content contentuid="hbcd42fa8g16f5gcfdeg1519g6b3fd45d5a2e" version="1">Black Smear Poison: Stage 5</content>
+  <content contentuid="he7c7c365gbf88gea0agd78eg8a5814209f0c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 5: [1] and Enfeebled 2.</content>
+  <content contentuid="h9a6cb525g9656g718ag7fd7gf0fd1ba75984" version="1">Black Smear Poison: Stage 6</content>
+  <content contentuid="hd2789db3g4a42g0094g32a6g2997419ebd60" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 6: [1] and Enfeebled 2.</content>
+  <content contentuid="h5a801fd9g67eeg21b8gdca2g4416128c6ff4" version="1">Cytillesh Oil</content>
+  <content contentuid="hfd1aa0dfg6938ga241g4879g8c8ec95ba98d" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 1: [1]. Stage 2: [2]. Stage 3: [3].</content>
+  <content contentuid="h0f3889c7gb579gae2agaf69gd72473867a9f" version="1">Cytillesh Oil: Stage 1</content>
+  <content contentuid="h0dc11277g2662gcf2eg667bgf69d9eba098a" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 1: [1].</content>
+  <content contentuid="hfc418d9cg6b7bg080eg129fg0ba980313f0e" version="1">Cytillesh Oil: Stage 2</content>
+  <content contentuid="hfdcaca42gb558g7396gc4cdg4d54b14b1de7" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 2: [1].</content>
+  <content contentuid="h1bde25f7g2376g2e63g3101g57d7fd168ea2" version="1">Cytillesh Oil: Stage 3</content>
+  <content contentuid="h4a96cf23g2b40g8209g857cgbc59872e265d" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 3: [1].</content>
+  <content contentuid="hbc30a35fg7d51g6828g730eg666501175a62" version="1">Cytillesh Oil: Stage 4</content>
+  <content contentuid="hf706ecc1g7da1g5c4cg1ef9g6db7f0baf80d" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 3: [1].</content>
+  <content contentuid="hd23fb841ga561g5190gdc6cgf86fed3155b6" version="1">Graveroot</content>
+  <content contentuid="hcc5930f2g08c2g3229gb344g5f5a3471f65f" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 1: [1]. Stage 2: [2] and Stupefied 1. Stage 3: [3] and Stupefied 2.</content>
+  <content contentuid="h9e70da33gfcd5gb9f4g4b05g9154c5bef751" version="1">Graveroot: Stage 1</content>
+  <content contentuid="h8e0f0d04g9e56ga96fg82cag117dc2c3d19c" version="1">Graveroot: Stage 2</content>
+  <content contentuid="he0e6f616gabecgdaf2g2264g0b148587c164" version="1">Graveroot: Stage 3</content>
+  <content contentuid="hde3eee73gc581g2e4cg18dcge0d4d13e00ba" version="1">Graveroot: Stage 4</content>
 </contentList>

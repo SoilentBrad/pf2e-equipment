@@ -1916,9 +1916,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6d908694-2c6d-41f1-9120-7fee95aad6e8" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantCentipedeVenom_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="90fc1078-899c-4381-ad74-7d1a6b62a033" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff3d79a4g6dc5g3ef2g9148gc651b31b9298" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff3d79a4g6dc5g3ef2g9148gc651b31b9298" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e75c3f9gf21eg1e35gcf92ge86e1a7ceebc" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);DealDamage(1d4,Poison);DealDamage(1d4,Poison)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
         <field name="StackId" type="StringTableFieldDefinition" value="CENTIPEDEVENOM" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
@@ -1930,9 +1930,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ce1b1b0a-2704-4406-a9e3-5a6883916a23" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantCentipedeVenom_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="019d903b-1995-42ca-8433-92652d57fa73" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h784fb339g984ag3d29gc69dg6ef383fcfd62" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3016216gbe7agd67eg2089g5f45e61b54cb" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);DealDamage(1d4,Poison);DealDamage(1d4,Poison)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h784fb339g984ag3d29gc69dg6ef383fcfd62" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3016216gbe7agd67eg2089g5f45e61b54cb" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
         <field name="StackId" type="StringTableFieldDefinition" value="CENTIPEDEVENOM" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);ApplyStatus(FATIGUED,100,1);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
@@ -1944,9 +1944,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d5cdce26-8cb3-4d26-afe5-b9b9a9ce0a1f" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantCentipedeVenom_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a9680ddd-0a6e-48c5-83c2-5a8aa0b4451e" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h256ee534g8072g49daga9a4g00afb2a6affa" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b04a867g6b5ag8752gf2f5g7178f67ef1a6" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);DealDamage(1d4,Poison);DealDamage(1d4,Poison)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h256ee534g8072g49daga9a4g00afb2a6affa" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b04a867g6b5ag8752gf2f5g7178f67ef1a6" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
         <field name="StackId" type="StringTableFieldDefinition" value="CENTIPEDEVENOM" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);ApplyStatus(FATIGUED,100,1);ApplyStatus(CLUMSY,100,1);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
@@ -1958,9 +1958,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f474efeb-bf5f-4e23-b603-6a50211cf353" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantCentipedeVenom_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6dd92ab8-b37c-40c7-8bf9-d38f099c8b96" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8af20164gee0fga57ag5312gb73176615f0b" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c708be5g04begf3b3g00ecg7b711266cac8" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);DealDamage(1d4,Poison);DealDamage(1d4,Poison)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8af20164gee0fga57ag5312gb73176615f0b" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c708be5g04begf3b3g00ecg7b711266cac8" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
         <field name="StackId" type="StringTableFieldDefinition" value="CENTIPEDEVENOM" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);ApplyStatus(FATIGUED,100,1);ApplyStatus(CLUMSY,100,1);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
@@ -1972,9 +1972,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="196e826d-95e9-40da-8717-cc2b72a84d7c" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantCentipedeVenom_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="42549de6-a2f8-46e3-be21-ff3041a6742f" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h476c0c12g03aagc691g9683g705324b4d779" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30daf0c6gabc7g14e0g6b5dgd3258dbd9b69" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);DealDamage(1d4,Poison);DealDamage(1d4,Poison)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h476c0c12g03aagc691g9683g705324b4d779" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h30daf0c6gabc7g14e0g6b5dgd3258dbd9b69" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
         <field name="StackId" type="StringTableFieldDefinition" value="CENTIPEDEVENOM" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);ApplyStatus(FATIGUED,100,1);ApplyStatus(CLUMSY,100,1);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
@@ -1986,13 +1986,372 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ad8499ec-4bd8-4dc4-b733-52f638617eb1" />
         <field name="Name" type="NameTableFieldDefinition" value="GiantCentipedeVenom_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bfeef81e-1dcd-457c-a4ad-82454568159c" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1b650f3gc2degf1afgcb27gd23a2b91cecf" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h002ff9b2gfda7g668eg410dg2b2e8a5ecdd2" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);DealDamage(1d4,Poison);DealDamage(1d4,Poison)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc1b650f3gc2degf1afgcb27gd23a2b91cecf" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h002ff9b2gfda7g668eg410dg2b2e8a5ecdd2" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison)" />
         <field name="StackId" type="StringTableFieldDefinition" value="CENTIPEDEVENOM" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d4,Poison);ApplyStatus(FATIGUED,100,1);ApplyStatus(CLUMSY,100,1);" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 17)" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(GiantCentipedeVenom,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01d044bd-3ea9-4e47-8a58-d4476e1ec65e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb100879-6418-4411-b2ca-211b58db0305" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf67689afg2b0dg92a9g5e2dga57859ef8ef2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h47693edag8757g5fe9g8086gb6273c801f3e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLACKSMEARPOISON" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00c3a338-26df-42f0-9fc0-a4b2384e8eaf" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="90fc1078-899c-4381-ad74-7d1a6b62a033" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28ab2e57g0f3eg621dgbabcg6c982b477455" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he06266f5g12c2gb881g8589g71a816c3e8b0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLACKSMEARPOISON" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d6,Poison);ApplyStatus(ENFEEBLED,100,1);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 16)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(BlackSmearPoison_2,100,Target.BlackSmearPoison_1.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d5a4e93-3b89-4788-add4-540c524e2eae" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00c3a338-26df-42f0-9fc0-a4b2384e8eaf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb868c12g9c0bgadeeg0d36gdb5ab8a4b1fd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07d15466ga741gfed7ga0e8g621e65a79333" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(BlackSmearPoison_3,100,Target.BlackSmearPoison_2.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a90a66b2-fc37-4892-8e1a-2ccc3b0bd35e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9680ddd-0a6e-48c5-83c2-5a8aa0b4451e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h90ec37cega7feg766dge78fg7243faec595e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5adfc67agdaddg42b6g7101g866986b8656c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLACKSMEARPOISON" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d6,Poison);ApplyStatus(ENFEEBLED_2,100,1);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 16)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(BlackSmearPoison_4,100,Target.BlackSmearPoison_3.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09b29d1d-5002-4414-a66d-416340edb6ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a90a66b2-fc37-4892-8e1a-2ccc3b0bd35e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc56ff48gca2fg5620g95a4g9e7d6506a6c0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb82cd79dg6615g173bg552eg8f97a0b03753" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(BlackSmearPoison_5,100,Target.BlackSmearPoison_4.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25243e0b-ea62-4456-912c-a24a6ba624b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a90a66b2-fc37-4892-8e1a-2ccc3b0bd35e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbcd42fa8g16f5gcfdeg1519g6b3fd45d5a2e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7c7c365gbf88gea0agd78eg8a5814209f0c" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(BlackSmearPoison_6,100,Target.BlackSmearPoison_5.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="399e64f0-6a1e-4fc5-ad5f-26ab33d9abf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlackSmearPoison_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a90a66b2-fc37-4892-8e1a-2ccc3b0bd35e" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a6cb525g9656g718ag7fd7gf0fd1ba75984" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd2789db3g4a42g0094g32a6g2997419ebd60" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(BlackSmearPoison,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0fc090c-c16a-46b1-b2f6-372330a4854c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CytilleshOil" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="95642204-c4e6-4ee4-bb7a-2a50e9e3ade4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a801fd9g67eeg21b8gdca2g4416128c6ff4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd1aa0dfg6938ga241g4879g8c8ec95ba98d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Poison);DealDamage(1d10,Poison);DealDamage(2d8,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CYTILLESHOIL" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b19b5abc-5d70-4bd7-ac15-8019b2fc7d3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CytilleshOil_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6d908694-2c6d-41f1-9120-7fee95aad6e8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f3889c7gb579gae2agaf69gd72473867a9f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0dc11277g2662gcf2eg667bgf69d9eba098a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CYTILLESHOIL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d8,Poison);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 19)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(CytilleshOil_2,100,Target.CytilleshOil_1.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e3ade78-e1e7-4882-a84c-04e82d4153ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="CytilleshOil_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce1b1b0a-2704-4406-a9e3-5a6883916a23" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc418d9cg6b7bg080eg129fg0ba980313f0e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdcaca42gb558g7396gc4cdg4d54b14b1de7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CYTILLESHOIL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d10,Poison);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 19)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(CytilleshOil_3,100,Target.CytilleshOil_2.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5e08d6e-22c6-4c35-b432-7289399f1e06" />
+        <field name="Name" type="NameTableFieldDefinition" value="CytilleshOil_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5cdce26-8cb3-4d26-afe5-b9b9a9ce0a1f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1bde25f7g2376g2e63g3101g57d7fd168ea2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4a96cf23g2b40g8209g857cgbc59872e265d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CYTILLESHOIL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 19)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(CytilleshOil_4,100,Target.CytilleshOil_3.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2afda90e-0674-42af-a894-79242b9f4f9b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CytilleshOil_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad8499ec-4bd8-4dc4-b733-52f638617eb1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc30a35fg7d51g6828g730eg666501175a62" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf706ecc1g7da1g5c4cg1ef9g6db7f0baf80d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CYTILLESHOIL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 19)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(CytilleshOil,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9d8e279-528b-4863-8142-bf5f33fd9cb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Graveroot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a0fc090c-c16a-46b1-b2f6-372330a4854c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd23fb841ga561g5190gdc6cgf86fed3155b6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcc5930f2g08c2g3229gb344g5f5a3471f65f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Poison);DealDamage(1d10,Poison);DealDamage(2d6,Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1596b18-2e08-4d35-bb15-287adf5dc75a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Graveroot_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b19b5abc-5d70-4bd7-ac15-8019b2fc7d3a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e70da33gfcd5gb9f4g4b05g9154c5bef751" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(Graveroot_2,100,Target.Graveroot_1.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28843169-ae38-4189-9c7f-72c50ebb20f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Graveroot_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5e3ade78-e1e7-4882-a84c-04e82d4153ac" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8e0f0d04g9e56ga96fg82cag117dc2c3d19c" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(1d10,Poison);ApplyStatus(Stupefied1,100,1);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(Graveroot_3,100,Target.Graveroot_2.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad79ebdc-6670-4272-90b8-78cc48d78347" />
+        <field name="Name" type="NameTableFieldDefinition" value="Graveroot_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5e08d6e-22c6-4c35-b432-7289399f1e06" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he0e6f616gabecgdaf2g2264g0b148587c164" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison);ApplyStatus(Stupefied2,100,1);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(Graveroot_4,100,Target.Graveroot_3.Duration+1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2684fc0-4ea0-4aa0-b876-1c37552ffeff" />
+        <field name="Name" type="NameTableFieldDefinition" value="Graveroot_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2afda90e-0674-42af-a894-79242b9f4f9b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hde3eee73gc581g2e4cg18dcge0d4d13e00ba" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DealDamage(2d6,Poison);ApplyStatus(Stupefied2,100,1);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(Graveroot,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="625529cc-0e1a-4533-b032-99db8c1265ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="097a0004-7f3b-476c-a915-a25c0eba2a4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4cddd110-0da3-4863-b94a-c4524d538f32" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1fa88b4-f1b2-4049-8734-2645d10b332e" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4719a461-a378-454a-96b6-556ed9df03a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="563a8d89-be3a-4e52-9a63-9fdc9c0a9705" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b0a5ffe4-de61-4a39-80fe-461ba0207a93" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bf6e297-6c2a-42e8-a51f-9e806f003298" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44f36e10-4758-4444-a726-44c8108088b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ab47713-f25e-4d56-a268-341b8009a510" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db29ce97-4446-4edb-9451-94def4a8696d" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e021b058-4a02-4583-b5a9-3892c58cf271" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="341be606-a725-4f83-9b95-190efa6b55f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="880a5745-7d55-4563-8cd7-26d0a053dbe4" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ed374cf-f9c0-4f9e-bc96-ff71c1a075cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="262c5eda-3215-4b61-9bcd-c2592aad9afb" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="844ee83a-6259-4135-9de6-9d36dd50282e" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e044ea3-d0a6-44ca-bfee-fdc4636dce22" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee3b4610-6e9c-40d0-82d1-bcdfe42da359" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_22" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4b17d5c-acbc-4991-bb3d-0cc32a2fc34b" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea1f5f7a-5bcd-453a-bcd7-f6ebf2c06d81" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a40def7-75fa-48fe-9177-662c12553e6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e8504a1-536d-4be6-8c0f-4f258c9ec877" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_26" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f1e0b9d-6fce-4c03-9e81-c540783dd501" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03f03fcd-f853-4329-81f9-371dceb90c65" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3cd50d5-421f-485d-9263-1bf84205baf8" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_29" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a3bee5c-6479-4f27-ba23-471545c43ee4" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">

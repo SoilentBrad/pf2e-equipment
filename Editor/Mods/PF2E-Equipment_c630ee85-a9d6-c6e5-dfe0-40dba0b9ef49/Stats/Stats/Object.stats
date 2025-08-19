@@ -1896,7 +1896,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="87ad5705-adc8-429e-8f05-590e18b6c9e8" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b1c242ec-a727-435e-a67c-237ed5a1c6a8" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_ViperousElixir_Greater" />
@@ -1917,6 +1917,413 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9f5b8cd1-ef04-4f33-ba82-27eaa6b4a123" />
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4af9fa4a-b203-432b-af5d-45d1f56abc13" />
+        <field name="Name" type="NameTableFieldDefinition" value="_AlchemicalPoisons" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="520c69df-1534-48ee-8eb7-762631e1c45a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_SpearFrogPoison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c2aa4fd7-1b09-4df1-8e66-8db41a8db783" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7c83c2f-9def-47c5-bca2-890f5d53c0f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_GiantCentipedeVenom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c2aa4fd7-1b09-4df1-8e66-8db41a8db783" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ea40345-f744-438d-9950-b8f654ee0235" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_BlackSmearPoison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b0b856dd-db0f-4f43-9f6d-c1f20c6d6603" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.3" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dac37549-b062-44cd-88fc-80a4c7b40c4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_BlackAdderVenom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b0b856dd-db0f-4f43-9f6d-c1f20c6d6603" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="604c069d-1e32-4206-86d7-6881a237c98c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_CytilleshOil" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f18e2db6-810c-4bc0-968f-a48a0ebf40f2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69149355-a91f-4a20-adb8-9d1b34ab4f0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Graveroot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f18e2db6-810c-4bc0-968f-a48a0ebf40f2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7c7114a-e53b-4fe8-8b57-b8174631f215" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Toadskin Salve" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f18e2db6-810c-4bc0-968f-a48a0ebf40f2" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.7" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c48b581-323b-4efb-9d5c-7edf31ad728d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Leadenleg" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="85cbf8f3-7e04-4ca2-8e79-65982b32c11a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5454ac2-ef5c-490d-a4b0-7ba85fd82629" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Fearflower Nectar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="85cbf8f3-7e04-4ca2-8e79-65982b32c11a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c413caa-7fa9-4e65-95c9-629cc07f46b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Brightshade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="85cbf8f3-7e04-4ca2-8e79-65982b32c11a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d55280dd-7d3d-45dc-829b-edbb2c0f9316" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Essence of Mandragora" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="85cbf8f3-7e04-4ca2-8e79-65982b32c11a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ebab1d9-a9d9-4ef4-bc14-7d94144abd7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Clown Monarch" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7048164a-b803-49d4-a515-f687410086d9" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0002709-97dd-4208-a16e-0ede733d1d92" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Spider Venom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7048164a-b803-49d4-a515-f687410086d9" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30f3ef4f-2e0e-44bc-a4fb-28d4cae8217a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_GiantScorpionVenom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2dbef27-2e1c-4578-a87f-8c07c16925cf" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c58f0bc2-4b4f-45f8-a17e-87b023d4b36f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Antipode Oil" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2dbef27-2e1c-4578-a87f-8c07c16925cf" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.3" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71417624-3e76-4bf1-a61f-81380ff8ba1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Stupor Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce0f1eea-942a-4b45-9698-34daa08b3dae" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.4" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ComboCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b47c3f0-f2e7-4f7a-8acf-37ea235d382c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Giant Wasp Venom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce0f1eea-942a-4b45-9698-34daa08b3dae" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.4" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ComboCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a1d5c040-8343-4a7d-b64a-f2d58c4eeea1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Toadskin Salve (Greater)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce0f1eea-942a-4b45-9698-34daa08b3dae" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.4" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ComboCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e23c68f7-b002-4005-85e2-ddd64c4fc640" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Sloughing Toxin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce0f1eea-942a-4b45-9698-34daa08b3dae" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.4" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ComboCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53c9f80f-936b-434d-aae8-321e54e367c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Smother Shroud" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce0f1eea-942a-4b45-9698-34daa08b3dae" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.4" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ComboCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e0161c3-2ed5-48e2-aba1-c4b761bbc95c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Scarlet Mist" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="923d86fc-035d-4b31-9698-b361b45fdce8" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8091a17-c55f-4422-8b55-20513094aa22" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Wyvern Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="923d86fc-035d-4b31-9698-b361b45fdce8" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bae447ca-4c6d-4623-b748-2f8bb0d55680" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Warpwobble Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="923d86fc-035d-4b31-9698-b361b45fdce8" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21d7656e-60dd-4552-9886-c74ae676302f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Curare " />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="923d86fc-035d-4b31-9698-b361b45fdce8" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.7" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="348332fe-190b-4067-80e6-a25c7a6273c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Nethershade" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46a0e0c7-803e-4e3d-9f16-b6b05a32a06b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3b8c136-2180-4c13-9589-7c9c05e5cadf" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Shadow Essence" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46a0e0c7-803e-4e3d-9f16-b6b05a32a06b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1.9" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="190c76d6-d693-4aa5-9df6-ff7cd24b03ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Toadskin Salve (Major)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60890265-56ba-4e8f-a420-697bd5efd86b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="11" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abd694d9-db9d-41e0-a4b4-0e53e466f11a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Dancing Lamentation" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60890265-56ba-4e8f-a420-697bd5efd86b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="11" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5810c672-ff76-48a4-bc92-b8013895888c" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Blisterwort" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60890265-56ba-4e8f-a420-697bd5efd86b" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="11" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2.1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="787cd503-82da-4471-a709-767f83e7cfe9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Mage Bane" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da33e9d0-e334-405d-a7fb-25c7d5b731b6" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="12" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2.2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a29878b-19f4-4c0b-b4d8-93c641015393" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Spell-Eating Pitch" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da33e9d0-e334-405d-a7fb-25c7d5b731b6" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="12" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2.4" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99f3c971-cb90-4da8-989a-eb2971fe487a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Clubhead Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da33e9d0-e334-405d-a7fb-25c7d5b731b6" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="12" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2.5" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccafaa69-cb36-4698-bd01-c7f0066602b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_CONS_POIS_Cave Worm Venom" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da33e9d0-e334-405d-a7fb-25c7d5b731b6" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="12" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="fdf4e15b-b32a-45e0-82ce-0c94cfde957a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="2.8" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="Poison" />
       </fields>
     </stat_object>
   </stat_objects>
