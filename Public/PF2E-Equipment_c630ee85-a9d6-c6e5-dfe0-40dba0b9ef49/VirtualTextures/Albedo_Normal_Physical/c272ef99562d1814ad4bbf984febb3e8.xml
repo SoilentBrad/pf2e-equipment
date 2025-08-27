@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StackedTexture>
+  <Layers>
+    <Layer type="Albedo" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\PF2_Starknife_BMA" />
+    <Layer type="Normal" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\PF2_Starknife_NM" />
+    <Layer type="Physical" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\PF2_Starknife_PM" />
+  </Layers>
+</StackedTexture>

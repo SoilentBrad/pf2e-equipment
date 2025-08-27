@@ -568,6 +568,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a622a601-e313-466d-8971-5f4b322c4811" />
+        <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Dogslicer_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa825cca-aaa8-4d60-bf98-71dd17b9adae" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="42b2878f-5664-4e78-a30e-59304130300d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b451ce51-6bb6-4ba9-8f78-837f98776b34" />
         <field name="Name" type="NameTableFieldDefinition" value="PF2_WPN_Gladius" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="03cfec2f-1f78-4f23-b5e9-cdbde5d1fadc" />

@@ -19,3 +19,22 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "PF2_WPN_Horsechopper"
 
+new equipment "EQP_Goblin_Scimitar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "PF2_WPN_Dogslicer_A"
+
+new equipment "EQP_Goblin_Scimitar_HelmetLeather"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "PF2_WPN_Dogslicer_A"
+add equipmentgroup
+add equipment entry "ARM_Helmet_Leather"
+
+new equipment "EQP_Goblin_Scimitar_HelmetMetal"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "PF2_WPN_Dogslicer_A"
+add equipmentgroup
+add equipment entry "ARM_Helmet_Metal"
+

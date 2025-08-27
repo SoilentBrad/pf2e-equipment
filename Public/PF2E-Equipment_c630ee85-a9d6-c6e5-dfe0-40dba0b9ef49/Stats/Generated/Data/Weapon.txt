@@ -528,6 +528,11 @@ data "PassivesOnEquip" "PF2_BackstabberTrait;IF(HasPassive('PF2_GoblinWeaponFami
 data "Weapon Properties" "Finesse;Light;Melee;Dippable"
 data "Proficiency Group" "MartialWeapons;Shortswords"
 
+new entry "PF2_WPN_Dogslicer_A"
+type "Weapon"
+using "WPN_Goblin_Scimitar"
+data "RootTemplate" "42b2878f-5664-4e78-a30e-59304130300d"
+
 new entry "PF2_WPN_Gladius"
 type "Weapon"
 data "RootTemplate" "03cfec2f-1f78-4f23-b5e9-cdbde5d1fadc"

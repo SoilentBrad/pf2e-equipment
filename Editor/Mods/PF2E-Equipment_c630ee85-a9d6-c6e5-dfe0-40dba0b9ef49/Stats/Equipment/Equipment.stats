@@ -28,5 +28,31 @@
         <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82d83679-d898-4517-bab6-ab21e2858e06" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Goblin_Scimitar" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="PF2_WPN_Dogslicer_A" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84b29b10-ae4a-4d9c-afcb-2f0bdee0ff7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Goblin_Scimitar_HelmetLeather" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="PF2_WPN_Dogslicer_A" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Helmet_Leather" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7fee9a8f-a7c3-4e55-9713-55b8937f7270" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_Goblin_Scimitar_HelmetMetal" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="PF2_WPN_Dogslicer_A" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Helmet_Metal" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

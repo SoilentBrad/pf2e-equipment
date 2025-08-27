@@ -1894,11 +1894,11 @@
   <content contentuid="ha6ae9edfgb7f8ged7agcd09g171d3075ef49" version="1">Giant Scorpion Venom: Stage 5</content>
   <content contentuid="h5fc61e74gf04fgf4f2g2d15gbc1992262625" version="1">Giant Scorpion Venom: Stage 6</content>
   <content contentuid="h002e1b95g626cg0744gd364ge2f19654ed17" version="1">Wyvern Poison: Stage 4</content>
-  <content contentuid="h50c5883bg466bg3b0cg5b93g0316bb198e8d" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 3: [1].</content>
+  <content contentuid="h50c5883bg466bg3b0cg5b93g0316bb198e8d" version="3">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 4: [1].</content>
   <content contentuid="heb273364g4dcbg9d0cgf33cg7bdd9e16fcb0" version="1">Wyvern Poison: Stage 5</content>
-  <content contentuid="h90952c75gf340g5d46g76f8g4498d2700aed" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 3: [1].</content>
+  <content contentuid="h90952c75gf340g5d46g76f8g4498d2700aed" version="3">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 5: [1].</content>
   <content contentuid="h9bc3705cgd333gb125gc845gcecf40fdfe33" version="1">Wyvern Poison: Stage 6</content>
-  <content contentuid="hd6e27702g3dd0g562cg6581ge1f5c16662a9" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 3: [1].</content>
+  <content contentuid="hd6e27702g3dd0g562cg6581ge1f5c16662a9" version="3">Affected entity is poisoned for 6 rounds or until it makes a DC 18 Fortitude save. Stage 6: [1].</content>
   <content contentuid="head466dbge489g4eb5g9d8dge7c86e6ee993" version="1">Black Adder Bite</content>
   <content contentuid="hf6278588g2706g26e7gccb5ge7f528ff491c" version="1">Bite a target and possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; it with black adder venom.</content>
   <content contentuid="hf7222a47gc2fbgc9f7g5350g47e38879f7d9" version="1">Giant Scorpion Venom</content>
@@ -2493,11 +2493,11 @@
   <content contentuid="h256ee534g8072g49daga9a4g00afb2a6affa" version="2">Giant Centipede Venom: Stage 3</content>
   <content contentuid="h7b04a867g6b5ag8752gf2f5g7178f67ef1a6" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
   <content contentuid="h8af20164gee0fga57ag5312gb73176615f0b" version="2">Giant Centipede Venom: Stage 4</content>
-  <content contentuid="h5c708be5g04begf3b3g00ecg7b711266cac8" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
+  <content contentuid="h5c708be5g04begf3b3g00ecg7b711266cac8" version="3">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 4: [1], Clumsy 1, and Fatigued.</content>
   <content contentuid="h476c0c12g03aagc691g9683g705324b4d779" version="2">Giant Centipede Venom: Stage 5</content>
-  <content contentuid="h30daf0c6gabc7g14e0g6b5dgd3258dbd9b69" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
+  <content contentuid="h30daf0c6gabc7g14e0g6b5dgd3258dbd9b69" version="3">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 5: [1], Clumsy 1, and Fatigued.</content>
   <content contentuid="hc1b650f3gc2degf1afgcb27gd23a2b91cecf" version="2">Giant Centipede Venom: Stage 6</content>
-  <content contentuid="h002ff9b2gfda7g668eg410dg2b2e8a5ecdd2" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 3: [1], Clumsy 1, and Fatigued.</content>
+  <content contentuid="h002ff9b2gfda7g668eg410dg2b2e8a5ecdd2" version="3">Affected entity is poisoned for 6 rounds or until it makes a DC 17 Fortitude save. Stage 6: [1], Clumsy 1, and Fatigued.</content>
   <content contentuid="h2a45e3dagc9dbg043cg4121gc408885d02ba" version="1">Spirit Thresher</content>
   <content contentuid="hd74eb668g6c5dge114g9f50ge5ce27e91c0a" version="2">Throw Tethered Piercing Lure</content>
   <content contentuid="h23e6cdb9gc44cg0f41g6191gde92332cf27d" version="2">Throw Tethered Aklys</content>
@@ -2643,8 +2643,8 @@
   <content contentuid="h58d22d6egfa15g7cf8g5468g82f736adbadf" version="2">This small, curved blade resembles a tiger's claw and is capable of delivering deep wounds.</content>
   <content contentuid="hdb5e9136g3f27ga095ga49fg4e7ca3ef5f59" version="1">Kestros</content>
   <content contentuid="h78c14068g3339g6e37g0a9ag58f7bc6c1b01" version="1">The kestros is a type of sling that fires special ammunition with wing-shaped fins and a pointed end. The thongs of the sling are of uneven length, one shorter and one several inches longer, around an open loop to cradle the ammunition as the sling is spun.</content>
-  <content contentuid="haf6b0eceg8bbcg6e87g401aga0c838def354" version="6">Kukri</content>
-  <content contentuid="h1a42f3eagab49g46aagc3f7gf09075c3a6d5" version="6">The blade of this foot-long knife curves inward and lacks a cross guard at the hilt.</content>
+  <content contentuid="haf6b0eceg8bbcg6e87g401aga0c838def354" version="12">Kukri</content>
+  <content contentuid="h1a42f3eagab49g46aagc3f7gf09075c3a6d5" version="12">The blade of this foot-long knife curves inward and lacks a cross guard at the hilt.</content>
   <content contentuid="hb6289048ge3d2gd1afg752dg35656ceb40ba" version="1">Leiomano</content>
   <content contentuid="h96364d36g1987gd9c6g10b6g79005b0b7c05" version="1">This thick club is inset with sharp teeth, typically from a shark, that easily tear flesh. It's the preferred weapon of many Minatan warriors.</content>
   <content contentuid="h4d7aeeb6g3672g48d4gd437g39883ebc5fe7" version="1">Lion Scythe</content>
@@ -2725,8 +2725,8 @@
   <content contentuid="h989766d6g372eg4cb7gea2dg68f4369aef11" version="1">Bones, some solid and others splintered, are affixed to metal chains at the end of a long stick to form a powerful flail. Many kholo warriors insist the vicious crack the weapon makes as it strikes loosens fragments of the soul like husks struck from grains.</content>
   <content contentuid="h1e363122g5db5gc61bgcca0gdf879dc6e10b" version="1">Spraysling</content>
   <content contentuid="hec4ab2ccg675dgb7f5g8117gb07f8d299b25" version="1">A spraysling is similar to a standard sling but with a wider cup fitted with a thin blade affixed to the cup's edges. When used to make an attack with a specially prepared packet of spray pellets, the razor slices open the packet and the weapon launches a cluster of stinging pellets.</content>
-  <content contentuid="hbf45ef0ag81eeg23a4g138ag3176569bb3c4" version="1">Starknife</content>
-  <content contentuid="h8178ef62g3e40gb47eg0165g888ff558f7dc" version="1">From a central metal ring, four tapering metal blades extend like points on a compass rose. When gripping a starknife from the center, the wielder can use it as a melee weapon. It can also be thrown short distances.</content>
+  <content contentuid="hbf45ef0ag81eeg23a4g138ag3176569bb3c4" version="10">Starknife</content>
+  <content contentuid="h8178ef62g3e40gb47eg0165g888ff558f7dc" version="10">From a central metal ring, four tapering metal blades extend like points on a compass rose. When gripping a starknife from the center, the wielder can use it as a melee weapon. It can also be thrown short distances.</content>
   <content contentuid="h0e7131e6g36c0g0226gd23dgf1d06409d255" version="1">Talwar</content>
   <content contentuid="haa279466g87f2g2aefg3306g2aebff258142" version="1">Longer, and with less curve than a scimitar, this blade is ubiquitous in guard and mercenary groups throughout Casmaron.</content>
   <content contentuid="h981524e9gc332g184eg584bg32be04228bb6" version="2">Taw Launcher</content>
@@ -3397,8 +3397,8 @@
   <content contentuid="h35242671g6f83g7a8egbdd8g41be767ca2ca" version="1">Repair Toolkit</content>
   <content contentuid="h5e92308bg1a24g5ea0gddeeg029ea09934e4" version="1">Repair Item</content>
   <content contentuid="hb08c8e4eg3713g6ca8gc46fg3d0007dca6bb" version="1">A repair toolkit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</content>
-  <content contentuid="he64a5e74g65dbg9e87gca05g48a530dde183" version="3">Dogslicer</content>
-  <content contentuid="h20600a7dgc56fg0d5dg6d25gd42434de4834" version="3">This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It's a favored weapon of goblins.</content>
+  <content contentuid="he64a5e74g65dbg9e87gca05g48a530dde183" version="8">Dogslicer</content>
+  <content contentuid="h20600a7dgc56fg0d5dg6d25gd42434de4834" version="8">This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It's a favored weapon of goblins.</content>
   <content contentuid="hf67689afg2b0dg92a9g5e2dga57859ef8ef2" version="1">Black Smear Poison</content>
   <content contentuid="h47693edag8757g5fe9g8086gb6273c801f3e" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 16 Fortitude save. Stage 1: [1] and Enfeebled 1. Stage 2: [1] and Enfeebled 1. Stage 3: [1] and Enfeebled 2.</content>
   <content contentuid="h28ab2e57g0f3eg621dgbabcg6c982b477455" version="1">Black Smear Poison: Stage 1</content>
@@ -3422,11 +3422,133 @@
   <content contentuid="h1bde25f7g2376g2e63g3101g57d7fd168ea2" version="1">Cytillesh Oil: Stage 3</content>
   <content contentuid="h4a96cf23g2b40g8209g857cgbc59872e265d" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 3: [1].</content>
   <content contentuid="hbc30a35fg7d51g6828g730eg666501175a62" version="1">Cytillesh Oil: Stage 4</content>
-  <content contentuid="hf706ecc1g7da1g5c4cg1ef9g6db7f0baf80d" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 3: [1].</content>
+  <content contentuid="hf706ecc1g7da1g5c4cg1ef9g6db7f0baf80d" version="2">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 4: [1].</content>
   <content contentuid="hd23fb841ga561g5190gdc6cgf86fed3155b6" version="1">Graveroot</content>
   <content contentuid="hcc5930f2g08c2g3229gb344g5f5a3471f65f" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 1: [1]. Stage 2: [2] and Stupefied 1. Stage 3: [3] and Stupefied 2.</content>
   <content contentuid="h9e70da33gfcd5gb9f4g4b05g9154c5bef751" version="1">Graveroot: Stage 1</content>
   <content contentuid="h8e0f0d04g9e56ga96fg82cag117dc2c3d19c" version="1">Graveroot: Stage 2</content>
   <content contentuid="he0e6f616gabecgdaf2g2264g0b148587c164" version="1">Graveroot: Stage 3</content>
   <content contentuid="hde3eee73gc581g2e4cg18dcge0d4d13e00ba" version="1">Graveroot: Stage 4</content>
+  <content contentuid="hf578c731gd1d1g592bgaf4agc5f3368ae97e" version="1">Leadenleg</content>
+  <content contentuid="h5e2b9ed6g4183g95b2gf2e3g6d0b02cdff88" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 1: [1] and –5-foot status penalty to all Speeds. Stage 2: [2] and –10-foot status penalty to all Speeds. Stage 3: [2] and –20-foot status penalty to all Speeds.</content>
+  <content contentuid="hf6356d59g1ff9g52d1gab87g796ba60b3e3c" version="1">Leadenleg: Stage 1</content>
+  <content contentuid="h5576b44age9a5g511ag3f51g8cf39dbc180b" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 1: [1] and –5-foot status penalty to all Speeds.</content>
+  <content contentuid="hc19cf6e3g9540gf126g339bga181b2e2e2a4" version="1">Leadenleg: Stage 2</content>
+  <content contentuid="h1a8d5903g8e05gb00ag47c5g4cabeaf72669" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 2: [1] and –10-foot status penalty to all Speeds.</content>
+  <content contentuid="haa9885fag4a56g42dfgc532g50b08bd34893" version="1">Leadenleg: Stage 3</content>
+  <content contentuid="h4c06def4ga262g8956g8c57gde1fd645bed8" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 3: [1] and –20-foot status penalty to all Speeds.</content>
+  <content contentuid="h824458eegc5a9g7df6g2187g1448f6001ddd" version="1">Leadenleg: Stage 4</content>
+  <content contentuid="h401f90fbg978cgcd8bgebe8gc75c666c38da" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 4: [1] and –20-foot status penalty to all Speeds.</content>
+  <content contentuid="ha66ac2b7g4d7ag1577gcce4g3b486aee9f4d" version="1">Leadenleg: Stage 5</content>
+  <content contentuid="h3684d1f7g62d0gc30fgd342g323dd07e4185" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 5: [1] and –20-foot status penalty to all Speeds.</content>
+  <content contentuid="h2a19de3dg4a47ged03gad3egdd8a119d5bd0" version="1">Leadenleg: Stage 6</content>
+  <content contentuid="h5903a56cg9a74gc25ag109ag07328f3e8a9a" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 20 Fortitude save. Stage 6: [1] and –20-foot status penalty to all Speeds.</content>
+  <content contentuid="hb05f08cbg7013g7d9fg5b8bg75bcafda9693" version="1">Fearflower Nectar</content>
+  <content contentuid="hb8f91f72gd7fag2c04gd863g5c368020729c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: [1] and frightened 1. Stage 2: [1] and frightened 2. Stage 3: [1] and frightened 3.</content>
+  <content contentuid="h16b034e9gf118g296eg6b78g36bf1f07d684" version="1">Fearflower Nectar: Stage 1</content>
+  <content contentuid="h6db73895gfb58g866eg513bgc7e65f23121d" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: [1] and frightened 1.</content>
+  <content contentuid="h2c5a62f8gfc51g8682g3caagc5e0db6ff451" version="1">Fearflower Nectar: Stage 2</content>
+  <content contentuid="hc55572b1g7c8dg9d90gb811gdd616c2746bc" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 2: [1] and frightened 2.</content>
+  <content contentuid="h9f116a30gc26fgcaacg5729gbddac581503c" version="1">Fearflower Nectar: Stage 3</content>
+  <content contentuid="h594bddf1g1224gb6bcgea3cg780ef59a25d1" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 3: [1] and frightened 3.</content>
+  <content contentuid="ha9d51503ge2eag34fdg5aeaga8ab773fa6ac" version="1">Fearflower Nectar: Stage 4</content>
+  <content contentuid="h10b4500bgcecdg8f4dg922fgab02b2c4d9b5" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 4: [1] and frightened 3.</content>
+  <content contentuid="h9b701e0ag308dg76f7gdaf4gdf180669a961" version="1">Fearflower Nectar: Stage 5</content>
+  <content contentuid="h38a767fdg473cgb421g6b9agc5d2bd0909c9" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 5: [1] and frightened 3.</content>
+  <content contentuid="h7c290e5fgb285g8febg2799gc40f74c983fe" version="1">Fearflower Nectar: Stage 6</content>
+  <content contentuid="h49dbf2e8gc3d7g9638geef9g30dbd7b8f1d8" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 6: [1] and frightened 3.</content>
+  <content contentuid="h5c6e600fgb488g61d6g4b8bgd83e7960f755" version="1">Essence of Mandragora</content>
+  <content contentuid="hf23b4fd1gd48cgc3f6g22a4gf1c5a07bd926" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: [1] and stupefied 1. Stage 2: [1], confused, and stupefied 1. Stage 3: [2], confused, and stupefied 1.</content>
+  <content contentuid="hbeac9777gd17cg5bbegb418gf6fe283abff5" version="1">Essence of Mandragora: Stage 1</content>
+  <content contentuid="h9cffd4beg67bdgb201g988cg70a2f744f3ee" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: [1] and stupefied 1.</content>
+  <content contentuid="h16f6126agcdb0g12dbg6197g3241514680c8" version="1">Essence of Mandragora: Stage 2</content>
+  <content contentuid="h0c480b0ag63dbgef7fg23d6g39c6228db546" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 2: [1], confused, and stupefied 1.</content>
+  <content contentuid="hff3e95f5g82e7gbca0g70d6g99c4e7df1a5d" version="1">Essence of Mandragora: Stage 3</content>
+  <content contentuid="h6c4e2a4egc58bg48f6g01a9g387e955cf65a" version="1">Essence of Mandragora: Stage 4</content>
+  <content contentuid="hd0574792gbe19gd3e9gb2a2ga71bb4392a51" version="1">Essence of Mandragora: Stage 5</content>
+  <content contentuid="h8bc5ba32g67d9g498cga7ccg7cf6a7bfc04c" version="1">Essence of Mandragora: Stage 6</content>
+  <content contentuid="ha56359b5ga075g572cg2288gfe387e525769" version="1">Spider Venom: Stage 2</content>
+  <content contentuid="h2b8fe4d5g2fe6g8f7dga9bagd9631993b76f" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 2: [1], clumsy 1, and sickened 2.</content>
+  <content contentuid="h50e0627cg2125gb41egf8e9g968a187490fc" version="1">Spider Venom: Stage 3</content>
+  <content contentuid="ha9473cfdgfd71g26a7g9e52g4d49c11a7b93" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 3: [1], clumsy 2, and sickened 3.</content>
+  <content contentuid="h3ee854cfg4547g48acgf8a5g999ff9e35f17" version="1">Spider Venom: Stage 4</content>
+  <content contentuid="hbe056c0fg2997gfac5gf7cag8baefb85083f" version="1">Spider Venom: Stage 5</content>
+  <content contentuid="h785882c2g2eabg5054g851eg226ec364ac2c" version="1">Spider Venom: Stage 6</content>
+  <content contentuid="h258cd918gb44eg0d63gb0ffg840601b472f8" version="1">Spider Venom</content>
+  <content contentuid="h2010e7d8g8abdge97fgd35cg7df1774f9208" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: [1] and sickened 1. Stage 2: [2], clumsy 1, and sickened 2. Stage 3: [3], clumsy 2, and sickened 3.</content>
+  <content contentuid="he22b8a15ga801g3527gab86g641942106528" version="1">Spider Venom: Stage 1</content>
+  <content contentuid="h00a5ed81gc35egfcdfg3b50g06cbc2e3bd67" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: [1] and sickened 1.</content>
+  <content contentuid="h437aae82g0c51gb8e5g65bcg556cd710c6b2" version="1">Giant Wasp Venom: Stage 1</content>
+  <content contentuid="hcaa54ed1g0965g0028gc945g6e5b9c940daa" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 1: [1] and clumsy 1.</content>
+  <content contentuid="h12f30013gc44fgf8fdg55d6gb276ed196539" version="1">Giant Wasp Venom</content>
+  <content contentuid="he5ae76c8gc08eg6189gba2cg4bfe3066357f" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 1: [1] and clumsy 1. Stage 2: [2] and clumsy 2. Stage 3: [3] and clumsy 2.</content>
+  <content contentuid="hd85f2bbbgc57eg4118g6138g06d2f53ac082" version="1">Giant Wasp Venom: Stage 2</content>
+  <content contentuid="hf9b3ea27gc520g584fg85c1g851ea70a2e82" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 2: [1] and clumsy 2.</content>
+  <content contentuid="hc43f6e19ga218g4f72g8586gde716938b916" version="1">Giant Wasp Venom: Stage 3</content>
+  <content contentuid="hc7a3cafcgbc8dg9c62ge2f0geeaca896c6cd" version="2">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 3: [1] and clumsy 2.</content>
+  <content contentuid="h2739e7a2g9fccgfc5dg3616g8b47b86a4785" version="1">Giant Wasp Venom: Stage 4</content>
+  <content contentuid="h03dda2d9g05fag79e8gd2ecg743f4dc63f3e" version="1">Giant Wasp Venom: Stage 5</content>
+  <content contentuid="h9516217eg0b60g61a7g9e7bg8975664c6160" version="1">Giant Wasp Venom: Stage 6</content>
+  <content contentuid="hb6147199g0edcg7d96gb633g932ca7c50505" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 4: [1] and Enfeebled 2.</content>
+  <content contentuid="hb9fbf14bg7ae2g899cg5a11g6739e7a82d18" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 5: [1] and Enfeebled 2.</content>
+  <content contentuid="h41aa884cg8333gf493g70d5g24c432d630bd" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 22 Fortitude save. Stage 6: [1] and Enfeebled 2.</content>
+  <content contentuid="h59d48faeg8f44g9fe9g460fg9e5a936bf3c9" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 15 Fortitude save. Stage 3: [1] and Enfeebled 1.</content>
+  <content contentuid="h2463a0c4ga41agefa2gfe6cg3e063f09d5db" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 15 Fortitude save. Stage 4: [1] and Enfeebled 1.</content>
+  <content contentuid="h7e2cd429g1cf1gaaf7gbdd7g57bd92778466" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 15 Fortitude save. Stage 5: [1] and Enfeebled 1.</content>
+  <content contentuid="h7fa7fb68gc3f2gf20fgc468g6bc295605a9d" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 15 Fortitude save. Stage 6: [1] and Enfeebled 1.</content>
+  <content contentuid="h76d423a0g1f87g175ag0672g0a74e7bbf7ed" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 2: [1] and Stupefied 1.</content>
+  <content contentuid="h0909d537g2e44g07cfg29f4g8d6eeb7e93b7" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 3: [1] and Stupefied 2.</content>
+  <content contentuid="h2a0c58aagca91gc671g8ecegf9522d3a53fe" version="1">Affected entity is poisoned for 4 rounds or until it makes a DC 19 Fortitude save. Stage 4: [1] and Stupefied 2.</content>
+  <content contentuid="hb8c3aadcged5cgd202g429fged2fbc22a04b" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 3: [1], confused, and stupefied 1.</content>
+  <content contentuid="h40a84529g5749g19a5gdf42g7162eaa8305e" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 4: [1], confused, and stupefied 1.</content>
+  <content contentuid="hc207225egfa10g79f7g79eag32b554dbe0e9" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 5: [1], confused, and stupefied 1.</content>
+  <content contentuid="h39183553g2282g8023g4f92g119e013d9b89" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 6: [1], confused, and stupefied 1.</content>
+  <content contentuid="h73b947aagd93dgb77cgdd49g8c05b68c18ad" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 4: [1], clumsy 2, and sickened 3.</content>
+  <content contentuid="h332221a9g469cg80f2g4d0fg742dbdc73287" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 5: [1], clumsy 2, and sickened 3.</content>
+  <content contentuid="h013e03c8g6d9bg6e64g4e66g198f84130ef7" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 6: [1], clumsy 2, and sickened 3.</content>
+  <content contentuid="h8877a3f8g1941gfca2ga541g7869187f2f38" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 4: [1] and clumsy 2.</content>
+  <content contentuid="h71388080gd84fg8c37g5106g11c5e1ff3970" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 5: [1] and clumsy 2.</content>
+  <content contentuid="hfa277db2g9ae5g39c9gcdb5g5b80d6354d2d" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 6: [1] and clumsy 2.</content>
+  <content contentuid="hc0aef20dga5fege466g6dc0g134c8bd80603" version="1">Mage Bane</content>
+  <content contentuid="h16cf029bg0ed7g8dcdga4bag6e6bff53e082" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 21 Fortitude save. Stage 1: 2d6 mental damage and stupefied 2. Stage 2: 3d6 mental damage and stupefied 3. Stage 3: 4d6 mental damage and stupefied 4.</content>
+  <content contentuid="he24a8fbfgd066g1132g3a7eg6f3bb04da0c1" version="1">Mage Bane: Stage 1</content>
+  <content contentuid="h90ccd5bcg5061gaf12g84e5g4ddb3c559d0e" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 1: 2d6 mental damage and stupefied 2.</content>
+  <content contentuid="hf652d66cgfc94g67e1ga6b8gc3f862e3792a" version="1">Mage Bane: Stage 2</content>
+  <content contentuid="h20535c77g871eg8d33g4d8dg3ad3f90a583d" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 2: 3d6 mental damage and stupefied 3.</content>
+  <content contentuid="hf6409f7dgcf2eg81edgefe8gbdf38c14c80d" version="1">Mage Bane: Stage 3</content>
+  <content contentuid="h158b27c2g21d9gac6dg2b87gb5da8f5f460c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 3: 4d6 mental damage and stupefied 4.</content>
+  <content contentuid="h2ac51f09gb6f4ge0d8g5b0bg269ab088f050" version="1">Mage Bane: Stage 4</content>
+  <content contentuid="hf9382b2fgf5b4g17b6gedf0gf5b108d0201e" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 4: 4d6 mental damage and stupefied 4.</content>
+  <content contentuid="h3c4450abg662cgc68cg623aga74f10eec73f" version="1">Mage Bane: Stage 5</content>
+  <content contentuid="h923ba05cg6a92g6ba5g97e9g87b5c4f9f023" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 5: 4d6 mental damage and stupefied 4.</content>
+  <content contentuid="he10e5e69g992fg0f7egdc72g9c1d38b0f020" version="1">Mage Bane: Stage 6</content>
+  <content contentuid="hd74a06fcg8d3bg04fdg05b6g6980fa873cde" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 25 Fortitude save. Stage 6: 4d6 mental damage and stupefied 4.</content>
+  <content contentuid="hf7d7bf7fga7f2g3355g22e7g5c6155b22c2b" version="1">Clubhead Poison</content>
+  <content contentuid="hc704b0fdg57f5gbbb4g50c2g88759df6326e" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 1: [1], off-guard, and can’t take reactions. Stage 2: [2], off-guard, can’t take reactions, stunned 1. Stage 3: [3], off-guard, can’t take reactions, and stunned 1.</content>
+  <content contentuid="hbb3748f0g356age766g76c0gba94c33406c2" version="1">Clubhead Poison: Stage 1</content>
+  <content contentuid="h564d8c37g2107g210ege44cge8448ecd2520" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 1: [1], off-guard, and can’t take reactions.</content>
+  <content contentuid="h6bf4e8c0g69d2g67b4g8e87gcb541b575255" version="1">Clubhead Poison: Stage 2</content>
+  <content contentuid="h73b205b7g4d0dg939dgcbb3ga250d16453ac" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 2: [1], off-guard, can’t take reactions, stunned 1.</content>
+  <content contentuid="h9485f121g3e78gd0f0gc38cg2da34dda8c20" version="1">Clubhead Poison: Stage 3</content>
+  <content contentuid="hed35d48bg0dfbg2d70ga116g91d74db10e64" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 3: [1], off-guard, can’t take reactions, and stunned 1.</content>
+  <content contentuid="hf598d263ga406g8136gc70cg556a2bcf157f" version="1">Clubhead Poison: Stage 4</content>
+  <content contentuid="h918bd983g7cefga290g155bge5b350c25a37" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 4: [1], off-guard, can’t take reactions, and stunned 1.</content>
+  <content contentuid="h6d53b5c7g188cg75c9g90edgcb7599ac6d78" version="1">Clubhead Poison: Stage 5</content>
+  <content contentuid="h3bbd4ba1g7d91g5255gd27bgfb6f5c81d4ec" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 5: [1], off-guard, can’t take reactions, and stunned 1.</content>
+  <content contentuid="h045ce4f9g6402g309aga05cgae8d74922ef3" version="1">Clubhead Poison: Stage 6</content>
+  <content contentuid="h3e5adaadg78dag9bfcgc0b4gcd67a1835001" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 6: [1], off-guard, can’t take reactions, and stunned 1.</content>
+  <content contentuid="hf231b7a7gc19bg7eedg67a8g2f2457064da4" version="1">Cave Worm Venom</content>
+  <content contentuid="h0887ec60g6be9g77a5gf6c0ge7947213516a" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 1: [1] and Enfeebled 2. Stage 2: [2] and Enfeebled 2. Stage 3: [3] and Enfeebled 2.</content>
+  <content contentuid="h548e5296gf207ge859g6a89g95b15d966d34" version="1">Cave Worm Venom: Stage 1</content>
+  <content contentuid="h8283c440gb980g2967gc8b4gbae081e42d43" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 1: [1] and Enfeebled 2.</content>
+  <content contentuid="h0d044c0bg918bg7d95g66fdg419c773a51f5" version="1">Cave Worm Venom: Stage 2</content>
+  <content contentuid="h9675d09dgde71g5e07g0117g38750e6ed464" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 2: [1] and Enfeebled 2.</content>
+  <content contentuid="hd748ca39g43e1gd65dg23bfgfcf08026b5af" version="1">Cave Worm Venom: Stage 3</content>
+  <content contentuid="hf58b901eg7ec6g64f6g9e27gb9bcd6636797" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 3: [1] and Enfeebled 2.</content>
+  <content contentuid="h4c05e2f2gd3f7g34d2gdf86g6a2e0b820a1d" version="1">Cave Worm Venom: Stage 4</content>
+  <content contentuid="hda046b54gd322g1c71g27c9geb7833f3babb" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 4: [1] and Enfeebled 2.</content>
+  <content contentuid="hf6a61b38ge6d5g74f4ge226g78eb01a8f933" version="1">Cave Worm Venom: Stage 5</content>
+  <content contentuid="h5b2f97b1g82a3gb7bag263cg24475fa1184c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 5: [1] and Enfeebled 2.</content>
+  <content contentuid="h64e3804eg5636g8b21g9b1dgc13a81f83244" version="1">Cave Worm Venom: Stage 6</content>
+  <content contentuid="hc666b1c0gc082g011eg6fadg688c8c348da4" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 6: [1] and Enfeebled 2.</content>
 </contentList>

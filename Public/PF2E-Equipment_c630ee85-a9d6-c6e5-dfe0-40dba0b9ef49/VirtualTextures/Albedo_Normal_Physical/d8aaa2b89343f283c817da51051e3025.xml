@@ -2,7 +2,7 @@
 <StackedTexture>
   <Layers>
     <Layer type="Albedo" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\kukri_BMA" />
-    <Layer type="Normal" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\kukri_vert_NM" />
+    <Layer type="Normal" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\kukri_NM" />
     <Layer type="Physical" source="($DATA)\Public\($MOD)\Assets\Sketchfabs\VirtualTextures\VirtualTextures\kukri_PM" />
   </Layers>
 </StackedTexture>
