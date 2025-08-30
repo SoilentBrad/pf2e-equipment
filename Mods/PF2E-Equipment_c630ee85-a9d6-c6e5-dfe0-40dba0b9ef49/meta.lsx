@@ -160,15 +160,15 @@
                     <attribute id="FileSize" type="uint64" value="10829679"/>
                     <attribute id="Folder" type="LSString" value="PF2E-Equipment_c630ee85-a9d6-c6e5-dfe0-40dba0b9ef49"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="4187b65b01068d99017d663a0543ba3c"/>
+                    <attribute id="MD5" type="LSString" value="4902a6ece41313f475bb8e701995811a"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
-                    <attribute id="Name" type="LSString" value="PF2E-Equipment"/>
+                    <attribute id="Name" type="LSString" value="PF2E Equipment"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
                     <attribute id="PhotoBooth" type="FixedString" value=""/>
                     <attribute id="PublishHandle" type="uint64" value="5104909"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="c630ee85-a9d6-c6e5-dfe0-40dba0b9ef49"/>
-                    <attribute id="Version64" type="int64" value="36028797018963986"/>
+                    <attribute id="Version64" type="int64" value="36028797018963987"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718543409"/>

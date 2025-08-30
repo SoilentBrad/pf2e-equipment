@@ -2516,8 +2516,8 @@
   <content contentuid="h802ef399gb9bdg5416ge346g79462aea319d" version="1">An Aldori dueling sword is a slim, single-bladed dueling sword with a slight curve and a sharp, reinforced point.</content>
   <content contentuid="h2a0973a1gedd8gb4ddg7f01gc7a0f6983aec" version="1">Arbalest</content>
   <content contentuid="h96a0767bg119fgaa93g0027g169ca74e4055" version="1">This large and well-made crossbow requires some training to use effectively, but it's assembled with a cutting-edge firing mechanism that maximizes its speed, power, and accuracy.</content>
-  <content contentuid="h9b92309ag3b8cg5a77gcfaeg080574f96af0" version="1">Bastard Sword</content>
-  <content contentuid="hc7ebcadagde51gd118g30b0g1108edeb2434" version="1">This broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra slashing power.</content>
+  <content contentuid="h9b92309ag3b8cg5a77gcfaeg080574f96af0" version="5">Bastard Sword</content>
+  <content contentuid="hc7ebcadagde51gd118g30b0g1108edeb2434" version="5">This broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra slashing power.</content>
   <content contentuid="he7ae4e3agef91g323eg2e28g125de33ad586" version="1">Battle Lute</content>
   <content contentuid="hff9c6b2fg23e3gc409g5229g847a594f54e3" version="1">This reinforced lute is suitable both for use as a handheld musical instrument and for bashing heads should a crowd turn sour. Its strings are finely braided wires that run along its sturdy metal neck.</content>
   <content contentuid="hbac7c5d3g395aged03g7993ga112aa94b426" version="1">Battle Lute</content>
@@ -2616,8 +2616,8 @@
   <content contentuid="h0a4c4998gf819g9204g8d45g13cd5f234287" version="1">This long sword has a hook near the tip, making it easy to snag an opponent or their weapons.</content>
   <content contentuid="h8d3e6dbcg68ccgd730g911bg92e86839fe06" version="1">Hook Sword</content>
   <content contentuid="h6347feb6gfea7gaba5g8f7cg8d5f3b6a716a" version="1">This long sword has a hook near the tip, making it easy to snag an opponent or their weapons.</content>
-  <content contentuid="h15602038gdc9fg478dg162agb97d5e7605bd" version="1">Horsechopper</content>
-  <content contentuid="hd0f171a9gebd6gb7a0g2e77g3f34e27bf939" version="1">Created by goblins to battle horses, this weapon is essentially a long shaft ending in a blade with a large hook.</content>
+  <content contentuid="h15602038gdc9fg478dg162agb97d5e7605bd" version="2">Horsechopper</content>
+  <content contentuid="hd0f171a9gebd6gb7a0g2e77g3f34e27bf939" version="2">Created by goblins to battle horses, this weapon is essentially a long shaft ending in a blade with a large hook.</content>
   <content contentuid="h492ed957gdd50g3f19gb1c9g7d894bc6d3cc" version="1">Broken Club</content>
   <content contentuid="he07b418agfd71g31c1g4999g65bec1c917d9" version="1">Repair</content>
   <content contentuid="heb90106ag0197g072cg2b62g8325dffcb8f7" version="1">The tip of this club has snapped off, its wood rotten to the core.</content>
@@ -2637,8 +2637,8 @@
   <content contentuid="ha40b4440g6f3bg4a30g20efg66b5a0f62f87" version="1">This sword has a broad blade, along which are threaded nine heavy metal rings, leading some to call it the nine-ring sword. The rings add weight to the weapon for broad swings and clash together to make noise.</content>
   <content contentuid="hebba816fg67a0gc845ga9e7gb2ad7b13b9fa" version="1">Kalis</content>
   <content contentuid="h734e8340ga28agcd9ag4085gc6f95ae35125" version="1">A larger version of the asymmetrical, wavy-bladed kris, this double-edged sword is effective at creating grievous injuries.</content>
-  <content contentuid="h9d20abf2g4d42g251fg0329g7cf6d8e3ba9f" version="1">Kama</content>
-  <content contentuid="h7260c81dg5a19gf6a0g9dedg42e504bf8cba" version="1">Similar to a sickle and used in some regions to reap grain, a kama has a short, slightly curved blade and a wooden handle.</content>
+  <content contentuid="h9d20abf2g4d42g251fg0329g7cf6d8e3ba9f" version="2">Kama</content>
+  <content contentuid="h7260c81dg5a19gf6a0g9dedg42e504bf8cba" version="2">Similar to a sickle and used in some regions to reap grain, a kama has a short, slightly curved blade and a wooden handle.</content>
   <content contentuid="h2f718338g2f21g8f2cg6c04g2ba3b481ba6b" version="2">Karambit</content>
   <content contentuid="h58d22d6egfa15g7cf8g5468g82f736adbadf" version="2">This small, curved blade resembles a tiger's claw and is capable of delivering deep wounds.</content>
   <content contentuid="hdb5e9136g3f27ga095ga49fg4e7ca3ef5f59" version="1">Kestros</content>
@@ -3551,4 +3551,8 @@
   <content contentuid="h5b2f97b1g82a3gb7bag263cg24475fa1184c" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 5: [1] and Enfeebled 2.</content>
   <content contentuid="h64e3804eg5636g8b21g9b1dgc13a81f83244" version="1">Cave Worm Venom: Stage 6</content>
   <content contentuid="hc666b1c0gc082g011eg6fadg688c8c348da4" version="1">Affected entity is poisoned for 6 rounds or until it makes a DC 32 Fortitude save. Stage 6: [1] and Enfeebled 2.</content>
+  <content contentuid="he9903adage23fg2874ged77ga96fb04eeefd" version="1">Bastard Sword</content>
+  <content contentuid="ha1c12ae2g3656g68d3gd886g72312222ec1c" version="1">This broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra slashing power.</content>
+  <content contentuid="h18c4bb07g91feg3792g5d55g99e6b45dc062" version="1">Bastard Sword</content>
+  <content contentuid="hceaf1cb6g3cc4gb15bgc5d9g66a9c6517170" version="1">This broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra slashing power.</content>
 </contentList>
